@@ -26,7 +26,10 @@ python run_moe_baseline.py --routers-only
 |------|-------------|
 | Pure-noise routing + visuals | **`MoE_Denoiser_Baseline.ipynb`** (cells 1–9) |
 | **Speech denoising demo** (mixed noise clip + listen) | **`MoE_Speech_Denoising_Demo.ipynb`** |
+| **Presentation / slide demo** (6 s clip, WAVs + figures, vs adaptive) | `python scripts/run_moe_presentation_demo.py` or **`MoE_Presentation_Demo.ipynb`** |
 | Full denoising + all router types | `python run_moe_baseline.py` |
+
+**Presentation outputs:** `outputs/moe_presentation_demo/` — compare to adaptive `outputs/oracle_adaptive_reconstruction.wav` and `outputs/classifier_adaptive_reconstruction.wav`.
 
 **Waveform RF** (notebook): log-FFT features on 512-sample **pure noise figures** — no speech.
 
