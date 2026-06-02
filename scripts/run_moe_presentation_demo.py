@@ -67,6 +67,7 @@ CKPT_DIR = REPO / "checkpoints" / "moe_speech_demo"
 ADAPTIVE_DIR = REPO / "outputs"
 DEMO_SECONDS = 6.0
 ROUTE_VOTE_WINDOW = 5
+DEFAULT_NOISE_SCALE = 0.5  # 1.0 = full synthetic noise; 0.5 = half amplitude
 MIN_VAL_NR_DB = 2.5  # retrain if saved model weaker than this
 
 
@@ -223,6 +224,12 @@ def main() -> None:
     p.add_argument("--fast-train", action="store_true", help="Train with fast profile if needed")
     p.add_argument("--quality-train", action="store_true", help="Train with quality profile (best denoising)")
     p.add_argument("--retrain", action="store_true", help="Delete checkpoints and retrain")
+    p.add_argument(
+        "--noise-scale",
+        type=float,
+        default=DEFAULT_NOISE_SCALE,
+        help="Scale synthetic noise vs clean (0.5 = half as loud)",
+    )
     args = p.parse_args()
 
     if args.quality_train:
@@ -260,8 +267,9 @@ def main() -> None:
     print(f"Demo clip: {demo_path} ({len(demo_audio) / TARGET_SR:.1f}s)")
 
     clean_frames, noisy_frames, true_labels, segments = build_mixed_noisy_clip(
-        demo_audio, split="val", device=device
+        demo_audio, split="val", device=device, noise_scale=args.noise_scale
     )
+    print(f"Noise scale: {args.noise_scale} (1.0 = full, 0.5 = half)")
     clean_audio = frames_to_waveform(clean_frames)
     noisy_audio = frames_to_waveform(noisy_frames)
 
@@ -286,6 +294,7 @@ def main() -> None:
         "nr_db_fair": clip_noise_reduction_db(clean_frames, noisy_frames, den_fair),
         "demo_seconds": DEMO_SECONDS,
         "demo_file": str(demo_path.name),
+        "noise_scale": args.noise_scale,
         "val_checkpoint_nr_db": val_nr if val_nr is not None else float("nan"),
     }
 
@@ -313,7 +322,7 @@ def main() -> None:
     plot_segment_nr(clean_frames, noisy_frames, den_smooth, true_labels, fig_dir / "segment_nr.png", "smoothed RF")
 
     save_routing_bundle(
-        OUT_DIR / "routing_demo.npz",
+        OUT_DIR / f"routing_demo_ns{args.noise_scale:.2f}.npz",
         {
             "true_labels": true_labels.astype(np.int64),
             "pred_raw": pred_raw.astype(np.int64),
@@ -323,6 +332,7 @@ def main() -> None:
                 dtype=np.int64,
             ),
             "vote_window": np.int64(ROUTE_VOTE_WINDOW),
+            "noise_scale": np.float32(args.noise_scale),
         },
     )
 

@@ -8,7 +8,6 @@ import joblib
 import numpy as np
 
 from moe_baseline.config import CHANNEL_NAMES, NUM_FAMILIES, SEED
-from moe_baseline.demo import build_mixed_noisy_clip, predict_routes_with_smoothing
 
 
 def compute_routing_bundle(
@@ -17,14 +16,25 @@ def compute_routing_bundle(
     split: str = "val",
     vote_window: int = 5,
     device=None,
+    noise_scale: float = 1.0,
 ) -> dict:
     """Rebuild mixed-noise frames and RF routes (seconds on CPU)."""
     import torch
 
+    from moe_baseline.demo import build_mixed_noisy_clip, predict_routes_with_smoothing
+
     dev = device or torch.device("cpu")
-    clean_frames, noisy_frames, true_labels, segments = build_mixed_noisy_clip(
-        clean_audio, split=split, device=dev
-    )
+    try:
+        clean_frames, noisy_frames, true_labels, segments = build_mixed_noisy_clip(
+            clean_audio, split=split, device=dev, noise_scale=noise_scale
+        )
+    except TypeError:
+        # Older demo.py without noise_scale — scale noise after mixing
+        clean_frames, noisy_frames, true_labels, segments = build_mixed_noisy_clip(
+            clean_audio, split=split, device=dev
+        )
+        if noise_scale != 1.0:
+            noisy_frames = clean_frames + noise_scale * (noisy_frames - clean_frames)
     pred_raw, pred_smooth = predict_routes_with_smoothing(
         demo_router, noisy_frames, window=vote_window
     )
@@ -38,6 +48,7 @@ def compute_routing_bundle(
         "segment_starts": seg_starts,
         "channel_names": np.array(CHANNEL_NAMES),
         "vote_window": np.int64(vote_window),
+        "noise_scale": np.float32(noise_scale),
     }
 
 
@@ -56,9 +67,10 @@ def load_or_compute_routing(
     ckpt_dir: Path,
     clean_audio: np.ndarray,
     vote_window: int = 5,
+    noise_scale: float = 1.0,
 ) -> dict:
     """Load cached routing or compute from demo router checkpoint."""
-    cache = out_dir / "routing_demo.npz"
+    cache = out_dir / f"routing_demo_ns{noise_scale:.2f}.npz"
     if cache.exists():
         return load_routing_bundle(cache)
 
@@ -68,6 +80,8 @@ def load_or_compute_routing(
             f"No {cache} and no {router_path}. Run: python scripts/run_moe_presentation_demo.py"
         )
     demo_router = joblib.load(router_path)
-    bundle = compute_routing_bundle(clean_audio, demo_router, vote_window=vote_window)
+    bundle = compute_routing_bundle(
+        clean_audio, demo_router, vote_window=vote_window, noise_scale=noise_scale
+    )
     save_routing_bundle(cache, bundle)
     return bundle

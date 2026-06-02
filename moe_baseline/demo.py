@@ -24,6 +24,7 @@ def build_mixed_noisy_clip(
     audio: np.ndarray,
     split: str = "val",
     device: torch.device | None = None,
+    noise_scale: float = 1.0,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray, dict[str, np.ndarray]]:
     """
   Frame clean speech and inject a different noise family per segment.
@@ -43,7 +44,9 @@ def build_mixed_noisy_clip(
     for fam_id, name in enumerate(CHANNEL_NAMES):
         for i in segments[name]:
             clean_t = torch.from_numpy(clean_frames[i])
-            noisy_frames[i] = apply_family_noise(clean_t, fam_id, split, device=dev).cpu().numpy()
+            noisy_frames[i] = apply_family_noise(
+                clean_t, fam_id, split, device=dev, noise_scale=noise_scale
+            ).cpu().numpy()
             true_labels[i] = fam_id
 
     return clean_frames, noisy_frames, true_labels, segments

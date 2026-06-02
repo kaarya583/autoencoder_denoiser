@@ -194,10 +194,14 @@ def apply_family_noise(
     family_id: int,
     split: str,
     device=None,
+    noise_scale: float = 1.0,
 ) -> torch.Tensor:
     """Apply family noise to a frame; split is 'train' or 'val' (test RMS)."""
     name = CHANNEL_NAMES[int(family_id)]
     dev = device or clean_frame.device
     z = clean_frame.unsqueeze(0).to(dev)
     fn = TRAIN_CHANNELS[name] if split == "train" else TEST_CHANNELS[name]
-    return fn(z).squeeze(0)
+    noisy = fn(z).squeeze(0)
+    if noise_scale != 1.0:
+        noisy = clean_frame + float(noise_scale) * (noisy - clean_frame)
+    return noisy
