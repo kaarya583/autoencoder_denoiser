@@ -1,0 +1,67 @@
+{
+  "direction": "candidate minus reference; positive favors candidate",
+  "paired_utterances": 770,
+  "weighting": "equal per common finite utterance",
+  "metrics": {
+    "si_sdri": {
+      "common_finite_utterances": 770,
+      "excluded_utterances": 0,
+      "bootstrap_units": 770,
+      "candidate_mean": 7.755303590865881,
+      "reference_mean": 7.776251759116493,
+      "mean_difference": -0.02094816825061312,
+      "confidence_interval_95": [
+        -0.05329434442000052,
+        0.011471739644567965
+      ],
+      "wins": 350,
+      "losses": 420,
+      "ties": 0,
+      "win_fraction": 0.45454545454545453
+    },
+    "pesq_wb_enhanced": {
+      "common_finite_utterances": 770,
+      "excluded_utterances": 0,
+      "bootstrap_units": 770,
+      "candidate_mean": 1.9201628332014207,
+      "reference_mean": 1.8893398334453633,
+      "mean_difference": 0.03082299975605754,
+      "confidence_interval_95": [
+        0.025431653721766038,
+        0.03635390548349975
+      ],
+      "wins": 500,
+      "losses": 270,
+      "ties": 0,
+      "win_fraction": 0.6493506493506493
+    },
+    "stoi_enhanced": {
+      "common_finite_utterances": 770,
+      "excluded_utterances": 0,
+      "bootstrap_units": 770,
+      "candidate_mean": 0.8281813818308604,
+      "reference_mean": 0.827451939751484,
+      "mean_difference": 0.0007294420793764483,
+      "confidence_interval_95": [
+        -0.0004153278485158552,
+        0.0018898945711349861
+      ],
+      "wins": 400,
+      "losses": 370,
+      "ties": 0,
+      "win_fraction": 0.5194805194805194
+    }
+  },
+  "bootstrap": {
+    "method": "paired percentile",
+    "samples": 10000,
+    "seed": 2026,
+    "unit": "utterance",
+    "scope": "VoiceBank utterance comparison conditional on the two held-out speakers p226/p287; not an independent-speaker population confidence interval.",
+    "speakers": [
+      "p226",
+      "p287"
+    ]
+  },
+  "baseline_tolerance": 1e-06
+}

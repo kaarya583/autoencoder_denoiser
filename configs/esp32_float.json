@@ -1,0 +1,13 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_signed",
+  "epochs": 100,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.001,
+  "max_hours": 6.0,
+  "patience": 15,
+  "workers": 2,
+  "phase": "float"
+}

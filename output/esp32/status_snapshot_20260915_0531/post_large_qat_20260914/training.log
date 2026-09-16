@@ -1,0 +1,166 @@
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_progress", "epoch": 1, "step": 0, "loss": -17.916480966468093, "elapsed_seconds": 262.50122750800074}
+{"event": "qat_progress", "epoch": 1, "step": 25, "loss": -13.831080093070327, "elapsed_seconds": 492.228138835002}
+{"event": "qat_progress", "epoch": 1, "step": 50, "loss": -13.57464348353972, "elapsed_seconds": 721.7076289360011}
+{"event": "qat_progress", "epoch": 1, "step": 75, "loss": -12.34332404223279, "elapsed_seconds": 951.6555021640015}
+{"event": "qat_progress", "epoch": 1, "step": 100, "loss": -17.095714180912264, "elapsed_seconds": 1181.3664490120027}
+{"event": "qat_progress", "epoch": 1, "step": 125, "loss": -18.91628555851286, "elapsed_seconds": 1410.4992583580024}
+{"event": "qat_progress", "epoch": 1, "step": 150, "loss": -13.35714299174322, "elapsed_seconds": 1639.2294896230014}
+{"event": "qat_progress", "epoch": 1, "step": 175, "loss": -15.931261947651457, "elapsed_seconds": 1867.4248871380005}
+{"event": "qat_progress", "epoch": 1, "step": 200, "loss": -11.760779555306478, "elapsed_seconds": 2095.5045767150004}
+{"event": "qat_progress", "epoch": 1, "step": 225, "loss": -17.623954524000112, "elapsed_seconds": 2323.8310034080023}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 1, "loss": -14.28115818022747, "si_sdri": 8.984147378272983, "best_si_sdri": 9.259071562158663, "learning_rate": 3e-05, "seconds": 2541.9232277459996, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 2, "step": 0, "loss": -11.48259944285664, "elapsed_seconds": 2804.6126114850013}
+{"event": "qat_progress", "epoch": 2, "step": 25, "loss": -14.956737677561954, "elapsed_seconds": 3034.5462567600007}
+{"event": "qat_progress", "epoch": 2, "step": 50, "loss": -16.637036315216275, "elapsed_seconds": 3263.685102747}
+{"event": "qat_progress", "epoch": 2, "step": 75, "loss": -13.714454168526768, "elapsed_seconds": 3493.402011675}
+{"event": "qat_progress", "epoch": 2, "step": 100, "loss": -19.5339132005042, "elapsed_seconds": 3722.199347544003}
+{"event": "qat_progress", "epoch": 2, "step": 125, "loss": -14.921878414065297, "elapsed_seconds": 3951.4187742560025}
+{"event": "qat_progress", "epoch": 2, "step": 150, "loss": -17.44016498321617, "elapsed_seconds": 4181.140160201001}
+{"event": "qat_progress", "epoch": 2, "step": 175, "loss": -12.956366357902645, "elapsed_seconds": 4410.356227905002}
+{"event": "qat_progress", "epoch": 2, "step": 200, "loss": -21.620752854775773, "elapsed_seconds": 4640.245433755001}
+{"event": "qat_progress", "epoch": 2, "step": 225, "loss": -12.708930871190075, "elapsed_seconds": 4870.005458095002}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 2, "loss": -14.47173539069015, "si_sdri": 9.18634783038397, "best_si_sdri": 9.259071562158663, "learning_rate": 3e-05, "seconds": 2546.2127882269997, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 3, "step": 0, "loss": -15.762923093844087, "elapsed_seconds": 5351.026101478001}
+{"event": "qat_progress", "epoch": 3, "step": 25, "loss": -13.92810305445497, "elapsed_seconds": 5579.974470396002}
+{"event": "qat_progress", "epoch": 3, "step": 50, "loss": -12.80952835697942, "elapsed_seconds": 5808.927103058002}
+{"event": "qat_progress", "epoch": 3, "step": 75, "loss": -12.4739599967297, "elapsed_seconds": 6037.892224895}
+{"event": "qat_progress", "epoch": 3, "step": 100, "loss": -14.465750083639612, "elapsed_seconds": 6267.012748469002}
+{"event": "qat_progress", "epoch": 3, "step": 125, "loss": -13.737159678193402, "elapsed_seconds": 6496.174681910001}
+{"event": "qat_progress", "epoch": 3, "step": 150, "loss": -15.187798967436319, "elapsed_seconds": 6725.064495556002}
+{"event": "qat_progress", "epoch": 3, "step": 175, "loss": -15.853203269814287, "elapsed_seconds": 6953.471641348002}
+{"event": "qat_progress", "epoch": 3, "step": 200, "loss": -13.942874256489594, "elapsed_seconds": 7182.286403455}
+{"event": "qat_progress", "epoch": 3, "step": 225, "loss": -14.963269142570955, "elapsed_seconds": 7411.353369388002}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 3, "loss": -14.413646607423582, "si_sdri": 9.398826420389177, "best_si_sdri": 9.398826420389177, "learning_rate": 3e-05, "seconds": 2540.6020367909987, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 4, "step": 0, "loss": -15.250614665326943, "elapsed_seconds": 7891.571635222001}
+{"event": "qat_progress", "epoch": 4, "step": 25, "loss": -17.816399591147142, "elapsed_seconds": 8122.604803224003}
+{"event": "qat_progress", "epoch": 4, "step": 50, "loss": -14.818606249888685, "elapsed_seconds": 8355.926039027003}
+{"event": "qat_progress", "epoch": 4, "step": 75, "loss": -17.6189851947321, "elapsed_seconds": 8588.782979881002}
+{"event": "qat_progress", "epoch": 4, "step": 100, "loss": -9.4922868053592, "elapsed_seconds": 8820.695019432002}
+{"event": "qat_progress", "epoch": 4, "step": 125, "loss": -11.425676198834733, "elapsed_seconds": 9052.350756905002}
+{"event": "qat_progress", "epoch": 4, "step": 150, "loss": -15.43526115470797, "elapsed_seconds": 9283.649996111002}
+{"event": "qat_progress", "epoch": 4, "step": 175, "loss": -16.075522481518835, "elapsed_seconds": 9515.097773730002}
+{"event": "qat_progress", "epoch": 4, "step": 200, "loss": -13.563350216992106, "elapsed_seconds": 9746.688846441}
+{"event": "qat_progress", "epoch": 4, "step": 225, "loss": -13.171325562426413, "elapsed_seconds": 9979.305642217001}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 4, "loss": -14.423192943186695, "si_sdri": 9.291895900993602, "best_si_sdri": 9.398826420389177, "learning_rate": 3e-05, "seconds": 2573.1157827019997, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 5, "step": 0, "loss": -14.584505286977222, "elapsed_seconds": 10464.629962365998}
+{"event": "qat_progress", "epoch": 5, "step": 25, "loss": -15.77112642594176, "elapsed_seconds": 10696.310162361002}
+{"event": "qat_progress", "epoch": 5, "step": 50, "loss": -13.289287877972166, "elapsed_seconds": 10927.793884199}
+{"event": "qat_progress", "epoch": 5, "step": 75, "loss": -16.785276705043287, "elapsed_seconds": 11159.127710778}
+{"event": "qat_progress", "epoch": 5, "step": 100, "loss": -15.810956623496796, "elapsed_seconds": 11390.409674914004}
+{"event": "qat_progress", "epoch": 5, "step": 125, "loss": -13.649094013115302, "elapsed_seconds": 11621.462780208003}
+{"event": "qat_progress", "epoch": 5, "step": 150, "loss": -12.931402289662206, "elapsed_seconds": 11853.005445906001}
+{"event": "qat_progress", "epoch": 5, "step": 175, "loss": -18.478563023685872, "elapsed_seconds": 12084.581054002}
+{"event": "qat_progress", "epoch": 5, "step": 200, "loss": -17.41196625815861, "elapsed_seconds": 12316.412214467}
+{"event": "qat_progress", "epoch": 5, "step": 225, "loss": -11.742804213390404, "elapsed_seconds": 12547.381588373999}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 5, "loss": -14.398173186647007, "si_sdri": 9.344916274113482, "best_si_sdri": 9.398826420389177, "learning_rate": 3e-05, "seconds": 2566.450498390004, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 6, "step": 0, "loss": -11.297740920257581, "elapsed_seconds": 13031.069348875}
+{"event": "qat_progress", "epoch": 6, "step": 25, "loss": -16.490617967572458, "elapsed_seconds": 13263.014454571003}
+{"event": "qat_progress", "epoch": 6, "step": 50, "loss": -12.875758195842764, "elapsed_seconds": 13494.755245593999}
+{"event": "qat_progress", "epoch": 6, "step": 75, "loss": -15.120064480201735, "elapsed_seconds": 13727.056981229998}
+{"event": "qat_progress", "epoch": 6, "step": 100, "loss": -12.682080945855606, "elapsed_seconds": 13958.597742896}
+{"event": "qat_progress", "epoch": 6, "step": 125, "loss": -13.871627014427748, "elapsed_seconds": 14190.023340656004}
+{"event": "qat_progress", "epoch": 6, "step": 150, "loss": -15.750448781817841, "elapsed_seconds": 14422.836126248}
+{"event": "qat_progress", "epoch": 6, "step": 175, "loss": -11.053658378622664, "elapsed_seconds": 14655.678227095003}
+{"event": "qat_progress", "epoch": 6, "step": 200, "loss": -17.552977507386338, "elapsed_seconds": 14889.214047279002}
+{"event": "qat_progress", "epoch": 6, "step": 225, "loss": -12.520103586445774, "elapsed_seconds": 15121.358237255004}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 6, "loss": -14.461351183249487, "si_sdri": 9.326882515595821, "best_si_sdri": 9.398826420389177, "learning_rate": 3e-05, "seconds": 2575.1800737360027, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 7, "step": 0, "loss": -11.266969328705406, "elapsed_seconds": 15606.576720788002}
+{"event": "qat_progress", "epoch": 7, "step": 25, "loss": -15.122077159873761, "elapsed_seconds": 15839.561853126}
+{"event": "qat_progress", "epoch": 7, "step": 50, "loss": -11.643727502258947, "elapsed_seconds": 16072.167264168002}
+{"event": "qat_progress", "epoch": 7, "step": 75, "loss": -12.718591646358782, "elapsed_seconds": 16304.675587966998}
+{"event": "qat_progress", "epoch": 7, "step": 100, "loss": -15.904524789984439, "elapsed_seconds": 16536.709412342}
+{"event": "qat_progress", "epoch": 7, "step": 125, "loss": -18.09468922825341, "elapsed_seconds": 16770.350731851}
+{"event": "qat_progress", "epoch": 7, "step": 150, "loss": -11.823130200060813, "elapsed_seconds": 17003.310596107}
+{"event": "qat_progress", "epoch": 7, "step": 175, "loss": -13.485348510709324, "elapsed_seconds": 17236.015147920003}
+{"event": "qat_progress", "epoch": 7, "step": 200, "loss": -12.283115546383163, "elapsed_seconds": 17468.510783806003}
+{"event": "qat_progress", "epoch": 7, "step": 225, "loss": -14.066775017047954, "elapsed_seconds": 17700.540325518003}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 7, "loss": -14.640959327694413, "si_sdri": 9.42946036812973, "best_si_sdri": 9.42946036812973, "learning_rate": 3e-05, "seconds": 2578.594868473003, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 8, "step": 0, "loss": -12.108071903908218, "elapsed_seconds": 18184.957584650005}

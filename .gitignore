@@ -5,3 +5,10 @@ __pycache__/
 *.pyc
 checkpoints/
 outputs/
+CODEX_PROJECT_CONTEXT.md
+.venv-esp32/
+.pytest_cache/
+output/esp32/transfer/
+output/esp32/toolchain/
+.DS_Store
+*.dSYM/

@@ -1,0 +1,9 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 0, "si_sdri": -12.571598985864117}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 5, "si_sdri": 6.294310364737346}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 10, "si_sdri": 7.904706033782846}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 15, "si_sdri": 8.069305900342714}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 20, "si_sdri": 8.326069208751454}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 25, "si_sdri": 8.687025693003449}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 30, "si_sdri": 9.029500910801715}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 35, "si_sdri": 9.255181817974645}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 40, "si_sdri": 8.934873137563317}

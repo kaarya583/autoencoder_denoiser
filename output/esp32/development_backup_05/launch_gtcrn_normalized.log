@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/content/esp32_runs/launch_gtcrn_normalized.py", line 3, in <module>
+    from esp32_denoiser.models import build_model
+ModuleNotFoundError: No module named 'esp32_denoiser'
+PILOT_PASS [9.996750769436217, 9.971088453755275, 6.892590488004261, 5.495254447920546, 1.4663984744844412, 2.0501937315546783, 1.8130112999516816, 0.798631244362001]
+esp32_gtcrn_broad_normalized_float 77159
+GTCRN_WATCH 77160

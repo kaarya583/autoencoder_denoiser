@@ -1,0 +1,54 @@
+{
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "model": {
+    "learned_parameters": 85186,
+    "convolution_weights": 83496,
+    "macs_per_second": 5218500.0,
+    "context_frames": 125,
+    "neural_state_bytes_int8": 6944
+  },
+  "gpu": "NVIDIA L4",
+  "test_used_for_selection": false,
+  "selection_metric": "mean utterance SI-SDR improvement",
+  "validation_is_partial": false,
+  "calibration": {
+    "source": "training manifest only",
+    "max_batches": 32,
+    "hidden_exponent": -4
+  },
+  "train_utterances": 10802,
+  "validation_utterances": 770,
+  "train_speakers": [
+    "p227",
+    "p228",
+    "p230",
+    "p231",
+    "p233",
+    "p236",
+    "p239",
+    "p243",
+    "p244",
+    "p250",
+    "p254",
+    "p256",
+    "p258",
+    "p259",
+    "p267",
+    "p268",
+    "p269",
+    "p270",
+    "p273",
+    "p274",
+    "p276",
+    "p277",
+    "p278",
+    "p279",
+    "p282",
+    "p286"
+  ],
+  "validation_speakers": [
+    "p226",
+    "p287"
+  ]
+}

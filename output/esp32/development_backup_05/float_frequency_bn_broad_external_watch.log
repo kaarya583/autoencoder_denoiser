@@ -1,0 +1,5 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_frequency_bn_broad", "epoch": 0, "si_sdri": 0.43449482517820875}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_frequency_bn_broad", "epoch": 5, "si_sdri": 6.676142305479574}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_frequency_bn_broad", "epoch": 10, "si_sdri": 7.212790834054291}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_frequency_bn_broad", "epoch": 15, "si_sdri": 7.25515760391835}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_frequency_bn_broad", "epoch": 20, "si_sdri": 7.621431982661569}

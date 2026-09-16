@@ -1,0 +1,13 @@
+{
+  "status": "time_budget_exhausted_partial_epoch_discarded",
+  "completed_epoch": 2,
+  "best": {
+    "epoch": 1,
+    "directory": "/content/esp32_runs/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg",
+    "checkpoint_sha256": "cc27329996d70c634f712216d2fd09b3b999b6342eda617613f033d3b29828c6",
+    "packed_sha256": "dd9c1c83a44bea891fad7d47591578b57a4b3d0d54f2942a17e5402d4ca93e3f",
+    "si_sdri": 9.202213762239209
+  },
+  "elapsed_hours": 6.000054913737777,
+  "official_test_used": false
+}

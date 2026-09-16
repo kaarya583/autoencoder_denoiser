@@ -1,0 +1,35 @@
+{
+  "direction": "candidate minus reference; positive favors candidate",
+  "paired_utterances": 770,
+  "weighting": "equal per common finite utterance",
+  "metrics": {
+    "si_sdri": {
+      "common_finite_utterances": 770,
+      "excluded_utterances": 0,
+      "bootstrap_units": 770,
+      "candidate_mean": 8.720490942651143,
+      "reference_mean": 7.9390668729788985,
+      "mean_difference": 0.7814240696722456,
+      "confidence_interval_95": [
+        0.7175944348744512,
+        0.8431227737928363
+      ],
+      "wins": 714,
+      "losses": 56,
+      "ties": 0,
+      "win_fraction": 0.9272727272727272
+    }
+  },
+  "bootstrap": {
+    "method": "paired percentile",
+    "samples": 10000,
+    "seed": 2026,
+    "unit": "utterance",
+    "scope": "VoiceBank utterance comparison conditional on the two held-out speakers p226/p287; not an independent-speaker population confidence interval.",
+    "speakers": [
+      "p226",
+      "p287"
+    ]
+  },
+  "baseline_tolerance": 1e-06
+}

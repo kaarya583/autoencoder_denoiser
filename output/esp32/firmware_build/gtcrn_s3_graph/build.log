@@ -1,0 +1,77 @@
+Checking "python3" ...
+Python 3.12.10
+"python3" has been detected
+Activating ESP-IDF 5.4
+Setting IDF_PATH to '/private/tmp/esp32-denoiser-idf-v5.4.2'.
+* Checking python version ... 3.12.10
+* Checking python dependencies ... OK
+* Deactivating the current ESP-IDF environment (if any) ... OK
+* Establishing a new ESP-IDF environment ... OK
+* Identifying shell ... bash
+* Detecting outdated tools in system ... OK - no outdated tools found
+* Shell completion ... Autocompletion code generated
+WARNING: Failed to load shell autocompletion for bash version: 3.2.57(1)-release!
+
+Done! You can now compile ESP-IDF projects.
+Go to the project directory and run:
+
+  idf.py build
+Executing action: all (aliases: build)
+Running ninja in directory /private/tmp/gtcrn-denoiser-build-v5.4.2
+Executing "ninja all"...
+[1/4] cd /tmp/gtcrn-denoiser-build-v5.4.2/esp-idf/esptool_py && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python /tmp/esp32-denoiser-idf-v5.4.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /tmp/gtcrn-denoiser-build-v5.4.2/partition_table/partition-table.bin /tmp/gtcrn-denoiser-build-v5.4.2/gtcrn_integer_benchmark.bin
+gtcrn_integer_benchmark.bin binary size 0x48e50 bytes. Smallest app partition is 0x100000 bytes. 0xb71b0 bytes (72%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /tmp/gtcrn-denoiser-build-v5.4.2/bootloader/esp-idf/esptool_py && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python /tmp/esp32-denoiser-idf-v5.4.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /tmp/gtcrn-denoiser-build-v5.4.2/bootloader/bootloader.bin
+Bootloader binary size 0x5270 bytes. 0x2d90 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+
+Project build complete. To flash, run:
+ idf.py flash
+or
+ idf.py -p PORT flash
+or
+ python -m esptool --chip esp32s3 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 2MB --flash_freq 80m 0x0 ../../../../../../../private/tmp/gtcrn-denoiser-build-v5.4.2/bootloader/bootloader.bin 0x8000 ../../../../../../../private/tmp/gtcrn-denoiser-build-v5.4.2/partition_table/partition-table.bin 0x10000 ../../../../../../../private/tmp/gtcrn-denoiser-build-v5.4.2/gtcrn_integer_benchmark.bin
+or from the "/private/tmp/gtcrn-denoiser-build-v5.4.2" directory
+ python -m esptool --chip esp32s3 -b 460800 --before default_reset --after hard_reset write_flash "@flash_args"
+Executing action: size
+Running ninja in directory /private/tmp/gtcrn-denoiser-build-v5.4.2
+Executing "ninja all"...
+[1/4] cd /tmp/gtcrn-denoiser-build-v5.4.2/esp-idf/esptool_py && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python /tmp/esp32-denoiser-idf-v5.4.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /tmp/gtcrn-denoiser-build-v5.4.2/partition_table/partition-table.bin /tmp/gtcrn-denoiser-build-v5.4.2/gtcrn_integer_benchmark.bin
+gtcrn_integer_benchmark.bin binary size 0x48e50 bytes. Smallest app partition is 0x100000 bytes. 0xb71b0 bytes (72%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /tmp/gtcrn-denoiser-build-v5.4.2/bootloader/esp-idf/esptool_py && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python /tmp/esp32-denoiser-idf-v5.4.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /tmp/gtcrn-denoiser-build-v5.4.2/bootloader/bootloader.bin
+Bootloader binary size 0x5270 bytes. 0x2d90 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+Running ninja in directory /private/tmp/gtcrn-denoiser-build-v5.4.2
+Executing "ninja size"...
+[0/1] cd /tmp/gtcrn-denoiser-build-v5.4.2 && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/tools/cmake/3.30.2/CMake.app/Contents/bin/cmake -D "IDF_SIZE_TOOL=/private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/tmp/gtcrn-denoiser-build-v5.4.2/gtcrn_integer_benchmark.map -D OUTPUT_JSON= -P /private/tmp/esp32-denoiser-idf-v5.4.2/tools/cmake/run_size_tool.cmake
+                           Memory Type Usage Summary                            
+┏━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory            ┃              ┃          ┃                ┃               ┃
+┃ Type/Section      ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ Flash Code        │       119076 │          │                │               │
+│    .text          │       119076 │          │                │               │
+│ Flash Data        │       113512 │          │                │               │
+│    .rodata        │       113256 │          │                │               │
+│    .appdesc       │          256 │          │                │               │
+│ DIRAM             │        56835 │    16.63 │         284925 │        341760 │
+│    .text          │        38599 │    11.29 │                │               │
+│    .data          │        10860 │     3.18 │                │               │
+│    .bss           │         7376 │     2.16 │                │               │
+│ IRAM              │        16383 │    99.99 │              1 │         16384 │
+│    .text          │        15356 │    93.73 │                │               │
+│    .vectors       │         1027 │     6.27 │                │               │
+│ RTC FAST          │           52 │     0.63 │           8140 │          8192 │
+│    .force_fast    │           28 │     0.34 │                │               │
+│    .rtc_reserved  │           24 │     0.29 │                │               │
+└───────────────────┴──────────────┴──────────┴────────────────┴───────────────┘
+Total image size: 298458 bytes (.bin may be padded larger)
+Note: The reported total sizes may be smaller than those in the technical 
+reference manual due to reserved memory and application configuration. The total
+flash size available for the application is not included by default, as it 
+cannot be reliably determined due to the presence of other data like the 
+bootloader, partition table, and application partition size.

@@ -1,0 +1,92 @@
+{
+  "status": "Isolated portable integer operators: host execution and ESP32-S3 object compile; no board execution or complete graph claim",
+  "date": "2026-09-13",
+  "compiler": "/private/tmp/esp32-denoiser-idf-tools-v5.4.2/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+  "compiler_version": "xtensa-esp-elf-gcc (crosstool-NG esp-14.2.0_20241119) 14.2.0",
+  "flags": [
+    "-std=c99",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic",
+    "-mlongcalls",
+    "-fstack-usage",
+    "-c"
+  ],
+  "source_sha256": {
+    "firmware/experimental_int8/operators.c": "24df1397124ba2d25ffb3e15503d702af88ad247f56c16836c4f184f07d556eb",
+    "firmware/experimental_int8/operators.h": "c45c45417e48a33ade2901ecea535adcfe6ea013be870c8f13a00f6b81293edf",
+    "firmware/experimental_int8/primitives.h": "be246969a1f05c653c6fa75d726ada9eccbb8cdbbce2df47eac0af5483f99242",
+    "esp32_denoiser/experimental_ops_native.py": "0149c41990ebd8cb908b59e51dfc6e7e37905559960c158e4159cfce63519483",
+    "tests/test_experimental_ops_native.py": "ac2be945055029c6b43f2ce7260145312d69cfb8f9b5216975d37046001bb945"
+  },
+  "object_sha256": "c9108724e81a4e617597a701f8cab4e42ddf64fa72f8be1f4053d633ff2aae3e",
+  "object_text_bytes": 6774,
+  "object_data_bytes": 0,
+  "object_bss_bytes": 0,
+  "undefined_object_symbols": [
+    "__divdi3",
+    "__udivdi3",
+    "memcpy",
+    "memmove"
+  ],
+  "tests": {
+    "native": 32,
+    "combined_operator_and_native_primitives": 80,
+    "sanitizers": [
+      "address",
+      "undefined"
+    ],
+    "strict_compilers": [
+      "Apple Clang",
+      "GCC15",
+      "Xtensa GCC14.2.0"
+    ]
+  },
+  "stack_scope": "Per-function .su compiler estimates exclude nested calls, C library helpers and board high-water measurements",
+  "limitations": [
+    "No physical board timing",
+    "Scalar operator baseline; no SIMD dot integration",
+    "Object size excludes linked helpers and final linker placement",
+    "Complete graph serialization/runtime is separate integration work"
+  ],
+  "s3_affine_handle_bytes": 96,
+  "host_affine_handle_bytes": 128,
+  "compiler_per_function_stack_bytes": {
+    "stream_shape": 32,
+    "ednx_affine_handle_bytes": 32,
+    "ednx_affine_init": 160,
+    "ednx_affine_output_shape": 64,
+    "ednx_affine_run": 256,
+    "ednx_stream_history_bytes": 32,
+    "ednx_stream_workspace_bytes": 64,
+    "ednx_stream_conv": 160,
+    "ednx_regrid": 48,
+    "ednx_residual": 96,
+    "ednx_prelu": 80,
+    "ednx_lut": 32,
+    "ednx_attention_energy": 80,
+    "ednx_attention_product": 96,
+    "ednx_subband": 80,
+    "ednx_shuffle": 32
+  },
+  "wide_division_calls": [
+    {
+      "function": "ednx_affine_output_shape",
+      "helper": "__divdi3"
+    },
+    {
+      "function": "ednx_affine_output_shape",
+      "helper": "__divdi3"
+    },
+    {
+      "function": "ednx_attention_energy",
+      "helper": "__udivdi3"
+    },
+    {
+      "function": "ednx_attention_product",
+      "helper": "__udivdi3"
+    }
+  ]
+}

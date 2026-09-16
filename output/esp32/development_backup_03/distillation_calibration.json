@@ -1,0 +1,100 @@
+{
+  "distillation_weight": 18.440440972245568,
+  "target_gradient_ratio": 0.1,
+  "observed_weighted_gradient_ratio_median": 0.10003694487615258,
+  "source": "training batches only",
+  "method": "median of per-batch L2 gradient-norm ratios",
+  "teacher_checkpoint_sha256": "16edce8d54aef2b424adc1837011f06f4f7e04202cc6cca6d27542aacc411223",
+  "attempted_batches": 8,
+  "accepted_batches": 8,
+  "batches": [
+    {
+      "batch": 0,
+      "utterances": 32,
+      "primary_norm": 6.9169499308418505,
+      "distillation_norm": 0.09241287290829985,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.013360350130082903,
+      "suggested_weight": 7.484833782524492,
+      "gradient_cosine": 0.1129257115676603,
+      "weighted_gradient_ratio": 0.24637074794232716
+    },
+    {
+      "batch": 1,
+      "utterances": 32,
+      "primary_norm": 23.476894742409502,
+      "distillation_norm": 0.09096387173047808,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.003874612580945711,
+      "suggested_weight": 25.809031976970484,
+      "gradient_cosine": 0.08325352797258229,
+      "weighted_gradient_ratio": 0.07144956458924943
+    },
+    {
+      "batch": 2,
+      "utterances": 32,
+      "primary_norm": 30.006802781445952,
+      "distillation_norm": 0.09842314414528693,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.003280027694458162,
+      "suggested_weight": 30.487547458503798,
+      "gradient_cosine": 0.1770712833269622,
+      "weighted_gradient_ratio": 0.06048515708698646
+    },
+    {
+      "batch": 3,
+      "utterances": 32,
+      "primary_norm": 8.244368428742751,
+      "distillation_norm": 0.10059213292689291,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.012201314606003483,
+      "suggested_weight": 8.195838172289767,
+      "gradient_cosine": 0.08848262349265004,
+      "weighted_gradient_ratio": 0.22499762177580493
+    },
+    {
+      "batch": 4,
+      "utterances": 32,
+      "primary_norm": 20.29072445331846,
+      "distillation_norm": 0.1121898436887729,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.0055291196697723,
+      "suggested_weight": 18.086061791481935,
+      "gradient_cosine": 0.05180761852011441,
+      "weighted_gradient_ratio": 0.10195940489891801
+    },
+    {
+      "batch": 5,
+      "utterances": 32,
+      "primary_norm": 11.189222397238542,
+      "distillation_norm": 0.10197163891908974,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.009113380295690249,
+      "suggested_weight": 10.972876886010164,
+      "gradient_cosine": 0.24684871293638422,
+      "weighted_gradient_ratio": 0.1680547514003019
+    },
+    {
+      "batch": 6,
+      "utterances": 32,
+      "primary_norm": 17.132583309539346,
+      "distillation_norm": 0.0911558778964761,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.005320614892076486,
+      "suggested_weight": 18.794820153009198,
+      "gradient_cosine": 0.05200992581494245,
+      "weighted_gradient_ratio": 0.09811448485338717
+    },
+    {
+      "batch": 7,
+      "utterances": 32,
+      "primary_norm": 24.47895633571339,
+      "distillation_norm": 0.09493649329171472,
+      "accepted": true,
+      "unweighted_gradient_ratio": 0.0038782900704474816,
+      "suggested_weight": 25.784559221600947,
+      "gradient_cosine": 0.032422903481784206,
+      "weighted_gradient_ratio": 0.07151737911733289
+    }
+  ]
+}

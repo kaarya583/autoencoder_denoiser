@@ -1,0 +1,82 @@
+{
+  "dataset": "VoiceBank-DEMAND 28-speaker, third-party 16 kHz mirror",
+  "doi": "https://doi.org/10.7488/ds/2117",
+  "original_source": "https://datashare.ed.ac.uk/items/6ed35425-bf14-4d2b-93a1-0a4984952757",
+  "mirror": "https://huggingface.co/datasets/JacobLinCool/VoiceBank-DEMAND-16k",
+  "mirror_revision": "4497db342d7312978c45690591fda86117831940",
+  "mirror_files": [
+    {
+      "path": "data/train-00000-of-00005.parquet",
+      "bytes": 444302320
+    },
+    {
+      "path": "data/train-00001-of-00005.parquet",
+      "bytes": 416366498
+    },
+    {
+      "path": "data/train-00002-of-00005.parquet",
+      "bytes": 430855381
+    },
+    {
+      "path": "data/train-00003-of-00005.parquet",
+      "bytes": 444005802
+    },
+    {
+      "path": "data/train-00004-of-00005.parquet",
+      "bytes": 415510617
+    }
+  ],
+  "author": "Cassia Valentini-Botinhao",
+  "license": "CC-BY-4.0 (original and mirror declaration)",
+  "resampling": "Already 16 kHz; mirror resampling method not documented; byte identity to official archives unverified",
+  "cache_format": "WAV FLOAT; decoded samples preserved without additional resampling",
+  "cache_version": 1,
+  "sample_rate": 16000,
+  "validation_speakers": [
+    "p226",
+    "p287"
+  ],
+  "official_test_prepared": false,
+  "splits": {
+    "train": {
+      "utterances": 10802,
+      "samples": 504461572,
+      "speakers": [
+        "p227",
+        "p228",
+        "p230",
+        "p231",
+        "p233",
+        "p236",
+        "p239",
+        "p243",
+        "p244",
+        "p250",
+        "p254",
+        "p256",
+        "p258",
+        "p259",
+        "p267",
+        "p268",
+        "p269",
+        "p270",
+        "p273",
+        "p274",
+        "p276",
+        "p277",
+        "p278",
+        "p279",
+        "p282",
+        "p286"
+      ]
+    },
+    "val": {
+      "utterances": 770,
+      "samples": 36473269,
+      "speakers": [
+        "p226",
+        "p287"
+      ]
+    }
+  }
+}

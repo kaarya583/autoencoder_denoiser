@@ -1,0 +1,56 @@
+GAIN_FIT 0.7415905524418878 {'raw_mean_projection_gain': 1.344677895570991, 'corrected_mean_projection_gain': 0.9972004234328863, 'normalized_mse_before': 0.12387914172396997, 'normalized_mse_after': 0.002799576567113049}
+GAIN_EXPORT {'format': 'EDNSI8-v2', 'dsp_version': 2, 'source_sha256': '50ebbb78f5834f8ec20051f2d6bfb5aebda7d994bdd7b54c2179c6b0d885525e', 'model_sha256': '7938f862413bb42e7aa221c0f949d0432a0e879f0e6077d98e2d35d9e8f3b062', 'model_bytes': 94484, 'previous_output_gain': 1.0, 'output_gain': 0.7415905594825745, 'neural_weights_and_state_unchanged': True, 'scope': 'float32 external DSP multiply after overlap-add, before PCM16 output conversion', 'calibration_sha256': 'ceb6dc193b6ed0dafe71a5085a66ebe9c484f4ea7e3cfa2a3460dd5b86a7b1b5', 'source_bundle_sha256': 'c4acc2155adc62cdfbb42fe904a5502361d1c1260dfabb60860c6aeb82815fef'}
+{"event": "evaluation", "completed": 1, "total": 100}
+{"event": "evaluation", "completed": 51, "total": 100}
+{"event": "evaluation", "completed": 100, "total": 100}
+{"event": "embedded_evaluation_complete", "utterances": 100, "valid_utterances": 100, "invalid_utterances": 0, "si_sdr_noisy": 80.0, "si_sdr_enhanced": 24.87753971767566, "si_sdri": -55.12246028232434, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_gain_probe/clean_full_c_pcm16.json"}
+CORRECTED clean -55.12246028232434 {'valid_utterances': 100, 'mean': 0.9806637715915817, 'min': 0.6867713517381288, 'max': 1.0130377141152398} {'utterances': 100, 'weighting': 'equal per utterance, paired valid subset', 'pesq_wb': {'valid_utterances': 100, 'invalid_utterances': 0, 'noisy': 4.643888473510742, 'enhanced': 4.201987023353577, 'improvement': -0.44190145015716553}, 'stoi': {'valid_utterances': 100, 'invalid_utterances': 0, 'noisy': 0.9999999999999994, 'enhanced': 0.9777179114615733, 'improvement': -0.022282088538426156}, 'error_counts': {}}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "embedded_evaluation_complete", "utterances": 500, "valid_utterances": 500, "invalid_utterances": 0, "si_sdr_noisy": 3.51303470544888, "si_sdr_enhanced": 9.621556234075003, "si_sdri": 6.108521528626122, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_gain_probe/external_full_c_pcm16.json"}
+CORRECTED external 6.108521528626122 {'valid_utterances': 500, 'mean': 0.9158608230974603, 'min': 0.45016808248414847, 'max': 1.0272507269387567} {'utterances': 500, 'weighting': 'equal per utterance, paired valid subset', 'pesq_wb': {'valid_utterances': 500, 'invalid_utterances': 0, 'noisy': 1.4696227009296416, 'enhanced': 1.6762526304721832, 'improvement': 0.2066299295425415}, 'stoi': {'valid_utterances': 500, 'invalid_utterances': 0, 'noisy': 0.8134186646338128, 'enhanced': 0.8337274106965812, 'improvement': 0.02030874606276842}, 'error_counts': {}}
+{"event": "evaluation", "completed": 1, "total": 770}
+{"event": "evaluation", "completed": 51, "total": 770}
+{"event": "evaluation", "completed": 101, "total": 770}
+{"event": "evaluation", "completed": 151, "total": 770}
+{"event": "evaluation", "completed": 201, "total": 770}
+{"event": "evaluation", "completed": 251, "total": 770}
+{"event": "evaluation", "completed": 301, "total": 770}
+{"event": "evaluation", "completed": 351, "total": 770}
+{"event": "evaluation", "completed": 401, "total": 770}
+{"event": "evaluation", "completed": 451, "total": 770}
+{"event": "evaluation", "completed": 501, "total": 770}
+{"event": "evaluation", "completed": 551, "total": 770}
+{"event": "evaluation", "completed": 601, "total": 770}
+{"event": "evaluation", "completed": 651, "total": 770}
+{"event": "evaluation", "completed": 701, "total": 770}
+{"event": "evaluation", "completed": 751, "total": 770}
+{"event": "evaluation", "completed": 770, "total": 770}
+{"event": "embedded_evaluation_complete", "utterances": 770, "valid_utterances": 770, "invalid_utterances": 0, "si_sdr_noisy": 6.016738904979768, "si_sdr_enhanced": 13.375879161734664, "si_sdri": 7.359140256754897, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_gain_probe/primary_full_c_pcm16.json"}
+CORRECTED primary 7.359140256754897 {'valid_utterances': 770, 'mean': 0.9469697008853594, 'min': 0.4941714752331174, 'max': 1.0134674111766793} {'utterances': 770, 'weighting': 'equal per utterance, paired valid subset', 'pesq_wb': {'valid_utterances': 770, 'invalid_utterances': 0, 'noisy': 1.5700197656433303, 'enhanced': 1.8365813572685439, 'improvement': 0.26656159162521365}, 'stoi': {'valid_utterances': 770, 'invalid_utterances': 0, 'noisy': 0.8125170903782315, 'enhanced': 0.8182609737563326, 'improvement': 0.005743883378100892}, 'error_counts': {}}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "embedded_evaluation_complete", "utterances": 500, "valid_utterances": 500, "invalid_utterances": 0, "si_sdr_noisy": 3.51303470544888, "si_sdr_enhanced": 9.622436270168496, "si_sdri": 6.109401564719619, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_gain_probe/uncorrected_external_full_c_pcm16.json"}
+{"event": "evaluation", "completed": 1, "total": 100}
+{"event": "evaluation", "completed": 51, "total": 100}
+{"event": "evaluation", "completed": 100, "total": 100}
+{"event": "evaluation_complete", "utterances": 100, "valid_utterances": 100, "invalid_utterances": 0, "si_sdr_noisy": 80.0, "si_sdr_enhanced": 26.353466621619983, "si_sdri": -53.64653337838002, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_gain_probe/source_float_clean.json"}
+GAIN_QUALITY_ROUND_COMPLETE

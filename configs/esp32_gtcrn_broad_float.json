@@ -1,0 +1,23 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_gtcrn_broad",
+  "epochs": 120,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.001,
+  "max_hours": 6,
+  "patience": 20,
+  "workers": 2,
+  "phase": "float",
+  "amp": true,
+  "model_kind": "gtcrn",
+  "model_options": {},
+  "resume": null,
+  "waveform_loss_weight": 0.1,
+  "spectral_loss_weight": 0.0,
+  "synthetic_speech_manifest": "/content/extra_audio/manifests/speech_train.jsonl",
+  "synthetic_noise_manifest": "/content/extra_audio/manifests/noise_train.jsonl",
+  "synthetic_probability": 0.5,
+  "epoch_samples": 10802
+}

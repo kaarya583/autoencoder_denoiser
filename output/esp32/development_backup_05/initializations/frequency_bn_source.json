@@ -1,0 +1,11 @@
+{
+  "source": "/content/esp32_runs/float_frequency_bn/best.pt",
+  "sha256": "285ec10c6f34ce150f67e65b334e4f53c34e2b62f806439a73f4ce6b3952ec28",
+  "selection": "primary training-speaker validation",
+  "summary": {
+    "status": "early_stopped",
+    "best_si_sdri": 8.045827655382572,
+    "epoch": 86,
+    "elapsed_hours": 1.7925197068133334
+  }
+}

@@ -1,0 +1,41 @@
+WARNING: Python interpreter "/private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python" used to start idf.py is not from installed venv "/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env"
+Executing action: size
+Running ninja in directory /private/tmp/esp32-denoiser-build-v5.4.2
+Executing "ninja all"...
+[1/4] cd /tmp/esp32-denoiser-build-v5.4.2/esp-idf/esptool_py && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python /tmp/esp32-denoiser-idf-v5.4.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /tmp/esp32-denoiser-build-v5.4.2/partition_table/partition-table.bin /tmp/esp32-denoiser-build-v5.4.2/esp32_denoiser_benchmark.bin
+esp32_denoiser_benchmark.bin binary size 0x4eb80 bytes. Smallest app partition is 0x100000 bytes. 0xb1480 bytes (69%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /tmp/esp32-denoiser-build-v5.4.2/bootloader/esp-idf/esptool_py && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python /tmp/esp32-denoiser-idf-v5.4.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /tmp/esp32-denoiser-build-v5.4.2/bootloader/bootloader.bin
+Bootloader binary size 0x5270 bytes. 0x2d90 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+Running ninja in directory /private/tmp/esp32-denoiser-build-v5.4.2
+Executing "ninja size"...
+[0/1] cd /tmp/esp32-denoiser-build-v5.4.2 && /private/tmp/esp32-denoiser-idf-tools-v5.4.2/tools/cmake/3.30.2/CMake.app/Contents/bin/cmake -D "IDF_SIZE_TOOL=/private/tmp/esp32-denoiser-idf-tools-v5.4.2/python_env/idf5.4_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/tmp/esp32-denoiser-build-v5.4.2/esp32_denoiser_benchmark.map -D OUTPUT_JSON= -P /private/tmp/esp32-denoiser-idf-v5.4.2/tools/cmake/run_size_tool.cmake
+                           Memory Type Usage Summary                            
+┏━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory            ┃              ┃          ┃                ┃               ┃
+┃ Type/Section      ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ Flash Data        │       154328 │          │                │               │
+│    .rodata        │       154072 │          │                │               │
+│    .appdesc       │          256 │          │                │               │
+│ Flash Code        │       102260 │          │                │               │
+│    .text          │       102260 │          │                │               │
+│ DIRAM             │        86723 │    25.38 │         255037 │        341760 │
+│    .text          │        38455 │    11.25 │                │               │
+│    .bss           │        37408 │    10.95 │                │               │
+│    .data          │        10860 │     3.18 │                │               │
+│ IRAM              │        16383 │    99.99 │              1 │         16384 │
+│    .text          │        15356 │    93.73 │                │               │
+│    .vectors       │         1027 │     6.27 │                │               │
+│ RTC FAST          │           52 │     0.63 │           8140 │          8192 │
+│    .force_fast    │           28 │     0.34 │                │               │
+│    .rtc_reserved  │           24 │     0.29 │                │               │
+└───────────────────┴──────────────┴──────────┴────────────────┴───────────────┘
+Total image size: 322314 bytes (.bin may be padded larger)
+Note: The reported total sizes may be smaller than those in the technical 
+reference manual due to reserved memory and application configuration. The total
+flash size available for the application is not included by default, as it 
+cannot be reliably determined due to the presence of other data like the 
+bootloader, partition table, and application partition size.

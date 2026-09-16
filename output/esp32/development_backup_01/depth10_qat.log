@@ -1,0 +1,23 @@
+{"event": "start", "device": "cuda", "torch": "2.11.0+cu128", "model": {"learned_parameters": 85186, "convolution_weights": 83496, "macs_per_second": 5218500.0, "context_frames": 125, "neural_state_bytes_int8": 6944}, "gpu": "NVIDIA L4", "test_used_for_selection": false, "selection_metric": "mean utterance SI-SDR improvement", "validation_is_partial": false, "calibration": {"source": "training manifest only", "max_batches": 32, "hidden_exponent": -4}, "train_utterances": 10802, "validation_utterances": 770, "train_speakers": ["p227", "p228", "p230", "p231", "p233", "p236", "p239", "p243", "p244", "p250", "p254", "p256", "p258", "p259", "p267", "p268", "p269", "p270", "p273", "p274", "p276", "p277", "p278", "p279", "p282", "p286"], "validation_speakers": ["p226", "p287"], "phase": "qat"}
+{"event": "initial_validation", "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.601215855702836, "si_sdri": 7.584476950723067}
+{"event": "progress", "epoch": 1, "step": 0, "loss": -13.550616172606976, "seconds": 10}
+{"event": "progress", "epoch": 1, "step": 50, "loss": -13.97752510902888, "seconds": 15}
+{"event": "progress", "epoch": 1, "step": 100, "loss": -15.785242013443185, "seconds": 21}
+{"event": "progress", "epoch": 1, "step": 150, "loss": -16.373617828052286, "seconds": 26}
+{"event": "progress", "epoch": 1, "step": 200, "loss": -14.820253010163547, "seconds": 32}
+{"event": "progress", "epoch": 1, "step": 250, "loss": -11.35683315356943, "seconds": 37}
+{"event": "progress", "epoch": 1, "step": 300, "loss": -14.311313781809089, "seconds": 43}
+{"event": "epoch", "epoch": 1, "phase": "qat", "loss": -14.717776592896914, "seconds": 45.717057114, "elapsed_seconds": 54.76887261799993, "learning_rate": 0.0001, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.649004531469107, "si_sdri": 7.632265626489339, "best_si_sdri": 7.632265626489339}
+{"event": "progress", "epoch": 2, "step": 0, "loss": -15.176967429546217, "seconds": 55}
+{"event": "progress", "epoch": 2, "step": 50, "loss": -14.30980412374311, "seconds": 60}
+{"event": "progress", "epoch": 2, "step": 100, "loss": -16.319568050586824, "seconds": 66}
+{"event": "progress", "epoch": 2, "step": 150, "loss": -13.522433469520749, "seconds": 71}
+{"event": "progress", "epoch": 2, "step": 200, "loss": -14.028507322346258, "seconds": 77}
+{"event": "progress", "epoch": 2, "step": 250, "loss": -13.393227810851545, "seconds": 82}
+{"event": "progress", "epoch": 2, "step": 300, "loss": -14.391899378994266, "seconds": 88}
+{"event": "epoch", "epoch": 2, "phase": "qat", "loss": -14.69650662941407, "seconds": 45.320677782000075, "elapsed_seconds": 100.14230449099978, "learning_rate": 0.0001, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.601104128844524, "si_sdri": 7.584365223864756, "best_si_sdri": 7.632265626489339}
+{"event": "progress", "epoch": 3, "step": 0, "loss": -14.495235890060133, "seconds": 100}
+{"event": "progress", "epoch": 3, "step": 50, "loss": -14.902634714524423, "seconds": 106}
+{"event": "progress", "epoch": 3, "step": 100, "loss": -13.662184043879405, "seconds": 112}
+{"event": "progress", "epoch": 3, "step": 150, "loss": -14.150474616254847, "seconds": 117}
+{"event": "progress", "epoch": 3, "step": 200, "loss": -14.172654476048223, "seconds": 121}

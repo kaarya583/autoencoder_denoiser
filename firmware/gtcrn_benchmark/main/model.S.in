@@ -1,0 +1,9 @@
+/* Explicit alignment: generic IDF EMBED_FILES does not promise eight-byte
+ * alignment, while this packed loader and its INT32 views require it. */
+.section .rodata.gtcrn_model,"a"
+.balign 16
+.global gtcrn_model_start
+gtcrn_model_start:
+.incbin "@GTCRN_MODEL_PATH@"
+.global gtcrn_model_end
+gtcrn_model_end:

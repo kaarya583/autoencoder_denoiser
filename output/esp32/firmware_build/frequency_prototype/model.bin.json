@@ -1,0 +1,19 @@
+{
+  "format": "EDNFQ8-v1",
+  "model_bytes": 94300,
+  "neural_history_bytes": 18816,
+  "neural_workspace_bytes": "not yet measured in C",
+  "dsp_offset": 92236,
+  "dsp_bytes": 2064,
+  "input_exponent": -7,
+  "hidden_exponent": -4,
+  "output_exponent": -7,
+  "macs_per_second": 27561000.0,
+  "weight_bytes": 81296,
+  "bias_bytes": 7496,
+  "parameter_payload_reduction": 125.71427359490986,
+  "precision": "INT8 neural weights/activations/state; INT32 biases/accumulation; external float32 DSP",
+  "audio_quality": "unmeasured",
+  "esp32_runtime": "unmeasured",
+  "artifact_role": "UNTRAINED_IDENTITY_FREQUENCY_PROTOTYPE_BUILD_VERIFICATION_ONLY"
+}

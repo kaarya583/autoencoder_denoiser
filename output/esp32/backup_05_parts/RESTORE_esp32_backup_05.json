@@ -1,0 +1,21 @@
+{
+  "archive": "esp32_progress_backup_05.zip",
+  "archive_bytes": 114757858,
+  "archive_sha256": "15f1f5c62f5c85485f36c19a6806a2a8da5fc07afdc79e0a62e2628c0369cdfa",
+  "parts": [
+    {
+      "name": "esp32_progress_backup_05.zip.part1",
+      "bytes": 62914560,
+      "sha256": "12d95b44b171e5114054dcfc09c3638a584d20d7f1c5ee36ff47baa9a534922c",
+      "drive_file_id": "1P-Z7FvE_QD0BPZiRrh1L_W8eikWeZ2Gd"
+    },
+    {
+      "name": "esp32_progress_backup_05.zip.part2",
+      "bytes": 51843298,
+      "sha256": "447eb75f8deb123da9c48354ff28e6f900c223f4e13eec8c0bbf18e44aac9f62",
+      "drive_file_id": "1nrbtRBQmje5GV4nhTNJReUK9uTfqjiCa"
+    }
+  ],
+  "restore": "Concatenate the part files in the listed order, verify the archive SHA256, then unzip. The ZIP also contains BACKUP_MANIFEST.json with every member SHA256.",
+  "reason": "Drive connector file limit is104857600bytes; archive is114757858bytes."
+}

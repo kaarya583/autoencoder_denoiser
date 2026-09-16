@@ -1,0 +1,29 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/qat_frequency_small",
+  "epochs": 40,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.0001,
+  "max_hours": 4,
+  "patience": 10,
+  "workers": 2,
+  "phase": "qat",
+  "model_kind": "frequency_unet",
+  "model_options": {
+    "encoder_channels": [
+      12,
+      16,
+      24
+    ],
+    "global_width": 24,
+    "local_dilations": [
+      1,
+      2
+    ]
+  },
+  "resume": "/content/esp32_runs/float_frequency_small/best.pt",
+  "min_learning_rate": 5e-06,
+  "amp": false
+}

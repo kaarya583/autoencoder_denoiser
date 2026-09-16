@@ -1,0 +1,6 @@
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_dsp/gtcrn_erb.c:66:12:validate	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_dsp/gtcrn_erb.c:37:8:ednx_erb_handle_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_dsp/gtcrn_erb.c:39:5:ednx_erb_init	80	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_dsp/gtcrn_erb.c:62:8:ednx_erb_nonzero_count	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_dsp/gtcrn_erb.c:79:5:ednx_erb_forward	96	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_dsp/gtcrn_erb.c:98:5:ednx_erb_inverse	96	static

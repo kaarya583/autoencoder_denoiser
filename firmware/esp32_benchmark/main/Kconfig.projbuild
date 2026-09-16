@@ -1,0 +1,21 @@
+menu "ESP32 denoiser benchmark"
+
+config EDN_FREQUENCY_MODEL
+    bool "Benchmark the frequency U-Net EDNFQ8 model"
+    default n
+    help
+        Select the frequency model's full 257-bin complex frontend and graph.
+        main/model.bin must contain EDNFQ8-v1. When disabled it must contain
+        the global spectral TCN's EDNSI8-v2 model. A mismatch stops at init.
+
+config EDN_MODEL_IN_INTERNAL_SRAM
+    bool "Copy the model from flash to internal SRAM"
+    default n
+    help
+        Allocate a 16-byte-aligned, byte-addressable internal SRAM buffer and
+        copy the complete deployed model into it before initialization.
+        Allocation failure stops the benchmark; it never falls back to flash.
+        Keep disabled for the default flash-mapped model placement. Compare
+        both settings on the same board and model to measure the tradeoff.
+
+endmenu

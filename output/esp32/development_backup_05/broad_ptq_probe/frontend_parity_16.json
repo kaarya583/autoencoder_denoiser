@@ -1,0 +1,563 @@
+{
+  "summary": {
+    "utterances": 16,
+    "valid_utterances": 16,
+    "invalid_utterances": 0,
+    "si_sdr_noisy": 2.7492940200432647,
+    "si_sdr_enhanced": 10.551825225292866,
+    "si_sdri": 7.802531205249602,
+    "weighting": "equal per utterance",
+    "metric": "zero-mean SI-SDR, capped +/-80 dB"
+  },
+  "timing": {
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "device": "cpu",
+    "measurement": "Host offline throughput, including DSP and neural inference; not ESP32 performance or acoustic latency",
+    "audio_seconds": 48.0,
+    "processing_seconds": 0.7531481769965467,
+    "processing_rtf": 0.015690587020761388,
+    "excludes": "compilation, model loading, disk I/O, metric computation",
+    "torch_threads": 2
+  },
+  "manifest_sha256": "b82497d1febcfba26e1449ac57596e8f6983071e82d48482a1d6de00a5a84742",
+  "metric_execution": {
+    "blas_threads": 1,
+    "scope": "metrics only; prior limits restored before inference"
+  },
+  "limited_evaluation": true,
+  "utterances": [
+    {
+      "id": "extra_development_mixtures_00000_condition00",
+      "samples": 48000,
+      "si_sdr_noisy": -9.631382521762218,
+      "si_sdr_enhanced": -6.319473236611812,
+      "si_sdri": 3.3119092851504055,
+      "processing_seconds": 0.048400805999335716,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.030939639144422004,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9634769138334591,
+          "rms_ratio": 3.0750519043877964,
+          "normalized_waveform_l1": 1.391392725867925,
+          "waveform_l1": 0.04304918884652729,
+          "peak_abs": 0.9900000095367432,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0602117135335165,
+          "rms_ratio": 2.4374353835782943,
+          "normalized_waveform_l1": 0.9758669624657574,
+          "waveform_l1": 0.030192971671653746,
+          "peak_abs": 0.999969482421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 3
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00000_condition01",
+      "samples": 48000,
+      "si_sdr_noisy": -4.488495835116152,
+      "si_sdr_enhanced": -0.7022728428856653,
+      "si_sdri": 3.7862229922304866,
+      "processing_seconds": 0.048516498998651514,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05491698201031394,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9794615593330054,
+          "rms_ratio": 1.9120739556133215,
+          "normalized_waveform_l1": 0.7824376466024551,
+          "waveform_l1": 0.0429691141626594,
+          "peak_abs": 0.9900000095367432,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.1458060385375253,
+          "rms_ratio": 1.690027706616709,
+          "normalized_waveform_l1": 0.6169697530733835,
+          "waveform_l1": 0.03388211683043884,
+          "peak_abs": 0.999969482421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 2
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00000_condition02",
+      "samples": 48000,
+      "si_sdr_noisy": 0.5908350363082807,
+      "si_sdr_enhanced": 4.133159159188805,
+      "si_sdri": 3.5423241228805247,
+      "processing_seconds": 0.045341298000494135,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05576383554094468,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9884503863710369,
+          "rms_ratio": 1.3527009201599913,
+          "normalized_waveform_l1": 0.4399970053507729,
+          "waveform_l1": 0.02453592064488866,
+          "peak_abs": 0.5671727061271667,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.2087997489186146,
+          "rms_ratio": 1.4231496425827885,
+          "normalized_waveform_l1": 0.43243656317510265,
+          "waveform_l1": 0.02411432139078776,
+          "peak_abs": 0.59814453125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00000_condition03",
+      "samples": 48000,
+      "si_sdr_noisy": 5.635129515304344,
+      "si_sdr_enhanced": 8.676561267681542,
+      "si_sdri": 3.041431752377198,
+      "processing_seconds": 0.04135694399883505,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05576383554094468,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9935051750999705,
+          "rms_ratio": 1.121035550145212,
+          "normalized_waveform_l1": 0.2474285021601213,
+          "waveform_l1": 0.01379756230259928,
+          "peak_abs": 0.5139766931533813,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.2741130389098607,
+          "rms_ratio": 1.3577685020469388,
+          "normalized_waveform_l1": 0.33551917909804224,
+          "waveform_l1": 0.01870983632405599,
+          "peak_abs": 0.599334716796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00000_condition04",
+      "samples": 48000,
+      "si_sdr_noisy": 15.673859715990767,
+      "si_sdr_enhanced": 17.94241970240543,
+      "si_sdri": 2.2685599864146635,
+      "processing_seconds": 0.04744335999930627,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05576383554094468,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9979461556925219,
+          "rms_ratio": 1.011367068654604,
+          "normalized_waveform_l1": 0.0782437631503038,
+          "waveform_l1": 0.00436317234041817,
+          "peak_abs": 0.46884146332740784,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.3376840863295552,
+          "rms_ratio": 1.3483835379581426,
+          "normalized_waveform_l1": 0.24423994387590492,
+          "waveform_l1": 0.013619756062825521,
+          "peak_abs": 0.61285400390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00001_condition00",
+      "samples": 48000,
+      "si_sdr_noisy": -6.871359179385382,
+      "si_sdr_enhanced": 10.068508309058705,
+      "si_sdri": 16.939867488444087,
+      "processing_seconds": 0.06061835800028348,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07684891753671871,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0075542979707937,
+          "rms_ratio": 2.4264795900056573,
+          "normalized_waveform_l1": 1.636081679866427,
+          "waveform_l1": 0.12573110609939128,
+          "peak_abs": 0.9664502143859863,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.2473167540971795,
+          "rms_ratio": 1.3115142002017293,
+          "normalized_waveform_l1": 0.29656630424146285,
+          "waveform_l1": 0.022790799458821613,
+          "peak_abs": 0.886932373046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00001_condition01",
+      "samples": 48000,
+      "si_sdr_noisy": -1.8868841395025946,
+      "si_sdr_enhanced": 14.488502398768826,
+      "si_sdri": 16.37538653827142,
+      "processing_seconds": 0.04766277300041111,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07684891753671871,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.00424809471001,
+          "rms_ratio": 1.5966769835537666,
+          "normalized_waveform_l1": 0.9200363017207159,
+          "waveform_l1": 0.07070379388172296,
+          "peak_abs": 0.7503868341445923,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.3575883484870888,
+          "rms_ratio": 1.3859755480828557,
+          "normalized_waveform_l1": 0.26426758273642925,
+          "waveform_l1": 0.020308677673339843,
+          "peak_abs": 0.874114990234375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00001_condition02",
+      "samples": 48000,
+      "si_sdr_noisy": 3.104373212672688,
+      "si_sdr_enhanced": 18.770727616224086,
+      "si_sdri": 15.666354403551399,
+      "processing_seconds": 0.043162248000953696,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07684891753671871,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0023888789259479,
+          "rms_ratio": 1.2214938258062453,
+          "normalized_waveform_l1": 0.5173744274166211,
+          "waveform_l1": 0.03975966470814698,
+          "peak_abs": 0.6673150658607483,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.3689235691355404,
+          "rms_ratio": 1.3823472197200686,
+          "normalized_waveform_l1": 0.23976189864902764,
+          "waveform_l1": 0.018425442377726236,
+          "peak_abs": 0.8492431640625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00001_condition03",
+      "samples": 48000,
+      "si_sdr_noisy": 8.099452540301114,
+      "si_sdr_enhanced": 22.019250536272132,
+      "si_sdri": 13.919797995971019,
+      "processing_seconds": 0.047323021999545745,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07684891753671871,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.001343365272426,
+          "rms_ratio": 1.0755346861875072,
+          "normalized_waveform_l1": 0.29094103451007974,
+          "waveform_l1": 0.022358503569112752,
+          "peak_abs": 0.6206004023551941,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.3618918123007913,
+          "rms_ratio": 1.3703037854262223,
+          "normalized_waveform_l1": 0.2259645788403634,
+          "waveform_l1": 0.01736513328552246,
+          "peak_abs": 0.814178466796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00001_condition04",
+      "samples": 48000,
+      "si_sdr_noisy": 18.095127401012416,
+      "si_sdr_enhanced": 25.469281104183295,
+      "si_sdri": 7.3741537031708795,
+      "processing_seconds": 0.0490737079999235,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07684891753671871,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0004248096457777,
+          "rms_ratio": 1.0080964400789383,
+          "normalized_waveform_l1": 0.09200363388092292,
+          "waveform_l1": 0.007070379673193505,
+          "peak_abs": 0.5822655558586121,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.353610857598387,
+          "rms_ratio": 1.3594017668997918,
+          "normalized_waveform_l1": 0.21577680273457106,
+          "waveform_l1": 0.016582213719685872,
+          "peak_abs": 0.821258544921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00002_condition00",
+      "samples": 48000,
+      "si_sdr_noisy": -6.562635015069521,
+      "si_sdr_enhanced": 3.294140947171407,
+      "si_sdri": 9.856775962240928,
+      "processing_seconds": 0.05224088599970855,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06760454854321196,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9931516716630266,
+          "rms_ratio": 2.335852662355593,
+          "normalized_waveform_l1": 1.706843328646729,
+          "waveform_l1": 0.11539037266715528,
+          "peak_abs": 0.6601279973983765,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.8503480427252335,
+          "rms_ratio": 1.0304193822112198,
+          "normalized_waveform_l1": 0.4413306183118499,
+          "waveform_l1": 0.029835957209269206,
+          "peak_abs": 0.57537841796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00002_condition01",
+      "samples": 48000,
+      "si_sdr_noisy": -1.5364566191145381,
+      "si_sdr_enhanced": 8.376992732734767,
+      "si_sdri": 9.913449351849305,
+      "processing_seconds": 0.05183842899896263,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06760454854321196,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9961489018522341,
+          "rms_ratio": 1.5510660127158997,
+          "normalized_waveform_l1": 0.9598285787142629,
+          "waveform_l1": 0.06488877774285053,
+          "peak_abs": 0.5262705087661743,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.190473735361607,
+          "rms_ratio": 1.2740359786508768,
+          "normalized_waveform_l1": 0.3480197991410397,
+          "waveform_l1": 0.023527721405029296,
+          "peak_abs": 0.59967041015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00002_condition02",
+      "samples": 48000,
+      "si_sdr_noisy": 3.478230535750227,
+      "si_sdr_enhanced": 12.007323553874574,
+      "si_sdri": 8.529093018124348,
+      "processing_seconds": 0.049848434999148594,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06760454854321196,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9978343684439146,
+          "rms_ratio": 1.2011074762768699,
+          "normalized_waveform_l1": 0.5397512533490287,
+          "waveform_l1": 0.03648963980829391,
+          "peak_abs": 0.465007483959198,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.30722104036891,
+          "rms_ratio": 1.3477630638110585,
+          "normalized_waveform_l1": 0.31240748194723483,
+          "waveform_l1": 0.021120166778564452,
+          "peak_abs": 0.603118896484375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00002_condition03",
+      "samples": 48000,
+      "si_sdr_noisy": 8.486478337085959,
+      "si_sdr_enhanced": 15.331257296489937,
+      "si_sdri": 6.844778959403978,
+      "processing_seconds": 0.03728695400059223,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06760454854321196,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9987821754102745,
+          "rms_ratio": 1.0671996750679076,
+          "normalized_waveform_l1": 0.3035244455321249,
+          "waveform_l1": 0.02051963311202803,
+          "peak_abs": 0.4450671672821045,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.3566779543699385,
+          "rms_ratio": 1.376410228166244,
+          "normalized_waveform_l1": 0.2926154725294818,
+          "waveform_l1": 0.01978213691711426,
+          "peak_abs": 0.604644775390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00002_condition04",
+      "samples": 48000,
+      "si_sdr_noisy": 18.493718769795077,
+      "si_sdr_enhanced": 20.824807520462876,
+      "si_sdri": 2.3310887506677993,
+      "processing_seconds": 0.03971537200050079,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06760454854321196,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9996148906606303,
+          "rms_ratio": 1.006660250398753,
+          "normalized_waveform_l1": 0.095982853418983,
+          "waveform_l1": 0.006488877473279634,
+          "peak_abs": 0.45164111256599426,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.3553802441968263,
+          "rms_ratio": 1.3609733780407747,
+          "normalized_waveform_l1": 0.2505645375862635,
+          "waveform_l1": 0.01693930244445801,
+          "peak_abs": 0.608489990234375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    },
+    {
+      "id": "extra_development_mixtures_00003_condition00",
+      "samples": 48000,
+      "si_sdr_noisy": -6.691287433578234,
+      "si_sdr_enhanced": -5.551982460333043,
+      "si_sdri": 1.1393049732451903,
+      "processing_seconds": 0.043319084999893676,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.030323473378854594,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 0.9333960734370317,
+          "rms_ratio": 2.2221919788410283,
+          "normalized_waveform_l1": 1.2439788088723587,
+          "waveform_l1": 0.03772175829470022,
+          "peak_abs": 0.7929986119270325,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.8150230186865272,
+          "rms_ratio": 1.7462923399971666,
+          "normalized_waveform_l1": 0.7645974978549956,
+          "waveform_l1": 0.02318525187174479,
+          "peak_abs": 0.78021240234375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      }
+    }
+  ],
+  "model": {
+    "source": "/content/esp32_runs/broad_ptq_probe/denoiser_int8.bin",
+    "model_sha256": "50ebbb78f5834f8ec20051f2d6bfb5aebda7d994bdd7b54c2179c6b0d885525e",
+    "model_bytes": 94480,
+    "neural_state_bytes": 8280,
+    "precision": "INT8 C neural core, float32 C DSP, portable host FFT",
+    "io_format": "pcm16",
+    "io_statistics": {
+      "samples": 768000,
+      "input_clipped_samples": 0,
+      "output_at_rail_samples": 5
+    }
+  },
+  "comparison": {
+    "torch_dsp_integer_neural_summary": {
+      "utterances": 16,
+      "valid_utterances": 16,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 2.7492940200432647,
+      "si_sdr_enhanced": 10.590440793521825,
+      "si_sdri": 7.8411467734785605,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "float32_full_c_summary": {
+      "utterances": 16,
+      "valid_utterances": 16,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 2.7492940200432647,
+      "si_sdr_enhanced": 10.590440980072074,
+      "si_sdri": 7.8411469600288095,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "versus_torch_dsp_si_sdri_difference_db": -0.038615568228958175,
+    "versus_unclipped_c_si_sdri_difference_db": -0.0386157547792072
+  }
+}

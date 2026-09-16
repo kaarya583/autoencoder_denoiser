@@ -1,0 +1,1397 @@
+{
+  "status": "frontier_research_and_training_active",
+  "colab_url": "https://colab.research.google.com/drive/11mqq67mu4_wDVce_yYEAAUZAAjiI7gGN",
+  "gpu": "NVIDIA L4",
+  "observed_colab_units_per_hour": 1.54,
+  "pilot": {
+    "optimizer_steps": 240,
+    "validation_utterances": 128,
+    "noisy_si_sdr_db": 6.03817353577087,
+    "enhanced_si_sdr_db": 11.001226388173293,
+    "si_sdri_db": 4.963052852402425,
+    "training_and_validation_seconds": 8.308805707,
+    "official_test_used": false
+  },
+  "data": {
+    "train_utterances": 10802,
+    "validation_utterances": 770,
+    "validation_speakers": [
+      "p226",
+      "p287"
+    ],
+    "mirror_revision": "4497db342d7312978c45690591fda86117831940"
+  },
+  "board_benchmark": "not_run",
+  "failed_control": {
+    "architecture": "unsigned post-add ReLU TCN",
+    "best_validation_si_sdri_db": 3.794249741699514,
+    "validation_utterances": 770,
+    "best_epoch": 9,
+    "epochs_completed": 24,
+    "elapsed_seconds": 187.88520305899988,
+    "finding": "hidden activation collapse; preserved as a failed control"
+  },
+  "candidate": {
+    "architecture": "signed residual spectral TCN",
+    "learned_parameters": 84738,
+    "deployed_model_bytes": 94480,
+    "convolution_macs_per_second": 5212000,
+    "model_format": "EDNSI8-v2",
+    "validation_selection_only": true,
+    "latest_observed_epoch": 75,
+    "best_observed_validation_si_sdri_db": 7.574700970469532,
+    "checkpoint_dir": "/content/esp32_runs/float_signed",
+    "phase_status": "complete"
+  },
+  "official_test_used": false,
+  "comparisons": {
+    "depth10_width56": {
+      "epochs_observed": 82,
+      "best_observed_validation_si_sdri_db": 7.890509218170143,
+      "model_bytes": 96496,
+      "macs_per_second": 5218500,
+      "qat_validation_si_sdri_db": 7.755129766382848,
+      "qat_epochs": 25,
+      "complete_c_validation": "complete",
+      "complete_c_pcm16_validation_si_sdri_db": 7.755303590865879
+    },
+    "zero_depthwise_bias": {
+      "epochs_observed": 100,
+      "best_observed_validation_si_sdri_db": 7.9390668729788985,
+      "model_bytes": 94480,
+      "qat_validation_si_sdri_db": 7.776490720966843,
+      "qat_epochs": 25,
+      "complete_c_validation": "complete",
+      "complete_c_pcm16_validation_si_sdri_db": 7.776251759116493
+    },
+    "fullmag_lowphase": {
+      "float_validation_si_sdri_db": 7.74424117473514,
+      "epochs": 85,
+      "export_supported": false,
+      "selected": false
+    }
+  },
+  "quantization_probe": {
+    "source_epoch": 38,
+    "float_si_sdri_db": 7.518225481638917,
+    "ptq_si_sdri_db": 7.2342259293022515,
+    "loss_db": 0.28399955233666585,
+    "hidden_exponent": -4,
+    "utterances": 770,
+    "qat_applied": false,
+    "final_result": false
+  },
+  "firmware_build": {
+    "status": "real_esp32s3_build_passed_with_trained_signed_baseline",
+    "idf_version": "5.4.2",
+    "esp_dsp_version": "1.8.2",
+    "app_bytes": 324352,
+    "static_writable_ram_bytes": 48268,
+    "on_device_test": false,
+    "memory_audit": "output/esp32/firmware_build/memory_audit.json"
+  },
+  "compute_unit_budget_total": 100,
+  "quality_target": "maximize SI-SDRi under deployment constraints; 8 dB is not a cap",
+  "budget_observation": {
+    "available_compute_units": 96.51,
+    "units_per_hour": 1.54,
+    "observed_utc": "2026-09-13T07:05:00Z"
+  },
+  "durable_backup": {
+    "drive_folder_id": "18ZKXR4iyvCCHufhc6PkcE5TH2F5njXBy",
+    "file_id": "1v308-IxQs_Pbv-Mvb_eqlIYy-2RFWLB5",
+    "local_path": "output/esp32/development_backup_04",
+    "archive_sha256": "e2f90f97ab5680895517f788df5e31026de5eae6c80e3288ad748def0e896618",
+    "archive_bytes": 94798508,
+    "verified_files": 312
+  },
+  "completed_control": {
+    "validation_si_sdri_db": 7.390343794074977,
+    "validation_utterances": 770,
+    "model_bytes": 94480,
+    "full_c_pcm16": true,
+    "float_to_deployed_loss_db": 0.1843571763945553,
+    "c_dsp_vs_reference_difference_db": -0.00036269923340270793,
+    "on_device_latency": "unmeasured"
+  },
+  "frontier_trials": {
+    "frequency_unet": {
+      "status": "pruned_uncompetitive",
+      "best_si_sdri": 7.442673647290838,
+      "last_epoch": 84,
+      "reason": "BN variant stronger; manually stopped, not configured early stopping"
+    },
+    "frequency_unet_small": {
+      "status": "early_stopped",
+      "best_si_sdri": 6.201894988899279,
+      "epoch": 59,
+      "elapsed_hours": 0.4690952576774998
+    },
+    "fresh_spectral_teacher": {
+      "status": "early_stopped",
+      "best_si_sdri": 8.720490942651143,
+      "epoch": 90,
+      "elapsed_hours": 0.41080088591305564
+    },
+    "frequency_unet_encoder_bn": "training active",
+    "frequency_gru": "Plain variant manually pruned at epoch 40, best primary 7.30345698; BN variant still training.",
+    "added_training_data": {
+      "status": "prepared; archives verified; external development rendered",
+      "speech_train_utterances": 25675,
+      "speech_train_speakers": 226,
+      "speech_train_hours": 90.52911572916666,
+      "speech_validation_utterances": 2864,
+      "speech_validation_speakers": 25,
+      "speech_validation_hours": 10.06176392361111,
+      "noise_train_recordings": 837,
+      "noise_train_hours_rounded": 5.68,
+      "noise_validation_recordings": 93,
+      "noise_validation_hours_rounded": 0.54,
+      "development_mixtures": 500,
+      "development_clean_clips": 100
+    },
+    "fresh_broad_spectral_teacher": "training on50/50paired and LibriSpeech/MUSAN;21604examples/epoch;6h cap",
+    "controlled_finetunes": "Paired spectral arm running; unstarted narrow KD replaced by matched broader control and gain-corrected broad KD queue.",
+    "frequency_deep_filter": "float implementation and8numericaltests pass; nottrained/exported",
+    "gtcrn": {
+      "status": "paired and broader fresh float training launched",
+      "learned_parameters": 23669,
+      "fixed_filterbank_parameters": 24576,
+      "quantized_export": false,
+      "gpu_pilot": "8 BF16 optimizer steps passed finite loss and gradients"
+    }
+  },
+  "strongest_completed_int8_control": {
+    "architecture": "signed spectral TCN with zero depthwise-bias initialization",
+    "model_bytes": 94480,
+    "si_sdri_db": 7.776251759116493,
+    "validation_utterances": 770,
+    "float_to_deployed_loss_db": 0.16281511386240588,
+    "full_c_pcm16": true,
+    "final_selection": false,
+    "board_latency": null
+  },
+  "last_updated_utc": "2026-09-13T09:44:12.425808+00:00",
+  "generalization_control": {
+    "status": "reports verified locally in backup03",
+    "model": "deploy_zero_bias/denoiser_int8.bin",
+    "full_c_pcm16": true,
+    "mixtures": {
+      "utterances": 500,
+      "si_sdri_db": 0.8104054559944424,
+      "enhanced_si_sdr_db": 4.3234401614433215,
+      "pesq_noisy": 1.4696227009296416,
+      "pesq_enhanced": 1.4865613081455231,
+      "stoi_noisy": 0.8134186646338128,
+      "stoi_enhanced": 0.8038533684737803,
+      "regressed_utterances": 144,
+      "mean_si_sdri_by_snr_rounded": {
+        "-5": 0.814,
+        "0": 1.286,
+        "5": 1.281,
+        "10": 1.006,
+        "20": -0.336
+      }
+    },
+    "clean": {
+      "utterances": 100,
+      "enhanced_si_sdr_db": 29.427460843757718,
+      "mean_projection_gain": 1.5655215864908232,
+      "pesq_enhanced": 4.5201120591163635,
+      "stoi_enhanced": 0.9967571857547588
+    },
+    "interpretation": "Weak unseen-source generalization and significant clean-level amplification; current control is not a final general-purpose denoiser."
+  },
+  "distillation_calibration": {
+    "training_batches": 8,
+    "target_gradient_ratio": 0.1,
+    "distillation_weight": 18.440440972245568,
+    "report": "/content/esp32_runs/distillation_calibration.json"
+  },
+  "durable_backup_03": {
+    "local_path": "output/esp32/development_backup_03",
+    "archive_sha256": "130a2d1ffdccf216c4a5025ba1072c6161936738547bbbb87b2dc51dd052459f",
+    "archive_bytes": 70295346,
+    "drive_upload": "verified",
+    "file_id": "14XdZvNM5FBpc6q-88_Ll1QZymQNk_Gg3",
+    "drive_folder_id": "18ZKXR4iyvCCHufhc6PkcE5TH2F5njXBy"
+  },
+  "broader_training_preliminary_float": {
+    "student": {
+      "external_development_si_sdri": 5.941089237634397,
+      "checkpoint_epoch": 19,
+      "checkpoint_sha256": "78ea4b8013145f6f692e88f06ef35c246a2b58d206a95db259b417b331bf2c2b"
+    },
+    "teacher": {
+      "external_development_si_sdri": 8.912198780232083,
+      "checkpoint_epoch": 21,
+      "checkpoint_sha256": "8c22567fcf7d4a9941d3830ad8098e6a9f81cfeb8d4f9ff81d317f5da49a7e92"
+    },
+    "qualification": "Floating point, selected on separate development corpus; not a final INT8 or official test result."
+  },
+  "stronger_broad_ptq_probe": {
+    "status": "complete_development_evaluation",
+    "source": "broad_kd_inputs/student.pt; external development selected continuation epoch 10",
+    "float_external_si_sdri_db": 6.396584548285986,
+    "fake_quant_external_si_sdri_db": 6.105654362341922,
+    "model_bytes": 94480,
+    "qat_training_steps": 0,
+    "clean_mean_projection_gain": 1.3219162250985483,
+    "clean_mean_normalized_waveform_l1": 0.2160942115011095,
+    "clean_enhanced_si_sdr_db_rounded": 24.767054619,
+    "clean_pcm_output_rail_samples": 282,
+    "external_pcm_output_rail_samples": 177,
+    "warning": "Development-only candidate; clean amplification remains a quality defect; no physical board timing.",
+    "model_sha256": "50ebbb78f5834f8ec20051f2d6bfb5aebda7d994bdd7b54c2179c6b0d885525e",
+    "source_checkpoint_sha256": "12e4595db174a6f34b58778e112e5f986938689f0feadc39f8f368808e32e746",
+    "full_c_pcm16_external_si_sdri_db": 6.109401564719619,
+    "full_c_pcm16_primary_si_sdri_db": 7.359141438092703,
+    "float_to_full_c_external_loss_db": 0.2871829835663684
+  },
+  "broad_teacher_correction": {
+    "training_only_clean_examples": 128,
+    "output_gain": 0.3339764696311776,
+    "independent_clean_development_mean_gain": 0.9929504231373083,
+    "independent_clean_development_normalized_waveform_l1": 0.02874884413938793,
+    "corrected_distillation_weight": 13.936664127698595,
+    "gradient_target_ratio": 0.1,
+    "matched_control_and_kd_queue_pid": 74055
+  },
+  "normalized_gtcrn": {
+    "status": "fresh_training_active",
+    "pilot": "8 CUDA BF16 steps passed after repairing standalone launcher import path",
+    "training_pid": 77159,
+    "external_selector_pid": 77160,
+    "learned_parameters": 23669,
+    "quantized_export": false,
+    "normalization": "FFT spectrum divided by512*causal frame RMS; amplitude restored before OLA; matched raw control retained"
+  },
+  "development_audio_integrity": {
+    "status": "passed",
+    "primary_rows": 770,
+    "external_mixture_rows": 500,
+    "clean_rows": 100,
+    "declared_audio_hashes_verified": 1200,
+    "full_lengths_rates_channels_verified": true,
+    "scope": "Separate post-evaluation audit, not retroactive per-load verification"
+  },
+  "source_bundle": {
+    "sha256": "eceb96444d0988d487f7a087190b5baf5437d54f949190dbf0ef67ec1e6a64d3",
+    "bytes": 488516,
+    "files": 191,
+    "base_unchanged_tests": 650,
+    "new_frozen_tests_passed": 34,
+    "local_cuda_skips": 2,
+    "colab_cuda_suite_passed": 23,
+    "verified_installed_utc": "2026-09-13 09:39"
+  },
+  "colab_compute_observation": {
+    "utc": "2026-09-13 09:29",
+    "remaining_units": 92.79,
+    "observed_units_per_hour": 1.54,
+    "authorized_unit_budget": 100,
+    "hardware": "NVIDIA L4",
+    "purchases_authorized": false
+  },
+  "durable_backup_05": {
+    "archive_sha256": "15f1f5c62f5c85485f36c19a6806a2a8da5fc07afdc79e0a62e2628c0369cdfa",
+    "archive_bytes": 114757858,
+    "member_hashes_verified": 427,
+    "local_path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/development_backup_05",
+    "drive_parts_verified": true,
+    "drive_part_ids": [
+      "1P-Z7FvE_QD0BPZiRrh1L_W8eikWeZ2Gd",
+      "1nrbtRBQmje5GV4nhTNJReUK9uTfqjiCa"
+    ],
+    "restore_manifest_id": "13pnZGq6fH2QvZkEQSOi9pQKXXFLF99gv",
+    "scope": "Snapshot before08:42; new whole-graph probes not yet included"
+  },
+  "broad_ptq_gain_probe": {
+    "model_bytes": 94484,
+    "model_sha256": "7938f862413bb42e7aa221c0f949d0432a0e879f0e6077d98e2d35d9e8f3b062",
+    "output_gain": 0.7415905594825745,
+    "cohorts": {
+      "primary": {
+        "summary": {
+          "utterances": 770,
+          "valid_utterances": 770,
+          "invalid_utterances": 0,
+          "si_sdr_noisy": 6.016738904979768,
+          "si_sdr_enhanced": 13.375879161734664,
+          "si_sdri": 7.359140256754897,
+          "weighting": "equal per utterance",
+          "metric": "zero-mean SI-SDR, capped +/-80 dB"
+        },
+        "perceptual": {
+          "utterances": 770,
+          "weighting": "equal per utterance, paired valid subset",
+          "pesq_wb": {
+            "valid_utterances": 770,
+            "invalid_utterances": 0,
+            "noisy": 1.5700197656433303,
+            "enhanced": 1.8365813572685439,
+            "improvement": 0.26656159162521365
+          },
+          "stoi": {
+            "valid_utterances": 770,
+            "invalid_utterances": 0,
+            "noisy": 0.8125170903782315,
+            "enhanced": 0.8182609737563326,
+            "improvement": 0.005743883378100892
+          },
+          "error_counts": {}
+        },
+        "preservation": {
+          "weighting": "equal per utterance for gains and errors; sample totals for PCM16 counts",
+          "interpretation": "SI-SDR ignores global gain and polarity; rail contact alone does not prove clipping",
+          "noisy": {
+            "projection_gain": {
+              "valid_utterances": 770,
+              "mean": 0.9990713209821457,
+              "min": 0.5856096158857059,
+              "max": 1.082927560522946
+            },
+            "rms_ratio": {
+              "valid_utterances": 770,
+              "mean": 1.21174333148891,
+              "min": 0.8465304493027733,
+              "max": 2.0523266062387155
+            },
+            "normalized_waveform_l1": {
+              "valid_utterances": 770,
+              "mean": 0.47308478668005016,
+              "min": 0.06306679987862049,
+              "max": 1.4056609462811325
+            },
+            "waveform_l1": {
+              "valid_utterances": 770,
+              "mean": 0.03020260800450641,
+              "min": 0.003613401792823289,
+              "max": 0.10092806292909297
+            },
+            "peak_abs_max": 0.94989013671875,
+            "pcm16_out_of_range_samples": 0,
+            "pcm16_out_of_range_utterances": 0,
+            "pcm16_rail_or_exceeds_samples": 0,
+            "pcm16_rail_or_exceeds_utterances": 0
+          },
+          "enhanced": {
+            "projection_gain": {
+              "valid_utterances": 770,
+              "mean": 0.9469697008853594,
+              "min": 0.4941714752331174,
+              "max": 1.0134674111766793
+            },
+            "rms_ratio": {
+              "valid_utterances": 770,
+              "mean": 0.9868980133168797,
+              "min": 0.5849988449064142,
+              "max": 1.1808116878844532
+            },
+            "normalized_waveform_l1": {
+              "valid_utterances": 770,
+              "mean": 0.16505239880809988,
+              "min": 0.03838780312229768,
+              "max": 0.5607048835757406
+            },
+            "waveform_l1": {
+              "valid_utterances": 770,
+              "mean": 0.010542086034955808,
+              "min": 0.002620046018122303,
+              "max": 0.043307079872317585
+            },
+            "peak_abs_max": 0.761138916015625,
+            "pcm16_out_of_range_samples": 0,
+            "pcm16_out_of_range_utterances": 0,
+            "pcm16_rail_or_exceeds_samples": 0,
+            "pcm16_rail_or_exceeds_utterances": 0
+          }
+        }
+      },
+      "external": {
+        "summary": {
+          "utterances": 500,
+          "valid_utterances": 500,
+          "invalid_utterances": 0,
+          "si_sdr_noisy": 3.51303470544888,
+          "si_sdr_enhanced": 9.621556234075003,
+          "si_sdri": 6.108521528626122,
+          "weighting": "equal per utterance",
+          "metric": "zero-mean SI-SDR, capped +/-80 dB"
+        },
+        "perceptual": {
+          "utterances": 500,
+          "weighting": "equal per utterance, paired valid subset",
+          "pesq_wb": {
+            "valid_utterances": 500,
+            "invalid_utterances": 0,
+            "noisy": 1.4696227009296416,
+            "enhanced": 1.6762526304721832,
+            "improvement": 0.2066299295425415
+          },
+          "stoi": {
+            "valid_utterances": 500,
+            "invalid_utterances": 0,
+            "noisy": 0.8134186646338128,
+            "enhanced": 0.8337274106965812,
+            "improvement": 0.02030874606276842
+          },
+          "error_counts": {}
+        },
+        "preservation": {
+          "weighting": "equal per utterance for gains and errors; sample totals for PCM16 counts",
+          "interpretation": "SI-SDR ignores global gain and polarity; rail contact alone does not prove clipping",
+          "noisy": {
+            "projection_gain": {
+              "valid_utterances": 500,
+              "mean": 0.9988610622379785,
+              "min": 0.9333960734370317,
+              "max": 1.0515779838277897
+            },
+            "rms_ratio": {
+              "valid_utterances": 500,
+              "mean": 1.586317475126895,
+              "min": 1.0026883337465153,
+              "max": 13.204013867373549
+            },
+            "normalized_waveform_l1": {
+              "valid_utterances": 500,
+              "mean": 0.6035602635192515,
+              "min": 0.018592699939728653,
+              "max": 6.0909346580241595
+            },
+            "waveform_l1": {
+              "valid_utterances": 500,
+              "mean": 0.02877725299829928,
+              "min": 0.0006404797269069604,
+              "max": 0.2064197971984607
+            },
+            "peak_abs_max": 0.9900000691413879,
+            "pcm16_out_of_range_samples": 0,
+            "pcm16_out_of_range_utterances": 0,
+            "pcm16_rail_or_exceeds_samples": 0,
+            "pcm16_rail_or_exceeds_utterances": 0
+          },
+          "enhanced": {
+            "projection_gain": {
+              "valid_utterances": 500,
+              "mean": 0.9158608230974603,
+              "min": 0.45016808248414847,
+              "max": 1.0272507269387567
+            },
+            "rms_ratio": {
+              "valid_utterances": 500,
+              "mean": 1.0389467426423762,
+              "min": 0.7397003884832384,
+              "max": 3.4666230557446003
+            },
+            "normalized_waveform_l1": {
+              "valid_utterances": 500,
+              "mean": 0.23389314123397373,
+              "min": 0.03034577542826178,
+              "max": 1.1667590152308722
+            },
+            "waveform_l1": {
+              "valid_utterances": 500,
+              "mean": 0.011637149955331112,
+              "min": 0.001007626215616862,
+              "max": 0.09984907913208008
+            },
+            "peak_abs_max": 0.98406982421875,
+            "pcm16_out_of_range_samples": 0,
+            "pcm16_out_of_range_utterances": 0,
+            "pcm16_rail_or_exceeds_samples": 0,
+            "pcm16_rail_or_exceeds_utterances": 0
+          }
+        }
+      },
+      "clean": {
+        "summary": {
+          "utterances": 100,
+          "valid_utterances": 100,
+          "invalid_utterances": 0,
+          "si_sdr_noisy": 80.0,
+          "si_sdr_enhanced": 24.87753971767566,
+          "si_sdri": -55.12246028232434,
+          "weighting": "equal per utterance",
+          "metric": "zero-mean SI-SDR, capped +/-80 dB"
+        },
+        "perceptual": {
+          "utterances": 100,
+          "weighting": "equal per utterance, paired valid subset",
+          "pesq_wb": {
+            "valid_utterances": 100,
+            "invalid_utterances": 0,
+            "noisy": 4.643888473510742,
+            "enhanced": 4.201987023353577,
+            "improvement": -0.44190145015716553
+          },
+          "stoi": {
+            "valid_utterances": 100,
+            "invalid_utterances": 0,
+            "noisy": 0.9999999999999994,
+            "enhanced": 0.9777179114615733,
+            "improvement": -0.022282088538426156
+          },
+          "error_counts": {}
+        },
+        "preservation": {
+          "weighting": "equal per utterance for gains and errors; sample totals for PCM16 counts",
+          "interpretation": "SI-SDR ignores global gain and polarity; rail contact alone does not prove clipping",
+          "noisy": {
+            "projection_gain": {
+              "valid_utterances": 100,
+              "mean": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "rms_ratio": {
+              "valid_utterances": 100,
+              "mean": 1.0,
+              "min": 0.9999999999999996,
+              "max": 1.0
+            },
+            "normalized_waveform_l1": {
+              "valid_utterances": 100,
+              "mean": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "waveform_l1": {
+              "valid_utterances": 100,
+              "mean": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "peak_abs_max": 0.9900000095367432,
+            "pcm16_out_of_range_samples": 0,
+            "pcm16_out_of_range_utterances": 0,
+            "pcm16_rail_or_exceeds_samples": 0,
+            "pcm16_rail_or_exceeds_utterances": 0
+          },
+          "enhanced": {
+            "projection_gain": {
+              "valid_utterances": 100,
+              "mean": 0.9806637715915817,
+              "min": 0.6867713517381288,
+              "max": 1.0130377141152398
+            },
+            "rms_ratio": {
+              "valid_utterances": 100,
+              "mean": 0.9885768805864013,
+              "min": 0.7870641835892724,
+              "max": 1.013715399251253
+            },
+            "normalized_waveform_l1": {
+              "valid_utterances": 100,
+              "mean": 0.05653549170538997,
+              "min": 0.009520464295418453,
+              "max": 0.5212911110121774
+            },
+            "waveform_l1": {
+              "valid_utterances": 100,
+              "mean": 0.0030729189728464757,
+              "min": 0.00046558698018391926,
+              "max": 0.02386575508117676
+            },
+            "peak_abs_max": 1.0,
+            "pcm16_out_of_range_samples": 0,
+            "pcm16_out_of_range_utterances": 0,
+            "pcm16_rail_or_exceeds_samples": 2,
+            "pcm16_rail_or_exceeds_utterances": 1
+          }
+        }
+      }
+    },
+    "scope": "Actual INT8 C neural core and C float32 DSP with PCM16 I/O; training-only DSP gain fit, development-only results. Remaining clean-shape damage; not final or board timing."
+  },
+  "gtcrn_gru_only_probe": {
+    "full_cohort": 500,
+    "float_si_sdri": 8.687519630776611,
+    "gru_int8_si_sdri": 8.66535476283037,
+    "difference_db": -0.02216486794624202,
+    "source_epoch": 25,
+    "scope": "Only GRU operators/state are integer; remaining neural operations and DSP float; no complete integer claim."
+  },
+  "new_probes": {
+    "raw_diagnostics_pid": 108785,
+    "raw_export_pid": 108786,
+    "rms_diagnostics_pid": 108787,
+    "rms_export_pid": 108788,
+    "scope": "TRAIN-only calibration and localization; no final-test access"
+  },
+  "broad_qat_promotion": {
+    "selection": {
+      "selection_split": "external development; not final test",
+      "manifest": "/content/extra_audio/development/mixtures.jsonl",
+      "manifest_sha256": "b82497d1febcfba26e1449ac57596e8f6983071e82d48482a1d6de00a5a84742",
+      "source_checkpoint": "/content/esp32_runs/float_zero_bias_broad_continue/last.pt",
+      "checkpoint_sha256": "75e9a1c8c2f538963c9e222aa626f45867edf45b44bdf8de85ce8553f6e2a404",
+      "model": {
+        "phase": "float",
+        "model_kind": "spectral_tcn",
+        "precision": "float32 PyTorch",
+        "model_config": {
+          "width": 64,
+          "activation_mode": "signed",
+          "feature_layout": "erb_complex",
+          "dilations": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32
+          ],
+          "sample_rate": 16000,
+          "n_fft": 512,
+          "hop_length": 256,
+          "mask_scale": 2.0
+        },
+        "checkpoint_epoch": 70
+      },
+      "validation": {
+        "utterances": 500,
+        "total_utterances": 500,
+        "invalid_utterances": 0,
+        "noisy_si_sdr": 3.5130347054488795,
+        "si_sdr": 10.434953765413502,
+        "si_sdri": 6.921919059964622
+      },
+      "selected_checkpoint": "/content/esp32_runs/float_zero_bias_broad_continue/external_development/selected_75e9a1c8c2f538963c9e222aa626f45867edf45b44bdf8de85ce8553f6e2a404.pt"
+    },
+    "marker_path": "/content/esp32_runs/float_zero_bias_broad_continue/external_development/best.json",
+    "marker_sha256": "721981521097df96bb1d0dec3241292cf37dfe3e8ac32d5650d5a9c8893c3439",
+    "completed_float_epoch": 80,
+    "training_pid": 88929,
+    "external_selector_pid": 88930,
+    "scope": "Active QAT from external-development selected float continuation epoch70; no final test access",
+    "detail_report": "output/esp32/broad_qat_promotion_detail.json"
+  },
+  "gtcrn_whole_integer_probe": {
+    "gtcrn_probe_inputs": {
+      "report": "output/esp32/gtcrn_probes_01/gtcrn_probe_inputs/full_integer_probe.json",
+      "float_si_sdri": 10.423079509622077,
+      "integer_si_sdri": 6.9449929444952545,
+      "integer_minus_float_db": -3.478086565126823,
+      "cohort": {
+        "seed": 482,
+        "indices": [
+          153,
+          266,
+          304,
+          451
+        ],
+        "ids": [
+          "extra_development_mixtures_00030_condition03",
+          "extra_development_mixtures_00053_condition01",
+          "extra_development_mixtures_00060_condition04",
+          "extra_development_mixtures_00090_condition01"
+        ],
+        "available_utterances": 500,
+        "selected_utterances": 4
+      },
+      "scope": "4 development clips; full INT8 neural graph with floating DSP and floating waveform I/O; no QAT or on-device result"
+    },
+    "gtcrn_normalized_probe_inputs": {
+      "report": "output/esp32/gtcrn_probes_01/gtcrn_normalized_probe_inputs/full_integer_probe.json",
+      "float_si_sdri": 11.396073365867066,
+      "integer_si_sdri": 10.56207613134491,
+      "integer_minus_float_db": -0.8339972345221565,
+      "cohort": {
+        "seed": 482,
+        "indices": [
+          153,
+          266,
+          304,
+          451
+        ],
+        "ids": [
+          "extra_development_mixtures_00030_condition03",
+          "extra_development_mixtures_00053_condition01",
+          "extra_development_mixtures_00060_condition04",
+          "extra_development_mixtures_00090_condition01"
+        ],
+        "available_utterances": 500,
+        "selected_utterances": 4
+      },
+      "scope": "4 development clips; full INT8 neural graph with floating DSP and floating waveform I/O; no QAT or on-device result"
+    },
+    "interpretation": "RMS-normalized and raw checkpoints have independently trained weights and differing epochs. This is a promising comparison, not isolated causal attribution to normalization."
+  },
+  "frontier_float_observation": {
+    "utc": "2026-09-13 09:03",
+    "teacher_external_si_sdri": 9.607125573495635,
+    "gtcrn_external_si_sdri": 9.425220961401797,
+    "normalized_gtcrn_external_si_sdri": 8.750153580427897,
+    "scope": "Ongoing training, development selection, floating point only"
+  },
+  "probe_backup_01": {
+    "sha256": "bbe41c3be9d4d33e00725a8177c0688bbad5de36d3b3c08c10ced5be9feb66ab",
+    "bytes": 1114422,
+    "drive_file_id": "1KLxpK9Xs31Er1kL3zGJPkawfLwrr97bU",
+    "local_path": "output/esp32/gtcrn_probes_01"
+  },
+  "large_training_queue": {
+    "pid": 118723,
+    "script_sha256": "b7ebdec415fef9961cd034b321f3f1221581ee2b0920f9c1571b3e9fe8e49ba4",
+    "script": "output/esp32/large_colab_round.py",
+    "status": "queued behind existing raw and normalized GTCRN runs",
+    "branches": 2,
+    "epochs_each": 240,
+    "examples_per_epoch": 43208,
+    "batch_size": 48,
+    "max_training_hours_each": 12,
+    "patience": 60,
+    "selection": "external development every 10 epochs",
+    "automatic_postprocessing": "128 training crop MSE calibration, actual full C PCM16 external500/clean100/primary770 evaluation",
+    "test_access": false,
+    "user_priority": "Longer Colab GPU runs; reduce agent analysis and monitoring usage"
+  },
+  "gtcrn_trained_s3_build": {
+    "report": "output/esp32/firmware_build/gtcrn_s3_graph/build_report.json",
+    "model_bytes": 46768,
+    "application_bytes": 298576,
+    "internal_runtime_arena_bytes": 53904,
+    "physical_board_run": false
+  },
+  "gtcrn_mse_actual_c_development": {
+    "gtcrn_probe_inputs": {
+      "report": "output/esp32/gtcrn_probes_04/gtcrn_probe_inputs/mse_full_c_pcm16_external500.json",
+      "summary": {
+        "utterances": 500,
+        "valid_utterances": 500,
+        "invalid_utterances": 0,
+        "si_sdr_noisy": 3.51303470544888,
+        "si_sdr_enhanced": 10.953861231054196,
+        "si_sdri": 7.440826525605316,
+        "weighting": "equal per utterance",
+        "metric": "zero-mean SI-SDR, capped +/-80 dB"
+      },
+      "perceptual": {
+        "utterances": 500,
+        "weighting": "equal per utterance, paired valid subset",
+        "pesq_wb": {
+          "valid_utterances": 500,
+          "invalid_utterances": 0,
+          "noisy": 1.4696227009296416,
+          "enhanced": 1.7896028735637666,
+          "improvement": 0.31998017263412476
+        },
+        "stoi": {
+          "valid_utterances": 500,
+          "invalid_utterances": 0,
+          "noisy": 0.8134186646338128,
+          "enhanced": 0.8277611686633328,
+          "improvement": 0.01434250402952002
+        },
+        "error_counts": {}
+      },
+      "model_bytes": 47088,
+      "scope": "Full C PCM16 on 500 external development mixtures; minmax and MSE calibrated on TRAIN only; not final test or MCU performance"
+    },
+    "gtcrn_normalized_probe_inputs": {
+      "report": "output/esp32/gtcrn_probes_04/gtcrn_normalized_probe_inputs/mse_full_c_pcm16_external500.json",
+      "summary": {
+        "utterances": 500,
+        "valid_utterances": 500,
+        "invalid_utterances": 0,
+        "si_sdr_noisy": 3.51303470544888,
+        "si_sdr_enhanced": 11.743511779907454,
+        "si_sdri": 8.230477074458575,
+        "weighting": "equal per utterance",
+        "metric": "zero-mean SI-SDR, capped +/-80 dB"
+      },
+      "perceptual": {
+        "utterances": 500,
+        "weighting": "equal per utterance, paired valid subset",
+        "pesq_wb": {
+          "valid_utterances": 500,
+          "invalid_utterances": 0,
+          "noisy": 1.4696227009296416,
+          "enhanced": 1.863414755821228,
+          "improvement": 0.3937920548915863
+        },
+        "stoi": {
+          "valid_utterances": 500,
+          "invalid_utterances": 0,
+          "noisy": 0.8134186646338128,
+          "enhanced": 0.8510738849983502,
+          "improvement": 0.03765522036453743
+        },
+        "error_counts": {}
+      },
+      "model_bytes": 47024,
+      "scope": "Full C PCM16 on 500 external development mixtures; minmax and MSE calibrated on TRAIN only; not final test or MCU performance"
+    }
+  },
+  "long_qat_queue": {
+    "script": "output/esp32/long_qat_round.py",
+    "script_sha256": "942a8a7e7ffb294c2f1cf29b620b17a930c9af39950ba18bcc8a60bbb2b9b338",
+    "status": "Queued behind successful eight-step GPU pilot and completed normalized parent",
+    "rounds": 80,
+    "examples_per_round": 4000,
+    "max_hours_per_attempt": 6,
+    "batch_size": 16,
+    "oom_only_batch_fallback": [
+      8,
+      4
+    ],
+    "selection": "Actual C PCM16 on full external development500; no test access"
+  },
+  "probe_backup_04": {
+    "path": "output/esp32/gtcrn_probes_04",
+    "archive_sha256": "a556328412867fc43dee78d4654cd683651a9816a187ac833b06ba9622dd75f5",
+    "bytes": 2597366,
+    "drive_file_id": "1A8u4gvd2zYmP1qXQgRJ_lVRdcEoIIlW1"
+  },
+  "crash_recovery_20260913": {
+    "status": "training_resumed_and_verified",
+    "runtime_survived": false,
+    "remaining_compute_units_observed": 89.33,
+    "gpu": "NVIDIA L4",
+    "restored_source_sha256": "eceb96444d0988d487f7a087190b5baf5437d54f949190dbf0ef67ec1e6a64d3",
+    "verified_full_backup_sha256": "15f1f5c62f5c85485f36c19a6806a2a8da5fc07afdc79e0a62e2628c0369cdfa",
+    "verified_probe_backup_sha256": "a556328412867fc43dee78d4654cd683651a9816a187ac833b06ba9622dd75f5",
+    "restored_raw_epoch": 43,
+    "restored_normalized_epoch": 25,
+    "drive_mount": "/content/drive/MyDrive/Colab Notebooks/ESP32 Frontier Experiments",
+    "unbacked_later_training_progress": "not recoverable from expired runtime",
+    "official_test_used": false,
+    "recovery_tools_drive_id": "114cyytW8ImBV56qaMgqisKTJCyjv1A4h",
+    "recovery_tools_sha256": "44fd43c6f03b55073d2f466a730c4ef571e6d96224e82e1b1ea8bacae7153668",
+    "cuda_acceptance": {
+      "passed": 23,
+      "seconds": 25.34
+    },
+    "source_identity_correction": {
+      "large_colab_round_actual_sha256": "ad3abfb423ca52201a94154533ba507bb96831a21e65c5d1914d8793f8fcd8c8",
+      "stale_recorded_sha256": "b7ebdec415fef9961cd034b321f3f1221581ee2b0920f9c1571b3e9fe8e49ba4",
+      "note": "Guard stopped first recovery before launching training; corrected to locally reviewed file."
+    },
+    "verified_at_utc": "2026-09-13T18:50:00Z",
+    "observed_epochs": {
+      "float_gtcrn_broad": 48,
+      "float_gtcrn_broad_normalized": 30
+    },
+    "data_validation": {
+      "voicebank_audio_files": 23144,
+      "development_wav_hashes_verified": 1200,
+      "original_manifest_hashes_restored": true
+    },
+    "qat_pilot_status": "complete",
+    "queued_long_runs": {
+      "large_float_branches": 2,
+      "epochs_each": 240,
+      "examples_per_epoch": 43208,
+      "long_qat_waiting_for_normalized_parent": true
+    },
+    "controllers": {
+      "supervisor_pid": 16131,
+      "supervisor_create_time": 1789325352.92,
+      "raw_selector_pid": 16147,
+      "large_queue_pid": 16148,
+      "qat_wrapper_pid": 13184,
+      "durable_backup_pid": 14617
+    },
+    "durable_backup": {
+      "interval_minutes": 15,
+      "first_archive": "esp32_20260913T184442Z_ebec1f8a.zip",
+      "sha256": "53a45455569f6d1bf98da3d1bf27ce2ffd8a2e027564deb03f99af0ab7572734",
+      "included_files": 497,
+      "remote_readback_verified": true
+    },
+    "selector_repair": {
+      "added_legacy_defaults": {
+        "normalize_input": false,
+        "rms_floor": 0.0001
+      },
+      "weights_and_metrics_unchanged": true,
+      "repair_tools_drive_id": "1E0rXk0-ZTna7xuOl49AXSEns0lrwdkd9",
+      "repair_tools_sha256": "8ff16420cbf3afa8a383eb474f04b8ba4f6540ed5205e15e1fe9998c07b3899c",
+      "raw_selector_verified_epoch": 48,
+      "raw_selector_si_sdri": 9.102012924327893
+    },
+    "notebook_execution": "Active cell attached to recover_colab_completion.py; historical cells must not be run all."
+  },
+  "training_update_20260913_2245": {
+    "observed_from": "Verified immutable Drive snapshots; Colab browser reconnect stalled",
+    "snapshot_utc": "2026-09-13T22:45:03Z",
+    "raw_large_epoch": 62,
+    "normalized_large_epoch": 55,
+    "target_epochs_each": 240,
+    "best_float_external500_si_sdri": 10.018995811338977,
+    "best_float_checkpoint_epoch": 60,
+    "best_qat_c_pcm16_external500_si_sdri": 9.202213762239209,
+    "previous_best_c_pcm16_external500_si_sdri": 8.230477074458575,
+    "improvement_db": 0.9717366877806342,
+    "packed_bytes": 46768,
+    "packed_sha256": "dd9c1c83a44bea891fad7d47591578b57a4b3d0d54f2942a17e5402d4ca93e3f",
+    "qat_completed_rounds": 1,
+    "qat_completed_round_optimizer_steps": 250,
+    "qat_active_round": 2,
+    "qat_latest_logged_step": 100,
+    "last_qat_elapsed_seconds": 10526.309324923,
+    "compute_units_observed": 82.71,
+    "latest_drive_backup_id": "1CCz_JTP7CxI9rbAl0MNA4onFck8hre05",
+    "latest_drive_backup_sha256": "856330c3493d0477c53cc968c20158f0911a339165076ef5b9cfaeef5610bf2b",
+    "candidate_drive_backup_id": "1zIIm_C3Oic9367pTRNzlF52moaOF1qiC",
+    "candidate_local_directory": "output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg",
+    "official_test_used": false,
+    "esp32_hardware_timing": "unmeasured"
+  },
+  "connection_repair_20260914_0122": {
+    "verified_at_utc": "2026-09-14T01:22:36Z",
+    "runtime_hostname": "2acfc3687f2c",
+    "primary_notebook_ui": "Connected to Python 3 Google Compute Engine backend (GPU)",
+    "gpu": "NVIDIA L4",
+    "gpu_utilization_percent": 99,
+    "gpu_memory_used_mib": 9383,
+    "raw_large_epoch": 109,
+    "normalized_large_epoch": 102,
+    "qat_active_round": 3,
+    "qat_latest_step": 175,
+    "qat_elapsed_seconds": 20057.682597612,
+    "preserved_processes": [
+      16131,
+      16148,
+      13184,
+      14617,
+      32490
+    ],
+    "process_create_times_unchanged": true,
+    "repair": "Stopped the foreground status observer by SIGINT to kernel PID 8290 only, then launched an asynchronous background observer. No process-group signals or runtime restart.",
+    "observer_path": "output/esp32/colab_async_status.py",
+    "observer_sha256": "b295a83b8de345355ed429eebcc4e653ca1cda9b2b568facbf488cad4d17baf4",
+    "observer_drive_id": "1zGGNk9DCMPk8fGpKu0wUOOQHHMxHKWMs",
+    "latest_backup_archive": "esp32_20260914T011512Z_cfef43ce.zip",
+    "latest_backup_sha256": "fd0a10166d344d28af8fb698afefda47d125a9c9ad2958ecaccf205ff86b3728",
+    "latest_backup_created_unix": 1789348513.6571681,
+    "diagnostic_tab_closed": true,
+    "fresh_tab_reconnect": "Foreground observer versions stalled. After background launch, primary notebook remained connected; diagnostic reload reached Connect without attaching automatically.",
+    "training_complete": false
+  },
+  "training_update_20260914_1845": {
+    "observed_at_utc": "2026-09-14T18:45:37Z",
+    "current_runtime_hostname": "62e5dd89e4b2",
+    "current_gpu_utilization_percent": 0,
+    "prior_runtime_lost": true,
+    "current_runtime_has_training_directory": false,
+    "training_currently_running": false,
+    "last_backup_utc": "2026-09-14T04:00:23Z",
+    "last_backup_drive_id": "1PSPIQEBcZTtwwHkBJU0qB2fhu5nN5Y-R",
+    "last_backup_sha256": "bf48918f323753595e0adfe29b493bae163e9f30408045b022990ba39d73b1c5",
+    "raw_large_saved_epoch": 158,
+    "normalized_large_saved_epoch": 151,
+    "target_epochs_each": 240,
+    "large_runs_completed": false,
+    "qat_completed_rounds": 2,
+    "qat_best_round": 1,
+    "qat_stop_reason": "Six-hour cap; partial third round discarded",
+    "qat_final_development_evaluations_complete": true,
+    "best_float_external500_si_sdri": 10.081382218241627,
+    "best_float_checkpoint_epoch": 150,
+    "best_qat_packed_bytes": 46768,
+    "external500_metrics": {
+      "utterances": 500,
+      "valid_utterances": 500,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 3.51303470544888,
+      "si_sdr_enhanced": 12.71524846768809,
+      "si_sdri": 9.202213762239209,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "external500_perceptual": {
+      "utterances": 500,
+      "weighting": "equal per utterance, paired valid subset",
+      "pesq_wb": {
+        "valid_utterances": 500,
+        "invalid_utterances": 0,
+        "noisy": 1.4696227009296416,
+        "enhanced": 1.9863233790397643,
+        "improvement": 0.5167006781101227
+      },
+      "stoi": {
+        "valid_utterances": 500,
+        "invalid_utterances": 0,
+        "noisy": 0.8134186646338128,
+        "enhanced": 0.8646324120751887,
+        "improvement": 0.051213747441375856
+      },
+      "error_counts": {}
+    },
+    "primary770_metrics": {
+      "utterances": 770,
+      "valid_utterances": 770,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 6.016738904979768,
+      "si_sdr_enhanced": 13.500379185544842,
+      "si_sdri": 7.483640280565076,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "primary770_perceptual": {
+      "utterances": 770,
+      "weighting": "equal per utterance, paired valid subset",
+      "pesq_wb": {
+        "valid_utterances": 770,
+        "invalid_utterances": 0,
+        "noisy": 1.5700197656433303,
+        "enhanced": 1.924167714490519,
+        "improvement": 0.3541479488471886
+      },
+      "stoi": {
+        "valid_utterances": 770,
+        "invalid_utterances": 0,
+        "noisy": 0.8125170903782315,
+        "enhanced": 0.8249460208747056,
+        "improvement": 0.012428930496474
+      },
+      "error_counts": {}
+    },
+    "official_test_used": false,
+    "esp32_hardware_timing": "unmeasured"
+  },
+  "continuation_20260914": {
+    "status": "training",
+    "started_utc": "2026-09-14T19:15:20Z",
+    "runtime_hostname": "62e5dd89e4b2",
+    "gpu": "NVIDIA L4",
+    "compute_units_observed_before_start": 74.2,
+    "observed_units_per_hour": 1.54,
+    "restored_archives": 38,
+    "restored_files": 594,
+    "restore_target": "esp32_20260914T040022Z_33aac2b4.zip",
+    "restore_target_sha256": "bf48918f323753595e0adfe29b493bae163e9f30408045b022990ba39d73b1c5",
+    "supervisor_pid": 16204,
+    "first_new_backup": "esp32_20260914T191520Z_13ca9778.zip",
+    "control_bundle_drive_id": "1YEE6mR2z7AXbaeTgaSiTAkvjXPgP5tw0",
+    "control_bundle_sha256": "0700a5adaf11f0e8b2d01fefe053e4ebe95fae8275dec5fe550d7b395ac2dbd8",
+    "raw_resume_epoch": 158,
+    "normalized_resume_epoch": 151,
+    "target_epochs": 240,
+    "additional_float_training_cap_hours_each": 5,
+    "subsequent_qat_cap_hours": 6,
+    "subsequent_qat_seed": "Better full C PCM16 external500 result among the two new large exports",
+    "champion_rule": "Maximum score across historical, new large INT8 export, and new QAT on identical development input; ties retain incumbent",
+    "backup_interval_minutes": 15,
+    "official_test_used": false,
+    "physical_esp32_timing_measured": false,
+    "current_champion_build": {
+      "directory": "output/esp32/firmware_build/gtcrn_s3_champion_20260914",
+      "build_report_sha256": "350bbc3a981117b10cea89b96a3f164f0cf7b6fa7755a450388b28816a67e557",
+      "packed_sha256": "dd9c1c83a44bea891fad7d47591578b57a4b3d0d54f2942a17e5402d4ca93e3f",
+      "packed_bytes": 46768,
+      "firmware_bytes": 298576,
+      "target_runtime_arena_bytes": 53904,
+      "explicit_audio_reservations_bytes": 64080,
+      "host_known_answer_frames": 12,
+      "physical_board_tested": false
+    },
+    "verified_at_utc": "2026-09-14T19:34:00Z",
+    "gpu_utilization_percent": 99,
+    "gpu_memory_used_mib": 3972,
+    "raw_observed_epoch": 159,
+    "normalized_observed_epoch": 152,
+    "raw_training_pid": 20244,
+    "normalized_training_pid": 20246,
+    "gpu_acceptance_tests_passed": 23,
+    "gpu_acceptance_seconds": 21.79,
+    "original_source_parquet_archives_matched": 5,
+    "development_waveform_hashes_verified": 1200,
+    "voicebank_matching_ids": 23144,
+    "voicebank_container_note": "Container hashes differ because FLOAT WAV PEAK timestamps are regenerated. Five source parquet archives match the prior runtime; three representative containers were verified identical after replacing only the PEAK timestamp in memory. No audio files were modified."
+  },
+  "update_20260915": {
+    "verified_at_utc": "2026-09-15T08:59:46.637101+00:00",
+    "stage_status": "training_and_evaluation_complete",
+    "completed_at_utc": "2026-09-15T06:44:49Z",
+    "raw_final_epoch": 240,
+    "normalized_final_epoch": 240,
+    "qat_completed_epochs": 8,
+    "qat_complete_optimizer_steps": 2000,
+    "qat_hours": 6.000661927576112,
+    "selected_qat_epoch": 7,
+    "global_champion": {
+      "kind": "qat",
+      "directory": "/content/esp32_runs/post_large_qat_20260914/qat/candidates/epoch0007-6ln623u5",
+      "packed_sha256": "3239dde377b30a9fc59a9a436f8dfa70e93b1a0b71f67a846869470c2a8fbc10",
+      "si_sdri": 9.42946036812973
+    },
+    "packed_bytes": 46784,
+    "learned_parameters": 23669,
+    "historical_fp32_parameter_bytes": 11854856,
+    "payload_size_reduction": 253.39551983584133,
+    "qat_gain_over_seed_db": 0.17038880597106676,
+    "gain_over_historical_db": 0.22724660589052093,
+    "cohorts": {
+      "external": {
+        "summary": {
+          "utterances": 500,
+          "valid_utterances": 500,
+          "invalid_utterances": 0,
+          "si_sdr_noisy": 3.51303470544888,
+          "si_sdr_enhanced": 12.94249507357861,
+          "si_sdri": 9.42946036812973,
+          "weighting": "equal per utterance",
+          "metric": "zero-mean SI-SDR, capped +/-80 dB"
+        },
+        "perceptual": {
+          "utterances": 500,
+          "weighting": "equal per utterance, paired valid subset",
+          "pesq_wb": {
+            "valid_utterances": 500,
+            "invalid_utterances": 0,
+            "noisy": 1.4696227009296416,
+            "enhanced": 2.032898158788681,
+            "improvement": 0.5632754578590393
+          },
+          "stoi": {
+            "valid_utterances": 500,
+            "invalid_utterances": 0,
+            "noisy": 0.8134186646338128,
+            "enhanced": 0.8690634158967606,
+            "improvement": 0.055644751262947816
+          },
+          "error_counts": {}
+        },
+        "preservation": {
+          "projection_gain": {
+            "valid_utterances": 500,
+            "mean": 0.9043538349523234,
+            "min": 0.36693436988385564,
+            "max": 0.9925690443486109
+          },
+          "rms_ratio": {
+            "valid_utterances": 500,
+            "mean": 0.9655135769570501,
+            "min": 0.6183104267184926,
+            "max": 2.098206609031729
+          },
+          "normalized_waveform_l1": {
+            "valid_utterances": 500,
+            "mean": 0.1666353556720021,
+            "min": 0.02159369768653289,
+            "max": 0.840727859981285
+          },
+          "waveform_l1": {
+            "valid_utterances": 500,
+            "mean": 0.008085056205606029,
+            "min": 0.0007285544077555338,
+            "max": 0.0656507724488958
+          },
+          "peak_abs_max": 0.978759765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_out_of_range_utterances": 0,
+          "pcm16_rail_or_exceeds_samples": 0,
+          "pcm16_rail_or_exceeds_utterances": 0
+        },
+        "timing": {
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "device": "cpu",
+          "measurement": "Host offline throughput, including DSP and neural inference; not ESP32 performance or acoustic latency",
+          "audio_seconds": 1492.975,
+          "processing_seconds": 246.54965929307946,
+          "processing_rtf": 0.1651398444669733,
+          "excludes": "compilation, model loading, disk I/O, metric computation",
+          "torch_threads": 2
+        }
+      },
+      "primary": {
+        "summary": {
+          "utterances": 770,
+          "valid_utterances": 770,
+          "invalid_utterances": 0,
+          "si_sdr_noisy": 6.016738904979768,
+          "si_sdr_enhanced": 13.632137937782103,
+          "si_sdri": 7.615399032802336,
+          "weighting": "equal per utterance",
+          "metric": "zero-mean SI-SDR, capped +/-80 dB"
+        },
+        "perceptual": {
+          "utterances": 770,
+          "weighting": "equal per utterance, paired valid subset",
+          "pesq_wb": {
+            "valid_utterances": 770,
+            "invalid_utterances": 0,
+            "noisy": 1.5700197656433303,
+            "enhanced": 1.9553219933014412,
+            "improvement": 0.3853022276581108
+          },
+          "stoi": {
+            "valid_utterances": 770,
+            "invalid_utterances": 0,
+            "noisy": 0.8125170903782315,
+            "enhanced": 0.8296430927033173,
+            "improvement": 0.017126002325085717
+          },
+          "error_counts": {}
+        },
+        "preservation": {
+          "projection_gain": {
+            "valid_utterances": 770,
+            "mean": 0.9224666215587772,
+            "min": 0.5433586821172413,
+            "max": 0.9916094542934899
+          },
+          "rms_ratio": {
+            "valid_utterances": 770,
+            "mean": 0.9607520737696769,
+            "min": 0.5735144902302023,
+            "max": 1.290990465387758
+          },
+          "normalized_waveform_l1": {
+            "valid_utterances": 770,
+            "mean": 0.15980607306333122,
+            "min": 0.03611579088735473,
+            "max": 0.6257884163777109
+          },
+          "waveform_l1": {
+            "valid_utterances": 770,
+            "mean": 0.010217776422176523,
+            "min": 0.002329734826400667,
+            "max": 0.04867560260790066
+          },
+          "peak_abs_max": 0.722198486328125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_out_of_range_utterances": 0,
+          "pcm16_rail_or_exceeds_samples": 0,
+          "pcm16_rail_or_exceeds_utterances": 0
+        },
+        "timing": {
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "device": "cpu",
+          "measurement": "Host offline throughput, including DSP and neural inference; not ESP32 performance or acoustic latency",
+          "audio_seconds": 2279.5793125,
+          "processing_seconds": 376.09610339804203,
+          "processing_rtf": 0.16498487301395093,
+          "excludes": "compilation, model loading, disk I/O, metric computation",
+          "torch_threads": 2
+        }
+      },
+      "clean": {
+        "summary": {
+          "utterances": 100,
+          "valid_utterances": 100,
+          "invalid_utterances": 0,
+          "si_sdr_noisy": 80.0,
+          "si_sdr_enhanced": 43.10013445408839,
+          "si_sdri": -36.89986554591161,
+          "weighting": "equal per utterance",
+          "metric": "zero-mean SI-SDR, capped +/-80 dB"
+        },
+        "perceptual": {
+          "utterances": 100,
+          "weighting": "equal per utterance, paired valid subset",
+          "pesq_wb": {
+            "valid_utterances": 100,
+            "invalid_utterances": 0,
+            "noisy": 4.643888473510742,
+            "enhanced": 4.439001801013947,
+            "improvement": -0.20488667249679565
+          },
+          "stoi": {
+            "valid_utterances": 100,
+            "invalid_utterances": 0,
+            "noisy": 0.9999999999999994,
+            "enhanced": 0.9911854842109143,
+            "improvement": -0.008814515789085037
+          },
+          "error_counts": {}
+        },
+        "preservation": {
+          "projection_gain": {
+            "valid_utterances": 100,
+            "mean": 0.9808879130152935,
+            "min": 0.6949583895413713,
+            "max": 0.9921890817956834
+          },
+          "rms_ratio": {
+            "valid_utterances": 100,
+            "mean": 0.984928594134563,
+            "min": 0.83115578539629,
+            "max": 0.9921891101385283
+          },
+          "normalized_waveform_l1": {
+            "valid_utterances": 100,
+            "mean": 0.03451523392570594,
+            "min": 0.0031890985018849295,
+            "max": 0.5432464182836517
+          },
+          "waveform_l1": {
+            "valid_utterances": 100,
+            "mean": 0.0018061548762670593,
+            "min": 0.00011195182800292969,
+            "max": 0.024870913187662762
+          },
+          "peak_abs_max": 0.9827880859375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_out_of_range_utterances": 0,
+          "pcm16_rail_or_exceeds_samples": 0,
+          "pcm16_rail_or_exceeds_utterances": 0
+        },
+        "timing": {
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "device": "cpu",
+          "measurement": "Host offline throughput, including DSP and neural inference; not ESP32 performance or acoustic latency",
+          "audio_seconds": 300.0,
+          "processing_seconds": 49.54048618496745,
+          "processing_rtf": 0.1651349539498915,
+          "excludes": "compilation, model loading, disk I/O, metric computation",
+          "torch_threads": 2
+        }
+      }
+    },
+    "compute_units_observed": 53.03,
+    "current_runtime": {
+      "hostname": "b8129df4b520",
+      "gpu": "NVIDIA L4",
+      "gpu_utilization_percent": 0,
+      "training_processes_observed": false,
+      "training_files_present": false,
+      "note": "Connected fresh idle runtime; completed run is preserved in Drive snapshots."
+    },
+    "official_test_used": false,
+    "new_champion_esp32_cross_build_complete": false,
+    "physical_board_timing_measured": false,
+    "provenance": {
+      "model.bin": {
+        "snapshot": "esp32_20260915T053101Z_4db3073c.zip",
+        "member": "post_large_qat_20260914/qat/candidates/epoch0007-6ln623u5/model.bin",
+        "sha256": "3239dde377b30a9fc59a9a436f8dfa70e93b1a0b71f67a846869470c2a8fbc10"
+      },
+      "model.pt": {
+        "snapshot": "esp32_20260915T053101Z_4db3073c.zip",
+        "member": "post_large_qat_20260914/qat/candidates/epoch0007-6ln623u5/model.pt",
+        "sha256": "4fda20509fa06dee28a59e680085b96bbe88022f9152d34bb6b39d9650c2d84f"
+      },
+      "model.calibration.json": {
+        "snapshot": "esp32_20260915T053101Z_4db3073c.zip",
+        "member": "post_large_qat_20260914/qat/candidates/epoch0007-6ln623u5/model.calibration.json",
+        "sha256": "7a928f6e8c7467aca63dd6dd4ed3f4552ec993de3e09b9d97348dfc228c77c29"
+      },
+      "evaluation.json": {
+        "snapshot": "esp32_20260915T053101Z_4db3073c.zip",
+        "member": "post_large_qat_20260914/qat/candidates/epoch0007-6ln623u5/evaluation.json",
+        "sha256": "78bdff57fa6914161c1d85ce612d24dbe688a970a5325f28dac79281b7026d1d"
+      },
+      "external_final_development.json": {
+        "snapshot": "esp32_20260915T064448Z_2d799359.zip",
+        "member": "post_large_qat_20260914/external_final_development.json",
+        "sha256": "38a010d1b861d67ab953fce1cb2bd500b0bdcc96e3bd23be8aa456b82155b3ac"
+      },
+      "primary_final_development.json": {
+        "snapshot": "esp32_20260915T064448Z_2d799359.zip",
+        "member": "post_large_qat_20260914/primary_final_development.json",
+        "sha256": "9c6110b9c175a223e4ab305f05877bf1656aa82283b8b6122e16cb981e0257c7"
+      },
+      "clean_final_development.json": {
+        "snapshot": "esp32_20260915T064448Z_2d799359.zip",
+        "member": "post_large_qat_20260914/clean_final_development.json",
+        "sha256": "f50aad58ba83f3728c2a2bcd904f6d8e537ad8aba72213434910c7e18994daf4"
+      }
+    },
+    "final_snapshot_sha256": "e821107a1d973b334ed0150e0e09dab7962650f97835187da9380d7ad5928729"
+  }
+}

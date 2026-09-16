@@ -1,0 +1,8 @@
+{
+  "hidden_exponent": -4,
+  "float_si_sdri": 7.518225481638917,
+  "ptq_si_sdri": 7.2342259293022515,
+  "drop": 0.28399955233666585,
+  "utterances": 770,
+  "checkpoint_epoch": 38
+}

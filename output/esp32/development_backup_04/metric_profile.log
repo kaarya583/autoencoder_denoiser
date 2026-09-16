@@ -1,0 +1,10 @@
+POOLS [{"user_api": "blas", "internal_api": "openblas", "num_threads": 12, "prefix": "libscipy_openblas", "filepath": "/usr/local/lib/python3.13/dist-packages/numpy.libs/libscipy_openblas64_-ff651d7f.so", "version": "0.3.27", "threading_layer": "pthreads", "architecture": "SkylakeX"}, {"user_api": "openmp", "internal_api": "openmp", "num_threads": 6, "prefix": "libgomp", "filepath": "/usr/local/lib/python3.13/dist-packages/torch/lib/libgomp.so.1", "version": null}, {"user_api": "blas", "internal_api": "openblas", "num_threads": 12, "prefix": "libscipy_openblas", "filepath": "/usr/local/lib/python3.13/dist-packages/scipy.libs/libscipy_openblas-b75cc656.so", "version": "0.3.29.dev", "threading_layer": "pthreads", "architecture": "SkylakeX"}]
+None preservation 0.028569091800090974
+None PESQ 0.17753103239992923
+None STOI 0.03707219600000826
+1 preservation 0.001189822200103663
+1 PESQ 0.16655503080000927
+1 STOI 0.03474365100009891
+2 preservation 0.0019213522002246464
+2 PESQ 0.1684233674001007
+2 STOI 0.03444698880011856

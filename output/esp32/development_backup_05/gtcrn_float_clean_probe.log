@@ -1,0 +1,4 @@
+{"event": "evaluation", "completed": 1, "total": 100}
+{"event": "evaluation", "completed": 51, "total": 100}
+{"event": "evaluation", "completed": 100, "total": 100}
+{"event": "evaluation_complete", "utterances": 100, "valid_utterances": 100, "invalid_utterances": 0, "si_sdr_noisy": 80.0, "si_sdr_enhanced": 35.698700225557474, "si_sdri": -44.301299774442526, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/gtcrn_probe_inputs/float_clean.json"}

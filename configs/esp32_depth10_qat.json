@@ -1,0 +1,29 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/qat_depth10",
+  "epochs": 25,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.0001,
+  "min_learning_rate": 5e-06,
+  "max_hours": 2.0,
+  "patience": 8,
+  "workers": 2,
+  "phase": "qat",
+  "resume": "/content/esp32_runs/float_depth10/best.pt",
+  "amp": false,
+  "width": 56,
+  "dilations": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    1,
+    2,
+    4,
+    8,
+    16
+  ]
+}

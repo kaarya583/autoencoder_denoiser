@@ -1,0 +1,7 @@
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/packed.c:29:13:sha_block	352	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/packed.c:98:15:array_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/packed.c:143:20:buffer	48	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/packed.c:65:13:sha_finish	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/packed.c:74:12:table_hash	176	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/packed.c:90:8:edng_handle_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/packed.c:167:5:edng_init	288	static

@@ -1,0 +1,2 @@
+{"event": "frozen_float_source", "epoch": 70, "external_si_sdri": 6.921919059964622, "checkpoint_sha256": "75e9a1c8c2f538963c9e222aa626f45867edf45b44bdf8de85ce8553f6e2a404", "config_sha256": "9caa3a313920d6f40464fe85ce957b835157b2b20cbe3412095aa0af957c67a2"}
+QAT_PID 88929 QAT_EXTERNAL_PID 88930

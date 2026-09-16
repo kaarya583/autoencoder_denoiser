@@ -1,0 +1,22 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_zero_bias_broad_continue",
+  "epochs": 80,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.0002,
+  "max_hours": 4,
+  "patience": 80,
+  "workers": 2,
+  "phase": "float",
+  "zero_depthwise_bias": true,
+  "min_learning_rate": 5e-05,
+  "resume": "/content/esp32_runs/broad_continuation_inputs/student.pt",
+  "resume_optimizer": false,
+  "synthetic_speech_manifest": "/content/extra_audio/manifests/speech_train.jsonl",
+  "synthetic_noise_manifest": "/content/extra_audio/manifests/noise_train.jsonl",
+  "synthetic_probability": 0.5,
+  "epoch_samples": 10802,
+  "waveform_loss_weight": 0.1
+}

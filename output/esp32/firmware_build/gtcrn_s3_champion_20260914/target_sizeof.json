@@ -1,0 +1,22 @@
+{
+  "graph": {
+    "sizeof(edng_model)": 1576,
+    "sizeof(edng_operator)": 20,
+    "sizeof(edng_workspace)": 17536,
+    "EDNG_NEURAL_STATE_BYTES": 18048
+  },
+  "affine": {
+    "sizeof(ednx_affine)": 96
+  },
+  "primitives": {
+    "sizeof(ednx_gru)": 52,
+    "sizeof(ednx_layer_norm)": 32
+  },
+  "audio": {
+    "sizeof(edng_audio)": 12496,
+    "__alignof__(edng_audio)": 16
+  },
+  "erb": {
+    "sizeof(ednx_erb)": 20
+  }
+}

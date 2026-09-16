@@ -1,0 +1,6 @@
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/audio.c:32:12:io_valid	80	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/audio.c:25:8:edng_audio_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/audio.c:41:5:edng_audio_reset	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/audio.c:49:5:edng_audio_init	112	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/audio.c:80:5:edng_audio_process	96	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_gtcrn/audio.c:126:5:edng_audio_process_pcm16	2080	static

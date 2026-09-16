@@ -1,0 +1,16 @@
+[
+  {
+    "source": "https://www.openslr.org/resources/12/train-clean-100.tar.gz",
+    "file": "train-clean-100.tar.gz",
+    "bytes": 6387309499,
+    "sha256": "d4ddd1d5a6ab303066f14971d768ee43278a5f2a0aa43dc716b0e64ecbbbf6e2",
+    "md5": "2a93770f6d5c6c964bc36631d331a522"
+  },
+  {
+    "source": "https://www.openslr.org/resources/17/musan.tar.gz",
+    "file": "musan.tar.gz",
+    "bytes": 11086114085,
+    "sha256": "86d1061c7e15b5c9e906777685c519701df51bfde3001e1070dcc9ffac955ee1",
+    "md5": "0c472d4fc0c5141eca47ad1ffeb2a7df"
+  }
+]

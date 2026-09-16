@@ -1,0 +1,23 @@
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "recurrent_probe_complete", "output": "/content/esp32_runs/gtcrn_probe_inputs/gru_probe_full500.json", "valid_utterances": 500, "invalid_utterances": 0, "float_si_sdri": 8.687519630776611, "recurrent_int8_si_sdri": 8.66535476283037, "probe_minus_float_db": -0.02216486794624202, "weighting": "equal common valid utterances"}

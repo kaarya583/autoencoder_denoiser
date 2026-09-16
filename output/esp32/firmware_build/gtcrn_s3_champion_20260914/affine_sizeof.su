@@ -1,0 +1,16 @@
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:170:12:stream_shape	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:54:8:ednx_affine_handle_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:55:5:ednx_affine_init	160	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:100:5:ednx_affine_output_shape	64	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:119:5:ednx_affine_run	256	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:182:8:ednx_stream_history_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:187:8:ednx_stream_workspace_bytes	64	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:192:5:ednx_stream_conv	160	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:219:5:ednx_regrid	48	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:225:5:ednx_residual	96	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:232:5:ednx_prelu	80	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:243:5:ednx_lut	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:249:5:ednx_attention_energy	80	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:260:5:ednx_attention_product	96	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:267:5:ednx_subband	80	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_int8/operators.c:276:5:ednx_shuffle	32	static

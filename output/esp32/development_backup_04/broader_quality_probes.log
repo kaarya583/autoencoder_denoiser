@@ -1,0 +1,32 @@
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+PROBE zero_bias_float_external 86 0.35969385837498924
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+PROBE paired_teacher_float_external 70 0.19064657997223028
+{"event": "evaluation", "completed": 1, "total": 100}
+{"event": "evaluation", "completed": 51, "total": 100}
+{"event": "evaluation", "completed": 100, "total": 100}
+PROBE broad_student_float_clean 19 -53.22781822352438
+{"event": "evaluation", "completed": 1, "total": 100}
+{"event": "evaluation", "completed": 51, "total": 100}
+{"event": "evaluation", "completed": 100, "total": 100}
+PROBE broad_teacher_float_clean 27 -47.7963336188581

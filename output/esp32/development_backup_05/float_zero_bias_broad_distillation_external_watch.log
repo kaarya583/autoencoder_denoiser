@@ -1,0 +1,3 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_distillation", "epoch": 0, "si_sdri": 6.396584530236894}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_distillation", "epoch": 5, "si_sdri": 6.470949469631901}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_distillation", "epoch": 10, "si_sdri": 6.5576597883672765}

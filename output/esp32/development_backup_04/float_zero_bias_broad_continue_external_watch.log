@@ -1,0 +1,7 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_continue", "epoch": 0, "si_sdri": 5.941089235365464}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_continue", "epoch": 5, "si_sdri": 6.192121564656081}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_continue", "epoch": 10, "si_sdri": 6.396584548285986}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_continue", "epoch": 15, "si_sdri": 6.361187653589775}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_continue", "epoch": 20, "si_sdri": 6.515324353099228}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_continue", "epoch": 25, "si_sdri": 6.6064246668910505}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad_continue", "epoch": 30, "si_sdri": 6.618697300454722}

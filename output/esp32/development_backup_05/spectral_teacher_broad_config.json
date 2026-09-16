@@ -1,0 +1,20 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_spectral_teacher_broad",
+  "epochs": 160,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.001,
+  "max_hours": 6,
+  "patience": 25,
+  "workers": 2,
+  "phase": "float",
+  "zero_depthwise_bias": true,
+  "width": 256,
+  "feature_layout": "fullmag_lowphase",
+  "synthetic_speech_manifest": "/content/extra_audio/manifests/speech_train.jsonl",
+  "synthetic_noise_manifest": "/content/extra_audio/manifests/noise_train.jsonl",
+  "synthetic_probability": 0.5,
+  "epoch_samples": 21604
+}

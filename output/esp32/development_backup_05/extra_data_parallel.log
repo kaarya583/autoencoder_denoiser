@@ -1,0 +1,301 @@
+Downloading train-clean-100.tar.gz
+[#7252bb 3.1GiB/5.9GiB(52%) CN:4 DL:0B]
+[#7252bb 3.1GiB/5.9GiB(52%) CN:4 DL:6.2MiB ETA:7m39s]
+[#7252bb 3.1GiB/5.9GiB(53%) CN:4 DL:29MiB ETA:1m35s]
+[#7252bb 3.2GiB/5.9GiB(54%) CN:4 DL:41MiB ETA:1m6s]
+[#7252bb 3.3GiB/5.9GiB(55%) CN:4 DL:47MiB ETA:57s]
+[#7252bb 3.3GiB/5.9GiB(56%) CN:4 DL:50MiB ETA:51s]
+[#7252bb 3.4GiB/5.9GiB(57%) CN:4 DL:53MiB ETA:48s]
+[#7252bb 3.4GiB/5.9GiB(58%) CN:4 DL:54MiB ETA:45s]
+[#7252bb 3.5GiB/5.9GiB(59%) CN:4 DL:55MiB ETA:43s]
+[#7252bb 3.6GiB/5.9GiB(60%) CN:4 DL:56MiB ETA:42s]
+[#7252bb 3.6GiB/5.9GiB(61%) CN:4 DL:56MiB ETA:41s]
+[#7252bb 3.7GiB/5.9GiB(62%) CN:4 DL:61MiB ETA:36s]
+[#7252bb 3.7GiB/5.9GiB(63%) CN:4 DL:62MiB ETA:35s]
+[#7252bb 3.8GiB/5.9GiB(64%) CN:4 DL:61MiB ETA:35s]
+[#7252bb 3.8GiB/5.9GiB(65%) CN:4 DL:60MiB ETA:34s]
+[#7252bb 3.9GiB/5.9GiB(66%) CN:4 DL:59MiB ETA:34s]
+[#7252bb 4.0GiB/5.9GiB(67%) CN:4 DL:58MiB ETA:33s]
+[#7252bb 4.0GiB/5.9GiB(68%) CN:4 DL:58MiB ETA:32s]
+[#7252bb 4.1GiB/5.9GiB(69%) CN:4 DL:58MiB ETA:32s]
+[#7252bb 4.1GiB/5.9GiB(70%) CN:4 DL:57MiB ETA:31s]
+[#7252bb 4.2GiB/5.9GiB(71%) CN:4 DL:57MiB ETA:30s]
+[#7252bb 4.2GiB/5.9GiB(72%) CN:4 DL:57MiB ETA:29s]
+[#7252bb 4.3GiB/5.9GiB(73%) CN:4 DL:57MiB ETA:28s]
+[#7252bb 4.4GiB/5.9GiB(74%) CN:4 DL:58MiB ETA:27s]
+[#7252bb 4.4GiB/5.9GiB(75%) CN:4 DL:58MiB ETA:25s]
+[#7252bb 4.5GiB/5.9GiB(76%) CN:4 DL:59MiB ETA:24s]
+[#7252bb 4.5GiB/5.9GiB(77%) CN:4 DL:60MiB ETA:23s]
+[#7252bb 4.6GiB/5.9GiB(78%) CN:4 DL:60MiB ETA:21s]
+[#7252bb 4.7GiB/5.9GiB(79%) CN:4 DL:61MiB ETA:20s]
+[#7252bb 4.7GiB/5.9GiB(80%) CN:4 DL:62MiB ETA:19s]
+ *** Download Progress Summary as of Sun Sep 13 06:09:22 2026 *** 
+===============================================================================
+[#7252bb 4.8GiB/5.9GiB(81%) CN:4 DL:62MiB ETA:18s]
+FILE: /content/extra_audio/archives/train-clean-100.tar.gz.part
+-------------------------------------------------------------------------------
+
+[#7252bb 4.8GiB/5.9GiB(81%) CN:4 DL:62MiB ETA:18s]
+[#7252bb 4.9GiB/5.9GiB(82%) CN:4 DL:63MiB ETA:16s]
+[#7252bb 4.9GiB/5.9GiB(83%) CN:4 DL:63MiB ETA:15s]
+[#7252bb 5.0GiB/5.9GiB(84%) CN:4 DL:64MiB ETA:14s]
+[#7252bb 5.0GiB/5.9GiB(85%) CN:4 DL:64MiB ETA:13s]
+[#7252bb 5.1GiB/5.9GiB(86%) CN:4 DL:65MiB ETA:12s]
+[#7252bb 5.2GiB/5.9GiB(87%) CN:4 DL:65MiB ETA:11s]
+[#7252bb 5.2GiB/5.9GiB(88%) CN:4 DL:65MiB ETA:10s]
+[#7252bb 5.3GiB/5.9GiB(89%) CN:4 DL:65MiB ETA:9s]
+[#7252bb 5.4GiB/5.9GiB(91%) CN:4 DL:65MiB ETA:8s]
+[#7252bb 5.4GiB/5.9GiB(92%) CN:4 DL:66MiB ETA:7s]
+[#7252bb 5.5GiB/5.9GiB(93%) CN:4 DL:66MiB ETA:6s]
+[#7252bb 5.6GiB/5.9GiB(94%) CN:4 DL:66MiB ETA:5s]
+[#7252bb 5.6GiB/5.9GiB(95%) CN:4 DL:66MiB ETA:4s]
+[#7252bb 5.7GiB/5.9GiB(96%) CN:4 DL:66MiB ETA:3s]
+[#7252bb 5.7GiB/5.9GiB(97%) CN:4 DL:65MiB ETA:2s]
+[#7252bb 5.8GiB/5.9GiB(98%) CN:4 DL:66MiB ETA:1s]
+[#7252bb 5.9GiB/5.9GiB(99%) CN:4 DL:66MiB]
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+7252bb|OK  |    60MiB/s|/content/extra_audio/archives/train-clean-100.tar.gz.part
+
+Status Legend:
+(OK):download completed.
+Verified archive train-clean-100.tar.gz
+Downloading musan.tar.gz
+[#dd3302 192KiB/10GiB(0%) CN:4 DL:365KiB ETA:8h13m55s]
+[#dd3302 17MiB/10GiB(0%) CN:4 DL:10MiB ETA:16m9s]
+[#dd3302 80MiB/10GiB(0%) CN:4 DL:30MiB ETA:5m39s]
+[#dd3302 145MiB/10GiB(1%) CN:4 DL:40MiB ETA:4m18s]
+[#dd3302 210MiB/10GiB(1%) CN:4 DL:45MiB ETA:3m46s]
+[#dd3302 273MiB/10GiB(2%) CN:4 DL:48MiB ETA:3m30s]
+[#dd3302 337MiB/10GiB(3%) CN:4 DL:51MiB ETA:3m19s]
+[#dd3302 398MiB/10GiB(3%) CN:4 DL:52MiB ETA:3m13s]
+[#dd3302 461MiB/10GiB(4%) CN:4 DL:53MiB ETA:3m7s]
+[#dd3302 524MiB/10GiB(4%) CN:4 DL:54MiB ETA:3m2s]
+[#dd3302 586MiB/10GiB(5%) CN:4 DL:61MiB ETA:2m41s]
+[#dd3302 650MiB/10GiB(6%) CN:4 DL:63MiB ETA:2m35s]
+[#dd3302 713MiB/10GiB(6%) CN:4 DL:63MiB ETA:2m34s]
+[#dd3302 777MiB/10GiB(7%) CN:4 DL:63MiB ETA:2m33s]
+[#dd3302 840MiB/10GiB(7%) CN:4 DL:63MiB ETA:2m32s]
+[#dd3302 903MiB/10GiB(8%) CN:4 DL:63MiB ETA:2m31s]
+[#dd3302 0.9GiB/10GiB(9%) CN:4 DL:63MiB ETA:2m30s]
+[#dd3302 1.0GiB/10GiB(9%) CN:4 DL:63MiB ETA:2m29s]
+[#dd3302 1.0GiB/10GiB(10%) CN:4 DL:63MiB ETA:2m28s]
+[#dd3302 1.1GiB/10GiB(10%) CN:4 DL:63MiB ETA:2m27s]
+[#dd3302 1.1GiB/10GiB(11%) CN:4 DL:64MiB ETA:2m25s]
+[#dd3302 1.2GiB/10GiB(12%) CN:4 DL:64MiB ETA:2m25s]
+[#dd3302 1.3GiB/10GiB(12%) CN:4 DL:64MiB ETA:2m24s]
+[#dd3302 1.3GiB/10GiB(13%) CN:4 DL:63MiB ETA:2m23s]
+[#dd3302 1.4GiB/10GiB(13%) CN:4 DL:64MiB ETA:2m21s]
+[#dd3302 1.5GiB/10GiB(14%) CN:4 DL:63MiB ETA:2m21s]
+[#dd3302 1.5GiB/10GiB(15%) CN:4 DL:63MiB ETA:2m20s]
+[#dd3302 1.6GiB/10GiB(15%) CN:4 DL:63MiB ETA:2m19s]
+[#dd3302 1.6GiB/10GiB(16%) CN:4 DL:64MiB ETA:2m17s]
+[#dd3302 1.7GiB/10GiB(16%) CN:4 DL:64MiB ETA:2m16s]
+ *** Download Progress Summary as of Sun Sep 13 06:10:43 2026 *** 
+===============================================================================
+[#dd3302 1.8GiB/10GiB(17%) CN:4 DL:63MiB ETA:2m16s]
+FILE: /content/extra_audio/archives/musan.tar.gz.part
+-------------------------------------------------------------------------------
+
+[#dd3302 1.8GiB/10GiB(17%) CN:4 DL:63MiB ETA:2m16s]
+[#dd3302 1.8GiB/10GiB(18%) CN:4 DL:63MiB ETA:2m15s]
+[#dd3302 1.9GiB/10GiB(18%) CN:4 DL:63MiB ETA:2m14s]
+[#dd3302 1.9GiB/10GiB(19%) CN:4 DL:64MiB ETA:2m13s]
+[#dd3302 2.0GiB/10GiB(19%) CN:4 DL:63MiB ETA:2m12s]
+[#dd3302 2.1GiB/10GiB(20%) CN:4 DL:64MiB ETA:2m11s]
+[#dd3302 2.1GiB/10GiB(21%) CN:4 DL:64MiB ETA:2m9s]
+[#dd3302 2.2GiB/10GiB(21%) CN:4 DL:64MiB ETA:2m8s]
+[#dd3302 2.3GiB/10GiB(22%) CN:4 DL:64MiB ETA:2m8s]
+[#dd3302 2.3GiB/10GiB(22%) CN:4 DL:64MiB ETA:2m6s]
+[#dd3302 2.4GiB/10GiB(23%) CN:4 DL:64MiB ETA:2m4s]
+[#dd3302 2.4GiB/10GiB(24%) CN:4 DL:64MiB ETA:2m3s]
+[#dd3302 2.5GiB/10GiB(24%) CN:4 DL:64MiB ETA:2m3s]
+[#dd3302 2.6GiB/10GiB(25%) CN:4 DL:64MiB ETA:2m2s]
+[#dd3302 2.6GiB/10GiB(25%) CN:4 DL:64MiB ETA:2m1s]
+[#dd3302 2.7GiB/10GiB(26%) CN:4 DL:64MiB ETA:2m]
+[#dd3302 2.8GiB/10GiB(27%) CN:4 DL:64MiB ETA:1m58s]
+[#dd3302 2.8GiB/10GiB(27%) CN:4 DL:64MiB ETA:1m57s]
+[#dd3302 2.9GiB/10GiB(28%) CN:4 DL:64MiB ETA:1m56s]
+[#dd3302 2.9GiB/10GiB(29%) CN:4 DL:64MiB ETA:1m56s]
+[#dd3302 3.0GiB/10GiB(29%) CN:4 DL:64MiB ETA:1m55s]
+[#dd3302 3.1GiB/10GiB(30%) CN:4 DL:64MiB ETA:1m53s]
+[#dd3302 3.1GiB/10GiB(30%) CN:4 DL:64MiB ETA:1m53s]
+[#dd3302 3.2GiB/10GiB(31%) CN:4 DL:64MiB ETA:1m52s]
+[#dd3302 3.3GiB/10GiB(32%) CN:4 DL:64MiB ETA:1m51s]
+[#dd3302 3.3GiB/10GiB(32%) CN:4 DL:64MiB ETA:1m51s]
+[#dd3302 3.4GiB/10GiB(33%) CN:4 DL:64MiB ETA:1m50s]
+[#dd3302 3.4GiB/10GiB(33%) CN:4 DL:64MiB ETA:1m49s]
+[#dd3302 3.5GiB/10GiB(34%) CN:4 DL:64MiB ETA:1m48s]
+[#dd3302 3.6GiB/10GiB(35%) CN:4 DL:64MiB ETA:1m47s]
+ *** Download Progress Summary as of Sun Sep 13 06:11:13 2026 *** 
+===============================================================================
+[#dd3302 3.6GiB/10GiB(35%) CN:4 DL:54MiB ETA:2m6s]
+FILE: /content/extra_audio/archives/musan.tar.gz.part
+-------------------------------------------------------------------------------
+
+[#dd3302 3.6GiB/10GiB(35%) CN:4 DL:54MiB ETA:2m6s]
+[#dd3302 3.7GiB/10GiB(35%) CN:4 DL:53MiB ETA:2m5s]
+[#dd3302 3.7GiB/10GiB(36%) CN:4 DL:53MiB ETA:2m6s]
+[#dd3302 3.8GiB/10GiB(36%) CN:4 DL:52MiB ETA:2m6s]
+[#dd3302 3.8GiB/10GiB(37%) CN:4 DL:52MiB ETA:2m6s]
+[#dd3302 3.9GiB/10GiB(38%) CN:4 DL:51MiB ETA:2m7s]
+[#dd3302 3.9GiB/10GiB(38%) CN:4 DL:50MiB ETA:2m7s]
+[#dd3302 4.0GiB/10GiB(39%) CN:4 DL:50MiB ETA:2m8s]
+[#dd3302 4.0GiB/10GiB(39%) CN:4 DL:49MiB ETA:2m8s]
+[#dd3302 4.1GiB/10GiB(40%) CN:4 DL:58MiB ETA:1m48s]
+[#dd3302 4.2GiB/10GiB(40%) CN:4 DL:58MiB ETA:1m47s]
+[#dd3302 4.2GiB/10GiB(41%) CN:4 DL:58MiB ETA:1m46s]
+[#dd3302 4.3GiB/10GiB(41%) CN:4 DL:58MiB ETA:1m44s]
+[#dd3302 4.3GiB/10GiB(42%) CN:4 DL:58MiB ETA:1m43s]
+[#dd3302 4.4GiB/10GiB(42%) CN:4 DL:58MiB ETA:1m43s]
+[#dd3302 4.4GiB/10GiB(43%) CN:4 DL:58MiB ETA:1m42s]
+[#dd3302 4.5GiB/10GiB(44%) CN:4 DL:58MiB ETA:1m41s]
+[#dd3302 4.6GiB/10GiB(44%) CN:4 DL:58MiB ETA:1m40s]
+[#dd3302 4.6GiB/10GiB(45%) CN:4 DL:58MiB ETA:1m39s]
+[#dd3302 4.7GiB/10GiB(45%) CN:4 DL:58MiB ETA:1m38s]
+[#dd3302 4.7GiB/10GiB(46%) CN:4 DL:58MiB ETA:1m38s]
+[#dd3302 4.8GiB/10GiB(46%) CN:4 DL:57MiB ETA:1m37s]
+[#dd3302 4.8GiB/10GiB(47%) CN:4 DL:57MiB ETA:1m36s]
+[#dd3302 4.9GiB/10GiB(47%) CN:4 DL:57MiB ETA:1m35s]
+[#dd3302 4.9GiB/10GiB(48%) CN:4 DL:57MiB ETA:1m34s]
+[#dd3302 5.0GiB/10GiB(48%) CN:4 DL:58MiB ETA:1m33s]
+[#dd3302 5.1GiB/10GiB(49%) CN:4 DL:57MiB ETA:1m32s]
+[#dd3302 5.1GiB/10GiB(49%) CN:4 DL:57MiB ETA:1m31s]
+[#dd3302 5.2GiB/10GiB(50%) CN:4 DL:57MiB ETA:1m30s]
+[#dd3302 5.2GiB/10GiB(51%) CN:4 DL:58MiB ETA:1m29s]
+[#dd3302 5.3GiB/10GiB(51%) CN:4 DL:58MiB ETA:1m27s]
+ *** Download Progress Summary as of Sun Sep 13 06:11:44 2026 *** 
+===============================================================================
+[#dd3302 5.3GiB/10GiB(52%) CN:4 DL:58MiB ETA:1m26s]
+FILE: /content/extra_audio/archives/musan.tar.gz.part
+-------------------------------------------------------------------------------
+
+[#dd3302 5.3GiB/10GiB(52%) CN:4 DL:58MiB ETA:1m26s]
+[#dd3302 5.4GiB/10GiB(52%) CN:4 DL:58MiB ETA:1m25s]
+[#dd3302 5.5GiB/10GiB(53%) CN:4 DL:58MiB ETA:1m24s]
+[#dd3302 5.5GiB/10GiB(53%) CN:4 DL:58MiB ETA:1m23s]
+[#dd3302 5.6GiB/10GiB(54%) CN:4 DL:58MiB ETA:1m21s]
+[#dd3302 5.6GiB/10GiB(54%) CN:4 DL:58MiB ETA:1m20s]
+[#dd3302 5.7GiB/10GiB(55%) CN:4 DL:58MiB ETA:1m20s]
+[#dd3302 5.7GiB/10GiB(55%) CN:4 DL:58MiB ETA:1m19s]
+[#dd3302 5.8GiB/10GiB(56%) CN:4 DL:58MiB ETA:1m19s]
+[#dd3302 5.8GiB/10GiB(57%) CN:4 DL:57MiB ETA:1m18s]
+[#dd3302 5.9GiB/10GiB(57%) CN:4 DL:57MiB ETA:1m18s]
+[#dd3302 5.9GiB/10GiB(58%) CN:4 DL:56MiB ETA:1m17s]
+[#dd3302 6.0GiB/10GiB(58%) CN:4 DL:56MiB ETA:1m16s]
+[#dd3302 6.1GiB/10GiB(59%) CN:4 DL:56MiB ETA:1m16s]
+[#dd3302 6.1GiB/10GiB(59%) CN:4 DL:56MiB ETA:1m15s]
+[#dd3302 6.2GiB/10GiB(60%) CN:4 DL:56MiB ETA:1m14s]
+[#dd3302 6.2GiB/10GiB(60%) CN:4 DL:56MiB ETA:1m13s]
+[#dd3302 6.3GiB/10GiB(61%) CN:4 DL:56MiB ETA:1m11s]
+[#dd3302 6.3GiB/10GiB(61%) CN:4 DL:57MiB ETA:1m10s]
+[#dd3302 6.4GiB/10GiB(62%) CN:4 DL:57MiB ETA:1m9s]
+[#dd3302 6.4GiB/10GiB(62%) CN:4 DL:57MiB ETA:1m8s]
+[#dd3302 6.5GiB/10GiB(63%) CN:4 DL:57MiB ETA:1m7s]
+[#dd3302 6.6GiB/10GiB(64%) CN:4 DL:57MiB ETA:1m6s]
+[#dd3302 6.6GiB/10GiB(64%) CN:4 DL:57MiB ETA:1m4s]
+[#dd3302 6.7GiB/10GiB(65%) CN:4 DL:57MiB ETA:1m3s]
+[#dd3302 6.7GiB/10GiB(65%) CN:4 DL:58MiB ETA:1m2s]
+[#dd3302 6.8GiB/10GiB(66%) CN:4 DL:58MiB ETA:1m]
+[#dd3302 6.9GiB/10GiB(66%) CN:4 DL:59MiB ETA:59s]
+[#dd3302 6.9GiB/10GiB(67%) CN:4 DL:59MiB ETA:57s]
+[#dd3302 6.9GiB/10GiB(67%) CN:4 DL:55MiB ETA:1m1s]
+[#dd3302 7.0GiB/10GiB(68%) CN:4 DL:55MiB ETA:1m1s]
+ *** Download Progress Summary as of Sun Sep 13 06:12:15 2026 *** 
+===============================================================================
+[#dd3302 7.0GiB/10GiB(68%) CN:4 DL:55MiB ETA:59s]
+FILE: /content/extra_audio/archives/musan.tar.gz.part
+-------------------------------------------------------------------------------
+
+[#dd3302 7.0GiB/10GiB(68%) CN:4 DL:55MiB ETA:59s]
+[#dd3302 7.1GiB/10GiB(69%) CN:4 DL:56MiB ETA:57s]
+[#dd3302 7.2GiB/10GiB(69%) CN:4 DL:56MiB ETA:56s]
+[#dd3302 7.2GiB/10GiB(70%) CN:4 DL:56MiB ETA:55s]
+[#dd3302 7.3GiB/10GiB(71%) CN:4 DL:56MiB ETA:54s]
+[#dd3302 7.3GiB/10GiB(71%) CN:4 DL:56MiB ETA:53s]
+[#dd3302 7.4GiB/10GiB(72%) CN:4 DL:56MiB ETA:52s]
+[#dd3302 7.5GiB/10GiB(72%) CN:4 DL:60MiB ETA:47s]
+[#dd3302 7.5GiB/10GiB(73%) CN:4 DL:60MiB ETA:46s]
+[#dd3302 7.6GiB/10GiB(73%) CN:4 DL:60MiB ETA:45s]
+[#dd3302 7.6GiB/10GiB(74%) CN:4 DL:60MiB ETA:44s]
+[#dd3302 7.7GiB/10GiB(74%) CN:4 DL:60MiB ETA:44s]
+[#dd3302 7.7GiB/10GiB(75%) CN:4 DL:59MiB ETA:43s]
+[#dd3302 7.8GiB/10GiB(76%) CN:4 DL:59MiB ETA:42s]
+[#dd3302 7.9GiB/10GiB(76%) CN:4 DL:59MiB ETA:41s]
+[#dd3302 7.9GiB/10GiB(77%) CN:4 DL:59MiB ETA:40s]
+[#dd3302 8.0GiB/10GiB(77%) CN:4 DL:59MiB ETA:39s]
+[#dd3302 8.0GiB/10GiB(78%) CN:4 DL:59MiB ETA:38s]
+[#dd3302 8.1GiB/10GiB(78%) CN:4 DL:59MiB ETA:37s]
+[#dd3302 8.2GiB/10GiB(79%) CN:4 DL:59MiB ETA:36s]
+[#dd3302 8.2GiB/10GiB(79%) CN:4 DL:59MiB ETA:35s]
+[#dd3302 8.3GiB/10GiB(80%) CN:4 DL:59MiB ETA:34s]
+[#dd3302 8.3GiB/10GiB(81%) CN:4 DL:59MiB ETA:33s]
+[#dd3302 8.4GiB/10GiB(81%) CN:4 DL:59MiB ETA:32s]
+[#dd3302 8.4GiB/10GiB(82%) CN:4 DL:59MiB ETA:31s]
+[#dd3302 8.5GiB/10GiB(82%) CN:4 DL:59MiB ETA:30s]
+[#dd3302 8.5GiB/10GiB(83%) CN:4 DL:59MiB ETA:29s]
+[#dd3302 8.6GiB/10GiB(83%) CN:4 DL:59MiB ETA:28s]
+[#dd3302 8.7GiB/10GiB(84%) CN:4 DL:59MiB ETA:27s]
+[#dd3302 8.7GiB/10GiB(84%) CN:4 DL:59MiB ETA:26s]
+[#dd3302 8.8GiB/10GiB(85%) CN:4 DL:59MiB ETA:25s]
+ *** Download Progress Summary as of Sun Sep 13 06:12:45 2026 *** 
+===============================================================================
+[#dd3302 8.8GiB/10GiB(86%) CN:4 DL:59MiB ETA:24s]
+FILE: /content/extra_audio/archives/musan.tar.gz.part
+-------------------------------------------------------------------------------
+
+[#dd3302 8.8GiB/10GiB(86%) CN:4 DL:59MiB ETA:24s]
+[#dd3302 8.9GiB/10GiB(86%) CN:4 DL:59MiB ETA:23s]
+[#dd3302 9.0GiB/10GiB(87%) CN:4 DL:59MiB ETA:22s]
+[#dd3302 9.0GiB/10GiB(87%) CN:4 DL:59MiB ETA:21s]
+[#dd3302 9.1GiB/10GiB(88%) CN:4 DL:59MiB ETA:20s]
+[#dd3302 9.1GiB/10GiB(88%) CN:4 DL:59MiB ETA:19s]
+[#dd3302 9.2GiB/10GiB(89%) CN:4 DL:59MiB ETA:18s]
+[#dd3302 9.2GiB/10GiB(89%) CN:4 DL:59MiB ETA:17s]
+[#dd3302 9.3GiB/10GiB(90%) CN:4 DL:59MiB ETA:16s]
+[#dd3302 9.3GiB/10GiB(90%) CN:4 DL:57MiB ETA:16s]
+[#dd3302 9.4GiB/10GiB(91%) CN:4 DL:56MiB ETA:16s]
+[#dd3302 9.4GiB/10GiB(91%) CN:4 DL:56MiB ETA:15s]
+[#dd3302 9.5GiB/10GiB(92%) CN:4 DL:56MiB ETA:14s]
+[#dd3302 9.6GiB/10GiB(93%) CN:4 DL:56MiB ETA:13s]
+[#dd3302 9.6GiB/10GiB(93%) CN:4 DL:56MiB ETA:12s]
+[#dd3302 9.7GiB/10GiB(94%) CN:4 DL:55MiB ETA:11s]
+[#dd3302 9.7GiB/10GiB(94%) CN:4 DL:55MiB ETA:10s]
+[#dd3302 9.8GiB/10GiB(95%) CN:4 DL:55MiB ETA:9s]
+[#dd3302 9.8GiB/10GiB(95%) CN:4 DL:55MiB ETA:8s]
+[#dd3302 9.9GiB/10GiB(96%) CN:4 DL:56MiB ETA:7s]
+[#dd3302 9.9GiB/10GiB(96%) CN:4 DL:56MiB ETA:6s]
+[#dd3302 10GiB/10GiB(97%) CN:4 DL:55MiB ETA:5s]
+[#dd3302 10GiB/10GiB(97%) CN:4 DL:55MiB ETA:4s]
+[#dd3302 10GiB/10GiB(98%) CN:4 DL:54MiB ETA:3s]
+[#dd3302 10GiB/10GiB(98%) CN:4 DL:54MiB ETA:2s]
+[#dd3302 10GiB/10GiB(99%) CN:4 DL:53MiB ETA:1s]
+[#dd3302 10GiB/10GiB(99%) CN:3 DL:52MiB]
+[#dd3302 10GiB/10GiB(99%) CN:2 DL:40MiB]
+[#dd3302 10GiB/10GiB(99%) CN:1 DL:37MiB]
+ *** Download Progress Summary as of Sun Sep 13 06:13:15 2026 *** 
+===============================================================================
+[#dd3302 10GiB/10GiB(99%) CN:1 DL:32MiB]
+FILE: /content/extra_audio/archives/musan.tar.gz.part
+-------------------------------------------------------------------------------
+
+[#dd3302 10GiB/10GiB(99%) CN:1 DL:32MiB]
+[#dd3302 10GiB/10GiB(99%) CN:1 DL:27MiB]
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+dd3302|OK  |    57MiB/s|/content/extra_audio/archives/musan.tar.gz.part
+
+Status Legend:
+(OK):download completed.
+Verified archive musan.tar.gz
+{
+  "speech_train": "/content/extra_audio/manifests/speech_train.jsonl",
+  "speech_val": "/content/extra_audio/manifests/speech_val.jsonl",
+  "noise_train": "/content/extra_audio/manifests/noise_train.jsonl",
+  "noise_val": "/content/extra_audio/manifests/noise_val.jsonl",
+  "provenance": "/content/extra_audio/manifests/provenance.json"
+}

@@ -1,0 +1,4256 @@
+{
+  "summary": {
+    "utterances": 100,
+    "valid_utterances": 100,
+    "invalid_utterances": 0,
+    "si_sdr_noisy": 80.0,
+    "si_sdr_enhanced": 24.87753971767566,
+    "si_sdri": -55.12246028232434,
+    "weighting": "equal per utterance",
+    "metric": "zero-mean SI-SDR, capped +/-80 dB"
+  },
+  "preservation": {
+    "weighting": "equal per utterance for gains and errors; sample totals for PCM16 counts",
+    "interpretation": "SI-SDR ignores global gain and polarity; rail contact alone does not prove clipping",
+    "noisy": {
+      "projection_gain": {
+        "valid_utterances": 100,
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "rms_ratio": {
+        "valid_utterances": 100,
+        "mean": 1.0,
+        "min": 0.9999999999999996,
+        "max": 1.0
+      },
+      "normalized_waveform_l1": {
+        "valid_utterances": 100,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "waveform_l1": {
+        "valid_utterances": 100,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "peak_abs_max": 0.9900000095367432,
+      "pcm16_out_of_range_samples": 0,
+      "pcm16_out_of_range_utterances": 0,
+      "pcm16_rail_or_exceeds_samples": 0,
+      "pcm16_rail_or_exceeds_utterances": 0
+    },
+    "enhanced": {
+      "projection_gain": {
+        "valid_utterances": 100,
+        "mean": 0.9806637715915817,
+        "min": 0.6867713517381288,
+        "max": 1.0130377141152398
+      },
+      "rms_ratio": {
+        "valid_utterances": 100,
+        "mean": 0.9885768805864013,
+        "min": 0.7870641835892724,
+        "max": 1.013715399251253
+      },
+      "normalized_waveform_l1": {
+        "valid_utterances": 100,
+        "mean": 0.05653549170538997,
+        "min": 0.009520464295418453,
+        "max": 0.5212911110121774
+      },
+      "waveform_l1": {
+        "valid_utterances": 100,
+        "mean": 0.0030729189728464757,
+        "min": 0.00046558698018391926,
+        "max": 0.02386575508117676
+      },
+      "peak_abs_max": 1.0,
+      "pcm16_out_of_range_samples": 0,
+      "pcm16_out_of_range_utterances": 0,
+      "pcm16_rail_or_exceeds_samples": 2,
+      "pcm16_rail_or_exceeds_utterances": 1
+    }
+  },
+  "timing": {
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "device": "cpu",
+    "measurement": "Host offline throughput, including DSP and neural inference; not ESP32 performance or acoustic latency",
+    "audio_seconds": 300.0,
+    "processing_seconds": 6.101172237991705,
+    "processing_rtf": 0.02033724079330568,
+    "excludes": "compilation, model loading, disk I/O, metric computation",
+    "torch_threads": 2
+  },
+  "manifest_sha256": "5095c806d052665f14ca8c2ca8789caaf6020c425e80f8daae752fcd4db6c808",
+  "source_verification": {
+    "manifest_unchanged": true,
+    "whole_file_lengths_verified": true,
+    "audio_files_hashed": 200,
+    "declared_audio_hashes_verified": 200
+  },
+  "metric_execution": {
+    "blas_threads": 1,
+    "scope": "metrics only; prior limits restored before inference"
+  },
+  "limited_evaluation": false,
+  "utterances": [
+    {
+      "id": "extra_development_clean_00000",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "fae23493c2260b5da7b725594f66455c2c5ca645f191afdc95b510339c1b7168",
+        "noisy": "fae23493c2260b5da7b725594f66455c2c5ca645f191afdc95b510339c1b7168"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 18.778145914141895,
+      "si_sdri": -61.221854085858105,
+      "processing_seconds": 0.06164939600057551,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0665934506014331,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.49188232421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9677818109922948,
+          "rms_ratio": 0.9741718709621361,
+          "normalized_waveform_l1": 0.04492661189843386,
+          "waveform_l1": 0.002991818110148112,
+          "peak_abs": 0.479736328125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.788006067276001,
+      "stoi_noisy": 1.0000000000000002,
+      "stoi_enhanced": 0.9879588432301661,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00001",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "cb777b423c6c43a24f23b3aadcbe97608ae0015e986f3326ff32c1540592c030",
+        "noisy": "cb777b423c6c43a24f23b3aadcbe97608ae0015e986f3326ff32c1540592c030"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 29.473501941441015,
+      "si_sdri": -50.526498058558985,
+      "processing_seconds": 0.11457143000006909,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05765333507204598,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.513397216796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0089417602890696,
+          "rms_ratio": 1.0095110887948606,
+          "normalized_waveform_l1": 0.018955765204563716,
+          "waveform_l1": 0.0010928630828857422,
+          "peak_abs": 0.53021240234375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.507014274597168,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.991589065440686,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00002",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "eb81c8ebc254899e4c74bd161de4cd6c69f64e789c8fec5d336990045e139f9a",
+        "noisy": "eb81c8ebc254899e4c74bd161de4cd6c69f64e789c8fec5d336990045e139f9a"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.27717271476921,
+      "si_sdri": -53.72282728523079,
+      "processing_seconds": 0.06514889299978677,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07246132224870104,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.73480224609375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9962131133592622,
+          "rms_ratio": 0.9973862646086797,
+          "normalized_waveform_l1": 0.028037504500235226,
+          "waveform_l1": 0.0020316346486409505,
+          "peak_abs": 0.743927001953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.297177791595459,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9928111134913662,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00003",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "fc887e50378a4df7e6b7533c718cd8939c427df9b6e5b9564bc43af930a2dc94",
+        "noisy": "fc887e50378a4df7e6b7533c718cd8939c427df9b6e5b9564bc43af930a2dc94"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.367294512664916,
+      "si_sdri": -52.63270548733509,
+      "processing_seconds": 0.048348655000154395,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07563674458054657,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.402618408203125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0023716479986322,
+          "rms_ratio": 1.0032901300645567,
+          "normalized_waveform_l1": 0.02605618289350992,
+          "waveform_l1": 0.001970804850260417,
+          "peak_abs": 0.4102783203125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.251572132110596,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9917139108446825,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00004",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "0fc20074338e7501aba4e7addd89904700107cb969354fbce6c5161e49b53b57",
+        "noisy": "0fc20074338e7501aba4e7addd89904700107cb969354fbce6c5161e49b53b57"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 19.47919005061618,
+      "si_sdri": -60.52080994938382,
+      "processing_seconds": 0.04995952900026168,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04231480093613752,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.32763671875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.8423951346027805,
+          "rms_ratio": 0.9149358400967027,
+          "normalized_waveform_l1": 0.37814226595610734,
+          "waveform_l1": 0.016001014709472655,
+          "peak_abs": 0.3189697265625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.998779296875,
+      "stoi_noisy": 0.9999999999999996,
+      "stoi_enhanced": 0.9836398499856001,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00005",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "862d9d4dd696f49f2cbadd4f54b36ab387711d056aeadc0b0443daeae395fa0d",
+        "noisy": "862d9d4dd696f49f2cbadd4f54b36ab387711d056aeadc0b0443daeae395fa0d"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 18.826558466950612,
+      "si_sdri": -61.173441533049385,
+      "processing_seconds": 0.08397308100029477,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04945612630779674,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.387725830078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.8826029087349948,
+          "rms_ratio": 0.9381014779316161,
+          "normalized_waveform_l1": 0.3233509589445643,
+          "waveform_l1": 0.01599168586730957,
+          "peak_abs": 0.363800048828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.8426148891448975,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.987310443157045,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00006",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "a4d5ef4e26dfcb4f09b9d3b1b1abda6a36844be6a612dfb7e7ac42a7ce6a1f45",
+        "noisy": "a4d5ef4e26dfcb4f09b9d3b1b1abda6a36844be6a612dfb7e7ac42a7ce6a1f45"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 30.682908370520593,
+      "si_sdri": -49.31709162947941,
+      "processing_seconds": 0.06729690400061372,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06132456553700571,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.4044189453125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0078099146251687,
+          "rms_ratio": 1.0082404081016532,
+          "normalized_waveform_l1": 0.01372037982526557,
+          "waveform_l1": 0.0008413963317871094,
+          "peak_abs": 0.409698486328125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.558466911315918,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9938673618179074,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00007",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "187ad475ecd0b2973617b3056650b3eaf7e357e91723854eef9f41dbb62b43db",
+        "noisy": "187ad475ecd0b2973617b3056650b3eaf7e357e91723854eef9f41dbb62b43db"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 22.233896700174828,
+      "si_sdri": -57.766103299825176,
+      "processing_seconds": 0.10696175699922605,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05773664960807271,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.423828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9822999269550836,
+          "rms_ratio": 0.990200917534678,
+          "normalized_waveform_l1": 0.10929176965715258,
+          "waveform_l1": 0.006310140609741211,
+          "peak_abs": 0.42926025390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.81388258934021,
+      "stoi_noisy": 0.999999999999999,
+      "stoi_enhanced": 0.9597780382692879,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00008",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "9e202164551c8646bf7667eecc699cc659403ab4c8be4cc198816ea2f57a9046",
+        "noisy": "9e202164551c8646bf7667eecc699cc659403ab4c8be4cc198816ea2f57a9046"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 23.865981607232996,
+      "si_sdri": -56.134018392767004,
+      "processing_seconds": 0.0960957649986085,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04603162005173082,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.448394775390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9758690106405761,
+          "rms_ratio": 0.9778703385366475,
+          "normalized_waveform_l1": 0.02351818009895714,
+          "waveform_l1": 0.0010825799306233724,
+          "peak_abs": 0.438446044921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.270087242126465,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9916644292412972,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00009",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "708cc881d926a42bd24152444fe70ada179d64a8dea4b030f75d4ccc168e9f18",
+        "noisy": "708cc881d926a42bd24152444fe70ada179d64a8dea4b030f75d4ccc168e9f18"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.48789175646744,
+      "si_sdri": -54.51210824353256,
+      "processing_seconds": 0.047465378998822416,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.10597842735349819,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.48175048828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.996427298688897,
+          "rms_ratio": 0.997834391592071,
+          "normalized_waveform_l1": 0.028193867530953994,
+          "waveform_l1": 0.002987941741943359,
+          "peak_abs": 0.465789794921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.250334739685059,
+      "stoi_noisy": 1.0000000000000002,
+      "stoi_enhanced": 0.9881741189085853,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00010",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "1537d8b065efc21a0d02efeb9365368c0118b45322e12b737b4e4700b61c2a41",
+        "noisy": "1537d8b065efc21a0d02efeb9365368c0118b45322e12b737b4e4700b61c2a41"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.112561069328795,
+      "si_sdri": -52.88743893067121,
+      "processing_seconds": 0.05066620099933061,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.026038609309334406,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.25201416015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9979700923861415,
+          "rms_ratio": 0.9989399366226343,
+          "normalized_waveform_l1": 0.027146790617295698,
+          "waveform_l1": 0.0007068646748860677,
+          "peak_abs": 0.2503662109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.876295566558838,
+      "stoi_noisy": 0.9999999999999994,
+      "stoi_enhanced": 0.9852865980099065,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00011",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "d7a35ebab4cedea53ce5b73f1354753441a71250bf66b646c8c90185f6b55e96",
+        "noisy": "d7a35ebab4cedea53ce5b73f1354753441a71250bf66b646c8c90185f6b55e96"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 34.73133564045254,
+      "si_sdri": -45.26866435954746,
+      "processing_seconds": 0.0936070159987139,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.09861781588755676,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.952178955078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9993482504767177,
+          "rms_ratio": 0.9995163619288464,
+          "normalized_waveform_l1": 0.010987695787714932,
+          "waveform_l1": 0.0010835825602213542,
+          "peak_abs": 0.9466552734375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.6056694984436035,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9988838175021131,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00012",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "42890c7d04279a269ca12b5f0498cfe51c1162baa48d2bb80bfd457129f74fcc",
+        "noisy": "42890c7d04279a269ca12b5f0498cfe51c1162baa48d2bb80bfd457129f74fcc"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.777564944617257,
+      "si_sdri": -54.222435055382746,
+      "processing_seconds": 0.050634820998311625,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0656097414135103,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.43011474609375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0006095467816745,
+          "rms_ratio": 1.0019317939457397,
+          "normalized_waveform_l1": 0.023671769544103927,
+          "waveform_l1": 0.001553098678588867,
+          "peak_abs": 0.434112548828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.482412815093994,
+      "stoi_noisy": 0.9999999999999996,
+      "stoi_enhanced": 0.9860327120871788,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00013",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "aeabae9f6866dabc58c4298a348e6bcb398f7c00bd5ec9e2edb7e7776290a76d",
+        "noisy": "aeabae9f6866dabc58c4298a348e6bcb398f7c00bd5ec9e2edb7e7776290a76d"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 13.189894832658513,
+      "si_sdri": -66.81010516734149,
+      "processing_seconds": 0.05471667299934779,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.045350332540663604,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.388916015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9337825997655415,
+          "rms_ratio": 0.9559210155819301,
+          "normalized_waveform_l1": 0.06352229085362628,
+          "waveform_l1": 0.002880757013956706,
+          "peak_abs": 0.386993408203125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.154085636138916,
+      "stoi_noisy": 0.9999999999999996,
+      "stoi_enhanced": 0.9676293208571839,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00014",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "72d27b3eeedcde5e52e14aa177abccfefb60358433639336bbdf618d937bf02d",
+        "noisy": "72d27b3eeedcde5e52e14aa177abccfefb60358433639336bbdf618d937bf02d"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 15.512908074742242,
+      "si_sdri": -64.48709192525776,
+      "processing_seconds": 0.054291694999847095,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.032967434409787,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.35101318359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9249713172462807,
+          "rms_ratio": 0.9378772008982569,
+          "normalized_waveform_l1": 0.07328535845327841,
+          "waveform_l1": 0.002416030248006185,
+          "peak_abs": 0.3515625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.791750431060791,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9795687704360837,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00015",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "ad96d888128759490e229383da7c0820387dcf376ae6868d9e6e51f276525e52",
+        "noisy": "ad96d888128759490e229383da7c0820387dcf376ae6868d9e6e51f276525e52"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.97598674104661,
+      "si_sdri": -53.02401325895339,
+      "processing_seconds": 0.0913005679994967,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06508646499148506,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.409576416015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0060597987187827,
+          "rms_ratio": 1.0079016912661918,
+          "normalized_waveform_l1": 0.045144247274642176,
+          "waveform_l1": 0.002938279469807943,
+          "peak_abs": 0.41644287109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.246954441070557,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9954706604845388,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00016",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "e03d0d87eff1c5dc8e9f37dc758e64267db573b190fac167498bad259f248c55",
+        "noisy": "e03d0d87eff1c5dc8e9f37dc758e64267db573b190fac167498bad259f248c55"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 36.24947904214729,
+      "si_sdri": -43.75052095785271,
+      "processing_seconds": 0.05022964700037846,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06996881134879802,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.473419189453125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0005899067943176,
+          "rms_ratio": 1.0007085794655517,
+          "normalized_waveform_l1": 0.009621547425443019,
+          "waveform_l1": 0.0006732082366943359,
+          "peak_abs": 0.480560302734375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.61129903793335,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9996966459830934,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00017",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "2f13343c9dabef92093582eb87a88d4746d710290b4cb6875072d883288bb7e5",
+        "noisy": "2f13343c9dabef92093582eb87a88d4746d710290b4cb6875072d883288bb7e5"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 18.439348755445057,
+      "si_sdri": -61.56065124455495,
+      "processing_seconds": 0.04815600199981418,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.03081799092521701,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.24444580078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9811369151386986,
+          "rms_ratio": 0.9881426501500024,
+          "normalized_waveform_l1": 0.0749967788773484,
+          "waveform_l1": 0.00231125005086263,
+          "peak_abs": 0.249114990234375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.9624977111816406,
+      "stoi_noisy": 0.9999999999999988,
+      "stoi_enhanced": 0.9404004475393455,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00018",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "576e994fa76b2cf33e05716867012afe7f0407559caad77f921898d58b519124",
+        "noisy": "576e994fa76b2cf33e05716867012afe7f0407559caad77f921898d58b519124"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.77842203276631,
+      "si_sdri": -54.221577967233685,
+      "processing_seconds": 0.05811447899941413,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.029911959072257556,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.208953857421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0029876937291506,
+          "rms_ratio": 1.0043124539613708,
+          "normalized_waveform_l1": 0.031717812616350045,
+          "waveform_l1": 0.0009487419128417969,
+          "peak_abs": 0.21075439453125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.27484655380249,
+      "stoi_noisy": 0.9999999999999992,
+      "stoi_enhanced": 0.9865526715787559,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00019",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "3eee34e87916b7457382b44982136dad82f3e00729d2722acd8a10790b4f83d7",
+        "noisy": "3eee34e87916b7457382b44982136dad82f3e00729d2722acd8a10790b4f83d7"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.767864858574224,
+      "si_sdri": -54.23213514142577,
+      "processing_seconds": 0.05183656400004111,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04511643699344141,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.38916015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9956229577203285,
+          "rms_ratio": 0.9969411865690642,
+          "normalized_waveform_l1": 0.02757804826110186,
+          "waveform_l1": 0.0012442232767740885,
+          "peak_abs": 0.38006591796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.39434814453125,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.9970529105457722,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00020",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "8c9b9fbb54539d9bbcc9a475eddaf33d9d8556201c0441eb41d12458326fc59f",
+        "noisy": "8c9b9fbb54539d9bbcc9a475eddaf33d9d8556201c0441eb41d12458326fc59f"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.878105880239378,
+      "si_sdri": -52.121894119760626,
+      "processing_seconds": 0.07837629999994533,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04927225325233366,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.520599365234375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.006018796760796,
+          "rms_ratio": 1.006838377550061,
+          "normalized_waveform_l1": 0.022252660542522635,
+          "waveform_l1": 0.001096438725789388,
+          "peak_abs": 0.53173828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.183201789855957,
+      "stoi_noisy": 0.9999999999999976,
+      "stoi_enhanced": 0.9410557095727283,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00021",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "bbe22d3ae6e624606e4ee82d204c8bfb14fb8e35b10e9952787bcbfc0fb68719",
+        "noisy": "bbe22d3ae6e624606e4ee82d204c8bfb14fb8e35b10e9952787bcbfc0fb68719"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.441698701163425,
+      "si_sdri": -52.558301298836575,
+      "processing_seconds": 0.04798708800080931,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.09915198259244014,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.656646728515625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0049753380546778,
+          "rms_ratio": 1.0058805703859384,
+          "normalized_waveform_l1": 0.019168268484679063,
+          "waveform_l1": 0.0019005718231201172,
+          "peak_abs": 0.66229248046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.342857360839844,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9751356870388541,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00022",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "04ba9b56d4f62ac17e4067e81cdec94feb4a5de26298d03cd405a117fd80c303",
+        "noisy": "04ba9b56d4f62ac17e4067e81cdec94feb4a5de26298d03cd405a117fd80c303"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 30.563052048373862,
+      "si_sdri": -49.43694795162614,
+      "processing_seconds": 0.04502260300068883,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.13124296671004695,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 0.9999999999999996,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.9900000095367432,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0047519908025746,
+          "rms_ratio": 1.0051931839433035,
+          "normalized_waveform_l1": 0.015216747778518325,
+          "waveform_l1": 0.0019970911221312616,
+          "peak_abs": 1.0,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 2
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.6038641929626465,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9995360885028041,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00023",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "415707fce57dcc4ba0ef9ab88d0e1b8d5fc8f63e80054d21cef56a07cde40bb7",
+        "noisy": "415707fce57dcc4ba0ef9ab88d0e1b8d5fc8f63e80054d21cef56a07cde40bb7"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 24.239852089594084,
+      "si_sdri": -55.76014791040592,
+      "processing_seconds": 0.056842953999876045,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04613988671577448,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.34979248046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9965695957708202,
+          "rms_ratio": 0.9984449675620883,
+          "normalized_waveform_l1": 0.03573114056717334,
+          "waveform_l1": 0.0016486307779947917,
+          "peak_abs": 0.353302001953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.176840782165527,
+      "stoi_noisy": 0.9999999999999989,
+      "stoi_enhanced": 0.945576379528471,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00024",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "86790e5670cbcca213a902f1a619c6938da8e9a8f144f13faa2a018e563e8f16",
+        "noisy": "86790e5670cbcca213a902f1a619c6938da8e9a8f144f13faa2a018e563e8f16"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 24.148823104465592,
+      "si_sdri": -55.85117689553441,
+      "processing_seconds": 0.10292292299891415,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05046931422304821,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.57977294921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9985081187181047,
+          "rms_ratio": 1.0004268926221866,
+          "normalized_waveform_l1": 0.024994278428709094,
+          "waveform_l1": 0.001261444091796875,
+          "peak_abs": 0.591796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.159415245056152,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9714341288975287,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00025",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "f4b72fe22dda0ebd79bc956ce289d10d8630e2d463ea074ee27fd6537118b3f3",
+        "noisy": "f4b72fe22dda0ebd79bc956ce289d10d8630e2d463ea074ee27fd6537118b3f3"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 19.87140728812181,
+      "si_sdri": -60.12859271187819,
+      "processing_seconds": 0.060616852999373805,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06968733947610953,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.35760498046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9956469186354281,
+          "rms_ratio": 1.0007619490177957,
+          "normalized_waveform_l1": 0.051356284801445606,
+          "waveform_l1": 0.0035788828531901043,
+          "peak_abs": 0.357757568359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.8367340564727783,
+      "stoi_noisy": 0.9999999999999996,
+      "stoi_enhanced": 0.9533497094298923,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00026",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "68669c43d9656153d2377347cc3f77cd565b5edd7fc4531261bcce6670e955ca",
+        "noisy": "68669c43d9656153d2377347cc3f77cd565b5edd7fc4531261bcce6670e955ca"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 20.711164555164533,
+      "si_sdri": -59.28883544483547,
+      "processing_seconds": 0.05694003399912617,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06944248694502633,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.509979248046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9802961240051852,
+          "rms_ratio": 0.984448478295819,
+          "normalized_waveform_l1": 0.04250683477898227,
+          "waveform_l1": 0.0029517803192138673,
+          "peak_abs": 0.506439208984375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.9926540851593018,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9882454249511762,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00027",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "b726c55fc0e2a55d71c77e1d6bf2d8d02c5fe8cbfe738063755309ec5cb7ad19",
+        "noisy": "b726c55fc0e2a55d71c77e1d6bf2d8d02c5fe8cbfe738063755309ec5cb7ad19"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 23.912897716712706,
+      "si_sdri": -56.087102283287294,
+      "processing_seconds": 0.04481866800051648,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.054332808630952314,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.342437744140625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9950475359329465,
+          "rms_ratio": 0.997066319128645,
+          "normalized_waveform_l1": 0.03934536648568809,
+          "waveform_l1": 0.0021377442677815756,
+          "peak_abs": 0.33587646484375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.016475677490234,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9920346028412886,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00028",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "81b8f67f9bb64734c80f1afc9b90f5447d4bf1ca4aeb8a5a72f7489494c95f7b",
+        "noisy": "81b8f67f9bb64734c80f1afc9b90f5447d4bf1ca4aeb8a5a72f7489494c95f7b"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.193274657189207,
+      "si_sdri": -54.80672534281079,
+      "processing_seconds": 0.06301536899991333,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0676372908088533,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.506866455078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9934915628267345,
+          "rms_ratio": 0.994992976163118,
+          "normalized_waveform_l1": 0.023872826727113758,
+          "waveform_l1": 0.001614693323771159,
+          "peak_abs": 0.507965087890625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.085427284240723,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9951388084434365,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00029",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "e4b2471bdc567dde6d443930a8eb2a1597e6bb1f41e429fe0cdc2b1b28b70006",
+        "noisy": "e4b2471bdc567dde6d443930a8eb2a1597e6bb1f41e429fe0cdc2b1b28b70006"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.519931423163364,
+      "si_sdri": -53.480068576836636,
+      "processing_seconds": 0.05432957699849794,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.060198622621817514,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.402130126953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0044774149035565,
+          "rms_ratio": 1.0055960132869397,
+          "normalized_waveform_l1": 0.02740264721357654,
+          "waveform_l1": 0.0016496016184488933,
+          "peak_abs": 0.40380859375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.125814914703369,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9836833596753486,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00030",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "af4267a8e90b50cbcd9fd793e930df700e9e9a512a3821911ef1564c7b06bca2",
+        "noisy": "af4267a8e90b50cbcd9fd793e930df700e9e9a512a3821911ef1564c7b06bca2"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.847049856500462,
+      "si_sdri": -54.15295014349954,
+      "processing_seconds": 0.06522320600015519,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.02983634821424647,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.208953857421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.999467559329845,
+          "rms_ratio": 1.0007670670134758,
+          "normalized_waveform_l1": 0.029893869652354545,
+          "waveform_l1": 0.0008919239044189453,
+          "peak_abs": 0.210968017578125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.45457124710083,
+      "stoi_noisy": 0.9999999999999993,
+      "stoi_enhanced": 0.9874671350117412,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00031",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "38346b4204879c039f8b512414d003bf341a7a40bfcfa595c0baedc251647dba",
+        "noisy": "38346b4204879c039f8b512414d003bf341a7a40bfcfa595c0baedc251647dba"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 21.186048800067518,
+      "si_sdri": -58.81395119993248,
+      "processing_seconds": 0.05501029600054608,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06927094018475355,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.56097412109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9853114346669575,
+          "rms_ratio": 0.9890535485765276,
+          "normalized_waveform_l1": 0.03878740565967397,
+          "waveform_l1": 0.002686840057373047,
+          "peak_abs": 0.565155029296875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.215968132019043,
+      "stoi_noisy": 0.9999999999999994,
+      "stoi_enhanced": 0.9772476728012016,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00032",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "6f61dd31041f4b5b231f549adc302ee60b78401a1ba93a48abd3f3228aacd651",
+        "noisy": "6f61dd31041f4b5b231f549adc302ee60b78401a1ba93a48abd3f3228aacd651"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.321067481783288,
+      "si_sdri": -54.67893251821671,
+      "processing_seconds": 0.06838248799977009,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.08208085007964523,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.46905517578125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0048541847681227,
+          "rms_ratio": 1.006341455428434,
+          "normalized_waveform_l1": 0.034840060618576,
+          "waveform_l1": 0.0028597017923990887,
+          "peak_abs": 0.4617919921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.124320983886719,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9905328975636163,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00033",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "5cff7f149bdb54e152cf05a93e38b8bf36b81fa3abe2d1f3901b39b9c7a06924",
+        "noisy": "5cff7f149bdb54e152cf05a93e38b8bf36b81fa3abe2d1f3901b39b9c7a06924"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.27639890231361,
+      "si_sdri": -52.72360109768639,
+      "processing_seconds": 0.08396355500008212,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.08550010934977137,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.54638671875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9980288824281875,
+          "rms_ratio": 0.9989629859592443,
+          "normalized_waveform_l1": 0.024302445946453376,
+          "waveform_l1": 0.0020778617858886717,
+          "peak_abs": 0.54248046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.4194746017456055,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9949425152115143,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00034",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "79e0aab907e8b32e2e2f53c29f30249dc2df09b49a039d1c870377d11d1b7824",
+        "noisy": "79e0aab907e8b32e2e2f53c29f30249dc2df09b49a039d1c870377d11d1b7824"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 28.032331593765242,
+      "si_sdri": -51.96766840623476,
+      "processing_seconds": 0.052069401999688125,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.09810123284054872,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.497344970703125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9993770356852067,
+          "rms_ratio": 1.0001628056820258,
+          "normalized_waveform_l1": 0.021687149858318364,
+          "waveform_l1": 0.002127536137898763,
+          "peak_abs": 0.50396728515625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.373971939086914,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9571173343494437,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00035",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "1a34954904460b9952f96a544108d0af36290684fae480f2e27d04d281209265",
+        "noisy": "1a34954904460b9952f96a544108d0af36290684fae480f2e27d04d281209265"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.384561963195658,
+      "si_sdri": -52.61543803680434,
+      "processing_seconds": 0.04235774699918693,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0420227773534633,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.33251953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.00844369278703,
+          "rms_ratio": 1.0093641624199157,
+          "normalized_waveform_l1": 0.02607962713760022,
+          "waveform_l1": 0.0010959383646647134,
+          "peak_abs": 0.3326416015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.203684329986572,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.9928635860173213,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00036",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "f8192f0e5f44c088d9b6a3c5f6debd9dedde29f080503066b3f006f74406fd81",
+        "noisy": "f8192f0e5f44c088d9b6a3c5f6debd9dedde29f080503066b3f006f74406fd81"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.25287641463005,
+      "si_sdri": -53.74712358536995,
+      "processing_seconds": 0.04221394199885253,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06705135036470143,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.57373046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9963836373941634,
+          "rms_ratio": 1.0010428462137537,
+          "normalized_waveform_l1": 0.08471649028879,
+          "waveform_l1": 0.005680355072021484,
+          "peak_abs": 0.6004638671875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.463603973388672,
+      "stoi_noisy": 0.999999999999981,
+      "stoi_enhanced": 0.8791902882541981,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00037",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "dcd2321ffee0017233ec417a79e9849eae684a204182df8f8791fd9759933d77",
+        "noisy": "dcd2321ffee0017233ec417a79e9849eae684a204182df8f8791fd9759933d77"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 24.39062645738455,
+      "si_sdri": -55.60937354261545,
+      "processing_seconds": 0.04154944199945021,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07058901137071497,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.38134765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9951667777963457,
+          "rms_ratio": 0.996975657740044,
+          "normalized_waveform_l1": 0.036204104274568084,
+          "waveform_l1": 0.0025556119283040367,
+          "peak_abs": 0.364288330078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.243431568145752,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9905882717183241,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00038",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "158747048b81457a8954c22b4acb6a92957d160cf7c25a2cccae625cd934769c",
+        "noisy": "158747048b81457a8954c22b4acb6a92957d160cf7c25a2cccae625cd934769c"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.336959597290736,
+      "si_sdri": -53.663040402709264,
+      "processing_seconds": 0.05083620899858943,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.08315918925928702,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.31207275390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9959053490302431,
+          "rms_ratio": 0.9970624625604533,
+          "normalized_waveform_l1": 0.027705472304263273,
+          "waveform_l1": 0.002303964614868164,
+          "peak_abs": 0.31591796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.533020973205566,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9993987013416978,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00039",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "5db3ebd09fba092cb0d961ebc2f83527250754b1380f628448b9a0e94cb5084e",
+        "noisy": "5db3ebd09fba092cb0d961ebc2f83527250754b1380f628448b9a0e94cb5084e"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.701782747772643,
+      "si_sdri": -54.29821725222736,
+      "processing_seconds": 0.0554501499991602,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.045818200910901614,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.40460205078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9995130661097695,
+          "rms_ratio": 1.0008567418956358,
+          "normalized_waveform_l1": 0.023642046981712097,
+          "waveform_l1": 0.00108323605855306,
+          "peak_abs": 0.404052734375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.3461408615112305,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9829200653023712,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00040",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "d2232fda10060f504f1bfb31d0a64c16cf486bd95101031c58881290f6f0bf73",
+        "noisy": "d2232fda10060f504f1bfb31d0a64c16cf486bd95101031c58881290f6f0bf73"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 20.633710794894363,
+      "si_sdri": -59.36628920510564,
+      "processing_seconds": 0.0474669659997744,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.048136490463675644,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.2801513671875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9779147147612599,
+          "rms_ratio": 0.9889084872049422,
+          "normalized_waveform_l1": 0.12808952887805677,
+          "waveform_l1": 0.006165780385335286,
+          "peak_abs": 0.27911376953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.38995099067688,
+      "stoi_noisy": 0.9999999999999979,
+      "stoi_enhanced": 0.8499725408849652,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00041",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "144f8c09136e1910288d8f2cf9211d33b440e1636882d6932af4c285f972bfb6",
+        "noisy": "144f8c09136e1910288d8f2cf9211d33b440e1636882d6932af4c285f972bfb6"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 35.54610828297903,
+      "si_sdri": -44.45389171702097,
+      "processing_seconds": 0.04377414000009594,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04890381033286101,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.33984375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0043511899837325,
+          "rms_ratio": 1.0044912192691202,
+          "normalized_waveform_l1": 0.009520464295418453,
+          "waveform_l1": 0.00046558698018391926,
+          "peak_abs": 0.338134765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.605611324310303,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9995832325641039,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00042",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "d73574dc100a464b6d79fdce2049c7bf365fe9c9e264ba5b83a1de701b36b745",
+        "noisy": "d73574dc100a464b6d79fdce2049c7bf365fe9c9e264ba5b83a1de701b36b745"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.711222936812334,
+      "si_sdri": -53.288777063187666,
+      "processing_seconds": 0.04487803600022744,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07892056109873023,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.3819580078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9991807820174896,
+          "rms_ratio": 1.0007456030849358,
+          "normalized_waveform_l1": 0.038210464567464984,
+          "waveform_l1": 0.003015591303507487,
+          "peak_abs": 0.385650634765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.161291599273682,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9908804386582376,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00043",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "49b381bee3ba55f55222f3970caab87ad90b2e3ff82ce4af3c01580dae47567b",
+        "noisy": "49b381bee3ba55f55222f3970caab87ad90b2e3ff82ce4af3c01580dae47567b"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 5.039063076608238,
+      "si_sdri": -74.96093692339176,
+      "processing_seconds": 0.07648307599993132,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05581293709644288,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.404022216796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.6867713517381288,
+          "rms_ratio": 0.7870641835892724,
+          "normalized_waveform_l1": 0.11180573403206712,
+          "waveform_l1": 0.0062402064005533855,
+          "peak_abs": 0.328826904296875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.427553653717041,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.9487724435690325,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00044",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "1ce0500dfacb6d9cf2a6bf514be547a63615e968a555056da283dad7159e8740",
+        "noisy": "1ce0500dfacb6d9cf2a6bf514be547a63615e968a555056da283dad7159e8740"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 31.532176889290547,
+      "si_sdri": -48.46782311070945,
+      "processing_seconds": 0.0773933569998917,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07379626677860285,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.833251953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0037314086327374,
+          "rms_ratio": 1.004084019751541,
+          "normalized_waveform_l1": 0.017774002694347365,
+          "waveform_l1": 0.001311655044555664,
+          "peak_abs": 0.8323974609375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.405036926269531,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9967235620236141,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00045",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "582f56af8c069a6db0ab0a19455991c7a862266cbcd9927e7d6e69cd12f70636",
+        "noisy": "582f56af8c069a6db0ab0a19455991c7a862266cbcd9927e7d6e69cd12f70636"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.94175520239334,
+      "si_sdri": -53.05824479760666,
+      "processing_seconds": 0.04587141400043038,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07281206282531873,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.3427734375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9992332279861084,
+          "rms_ratio": 1.0002433060328348,
+          "normalized_waveform_l1": 0.02060148850617782,
+          "waveform_l1": 0.001500036875406901,
+          "peak_abs": 0.337188720703125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.430212497711182,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.99220322065251,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00046",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "0d132bace019a71eb505974e4f36bfa5b351818c53657de1f91255b6e274da21",
+        "noisy": "0d132bace019a71eb505974e4f36bfa5b351818c53657de1f91255b6e274da21"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 21.09350751545144,
+      "si_sdri": -58.906492484548565,
+      "processing_seconds": 0.049672556000587065,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.031192770742220995,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.2803955078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9897393383193274,
+          "rms_ratio": 0.9935792313965571,
+          "normalized_waveform_l1": 0.05358081084181866,
+          "waveform_l1": 0.0016713339487711587,
+          "peak_abs": 0.281585693359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.137668609619141,
+      "stoi_noisy": 0.9999999999999966,
+      "stoi_enhanced": 0.8605631260295996,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00047",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "320bdb22da933ea508728cac079e58a2229e00c6b66c7d8bad05ea45e99312c0",
+        "noisy": "320bdb22da933ea508728cac079e58a2229e00c6b66c7d8bad05ea45e99312c0"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 19.600518795493723,
+      "si_sdri": -60.39948120450627,
+      "processing_seconds": 0.05644306400063215,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0586998104040462,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.345611572265625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9867152851450784,
+          "rms_ratio": 0.9921094537483498,
+          "normalized_waveform_l1": 0.043262045210060225,
+          "waveform_l1": 0.00253947385152181,
+          "peak_abs": 0.35284423828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.350022077560425,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9767924857375285,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00048",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "36c537124c0a52ff71d3e66b4fceb6521ec896113a6599d85ca70527effda131",
+        "noisy": "36c537124c0a52ff71d3e66b4fceb6521ec896113a6599d85ca70527effda131"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 28.78338881183186,
+      "si_sdri": -51.216611188168145,
+      "processing_seconds": 0.06277836800109071,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0437445980308242,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.3831787109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0130377141152398,
+          "rms_ratio": 1.013715399251253,
+          "normalized_waveform_l1": 0.022342715836141617,
+          "waveform_l1": 0.0009773731231689452,
+          "peak_abs": 0.400604248046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.370990753173828,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9973024917771578,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00049",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "4f697bbf7edc5c181eb18a1d039a3c19dcd6a9f9057beaebb44ac12d0aec1070",
+        "noisy": "4f697bbf7edc5c181eb18a1d039a3c19dcd6a9f9057beaebb44ac12d0aec1070"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 21.421930933548182,
+      "si_sdri": -58.57806906645182,
+      "processing_seconds": 0.05041480600084469,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06444547715895639,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.42828369140625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9833387493059466,
+          "rms_ratio": 0.9915238163920012,
+          "normalized_waveform_l1": 0.10739629568663997,
+          "waveform_l1": 0.006921205520629883,
+          "peak_abs": 0.42938232421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.7855679988861084,
+      "stoi_noisy": 0.999999999999999,
+      "stoi_enhanced": 0.9196999657891519,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00050",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "de685980189cab6a384cafe72950207d3f18b822669d6fc3ebb29da37ad525bd",
+        "noisy": "de685980189cab6a384cafe72950207d3f18b822669d6fc3ebb29da37ad525bd"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.7107418183461,
+      "si_sdri": -53.2892581816539,
+      "processing_seconds": 0.050482560000091325,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0345439751227831,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.3433837890625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.000819935095318,
+          "rms_ratio": 1.0018865866661237,
+          "normalized_waveform_l1": 0.019195470193912354,
+          "waveform_l1": 0.0006630878448486328,
+          "peak_abs": 0.34417724609375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.346860885620117,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9937821221427776,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00051",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "263fa1b70804a4d92b8bae57cfd9870a139a8e5b9348e45e1de944fce18f1250",
+        "noisy": "263fa1b70804a4d92b8bae57cfd9870a139a8e5b9348e45e1de944fce18f1250"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.080109932336903,
+      "si_sdri": -52.9198900676631,
+      "processing_seconds": 0.06188003699935507,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06031547806666468,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.453369140625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9984673028694203,
+          "rms_ratio": 0.9994447450784409,
+          "normalized_waveform_l1": 0.019540236311462452,
+          "waveform_l1": 0.0011785786946614584,
+          "peak_abs": 0.45550537109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.307559013366699,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.99117944390548,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00052",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "a43076d58fdfea2daecf5b5b1970d72f25c737016d34afd520cce886c2dccf38",
+        "noisy": "a43076d58fdfea2daecf5b5b1970d72f25c737016d34afd520cce886c2dccf38"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.46902456156845,
+      "si_sdri": -54.530975438431554,
+      "processing_seconds": 0.056743753999398905,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.053744428103100136,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.386810302734375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0044610507506664,
+          "rms_ratio": 1.005885654560613,
+          "normalized_waveform_l1": 0.027273252245420786,
+          "waveform_l1": 0.0014657853444417317,
+          "peak_abs": 0.39105224609375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.227691650390625,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9822260752908379,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00053",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "9101fdb9660620ef890c2416406f829a9c172cf25f2b091ce3a605f34162f599",
+        "noisy": "9101fdb9660620ef890c2416406f829a9c172cf25f2b091ce3a605f34162f599"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 18.898961888755775,
+      "si_sdri": -61.10103811124422,
+      "processing_seconds": 0.12283527899853652,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04578201042952227,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.4210205078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.7152904369366023,
+          "rms_ratio": 0.8433450570012769,
+          "normalized_waveform_l1": 0.5212911110121774,
+          "waveform_l1": 0.02386575508117676,
+          "peak_abs": 0.45550537109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.3442306518554688,
+      "stoi_noisy": 0.9999999999999992,
+      "stoi_enhanced": 0.9388056910010671,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00054",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "30b2d91a474c576ab44a97969c107bca5bb52fc60152fa61a8a70ab8c84cbff3",
+        "noisy": "30b2d91a474c576ab44a97969c107bca5bb52fc60152fa61a8a70ab8c84cbff3"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 28.175157882963042,
+      "si_sdri": -51.82484211703696,
+      "processing_seconds": 0.07056127200121409,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0493160967714841,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.2493896484375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0013430221962394,
+          "rms_ratio": 1.0021048766253788,
+          "normalized_waveform_l1": 0.023723385259071993,
+          "waveform_l1": 0.0011699447631835938,
+          "peak_abs": 0.247039794921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.0260210037231445,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9802102911311711,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00055",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "03bbd7a96b24956060ddd68e4102f9f9f7d29f64e1f1826b5a17e3b8704f5610",
+        "noisy": "03bbd7a96b24956060ddd68e4102f9f9f7d29f64e1f1826b5a17e3b8704f5610"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 19.83110229761882,
+      "si_sdri": -60.16889770238118,
+      "processing_seconds": 0.05678661799902329,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.051704069076523015,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.421295166015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.8966323120408368,
+          "rms_ratio": 0.9441672133414177,
+          "normalized_waveform_l1": 0.29908258129912063,
+          "waveform_l1": 0.015463786443074544,
+          "peak_abs": 0.40203857421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.20034122467041,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9897102703902008,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00056",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "d306d58c5c9265fa69873a5a2a8893d6928ef48650fe46cc5ccc3f536c8ee7ba",
+        "noisy": "d306d58c5c9265fa69873a5a2a8893d6928ef48650fe46cc5ccc3f536c8ee7ba"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 14.662385917976959,
+      "si_sdri": -65.33761408202304,
+      "processing_seconds": 0.09620340900073643,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04722397743126924,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.571441650390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.8885937128188316,
+          "rms_ratio": 0.910297734292339,
+          "normalized_waveform_l1": 0.13439956165683972,
+          "waveform_l1": 0.006346881866455078,
+          "peak_abs": 0.59552001953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.059612274169922,
+      "stoi_noisy": 0.9999999999999988,
+      "stoi_enhanced": 0.9733376802372641,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00057",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "4498b87d7728537957b60a941af49017d4343ed16144f519e881234289d032a2",
+        "noisy": "4498b87d7728537957b60a941af49017d4343ed16144f519e881234289d032a2"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 23.430081507291533,
+      "si_sdri": -56.56991849270847,
+      "processing_seconds": 0.1009865300002275,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05757437632554997,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.578887939453125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9841185267538947,
+          "rms_ratio": 0.991834426796129,
+          "normalized_waveform_l1": 0.10830675053132824,
+          "waveform_l1": 0.006235693613688151,
+          "peak_abs": 0.59210205078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.4048004150390625,
+      "stoi_noisy": 0.999999999999994,
+      "stoi_enhanced": 0.9613729751814675,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00058",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "f6d07e421850b7745accc19d295ec15f31735305756e37dad5ab589f178949c8",
+        "noisy": "f6d07e421850b7745accc19d295ec15f31735305756e37dad5ab589f178949c8"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 31.375178970636814,
+      "si_sdri": -48.62482102936319,
+      "processing_seconds": 0.05688214899964805,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.03434826888884974,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.34326171875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0006149014060206,
+          "rms_ratio": 1.0009793572892955,
+          "normalized_waveform_l1": 0.014044124290015404,
+          "waveform_l1": 0.000482391357421875,
+          "peak_abs": 0.34515380859375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.515146732330322,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9952492013948725,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00059",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "bb9718466e129ff30f102a03a29dca05a33771466c877b1abead0e2407de8bc6",
+        "noisy": "bb9718466e129ff30f102a03a29dca05a33771466c877b1abead0e2407de8bc6"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 21.146528744760076,
+      "si_sdri": -58.853471255239924,
+      "processing_seconds": 0.09393864499907068,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06238094542315246,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.38079833984375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9897566671778731,
+          "rms_ratio": 0.9935506085928448,
+          "normalized_waveform_l1": 0.060161770549417765,
+          "waveform_l1": 0.0037529481252034503,
+          "peak_abs": 0.378753662109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.32462739944458,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9964288325786215,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00060",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "f2ef6d07d9e9261025ad871cabb40e2d275681a25448c6c0c0e0b6a95bfdb747",
+        "noisy": "f2ef6d07d9e9261025ad871cabb40e2d275681a25448c6c0c0e0b6a95bfdb747"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 29.60210038392956,
+      "si_sdri": -50.39789961607044,
+      "processing_seconds": 0.06532757000059064,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05403244186900055,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.348114013671875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0004795058052316,
+          "rms_ratio": 1.001027613286239,
+          "normalized_waveform_l1": 0.018714152201263205,
+          "waveform_l1": 0.0010111713409423828,
+          "peak_abs": 0.343658447265625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.252387523651123,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9701193907078904,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00061",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "bfc79e9437f5f435b061552f1d1f24bd3fa469f14f40eb434efccbae2004cba3",
+        "noisy": "bfc79e9437f5f435b061552f1d1f24bd3fa469f14f40eb434efccbae2004cba3"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.250804452080786,
+      "si_sdri": -54.749195547919214,
+      "processing_seconds": 0.04802460999962932,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06699974348603188,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.32757568359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9982528209851749,
+          "rms_ratio": 0.9997420128287645,
+          "normalized_waveform_l1": 0.026330612176833915,
+          "waveform_l1": 0.00176414426167806,
+          "peak_abs": 0.345703125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.4244866371154785,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9958619888503237,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00062",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "c233ace8d989d42dd127fb936147f1887ccd02e0940a1df7f2a336c40f4738ec",
+        "noisy": "c233ace8d989d42dd127fb936147f1887ccd02e0940a1df7f2a336c40f4738ec"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 28.141402561774484,
+      "si_sdri": -51.858597438225516,
+      "processing_seconds": 0.052420521999010816,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06724738692288768,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.30340576171875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0013965880740812,
+          "rms_ratio": 1.0027274956395351,
+          "normalized_waveform_l1": 0.037304613026105764,
+          "waveform_l1": 0.00250863774617513,
+          "peak_abs": 0.311370849609375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.382358074188232,
+      "stoi_noisy": 0.9999999999999994,
+      "stoi_enhanced": 0.9914610555239834,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00063",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "72ce3b96e87f00f7cf280d0924de7a28249da9e4cb5eda25b25779b3635121a7",
+        "noisy": "72ce3b96e87f00f7cf280d0924de7a28249da9e4cb5eda25b25779b3635121a7"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 30.245722800317168,
+      "si_sdri": -49.75427719968283,
+      "processing_seconds": 0.04239161400073499,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07601394549829232,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.703094482421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0062863877855384,
+          "rms_ratio": 1.006761743672096,
+          "normalized_waveform_l1": 0.018746583549252422,
+          "waveform_l1": 0.0014250017801920572,
+          "peak_abs": 0.70947265625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.053363800048828,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9980823092726882,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00064",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "d617b88b5412073f9ff71bf454137ef24cda9b4bd2e40f041f3bc7486c359d88",
+        "noisy": "d617b88b5412073f9ff71bf454137ef24cda9b4bd2e40f041f3bc7486c359d88"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.354969541287897,
+      "si_sdri": -53.6450304587121,
+      "processing_seconds": 0.06761617600022873,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06313678605152807,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.501373291015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9927966785049838,
+          "rms_ratio": 0.9939450497058909,
+          "normalized_waveform_l1": 0.027205339904607075,
+          "waveform_l1": 0.001717657725016276,
+          "peak_abs": 0.50738525390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.196181774139404,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.993209091361041,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00065",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "2ece6309efe7556ff7e75d80e84ec71088f05119cd0df9a6c205f5a0233b16b8",
+        "noisy": "2ece6309efe7556ff7e75d80e84ec71088f05119cd0df9a6c205f5a0233b16b8"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 23.012886843358153,
+      "si_sdri": -56.98711315664185,
+      "processing_seconds": 0.050719726001261733,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.023699574250164588,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.193634033203125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9984665332050081,
+          "rms_ratio": 1.00095815294608,
+          "normalized_waveform_l1": 0.050146384054230615,
+          "waveform_l1": 0.001188447952270508,
+          "peak_abs": 0.188018798828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.154797077178955,
+      "stoi_noisy": 0.9999999999999969,
+      "stoi_enhanced": 0.886840935801936,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00066",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "9145e643f9ebee44a1fd44d1bf037397fc2b84aacee74df4c0bd6d3567483346",
+        "noisy": "9145e643f9ebee44a1fd44d1bf037397fc2b84aacee74df4c0bd6d3567483346"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 30.673637573116487,
+      "si_sdri": -49.32636242688351,
+      "processing_seconds": 0.08578924300127255,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05014961370499553,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.4720458984375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0066104240005391,
+          "rms_ratio": 1.0070413260657032,
+          "normalized_waveform_l1": 0.015830811330793827,
+          "waveform_l1": 0.0007939090728759766,
+          "peak_abs": 0.47772216796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.416354179382324,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9924767881040125,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00067",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "38d4564aabbc507613a599fe6c031e210509e5756cc1a632fc373d85210ad6f0",
+        "noisy": "38d4564aabbc507613a599fe6c031e210509e5756cc1a632fc373d85210ad6f0"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 22.645074654631934,
+      "si_sdri": -57.354925345368066,
+      "processing_seconds": 0.08728627799973765,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.08008349089724597,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.586639404296875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9962986952330222,
+          "rms_ratio": 0.9990230590265408,
+          "normalized_waveform_l1": 0.035180696463906654,
+          "waveform_l1": 0.002817392985026042,
+          "peak_abs": 0.5826416015625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.259693145751953,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9824960372717794,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00068",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "46f2cef87b1980d534fc41a5ee35e22ad1d8cc425acff0511ccfccb72aa70a7e",
+        "noisy": "46f2cef87b1980d534fc41a5ee35e22ad1d8cc425acff0511ccfccb72aa70a7e"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 17.629364077223787,
+      "si_sdri": -62.370635922776216,
+      "processing_seconds": 0.06527000999994925,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05879570142216477,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.5758056640625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9580333125866175,
+          "rms_ratio": 0.9662661844145306,
+          "normalized_waveform_l1": 0.03468538909955952,
+          "waveform_l1": 0.00203935178120931,
+          "peak_abs": 0.488677978515625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.184079647064209,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9931582034089051,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00069",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "8ac590d5314321780e53d1ea60866eb5416ba73bdce563a9ab41f6351e27f436",
+        "noisy": "8ac590d5314321780e53d1ea60866eb5416ba73bdce563a9ab41f6351e27f436"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 16.209657344026763,
+      "si_sdri": -63.790342655973234,
+      "processing_seconds": 0.10440035000101489,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07359987862112517,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.57958984375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9402245435498329,
+          "rms_ratio": 0.9514101540856856,
+          "normalized_waveform_l1": 0.042638486193732936,
+          "waveform_l1": 0.0031381874084472658,
+          "peak_abs": 0.51092529296875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.057697296142578,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.9842120765876725,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00070",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "a6a651ff7b500d4c0cb05ec4108453e08648622a02760d85c9e10699e1535919",
+        "noisy": "a6a651ff7b500d4c0cb05ec4108453e08648622a02760d85c9e10699e1535919"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 12.759890884532286,
+      "si_sdri": -67.24010911546772,
+      "processing_seconds": 0.05130509199989319,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05620534295285911,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.366241455078125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.89795541504116,
+          "rms_ratio": 0.9214428633042273,
+          "normalized_waveform_l1": 0.056811901373697855,
+          "waveform_l1": 0.0031931324005126955,
+          "peak_abs": 0.371612548828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.217281341552734,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.98417969884798,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00071",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "3d26749df634987484fb9f9a4312bb7079ec7b471da85059fc228a60299c5a44",
+        "noisy": "3d26749df634987484fb9f9a4312bb7079ec7b471da85059fc228a60299c5a44"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 28.15312412539236,
+      "si_sdri": -51.84687587460764,
+      "processing_seconds": 0.05373497599975963,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05505955420880359,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.475006103515625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0026999638952414,
+          "rms_ratio": 1.0042862349652089,
+          "normalized_waveform_l1": 0.04411077919828042,
+          "waveform_l1": 0.0024287198384602866,
+          "peak_abs": 0.47381591796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.289052486419678,
+      "stoi_noisy": 0.9999999999999993,
+      "stoi_enhanced": 0.9726520744915302,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00072",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "4972228114d87afa2da7a38b4d4dfe4bfa81d3b3faaf783a68db34daa3e5358f",
+        "noisy": "4972228114d87afa2da7a38b4d4dfe4bfa81d3b3faaf783a68db34daa3e5358f"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 24.341237337998347,
+      "si_sdri": -55.65876266200165,
+      "processing_seconds": 0.07281525200050964,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0491676702991291,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.5660400390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0001806624401983,
+          "rms_ratio": 1.002019425613663,
+          "normalized_waveform_l1": 0.02661644866266396,
+          "waveform_l1": 0.0013086687723795573,
+          "peak_abs": 0.536773681640625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.2850446701049805,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.9914355620607272,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00073",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "6b41e0cb3754f1ac73dc10b83622ce6862a6f591fff1e72b0043aaee2bb77282",
+        "noisy": "6b41e0cb3754f1ac73dc10b83622ce6862a6f591fff1e72b0043aaee2bb77282"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 20.466628080884455,
+      "si_sdri": -59.533371919115545,
+      "processing_seconds": 0.049821950000477955,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06706098416152735,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.56976318359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9754377862836424,
+          "rms_ratio": 0.9831306935647701,
+          "normalized_waveform_l1": 0.09135093155310342,
+          "waveform_l1": 0.006126083374023437,
+          "peak_abs": 0.577301025390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.432905673980713,
+      "stoi_noisy": 0.9999999999999991,
+      "stoi_enhanced": 0.9802085000335176,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00074",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "28db327706fa52ad2f1771bc94489d70ce86025ea6ef80fb5974ff44d05d8b24",
+        "noisy": "28db327706fa52ad2f1771bc94489d70ce86025ea6ef80fb5974ff44d05d8b24"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 16.923429296449363,
+      "si_sdri": -63.07657070355064,
+      "processing_seconds": 0.054955048000920215,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.03937446656517011,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.309478759765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.8135735363658151,
+          "rms_ratio": 0.8998720705874026,
+          "normalized_waveform_l1": 0.408140902056971,
+          "waveform_l1": 0.016070330301920573,
+          "peak_abs": 0.273040771484375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.774174690246582,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9893946079886401,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00075",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "072a71a1182750359a7c9713538a3e3ad950e7b3a4f1f7ebc0a114d51f245c9b",
+        "noisy": "072a71a1182750359a7c9713538a3e3ad950e7b3a4f1f7ebc0a114d51f245c9b"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 25.846441702363386,
+      "si_sdri": -54.153558297636614,
+      "processing_seconds": 0.05138167999939469,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04132882374569107,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.3148193359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0011460343979917,
+          "rms_ratio": 1.0024478517696687,
+          "normalized_waveform_l1": 0.037781161347829294,
+          "waveform_l1": 0.001561450958251953,
+          "peak_abs": 0.318878173828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.622666120529175,
+      "stoi_noisy": 0.9999999999999994,
+      "stoi_enhanced": 0.9542454093744164,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00076",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "cef0cc2a3d9fa99dbbef1d816109ff0fecaa9249e21090a9a3771310159d055e",
+        "noisy": "cef0cc2a3d9fa99dbbef1d816109ff0fecaa9249e21090a9a3771310159d055e"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 20.899496877559596,
+      "si_sdri": -59.1005031224404,
+      "processing_seconds": 0.0678664060014853,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06827318650942442,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.365447998046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9879895645407474,
+          "rms_ratio": 0.9919976762103226,
+          "normalized_waveform_l1": 0.05527057880380839,
+          "waveform_l1": 0.00377349853515625,
+          "peak_abs": 0.374542236328125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.086285591125488,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9794507029142909,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00077",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "1c4d665ae54c896fe982b9a741e4463ba260b8c3ed9ed9bb95554f12b7b42786",
+        "noisy": "1c4d665ae54c896fe982b9a741e4463ba260b8c3ed9ed9bb95554f12b7b42786"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 29.063747924857687,
+      "si_sdri": -50.93625207514231,
+      "processing_seconds": 0.04241675000048417,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.061263673692587874,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.462860107421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9989033017184276,
+          "rms_ratio": 0.999522719806396,
+          "normalized_waveform_l1": 0.01943937465240925,
+          "waveform_l1": 0.001190927505493164,
+          "peak_abs": 0.46435546875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.44657564163208,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.994934571916638,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00078",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "0694c4dbd12e91c666c5061aeea0e69d2a04109111be06f4c75b73b6cb6321ff",
+        "noisy": "0694c4dbd12e91c666c5061aeea0e69d2a04109111be06f4c75b73b6cb6321ff"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 22.749053351381967,
+      "si_sdri": -57.25094664861803,
+      "processing_seconds": 0.04554891000043426,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0839110894326087,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.41937255859375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9958378957770778,
+          "rms_ratio": 1.0010683756093839,
+          "normalized_waveform_l1": 0.08100962054587207,
+          "waveform_l1": 0.006797605514526367,
+          "peak_abs": 0.436187744140625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.7117600440979004,
+      "stoi_noisy": 0.9999999999999979,
+      "stoi_enhanced": 0.8869640164031403,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00079",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "58b1d0f622dd6e33f3a511e729d47ab44f779a495d3b20f8aa36e36a4ef8bf06",
+        "noisy": "58b1d0f622dd6e33f3a511e729d47ab44f779a495d3b20f8aa36e36a4ef8bf06"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 23.47270502858434,
+      "si_sdri": -56.52729497141566,
+      "processing_seconds": 0.07826937699974224,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.03904500575149271,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.27752685546875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9885101164454392,
+          "rms_ratio": 0.9907293308840099,
+          "normalized_waveform_l1": 0.03825162002596311,
+          "waveform_l1": 0.0014935347239176432,
+          "peak_abs": 0.2652587890625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.1225409507751465,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9712569417464988,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00080",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "1dbf72f51ffd96350e6791d0383ad6a44cf35e703f2082a91e386df7f10c68ce",
+        "noisy": "1dbf72f51ffd96350e6791d0383ad6a44cf35e703f2082a91e386df7f10c68ce"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 29.40218398410575,
+      "si_sdri": -50.59781601589425,
+      "processing_seconds": 0.03857384199909575,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.08049252535042854,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.358551025390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0050925241469248,
+          "rms_ratio": 1.0056692458170549,
+          "normalized_waveform_l1": 0.022380403298412222,
+          "waveform_l1": 0.0018014551798502603,
+          "peak_abs": 0.364593505859375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.432333946228027,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.995292019650765,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00081",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "9262277a1aac3c3a6ce8a837b3e35f2dff2599cb3efbc57550ebceaace416312",
+        "noisy": "9262277a1aac3c3a6ce8a837b3e35f2dff2599cb3efbc57550ebceaace416312"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 30.767804238309026,
+      "si_sdri": -49.232195761690974,
+      "processing_seconds": 0.048062706000564503,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04775590778240753,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.3258056640625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0023001250266472,
+          "rms_ratio": 1.0027201576933091,
+          "normalized_waveform_l1": 0.013774625558832626,
+          "waveform_l1": 0.0006578197479248047,
+          "peak_abs": 0.323486328125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.588505268096924,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9992873051912946,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00082",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "b42b76be0b8ec17d4bc0b4f3b6139bb514abf06e7446f462c05576d455cfcc76",
+        "noisy": "b42b76be0b8ec17d4bc0b4f3b6139bb514abf06e7446f462c05576d455cfcc76"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 19.48610770212898,
+      "si_sdri": -60.513892297871024,
+      "processing_seconds": 0.0485306730006414,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06409426253316669,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.7021484375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9856771387652579,
+          "rms_ratio": 0.9912090722675555,
+          "normalized_waveform_l1": 0.03172884199845791,
+          "waveform_l1": 0.002033636728922526,
+          "peak_abs": 0.707611083984375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.390767574310303,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9969501901942962,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00083",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "460c920f7fb0c63d46c1f78a1b667fd459051f2e7e8d15e675b248b21316ac51",
+        "noisy": "460c920f7fb0c63d46c1f78a1b667fd459051f2e7e8d15e675b248b21316ac51"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 22.27847053772141,
+      "si_sdri": -57.72152946227859,
+      "processing_seconds": 0.041772378999667126,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06451473601958511,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.59661865234375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9877555260445184,
+          "rms_ratio": 0.9906740240389518,
+          "normalized_waveform_l1": 0.04710281985571509,
+          "waveform_l1": 0.0030388259887695313,
+          "peak_abs": 0.596588134765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.208148956298828,
+      "stoi_noisy": 0.9999999999999992,
+      "stoi_enhanced": 0.9739133899674057,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00084",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "1545a5d295f6a048ac2b1a6488f5a03af74feddde52526d6951275174a711701",
+        "noisy": "1545a5d295f6a048ac2b1a6488f5a03af74feddde52526d6951275174a711701"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.029548793238014,
+      "si_sdri": -53.970451206761986,
+      "processing_seconds": 0.109036396999727,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.09617966308091336,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.56024169921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9996340639965983,
+          "rms_ratio": 1.0008981277546376,
+          "normalized_waveform_l1": 0.033813435569661786,
+          "waveform_l1": 0.003252164840698242,
+          "peak_abs": 0.546966552734375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.1219072341918945,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9751057624219588,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00085",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "7dca3fca6e7efb9053b5b729cf14b21652e4969507c42a3402584f8b95100734",
+        "noisy": "7dca3fca6e7efb9053b5b729cf14b21652e4969507c42a3402584f8b95100734"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 30.123850225487207,
+      "si_sdri": -49.8761497745128,
+      "processing_seconds": 0.05006987399974605,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05001731902492186,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.25128173828125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0037340684828124,
+          "rms_ratio": 1.004221709592605,
+          "normalized_waveform_l1": 0.018309812318063445,
+          "waveform_l1": 0.0009158077239990234,
+          "peak_abs": 0.2584228515625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.1386189460754395,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.9810554782445017,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00086",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "a39d1f912d6636daf0d00801cd5cce3aefeb2d732a038c7804e4b5d81c8b2a21",
+        "noisy": "a39d1f912d6636daf0d00801cd5cce3aefeb2d732a038c7804e4b5d81c8b2a21"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 35.84756527039863,
+      "si_sdri": -44.15243472960137,
+      "processing_seconds": 0.049974345000009635,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.0629569869835646,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.55938720703125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.002098132564987,
+          "rms_ratio": 1.0022284884190416,
+          "normalized_waveform_l1": 0.010135122609872314,
+          "waveform_l1": 0.0006380767822265625,
+          "peak_abs": 0.558349609375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.611667156219482,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.999460838774483,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00087",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "f5fc5c61e2bfe8b66c42023f389b0a8175619f62889b7e103e3fab6c301928bd",
+        "noisy": "f5fc5c61e2bfe8b66c42023f389b0a8175619f62889b7e103e3fab6c301928bd"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 23.699262658521228,
+      "si_sdri": -56.30073734147877,
+      "processing_seconds": 0.0428804389994184,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06828079660852962,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.30780029296875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0005049261786931,
+          "rms_ratio": 1.0026372308443285,
+          "normalized_waveform_l1": 0.03792642713521659,
+          "waveform_l1": 0.0025896466573079426,
+          "peak_abs": 0.3209228515625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.0486531257629395,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9858031017760197,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00088",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "6b501047515a7ecfd76aeeb29de2cdab95bdee454f2567c61ba3498712b7edc0",
+        "noisy": "6b501047515a7ecfd76aeeb29de2cdab95bdee454f2567c61ba3498712b7edc0"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 29.528692206661773,
+      "si_sdri": -50.47130779333823,
+      "processing_seconds": 0.05333400699964841,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04140016652680908,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.259124755859375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9985765730502719,
+          "rms_ratio": 0.9991329519990543,
+          "normalized_waveform_l1": 0.01833082126484668,
+          "waveform_l1": 0.0007588990529378255,
+          "peak_abs": 0.25494384765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.486841201782227,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9957562258711455,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00089",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "e6016d7a85a61d15d62a259c53f9c65839141fd9241440342fdaa27e3f41ec7b",
+        "noisy": "e6016d7a85a61d15d62a259c53f9c65839141fd9241440342fdaa27e3f41ec7b"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 20.95485547423596,
+      "si_sdri": -59.045144525764044,
+      "processing_seconds": 0.03948740699888731,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07754420444385757,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.36663818359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.000316946728247,
+          "rms_ratio": 1.004323437101657,
+          "normalized_waveform_l1": 0.04750141711079995,
+          "waveform_l1": 0.0036834595998128253,
+          "peak_abs": 0.3944091796875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.879732608795166,
+      "stoi_noisy": 0.9999999999999987,
+      "stoi_enhanced": 0.9222788891053274,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00090",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "b3c53a37cd0dc867dcbc850c1501aaf20687b6cac71f9d4b6fef15025566203e",
+        "noisy": "b3c53a37cd0dc867dcbc850c1501aaf20687b6cac71f9d4b6fef15025566203e"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 35.32242262275898,
+      "si_sdri": -44.67757737724102,
+      "processing_seconds": 0.04628953000064939,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04769241861317181,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.266571044921875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0034245096014593,
+          "rms_ratio": 1.0035718033893029,
+          "normalized_waveform_l1": 0.011386401858750207,
+          "waveform_l1": 0.0005430450439453125,
+          "peak_abs": 0.26861572265625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.5912394523620605,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9995874876405979,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00091",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "311c3bb620cc1a16de81c8c93f1af66c1411fc82b12cf3b65e5e5ad1304f3bda",
+        "noisy": "311c3bb620cc1a16de81c8c93f1af66c1411fc82b12cf3b65e5e5ad1304f3bda"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 23.55907151721255,
+      "si_sdri": -56.44092848278745,
+      "processing_seconds": 0.05398197000067739,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.06901405895186433,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.3228759765625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9941935395173486,
+          "rms_ratio": 0.9998530615570865,
+          "normalized_waveform_l1": 0.09136920108306858,
+          "waveform_l1": 0.006305759429931641,
+          "peak_abs": 0.332244873046875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 3.389434576034546,
+      "stoi_noisy": 0.9999999999999997,
+      "stoi_enhanced": 0.9732638883414676,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00092",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "a44b2b6cd624f83ca4d7a2fb07945a72b9b3ff9694612c66c630a58b8f804caa",
+        "noisy": "a44b2b6cd624f83ca4d7a2fb07945a72b9b3ff9694612c66c630a58b8f804caa"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 17.573171074612194,
+      "si_sdri": -62.42682892538781,
+      "processing_seconds": 0.047668182000052184,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.024188307176381884,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.143768310546875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9628269742543795,
+          "rms_ratio": 0.9712108871217799,
+          "normalized_waveform_l1": 0.05965130546825524,
+          "waveform_l1": 0.0014428641001383463,
+          "peak_abs": 0.140594482421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.155506610870361,
+      "stoi_noisy": 0.9999999999999996,
+      "stoi_enhanced": 0.9842959866454523,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00093",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "f7372cc8332410ef3bf573238f70614b999d0a63fa7579734adb8ed57eeebf07",
+        "noisy": "f7372cc8332410ef3bf573238f70614b999d0a63fa7579734adb8ed57eeebf07"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 29.682543984112858,
+      "si_sdri": -50.317456015887146,
+      "processing_seconds": 0.02849094099838112,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05248405605206136,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.440032958984375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9952917482441381,
+          "rms_ratio": 0.9958270098695742,
+          "normalized_waveform_l1": 0.016671644978275082,
+          "waveform_l1": 0.0008749955495198567,
+          "peak_abs": 0.415191650390625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.52599573135376,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9979892519496288,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00094",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "f7580208eb70b336c3ad638411d7a49f013e6de7470a74ea712f00ce129e5e11",
+        "noisy": "f7580208eb70b336c3ad638411d7a49f013e6de7470a74ea712f00ce129e5e11"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 26.356080023016837,
+      "si_sdri": -53.64391997698316,
+      "processing_seconds": 0.07915748099912889,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.02374425463342356,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.2357177734375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9973836795316169,
+          "rms_ratio": 0.9985371149757737,
+          "normalized_waveform_l1": 0.025086860039233123,
+          "waveform_l1": 0.0005956687927246094,
+          "peak_abs": 0.236297607421875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.381513595581055,
+      "stoi_noisy": 0.9999999999999996,
+      "stoi_enhanced": 0.9937023974534425,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00095",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "4a1dfcef81d488711d8e05e50deeb240fbf66a3130176b1be47a09e112e9abf9",
+        "noisy": "4a1dfcef81d488711d8e05e50deeb240fbf66a3130176b1be47a09e112e9abf9"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 28.101491156798627,
+      "si_sdri": -51.89850884320137,
+      "processing_seconds": 0.048825609001141856,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.04373162472478988,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.201324462890625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0024657279782927,
+          "rms_ratio": 1.0032415647485218,
+          "normalized_waveform_l1": 0.0248253449558076,
+          "waveform_l1": 0.0010856526692708333,
+          "peak_abs": 0.195465087890625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.41145658493042,
+      "stoi_noisy": 0.9999999999999999,
+      "stoi_enhanced": 0.9904257006179107,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00096",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "1806daeaeeea184edfe8ffd4c505c75755d28bd88972e2fffbe977c265494fce",
+        "noisy": "1806daeaeeea184edfe8ffd4c505c75755d28bd88972e2fffbe977c265494fce"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 33.76247818420543,
+      "si_sdri": -46.23752181579457,
+      "processing_seconds": 0.04870907300028193,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.07337762440389968,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.54473876953125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 1.0042449137027432,
+          "rms_ratio": 1.0044560321006268,
+          "normalized_waveform_l1": 0.011494612617977247,
+          "waveform_l1": 0.0008434473673502604,
+          "peak_abs": 0.54345703125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.577883720397949,
+      "stoi_noisy": 0.9999999999999998,
+      "stoi_enhanced": 0.9982687758667703,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00097",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "69a0253a2fcf03fbf27b18a844147937ffb060200b41ff08d6be66d096ddccbd",
+        "noisy": "69a0253a2fcf03fbf27b18a844147937ffb060200b41ff08d6be66d096ddccbd"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 27.441124137961236,
+      "si_sdri": -52.55887586203876,
+      "processing_seconds": 0.05150217300069926,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.1132749888983074,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.894378662109375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9871274623304483,
+          "rms_ratio": 0.9880167489610979,
+          "normalized_waveform_l1": 0.019530999340963664,
+          "waveform_l1": 0.002212373733520508,
+          "peak_abs": 0.90960693359375,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.443427562713623,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9993935353910508,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00098",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "46b4e877994d1a92b198189bb2ec6e126aaf9413d8a49b9e49f36bd95ca17ba6",
+        "noisy": "46b4e877994d1a92b198189bb2ec6e126aaf9413d8a49b9e49f36bd95ca17ba6"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 24.237213245436045,
+      "si_sdri": -55.762786754563955,
+      "processing_seconds": 0.0511194329992577,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.05634140495305982,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.558258056640625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.987744681689404,
+          "rms_ratio": 0.9955162134140585,
+          "normalized_waveform_l1": 0.10942295248642801,
+          "waveform_l1": 0.006165042877197265,
+          "peak_abs": 0.557281494140625,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.391149044036865,
+      "stoi_noisy": 0.9999999999999992,
+      "stoi_enhanced": 0.9864170268951733,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    },
+    {
+      "id": "extra_development_clean_00099",
+      "samples": 48000,
+      "audio_sha256": {
+        "clean": "e84886ff00ecf3cb91148847caf0d5287469e340b5ec378366503d649dd109a2",
+        "noisy": "e84886ff00ecf3cb91148847caf0d5287469e340b5ec378366503d649dd109a2"
+      },
+      "si_sdr_noisy": 80.0,
+      "si_sdr_enhanced": 24.858183821684744,
+      "si_sdri": -55.14181617831525,
+      "processing_seconds": 0.050914940000438946,
+      "preservation": {
+        "samples": 48000,
+        "reference_rms": 0.10674728854845542,
+        "valid_reference": true,
+        "noisy": {
+          "projection_gain": 1.0,
+          "rms_ratio": 1.0,
+          "normalized_waveform_l1": 0.0,
+          "waveform_l1": 0.0,
+          "peak_abs": 0.659698486328125,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        },
+        "enhanced": {
+          "projection_gain": 0.9927658785857376,
+          "rms_ratio": 0.9943871029647406,
+          "normalized_waveform_l1": 0.026366386121148527,
+          "waveform_l1": 0.002814540227254232,
+          "peak_abs": 0.67254638671875,
+          "pcm16_out_of_range_samples": 0,
+          "pcm16_rail_or_exceeds_samples": 0
+        }
+      },
+      "pesq_wb_noisy": 4.643888473510742,
+      "pesq_wb_enhanced": 4.353865623474121,
+      "stoi_noisy": 1.0,
+      "stoi_enhanced": 0.9935677446878026,
+      "perceptual_common_gain": 1.0,
+      "perceptual_errors": {}
+    }
+  ],
+  "io_statistics": {
+    "samples": 4800000,
+    "input_clipped_samples": 0,
+    "output_at_rail_samples": 2
+  },
+  "perceptual": {
+    "summary": {
+      "utterances": 100,
+      "weighting": "equal per utterance, paired valid subset",
+      "pesq_wb": {
+        "valid_utterances": 100,
+        "invalid_utterances": 0,
+        "noisy": 4.643888473510742,
+        "enhanced": 4.201987023353577,
+        "improvement": -0.44190145015716553
+      },
+      "stoi": {
+        "valid_utterances": 100,
+        "invalid_utterances": 0,
+        "noisy": 0.9999999999999994,
+        "enhanced": 0.9777179114615733,
+        "improvement": -0.022282088538426156
+      },
+      "error_counts": {}
+    },
+    "implementation": {
+      "packages": {
+        "pesq": "0.0.4",
+        "pystoi": "0.4.1"
+      },
+      "sample_rate": 16000,
+      "pesq": "ludlows PESQ WB P.862.2 MOS-LQO; no later-corrigenda conformance claim",
+      "stoi": "pystoi, extended=False; internal 10 kHz resampling",
+      "amplitude_policy": "Common triplet attenuation if peak > 1; no clipping; PESQ additionally normalizes each reference/degraded pair internally",
+      "selection_metric": false,
+      "sources": [
+        "https://github.com/ludlows/PESQ",
+        "https://github.com/mpariente/pystoi"
+      ]
+    }
+  },
+  "model": {
+    "source": "/content/esp32_runs/broad_ptq_gain_probe/denoiser_int8.bin",
+    "model_sha256": "7938f862413bb42e7aa221c0f949d0432a0e879f0e6077d98e2d35d9e8f3b062",
+    "model_bytes": 94484,
+    "neural_state_bytes": 8280,
+    "precision": "INT8 C neural core, float32 C DSP, portable host FFT",
+    "io_format": "pcm16",
+    "io_statistics": {
+      "samples": 4800000,
+      "input_clipped_samples": 0,
+      "output_at_rail_samples": 2
+    }
+  }
+}

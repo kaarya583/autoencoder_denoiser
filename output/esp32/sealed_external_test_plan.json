@@ -1,0 +1,326 @@
+{
+  "status": "protocol and noise inventory frozen; no final audio downloaded, rendered, or evaluated",
+  "created_utc": "2026-09-13T07:14:50.696461+00:00",
+  "official_voicebank_test": "sealed; unused during current search",
+  "speech_source": {
+    "dataset": "LibriSpeech test-clean",
+    "url": "https://openslr.trmal.net/resources/12/test-clean.tar.gz",
+    "official_md5": "32fa31d27d2e1cad72775fee3f4849a9",
+    "catalog": "https://www.openslr.org/12/",
+    "checksums": "https://openslr.trmal.net/resources/12/md5sum.txt"
+  },
+  "noise_policy": "MUSAN held-out original recordings never sampled in either frozen development manifest; exclude all training and development-used IDs/groups/content hashes at final preparation",
+  "reserved_noise_records": [
+    {
+      "id": "musan:free-sound/noise-free-sound-0037.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0037.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0037.wav",
+      "sha256": "718ff3afb5756adda8130651092eb3e19539825cdcc86ca1308721bcb80eecae",
+      "samples": 15040,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0074.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0074.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0074.wav",
+      "sha256": "e1e8d8a79cc374d5c545dbda291772054d72ef2560d408878cf919b2ebe9fb40",
+      "samples": 275840,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0080.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0080.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0080.wav",
+      "sha256": "f99a3b44591f3259479f50532bef5630c545410cbdbc68bf3de90560e6851877",
+      "samples": 485994,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0086.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0086.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0086.wav",
+      "sha256": "cad689668dd4ec9cf626ac4e7d2f71c1193b80d9cfe7265b36750ad9caee743f",
+      "samples": 826960,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0089.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0089.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0089.wav",
+      "sha256": "6582a16dc323997815ebbd54cf683cc475ca42839c8dd9a24e06ee169b2a0c5b",
+      "samples": 221936,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0096.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0096.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0096.wav",
+      "sha256": "cd81d29878908639c7d9291e618672bc678b1f781c2a8597ebe21e473c7aeb18",
+      "samples": 124547,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0112.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0112.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0112.wav",
+      "sha256": "1f895ca3d20967d8df577cf9db1b0e95e80c3e50fa068e3af23fd5a2e0fa671e",
+      "samples": 16231,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0134.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0134.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0134.wav",
+      "sha256": "bf323fbd1c1a156ec9ae919ca44b3163243eda2b771eff0414a6de314c39d4e6",
+      "samples": 40214,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0142.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0142.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0142.wav",
+      "sha256": "5822d43e5858dae030a1fbaa6afab9c6d8f34e39f6c3153c2956736e5ae39ccc",
+      "samples": 623996,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0160.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0160.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0160.wav",
+      "sha256": "91092cf386cb128b91a466dcd52f89ecf9f815ddafe4eafc5009f714140a73b6",
+      "samples": 549206,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0222.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0222.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0222.wav",
+      "sha256": "41ea80d5df00128d988a2b701bf40d60a7e47fb73c4a3f3c44ed899a16049519",
+      "samples": 19353,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0292.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0292.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0292.wav",
+      "sha256": "3c681bd7aad47833b07e4218e53462dd63d8eeed2aef88ed7e4762f40d5863d0",
+      "samples": 287556,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0297.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0297.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0297.wav",
+      "sha256": "fa457aac0c1729f6fc41ae979274f5ff031c7ec93f63591de753f40a48c92c03",
+      "samples": 28784,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0298.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0298.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0298.wav",
+      "sha256": "2ddedf44f80d7e551533f81f6b90f6ac6850b6cfe3438ee806f5dbe5d7e3ba0a",
+      "samples": 512000,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0374.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0374.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0374.wav",
+      "sha256": "7b3707cdf4403bf4d30b312ec2d2fb758a4fe6556e8703764e647108ebd786ac",
+      "samples": 11889,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0408.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0408.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0408.wav",
+      "sha256": "fd10bea0b5125081cf6a79b7f372eab7474c56a5a55920073ffad563e0106545",
+      "samples": 240000,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0409.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0409.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0409.wav",
+      "sha256": "3130383e34d912190ac129d8f5ca5330f46ff231e85dea96eabd7d4546309e6d",
+      "samples": 137899,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0519.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0519.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0519.wav",
+      "sha256": "92775adc18e26b5ce5dc10fca02ad26bc2df8e786eb9fda2f4bdd19f277ca6e8",
+      "samples": 537496,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0538.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0538.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0538.wav",
+      "sha256": "be58c9c9ab8ecd98f77c94a385472f1193211c7771c3e51a37e99fa10967fcb4",
+      "samples": 9181,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0570.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0570.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0570.wav",
+      "sha256": "8c2e0f8b14ab2087c6d9e165a77805fab0402bae2fe81164b4131fb02f72c2b8",
+      "samples": 101982,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0584.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0584.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0584.wav",
+      "sha256": "7d9b610906c44c178c32685e763ad66c660cb479bf840b0c2cbade8ff709265b",
+      "samples": 252383,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0609.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0609.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0609.wav",
+      "sha256": "d2b92c71628479c29d8a8e8d92a7660a7e8610031b80edc790c0159ef65c0779",
+      "samples": 162586,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0634.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0634.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0634.wav",
+      "sha256": "55d84bd94c16edb2e2a9fa178392153da7cd80fb1349001dc31fa2684acddc78",
+      "samples": 1024000,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0659.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0659.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0659.wav",
+      "sha256": "329215f9116a7919dc9b9302fcd1fda18febfb054751e5e0f75eadcc94440118",
+      "samples": 177987,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0772.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0772.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0772.wav",
+      "sha256": "c9903478b9cff95dae94a0a4dc0b4d81de5b8be56c3d2ec57afd573a0974c307",
+      "samples": 74457,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0804.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0804.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0804.wav",
+      "sha256": "ac45f94470f2ffe710b6ec9038dd70176a3df4b90cf67c843071a4bbdcb21c8c",
+      "samples": 955176,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:free-sound/noise-free-sound-0840.wav",
+      "group": "musan:recording:free-sound/noise-free-sound-0840.wav",
+      "member": "musan/noise/free-sound/noise-free-sound-0840.wav",
+      "sha256": "5f816c46d79351046e00cc04f8319dd6a7471e82df61cc592f31d7c424b4599a",
+      "samples": 1123056,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:sound-bible/noise-sound-bible-0065.wav",
+      "group": "musan:recording:sound-bible/noise-sound-bible-0065.wav",
+      "member": "musan/noise/sound-bible/noise-sound-bible-0065.wav",
+      "sha256": "17d14a517dfd2cb7f1359823278e5d588229a142c3c4e5802c8bf1beede699ce",
+      "samples": 115760,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "musan:sound-bible/noise-sound-bible-0070.wav",
+      "group": "musan:recording:sound-bible/noise-sound-bible-0070.wav",
+      "member": "musan/noise/sound-bible/noise-sound-bible-0070.wav",
+      "sha256": "97af55162e6c9c3401fb60c74cc765c98a5241d7ad9c81f2b5a99b26ff3ac6ed",
+      "samples": 33008,
+      "sample_rate": 16000,
+      "source": "https://www.openslr.org/17/",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "reserved_noise_count": 29,
+  "manifest_sha256": {
+    "manifests/noise_val.jsonl": "fa9349454796e08f76c3e9e02b2edc1519bb69f3819a1b84b30435b98137f711",
+    "development/mixtures.jsonl": "b82497d1febcfba26e1449ac57596e8f6983071e82d48482a1d6de00a5a84742",
+    "development/clean.jsonl": "5095c806d052665f14ca8c2ca8789caaf6020c425e80f8daae752fcd4db6c808"
+  },
+  "mixture_plan": {
+    "base_crops": 200,
+    "snr_db": [
+      -5,
+      0,
+      5,
+      10,
+      20
+    ],
+    "crop_seconds": 3,
+    "clean_examples": 100,
+    "seed": 20260913
+  },
+  "selection_policy": "Freeze architecture, checkpoint, QAT scales, packed binary, output gain, and compared baselines before any model is evaluated on this corpus. Do not tune after viewing scores.",
+  "limitations": "Noise reservation selected solely by prior source use, not audio quality or model scores. Only29original recordings; report noise-group and crop dependence. Final speech speakers/content must be checked disjoint from both training and development before rendering."
+}

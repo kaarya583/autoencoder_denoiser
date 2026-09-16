@@ -1,0 +1,43 @@
+PTQ_EXPORTED 94480 -4 6.105654362341922
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "embedded_evaluation_complete", "utterances": 500, "valid_utterances": 500, "invalid_utterances": 0, "si_sdr_noisy": 3.51303470544888, "si_sdr_enhanced": 9.622436270168496, "si_sdri": 6.109401564719619, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_probe/external_full_c_pcm16.json"}
+{"event": "evaluation", "completed": 1, "total": 100}
+{"event": "evaluation", "completed": 51, "total": 100}
+{"event": "evaluation", "completed": 100, "total": 100}
+{"event": "embedded_evaluation_complete", "utterances": 100, "valid_utterances": 100, "invalid_utterances": 0, "si_sdr_noisy": 80.0, "si_sdr_enhanced": 24.76705461903082, "si_sdri": -55.23294538096918, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_probe/clean_full_c_pcm16.json"}
+{"event": "evaluation", "completed": 1, "total": 770}
+{"event": "evaluation", "completed": 51, "total": 770}
+{"event": "evaluation", "completed": 101, "total": 770}
+{"event": "evaluation", "completed": 151, "total": 770}
+{"event": "evaluation", "completed": 201, "total": 770}
+{"event": "evaluation", "completed": 251, "total": 770}
+{"event": "evaluation", "completed": 301, "total": 770}
+{"event": "evaluation", "completed": 351, "total": 770}
+{"event": "evaluation", "completed": 401, "total": 770}
+{"event": "evaluation", "completed": 451, "total": 770}
+{"event": "evaluation", "completed": 501, "total": 770}
+{"event": "evaluation", "completed": 551, "total": 770}
+{"event": "evaluation", "completed": 601, "total": 770}
+{"event": "evaluation", "completed": 651, "total": 770}
+{"event": "evaluation", "completed": 701, "total": 770}
+{"event": "evaluation", "completed": 751, "total": 770}
+{"event": "evaluation", "completed": 770, "total": 770}
+{"event": "embedded_evaluation_complete", "utterances": 770, "valid_utterances": 770, "invalid_utterances": 0, "si_sdr_noisy": 6.016738904979768, "si_sdr_enhanced": 13.37588034307247, "si_sdri": 7.359141438092703, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_probe/primary_full_c_pcm16.json"}
+{"event": "evaluation", "completed": 1, "total": 16}
+{"event": "evaluation", "completed": 16, "total": 16}
+{"event": "evaluation", "completed": 1, "total": 16}
+{"event": "evaluation", "completed": 16, "total": 16}
+{"event": "evaluation", "completed": 1, "total": 16}
+{"event": "evaluation", "completed": 16, "total": 16}
+{"event": "embedded_evaluation_complete", "utterances": 16, "valid_utterances": 16, "invalid_utterances": 0, "si_sdr_noisy": 2.7492940200432647, "si_sdr_enhanced": 10.551825225292866, "si_sdri": 7.802531205249602, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/broad_ptq_probe/frontend_parity_16.json"}
+PTQ_PROBE_COMPLETE

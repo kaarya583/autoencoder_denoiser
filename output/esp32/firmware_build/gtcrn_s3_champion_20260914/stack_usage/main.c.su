@@ -1,0 +1,3 @@
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/gtcrn_benchmark/main/main.c:48:12:compare_u32	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/gtcrn_benchmark/main/main.c:30:12:known_answer	736	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/gtcrn_benchmark/main/main.c:53:6:app_main	160	static

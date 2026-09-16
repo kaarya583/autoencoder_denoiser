@@ -1,0 +1,8 @@
+menu "GTCRN benchmark"
+    config GTCRN_MODEL_IN_INTERNAL_SRAM
+        bool "Copy packed model from mapped flash into internal SRAM"
+        default n
+        help
+            Compare model placement with identical weights. The default
+            executes with model constants in mapped flash and no PSRAM.
+endmenu

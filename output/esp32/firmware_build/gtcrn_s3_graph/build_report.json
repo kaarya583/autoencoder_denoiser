@@ -1,0 +1,169 @@
+{
+  "status": "ESP32-S3 compile/link and host reference checks passed; hardware execution pending",
+  "recorded_at_utc": "2026-09-13T09:24:02.195830+00:00",
+  "model": {
+    "binary": "output/esp32/gtcrn_probes_02/gtcrn_normalized_probe_inputs/model_int8.bin",
+    "binary_sha256": "f7de9911b135b0fdb282857766195aba0a5f23b3479fe20bfdadcb93aca429f7",
+    "binary_bytes": 46768,
+    "source_checkpoint": "output/esp32/gtcrn_probes_02/gtcrn_normalized_probe_inputs/student.pt",
+    "source_checkpoint_sha256": "69a3b763a82c9a0cbb9292254551b690b6278eb417f40a6d5548a0fc586f7bbc",
+    "calibration_sidecar": "output/esp32/gtcrn_probes_02/gtcrn_normalized_probe_inputs/model_int8.calibration.json",
+    "calibration_sidecar_file_sha256": "553d86889bbc72768db2d6d4a23b3275b99bf8795be255cfb43efb718c82b176",
+    "normalize_input": true,
+    "model_stats": {
+      "precision": "INT8 learned weights/activations/histories; INT32 biases/dots, bounded wider integer arithmetic; float32 external DSP",
+      "parameter_and_lut_array_bytes": 45881,
+      "int8_array_bytes": 31985,
+      "int32_bias_array_bytes": 13896,
+      "scope": "Includes per-cell duplicated LUT arrays currently owned by this Python reference; excludes graph/grid descriptors, Python objects and temporaries",
+      "erb_payload_bytes": 2040,
+      "window_bytes": 2048,
+      "neural_state_bytes_int8": 18048,
+      "float32_dsp_history_bytes": 3072,
+      "numpy_version": "2.5.3",
+      "dsp_precision": "float32 arrays; internal FFT precision follows the installed NumPy backend",
+      "deployment_status": "Packed loadable NumPy reference; complete C graph, QAT and MCU timing remain unverified",
+      "format": "GTI8PK01",
+      "format_version": 1,
+      "packed_bytes": 46768,
+      "packed_sha256": "f7de9911b135b0fdb282857766195aba0a5f23b3479fe20bfdadcb93aca429f7",
+      "source_state_sha256": "58eaa8a0467399419a1ecb653a0481a1bbd10f7afc3295bf7a81ad3d6f2a7f24",
+      "source_checkpoint_sha256": "69a3b763a82c9a0cbb9292254551b690b6278eb417f40a6d5548a0fc586f7bbc",
+      "calibration_sha256": "716e3704a6716a3711c4795e40a04a6b4cf6dbcc2b3ac32e24e03cf7f4ef79a4",
+      "calibration_audit_loaded": true,
+      "implementation_sha256": {
+        "experimental_gru.py": "6605fe08627f9457d438bcfe1bbf45bc23327ca8cb723e776cb657d1a1944a8a",
+        "experimental_gtcrn_ops.py": "4cef2a8c006e5a62839e0aa7db0057a9a04621a6943ae990573f326dfe7ae88b",
+        "experimental_layer_norm.py": "61f60b2d3d7359c61f32d057e7a107fb0b02acac3d31f0d73b0e1f53266d7b39",
+        "gtcrn_erb.py": "629357afc0de53a0f1173f0b4a3b0a50aa16ca56bed5826c8a559c1d57c1b9e7",
+        "gtcrn_integer.py": "3f71637bf413171fcc010f4eb52df592d67e6e41d1255cbfbbaa115b41a158cb",
+        "gtcrn_model.py": "ac4b4d02621a0508f129f162ad4146c8e5f33889631b8594681384110113d185",
+        "vendor/gtcrn/convert.py": "dbff3a360a720f11fca0b4a4f8bc6bdb3ebb712fa617dfe37df8b31a9c5a586e",
+        "vendor/gtcrn/convolution.py": "28465f8a160b8484548ec2e2d8319d5b0650f45079f5abf9d41a8cb15ce2fdf4",
+        "vendor/gtcrn/network.py": "20bf0610702506fa45cd543454b84bbeb862d73c7c20a3f8d820fdc04da6099b",
+        "vendor/gtcrn/streaming.py": "649cede9019dd9397de2b773797ee7a37b860c71cfea41a09e41b3193f527007"
+      },
+      "metadata_bytes": 6624,
+      "unique_array_bytes": 39711,
+      "padding_bytes": 433,
+      "parameter_format": "INT8 neural arrays, INT32 biases, exact stored LUTs; float32 external DSP constants",
+      "parser_scope": "Checks bounded topology, extents, integrity and arithmetic; hashes do not authenticate training lineage"
+    },
+    "role": "trained development probe; not final selected or sealed-test evaluated"
+  },
+  "toolchain": {
+    "sdk": "ESP-IDF5.4.2",
+    "dsp": "ESP-DSP1.8.2",
+    "compiler": "xtensa-esp-elf-gcc (crosstool-NG esp-14.2.0_20241119) 14.2.0",
+    "compiler_flags": [
+      "-O2",
+      "-std=gnu17",
+      "-mlongcalls",
+      "-fstack-usage"
+    ],
+    "target": "esp32s3",
+    "cpu_mhz": 240,
+    "psram_enabled": false,
+    "flash_mode": "dio",
+    "flash_mhz": 80,
+    "flash_size": "2MB"
+  },
+  "app_bin_bytes": 298576,
+  "factory_partition_bytes": 1048576,
+  "factory_partition_free_bytes": 750000,
+  "embedded_model": {
+    "bytes": 46768,
+    "sha256": "f7de9911b135b0fdb282857766195aba0a5f23b3479fe20bfdadcb93aca429f7",
+    "address": "0x3c028f00",
+    "alignment_bytes": 16,
+    "placement": "flash_mapped"
+  },
+  "memory": {
+    "model_handle_bytes": 5784,
+    "neural_state_bytes": 18048,
+    "neural_workspace_bytes": 17536,
+    "audio_state_bytes": 12528,
+    "explicit_runtime_bytes": 53896,
+    "runtime_arena_alignment_padding": 8,
+    "allocated_internal_arena_bytes": 53904,
+    "pcm_buffers_bytes": 1024,
+    "fft_bit_reversal_table_heap_request_bytes": 960,
+    "main_task_reserved_stack_bytes": 8192,
+    "benchmark_timing_samples_bytes": 4096,
+    "explicit_audio_runtime_stack_fft_pcm_bytes": 64080,
+    "benchmark_subtotal_model_in_flash_bytes": 68176,
+    "benchmark_subtotal_model_copied_to_sram_bytes": 114944,
+    "whole_application_static_dram_writable_bytes": 18236,
+    "whole_application_static_rtc_bytes": 52,
+    "accounting_note": "Explicit requests/reservations, not observed heap/stack peaks. Application static DRAM includes PCM and timing arrays; do not add those twice. Float PCM scratch is inside the reserved task stack. ROM-provided S3 FFT twiddle table has no application heap request. Allocator headers, other RTOS tasks, interrupt stacks, ROM/system reservations, I2S/DMA, radio and integrated application features are outside the ML subtotal."
+  },
+  "linked_fft_symbols": {
+    "dsps_fft2r_fc32_aes3_": "0x4201bfd4",
+    "dsps_bit_rev_fc32_ansi": "0x4200e6bc",
+    "dsps_fft2r_w_table_fc32_1024": "0x3fcefff8"
+  },
+  "validation": {
+    "source_before_after_hashes_equal": true,
+    "source_files": 34,
+    "packed_calibration_and_checkpoint_association_verified": true,
+    "embedded_blob_byte_exact": true,
+    "elf_no_unresolved_gtcrn_or_dsp_symbols": true,
+    "sdk_undefined_symbol_entries": [
+      "__cxx_fatal_exception",
+      "esp_system_include_coredump_init",
+      "start_app_other_cores",
+      "start_app"
+    ],
+    "host_numpy_c_known_answer_frames": 12,
+    "known_answer_checks_entire_mask_and_state_on_host": true,
+    "onboard_known_answer_execution": false,
+    "board_flashed": false,
+    "latency_measured": false,
+    "peak_heap_or_stack_measured": false
+  },
+  "artifacts": {
+    "gtcrn_integer_benchmark.bin": {
+      "bytes": 298576,
+      "sha256": "2a7432445bebd24b57831b9206c63623743fc754ec1803f7f128f90b7bc05038"
+    },
+    "gtcrn_integer_benchmark.elf": {
+      "bytes": 4243992,
+      "sha256": "c830478231a012b74488ff072d146a12f357360ceb9f66ab34af713117594fd8"
+    },
+    "gtcrn_integer_benchmark.map": {
+      "bytes": 2975523,
+      "sha256": "4097268e2e3e4f64fd42cd4679fd7d0e94104e656fd81061a91e512ac2b125d6"
+    },
+    "compile_commands.json": {
+      "bytes": 6873122,
+      "sha256": "4e2c3238342e64f9a7f5babbc77c1c7edabf058ed0aa323c68f9cc370ff37efd"
+    },
+    "project_description.json": {
+      "bytes": 225570,
+      "sha256": "ed0cbba0e17232a1fe62a2b5d8c7e61a174069d65c8befbe6ae8203ecda01480"
+    },
+    "flasher_args.json": {
+      "bytes": 937,
+      "sha256": "9a559e97435e8517084ee66d5730275f9223361b2c418a45d9db64341a8d6bc1"
+    },
+    "config/sdkconfig.json": {
+      "bytes": 53677,
+      "sha256": "da4add23d1a8c20cfa3574b93c57b5f62e52ee1ac53c28446cdae5ec318ddbd6"
+    },
+    "partition_table/partition-table.bin": {
+      "bytes": 3072,
+      "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+    },
+    "bootloader/bootloader.bin": {
+      "bytes": 21104,
+      "sha256": "b1b4cb88780ad6b5c50f01ad227cc1118ca6de5d8a8db32de5417535cbb104b7"
+    }
+  },
+  "limitations": [
+    "The trained candidate is a development probe, not final selected model.",
+    "Packed model bytes exclude executable firmware, vendor FFT data and RAM.",
+    "Portable scalar integer kernels are linked; only the FFT uses ESP-DSP S3 optimization.",
+    "No real-time, end-to-end I2S or on-device quality claim follows from this build.",
+    "The optional internal-SRAM copy is an accounting projection; only default flash placement was built."
+  ]
+}

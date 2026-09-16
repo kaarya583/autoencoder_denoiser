@@ -1,0 +1,11 @@
+{
+  "format": "EDNSI8-v2",
+  "dsp_version": 2,
+  "source_sha256": "50ebbb78f5834f8ec20051f2d6bfb5aebda7d994bdd7b54c2179c6b0d885525e",
+  "model_sha256": "7938f862413bb42e7aa221c0f949d0432a0e879f0e6077d98e2d35d9e8f3b062",
+  "model_bytes": 94484,
+  "previous_output_gain": 1.0,
+  "output_gain": 0.7415905594825745,
+  "neural_weights_and_state_unchanged": true,
+  "scope": "float32 external DSP multiply after overlap-add, before PCM16 output conversion"
+}

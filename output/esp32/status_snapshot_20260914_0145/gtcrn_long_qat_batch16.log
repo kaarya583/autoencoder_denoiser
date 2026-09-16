@@ -1,0 +1,66 @@
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_progress", "epoch": 1, "step": 0, "loss": -16.65349283421334, "elapsed_seconds": 287.5658644239993}
+{"event": "qat_progress", "epoch": 1, "step": 25, "loss": -17.15165042990718, "elapsed_seconds": 999.8387632529993}
+{"event": "qat_progress", "epoch": 1, "step": 50, "loss": -16.804828702916232, "elapsed_seconds": 1714.993489861}
+{"event": "qat_progress", "epoch": 1, "step": 75, "loss": -15.444082236655994, "elapsed_seconds": 2427.0452303800002}
+{"event": "qat_progress", "epoch": 1, "step": 100, "loss": -16.13110773551573, "elapsed_seconds": 3141.735412735}
+{"event": "qat_progress", "epoch": 1, "step": 125, "loss": -16.53359701783294, "elapsed_seconds": 3854.6585628700004}
+{"event": "qat_progress", "epoch": 1, "step": 150, "loss": -12.804369048861558, "elapsed_seconds": 4568.6455262810005}
+{"event": "qat_progress", "epoch": 1, "step": 175, "loss": -8.858904827038717, "elapsed_seconds": 5279.944795111999}
+{"event": "qat_progress", "epoch": 1, "step": 200, "loss": -12.840462130323477, "elapsed_seconds": 5992.156512352}
+{"event": "qat_progress", "epoch": 1, "step": 225, "loss": -11.56485833234747, "elapsed_seconds": 6704.911323187999}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 1, "loss": -14.342662366439997, "si_sdri": 9.202213762239209, "best_si_sdri": 9.202213762239209, "learning_rate": 3e-05, "seconds": 7385.772035237, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 2, "step": 0, "loss": -17.164176048884258, "elapsed_seconds": 7673.127071229}
+{"event": "qat_progress", "epoch": 2, "step": 25, "loss": -13.68979920888622, "elapsed_seconds": 8386.203294317998}
+{"event": "qat_progress", "epoch": 2, "step": 50, "loss": -13.183483847754598, "elapsed_seconds": 9097.16866857}
+{"event": "qat_progress", "epoch": 2, "step": 75, "loss": -13.360807355322226, "elapsed_seconds": 9810.52612676}
+{"event": "qat_progress", "epoch": 2, "step": 100, "loss": -17.05820123283538, "elapsed_seconds": 10526.309324923}
+{"event": "qat_progress", "epoch": 2, "step": 125, "loss": -18.236603157940742, "elapsed_seconds": 11238.270657116002}
+{"event": "qat_progress", "epoch": 2, "step": 150, "loss": -12.99237469021168, "elapsed_seconds": 11953.542850034999}
+{"event": "qat_progress", "epoch": 2, "step": 175, "loss": -17.183701781992678, "elapsed_seconds": 12665.810404732001}
+{"event": "qat_progress", "epoch": 2, "step": 200, "loss": -11.552080709153183, "elapsed_seconds": 13379.906649143002}
+{"event": "qat_progress", "epoch": 2, "step": 225, "loss": -20.722859624550523, "elapsed_seconds": 14093.910363281}
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"event": "qat_epoch", "epoch": 2, "loss": -14.145920634519822, "si_sdri": 9.181847647562591, "best_si_sdri": 9.202213762239209, "learning_rate": 3e-05, "seconds": 7390.682940425, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}
+{"event": "qat_progress", "epoch": 3, "step": 0, "loss": -11.268773506769575, "elapsed_seconds": 15064.101785397}
+{"event": "qat_progress", "epoch": 3, "step": 25, "loss": -14.83866862717758, "elapsed_seconds": 15776.918596438001}
+{"event": "qat_progress", "epoch": 3, "step": 50, "loss": -16.487837647526376, "elapsed_seconds": 16491.939094435}
+{"event": "qat_progress", "epoch": 3, "step": 75, "loss": -13.49512989261864, "elapsed_seconds": 17207.141659741}
+{"event": "qat_progress", "epoch": 3, "step": 100, "loss": -19.283037886144463, "elapsed_seconds": 17920.996528051}
+{"event": "qat_progress", "epoch": 3, "step": 125, "loss": -14.435463498580816, "elapsed_seconds": 18632.45736741}
+{"event": "qat_progress", "epoch": 3, "step": 150, "loss": -16.517967315534992, "elapsed_seconds": 19346.379835207}
+{"event": "qat_progress", "epoch": 3, "step": 175, "loss": -12.623934896800634, "elapsed_seconds": 20057.682597612}
+{"event": "qat_progress", "epoch": 3, "step": 200, "loss": -22.931992171748995, "elapsed_seconds": 20773.827078989}
+{"event": "qat_progress", "epoch": 3, "step": 225, "loss": -11.737477188807542, "elapsed_seconds": 21486.109622933}
+{"status": "time_budget_exhausted_partial_epoch_discarded", "completed_epoch": 2, "best": {"epoch": 1, "directory": "/content/esp32_runs/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg", "checkpoint_sha256": "cc27329996d70c634f712216d2fd09b3b999b6342eda617613f033d3b29828c6", "packed_sha256": "dd9c1c83a44bea891fad7d47591578b57a4b3d0d54f2942a17e5402d4ca93e3f", "si_sdri": 9.202213762239209}, "elapsed_hours": 6.000054913737777, "official_test_used": false}

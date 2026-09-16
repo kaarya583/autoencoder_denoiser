@@ -1,0 +1,65 @@
+{
+  "status": "isolated primitive host execution and S3 object compilation only; no full GTCRN/firmware/board run",
+  "date": "2026-09-13",
+  "compiler": "/private/tmp/esp32-denoiser-idf-tools-v5.4.2/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+  "compiler_version": "xtensa-esp-elf-gcc (crosstool-NG esp-14.2.0_20241119) 14.2.0",
+  "command": [
+    "/private/tmp/esp32-denoiser-idf-tools-v5.4.2/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+    "-std=c99",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic",
+    "-mlongcalls",
+    "-fstack-usage",
+    "-c",
+    "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c",
+    "-o",
+    "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/primitive_native_build/primitives_s3.o"
+  ],
+  "source_sha256": {
+    "firmware/experimental_int8/primitives.c": "2ce321c00f249e6dce4d531667fbc1e1f49fa9a5c4151ce69571153e54294297",
+    "firmware/experimental_int8/primitives.h": "be246969a1f05c653c6fa75d726ada9eccbb8cdbbce2df47eac0af5483f99242",
+    "esp32_denoiser/experimental_native.py": "fb80aecbeb69448b3f25aad2c329555a0eab4077a9a83349bf3f68486eafa18c",
+    "tests/test_experimental_native.py": "663581f3726f1c48b03b24ebe61505c2b0b5eab7a0a8ff0e87de025094bde473"
+  },
+  "object_sha256": "dbfafe001df9ebdff0d3c9270f4dbd628eac997ee8df0ad618b12253ccdb1dbf",
+  "object_text_bytes": 3975,
+  "object_data_bytes": 0,
+  "object_bss_bytes": 0,
+  "s3_handle_bytes": {
+    "gru": 52,
+    "layer_norm": 32
+  },
+  "compiler_per_function_stack_bytes": {
+    "gru_step": 144,
+    "layer_norm_frame": 80
+  },
+  "stack_scope": "per-function static compiler estimates, excluding nested/library frames; not board high-water measurements",
+  "undefined_object_symbols": [
+    "__ashldi3",
+    "__lshrdi3",
+    "__udivdi3",
+    "memcpy"
+  ],
+  "tests": {
+    "native": 21,
+    "combined_native_gru_layer_norm": 61,
+    "sanitizers": [
+      "address",
+      "undefined"
+    ],
+    "strict_compilers": [
+      "Apple Clang",
+      "GCC15",
+      "Xtensa GCC14.2.0"
+    ]
+  },
+  "limitations": [
+    "No full GTCRN dispatch or model serialization",
+    "No trained full-model integer audio evaluation",
+    "No physical board execution or latency",
+    "Object size excludes linked helper implementations and final linker layout"
+  ]
+}

@@ -1,0 +1,6223 @@
+{
+  "summary": {
+    "utterances": 770,
+    "valid_utterances": 770,
+    "invalid_utterances": 0,
+    "si_sdr_noisy": 6.016738904979768,
+    "si_sdr_enhanced": 13.407082699054744,
+    "si_sdri": 7.390343794074977,
+    "weighting": "equal per utterance",
+    "metric": "zero-mean SI-SDR, capped +/-80 dB"
+  },
+  "timing": {
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "device": "cpu",
+    "measurement": "Host offline throughput, including DSP and neural inference; not ESP32 performance or acoustic latency",
+    "audio_seconds": 2279.5793125,
+    "processing_seconds": 31.680845404996944,
+    "processing_rtf": 0.013897671921865603,
+    "excludes": "compilation, model loading, disk I/O, metric computation",
+    "torch_threads": 2
+  },
+  "manifest_sha256": "c1e0ccf95766f1542da3e8eebc1cf33107ca6ecf3ccf59c7a2d8078c171f5668",
+  "limited_evaluation": false,
+  "utterances": [
+    {
+      "id": "p226_001",
+      "samples": 36480,
+      "si_sdr_noisy": 12.27280997512372,
+      "si_sdr_enhanced": 15.395357413267728,
+      "si_sdri": 3.122547438144009,
+      "processing_seconds": 0.0351494360002107
+    },
+    {
+      "id": "p226_002",
+      "samples": 62400,
+      "si_sdr_noisy": 8.749793294414777,
+      "si_sdr_enhanced": 12.99785003725998,
+      "si_sdri": 4.248056742845202,
+      "processing_seconds": 0.04683165699998426
+    },
+    {
+      "id": "p226_003",
+      "samples": 124389,
+      "si_sdr_noisy": 4.14343117235667,
+      "si_sdr_enhanced": 7.905120106138746,
+      "si_sdri": 3.761688933782076,
+      "processing_seconds": 0.11353939799982982
+    },
+    {
+      "id": "p226_004",
+      "samples": 83040,
+      "si_sdr_noisy": -0.8807783524649716,
+      "si_sdr_enhanced": 4.590869319848683,
+      "si_sdri": 5.4716476723136545,
+      "processing_seconds": 0.06159029399987048
+    },
+    {
+      "id": "p226_005",
+      "samples": 118735,
+      "si_sdr_noisy": 14.170588447531529,
+      "si_sdr_enhanced": 18.140838863395174,
+      "si_sdri": 3.970250415863646,
+      "processing_seconds": 0.09677632300008554
+    },
+    {
+      "id": "p226_006",
+      "samples": 99058,
+      "si_sdr_noisy": 9.635211118299033,
+      "si_sdr_enhanced": 14.481310680453154,
+      "si_sdri": 4.846099562154121,
+      "processing_seconds": 0.08249016499985373
+    },
+    {
+      "id": "p226_007",
+      "samples": 77920,
+      "si_sdr_noisy": 4.109827665273497,
+      "si_sdr_enhanced": 11.715387722186897,
+      "si_sdri": 7.6055600569134,
+      "processing_seconds": 0.07221026299976074
+    },
+    {
+      "id": "p226_008",
+      "samples": 137997,
+      "si_sdr_noisy": -0.7513850720504023,
+      "si_sdr_enhanced": 5.355244995374855,
+      "si_sdri": 6.106630067425257,
+      "processing_seconds": 0.09771313100009138
+    },
+    {
+      "id": "p226_009",
+      "samples": 78657,
+      "si_sdr_noisy": 14.257775367494084,
+      "si_sdr_enhanced": 20.841804821959308,
+      "si_sdri": 6.584029454465224,
+      "processing_seconds": 0.06019274599975688
+    },
+    {
+      "id": "p226_010",
+      "samples": 56234,
+      "si_sdr_noisy": 8.172774459330105,
+      "si_sdr_enhanced": 18.609671932945243,
+      "si_sdri": 10.436897473615138,
+      "processing_seconds": 0.04708127499998227
+    },
+    {
+      "id": "p226_011",
+      "samples": 114720,
+      "si_sdr_noisy": 4.160683254153847,
+      "si_sdr_enhanced": 20.808972849682632,
+      "si_sdri": 16.648289595528787,
+      "processing_seconds": 0.08948806299986245
+    },
+    {
+      "id": "p226_012",
+      "samples": 69559,
+      "si_sdr_noisy": -0.6249300408508441,
+      "si_sdr_enhanced": 17.15060073194333,
+      "si_sdri": 17.775530772794177,
+      "processing_seconds": 0.05485500799977672
+    },
+    {
+      "id": "p226_013",
+      "samples": 76960,
+      "si_sdr_noisy": 15.026917319247167,
+      "si_sdr_enhanced": 24.009367909743396,
+      "si_sdri": 8.98245059049623,
+      "processing_seconds": 0.07076641999992717
+    },
+    {
+      "id": "p226_014",
+      "samples": 86040,
+      "si_sdr_noisy": 9.54926233400588,
+      "si_sdr_enhanced": 20.826970430057777,
+      "si_sdri": 11.277708096051898,
+      "processing_seconds": 0.06546663000017361
+    },
+    {
+      "id": "p226_015",
+      "samples": 96133,
+      "si_sdr_noisy": 4.607676381315583,
+      "si_sdr_enhanced": 19.86900470360127,
+      "si_sdri": 15.261328322285687,
+      "processing_seconds": 0.09286410800041267
+    },
+    {
+      "id": "p226_016",
+      "samples": 124000,
+      "si_sdr_noisy": -0.3309531051111112,
+      "si_sdr_enhanced": 17.31601039082722,
+      "si_sdri": 17.64696349593833,
+      "processing_seconds": 0.09391623700003038
+    },
+    {
+      "id": "p226_017",
+      "samples": 58287,
+      "si_sdr_noisy": 14.16289091898894,
+      "si_sdr_enhanced": 16.967938712840816,
+      "si_sdri": 2.8050477938518767,
+      "processing_seconds": 0.042687453999860736
+    },
+    {
+      "id": "p226_018",
+      "samples": 94035,
+      "si_sdr_noisy": 9.314198015522487,
+      "si_sdr_enhanced": 13.324681705754035,
+      "si_sdri": 4.010483690231547,
+      "processing_seconds": 0.07190970800002106
+    },
+    {
+      "id": "p226_019",
+      "samples": 117648,
+      "si_sdr_noisy": 4.370275749651381,
+      "si_sdr_enhanced": 7.503571189234956,
+      "si_sdri": 3.1332954395835744,
+      "processing_seconds": 0.10432334600000104
+    },
+    {
+      "id": "p226_020",
+      "samples": 66138,
+      "si_sdr_noisy": -0.7383421710978635,
+      "si_sdr_enhanced": 3.8102231782081217,
+      "si_sdri": 4.548565349305985,
+      "processing_seconds": 0.06323534800003472
+    },
+    {
+      "id": "p226_021",
+      "samples": 150400,
+      "si_sdr_noisy": 14.340635607775917,
+      "si_sdr_enhanced": 19.357352213367534,
+      "si_sdri": 5.016716605591617,
+      "processing_seconds": 0.1421177119996173
+    },
+    {
+      "id": "p226_022",
+      "samples": 117321,
+      "si_sdr_noisy": 9.369100842373337,
+      "si_sdr_enhanced": 14.624185072824275,
+      "si_sdri": 5.255084230450938,
+      "processing_seconds": 0.08136167300017405
+    },
+    {
+      "id": "p226_023",
+      "samples": 188496,
+      "si_sdr_noisy": 4.502126796957603,
+      "si_sdr_enhanced": 15.010819734632681,
+      "si_sdri": 10.508692937675079,
+      "processing_seconds": 0.16837250500020673
+    },
+    {
+      "id": "p226_024",
+      "samples": 115253,
+      "si_sdr_noisy": -0.694785346356645,
+      "si_sdr_enhanced": 14.56805169303055,
+      "si_sdri": 15.262837039387195,
+      "processing_seconds": 0.09956924900006925
+    },
+    {
+      "id": "p226_025",
+      "samples": 50240,
+      "si_sdr_noisy": 11.546375361747202,
+      "si_sdr_enhanced": 16.890475498570556,
+      "si_sdri": 5.344100136823354,
+      "processing_seconds": 0.0516844530002345
+    },
+    {
+      "id": "p226_026",
+      "samples": 32939,
+      "si_sdr_noisy": 8.366940992598657,
+      "si_sdr_enhanced": 13.662317965317499,
+      "si_sdri": 5.295376972718842,
+      "processing_seconds": 0.035379118000037124
+    },
+    {
+      "id": "p226_027",
+      "samples": 63447,
+      "si_sdr_noisy": 4.907099789373833,
+      "si_sdr_enhanced": 9.391321124624284,
+      "si_sdri": 4.484221335250451,
+      "processing_seconds": 0.06791367999994691
+    },
+    {
+      "id": "p226_028",
+      "samples": 67653,
+      "si_sdr_noisy": -1.1069338275911955,
+      "si_sdr_enhanced": 6.1779507720745706,
+      "si_sdri": 7.284884599665766,
+      "processing_seconds": 0.052925335000054474
+    },
+    {
+      "id": "p226_029",
+      "samples": 74720,
+      "si_sdr_noisy": 13.751514181973372,
+      "si_sdr_enhanced": 17.50738948909951,
+      "si_sdri": 3.7558753071261375,
+      "processing_seconds": 0.06586180300018896
+    },
+    {
+      "id": "p226_030",
+      "samples": 45440,
+      "si_sdr_noisy": 7.779121282844321,
+      "si_sdr_enhanced": 13.194597440101244,
+      "si_sdri": 5.415476157256923,
+      "processing_seconds": 0.04807435400016402
+    },
+    {
+      "id": "p226_031",
+      "samples": 38240,
+      "si_sdr_noisy": 2.818693252492552,
+      "si_sdr_enhanced": 10.16974456997826,
+      "si_sdri": 7.351051317485708,
+      "processing_seconds": 0.0342991269999402
+    },
+    {
+      "id": "p226_032",
+      "samples": 36960,
+      "si_sdr_noisy": -2.4663244827171464,
+      "si_sdr_enhanced": 5.535491162578301,
+      "si_sdri": 8.001815645295448,
+      "processing_seconds": 0.0313696749999508
+    },
+    {
+      "id": "p226_033",
+      "samples": 64320,
+      "si_sdr_noisy": 13.750898860734754,
+      "si_sdr_enhanced": 18.301760661718628,
+      "si_sdri": 4.550861800983874,
+      "processing_seconds": 0.06499975599990648
+    },
+    {
+      "id": "p226_034",
+      "samples": 76480,
+      "si_sdr_noisy": 8.938821311713214,
+      "si_sdr_enhanced": 15.653509893091911,
+      "si_sdri": 6.714688581378697,
+      "processing_seconds": 0.08148518099960711
+    },
+    {
+      "id": "p226_036",
+      "samples": 58560,
+      "si_sdr_noisy": 3.6104117686860713,
+      "si_sdr_enhanced": 12.067947462661305,
+      "si_sdri": 8.457535693975235,
+      "processing_seconds": 0.04094839100025638
+    },
+    {
+      "id": "p226_037",
+      "samples": 54611,
+      "si_sdr_noisy": -1.0460630793909496,
+      "si_sdr_enhanced": 7.140081804969166,
+      "si_sdri": 8.186144884360116,
+      "processing_seconds": 0.050009592000151315
+    },
+    {
+      "id": "p226_039",
+      "samples": 28200,
+      "si_sdr_noisy": 12.887449608210567,
+      "si_sdr_enhanced": 17.16819502165238,
+      "si_sdri": 4.280745413441814,
+      "processing_seconds": 0.02789561200006574
+    },
+    {
+      "id": "p226_040",
+      "samples": 27629,
+      "si_sdr_noisy": 9.004520948494427,
+      "si_sdr_enhanced": 12.903553564049572,
+      "si_sdri": 3.8990326155551447,
+      "processing_seconds": 0.029493262999949366
+    },
+    {
+      "id": "p226_041",
+      "samples": 42634,
+      "si_sdr_noisy": 3.73009231727156,
+      "si_sdr_enhanced": 14.7045465424773,
+      "si_sdri": 10.97445422520574,
+      "processing_seconds": 0.044202222999956575
+    },
+    {
+      "id": "p226_042",
+      "samples": 73280,
+      "si_sdr_noisy": -1.2034994516542243,
+      "si_sdr_enhanced": 13.769217371084183,
+      "si_sdri": 14.972716822738407,
+      "processing_seconds": 0.07207598100012547
+    },
+    {
+      "id": "p226_043",
+      "samples": 41120,
+      "si_sdr_noisy": 12.88158275034601,
+      "si_sdr_enhanced": 15.301363408077078,
+      "si_sdri": 2.419780657731069,
+      "processing_seconds": 0.0310413580000386
+    },
+    {
+      "id": "p226_044",
+      "samples": 57280,
+      "si_sdr_noisy": 8.539649045658917,
+      "si_sdr_enhanced": 11.95533500586655,
+      "si_sdri": 3.4156859602076324,
+      "processing_seconds": 0.05131914399999005
+    },
+    {
+      "id": "p226_045",
+      "samples": 59007,
+      "si_sdr_noisy": 2.414733858047101,
+      "si_sdr_enhanced": 7.077181331846793,
+      "si_sdri": 4.662447473799692,
+      "processing_seconds": 0.03567417900012515
+    },
+    {
+      "id": "p226_046",
+      "samples": 71121,
+      "si_sdr_noisy": -1.030528600332858,
+      "si_sdr_enhanced": 2.114232370412569,
+      "si_sdri": 3.144760970745427,
+      "processing_seconds": 0.04871589000003951
+    },
+    {
+      "id": "p226_047",
+      "samples": 28482,
+      "si_sdr_noisy": 12.530336347667774,
+      "si_sdr_enhanced": 16.854915122077777,
+      "si_sdri": 4.3245787744100035,
+      "processing_seconds": 0.03255292400035614
+    },
+    {
+      "id": "p226_048",
+      "samples": 26094,
+      "si_sdr_noisy": 8.029068328279795,
+      "si_sdr_enhanced": 14.335798486927231,
+      "si_sdri": 6.3067301586474365,
+      "processing_seconds": 0.017481225000210543
+    },
+    {
+      "id": "p226_049",
+      "samples": 29204,
+      "si_sdr_noisy": 2.804182406919293,
+      "si_sdr_enhanced": 8.517688456373765,
+      "si_sdri": 5.713506049454472,
+      "processing_seconds": 0.033764864999739075
+    },
+    {
+      "id": "p226_050",
+      "samples": 72000,
+      "si_sdr_noisy": -0.8975246945096718,
+      "si_sdr_enhanced": 5.2247030568272255,
+      "si_sdri": 6.122227751336897,
+      "processing_seconds": 0.05011533800006873
+    },
+    {
+      "id": "p226_051",
+      "samples": 50388,
+      "si_sdr_noisy": 13.783959331871802,
+      "si_sdr_enhanced": 23.18264839441958,
+      "si_sdri": 9.398689062547778,
+      "processing_seconds": 0.046620118000191724
+    },
+    {
+      "id": "p226_052",
+      "samples": 34005,
+      "si_sdr_noisy": 7.812184727777698,
+      "si_sdr_enhanced": 18.750132590147082,
+      "si_sdri": 10.937947862369384,
+      "processing_seconds": 0.03760990299997502
+    },
+    {
+      "id": "p226_053",
+      "samples": 37280,
+      "si_sdr_noisy": 2.4919614863094464,
+      "si_sdr_enhanced": 21.079369190916406,
+      "si_sdri": 18.58740770460696,
+      "processing_seconds": 0.035455641000226024
+    },
+    {
+      "id": "p226_054",
+      "samples": 68800,
+      "si_sdr_noisy": -1.2001395819526854,
+      "si_sdr_enhanced": 16.925523505636942,
+      "si_sdri": 18.12566308758963,
+      "processing_seconds": 0.0694315280002229
+    },
+    {
+      "id": "p226_055",
+      "samples": 68907,
+      "si_sdr_noisy": 14.378389120917038,
+      "si_sdr_enhanced": 24.473773626171322,
+      "si_sdri": 10.095384505254284,
+      "processing_seconds": 0.06567228899984912
+    },
+    {
+      "id": "p226_056",
+      "samples": 49736,
+      "si_sdr_noisy": 9.16965148962323,
+      "si_sdr_enhanced": 22.75655662899849,
+      "si_sdri": 13.586905139375258,
+      "processing_seconds": 0.04932478999990053
+    },
+    {
+      "id": "p226_057",
+      "samples": 31920,
+      "si_sdr_noisy": 11.898722226979164,
+      "si_sdr_enhanced": 18.324906580190067,
+      "si_sdri": 6.426184353210903,
+      "processing_seconds": 0.025154488000225683
+    },
+    {
+      "id": "p226_058",
+      "samples": 47452,
+      "si_sdr_noisy": -0.35206590011110794,
+      "si_sdr_enhanced": 12.920307036724282,
+      "si_sdri": 13.272372936835389,
+      "processing_seconds": 0.04566255800000363
+    },
+    {
+      "id": "p226_059",
+      "samples": 28643,
+      "si_sdr_noisy": 12.893961140827033,
+      "si_sdr_enhanced": 14.797862444013505,
+      "si_sdri": 1.9039013031864727,
+      "processing_seconds": 0.02763586800028861
+    },
+    {
+      "id": "p226_060",
+      "samples": 24244,
+      "si_sdr_noisy": 9.105484457200342,
+      "si_sdr_enhanced": 13.062649401879616,
+      "si_sdri": 3.957164944679274,
+      "processing_seconds": 0.02015054899993629
+    },
+    {
+      "id": "p226_061",
+      "samples": 62934,
+      "si_sdr_noisy": 4.5249199139017495,
+      "si_sdr_enhanced": 8.797459010172458,
+      "si_sdri": 4.272539096270709,
+      "processing_seconds": 0.05386578499974348
+    },
+    {
+      "id": "p226_062",
+      "samples": 45185,
+      "si_sdr_noisy": -1.0369403586826165,
+      "si_sdr_enhanced": 5.965608548456447,
+      "si_sdri": 7.002548907139063,
+      "processing_seconds": 0.045506852000016806
+    },
+    {
+      "id": "p226_063",
+      "samples": 33367,
+      "si_sdr_noisy": 13.047858980914961,
+      "si_sdr_enhanced": 17.116296799050833,
+      "si_sdri": 4.068437818135871,
+      "processing_seconds": 0.03401236899981086
+    },
+    {
+      "id": "p226_064",
+      "samples": 40000,
+      "si_sdr_noisy": 7.73093455143318,
+      "si_sdr_enhanced": 10.506517598739633,
+      "si_sdri": 2.7755830473064522,
+      "processing_seconds": 0.0388861960000213
+    },
+    {
+      "id": "p226_065",
+      "samples": 44640,
+      "si_sdr_noisy": 2.874338158335435,
+      "si_sdr_enhanced": 10.37929314888937,
+      "si_sdri": 7.5049549905539354,
+      "processing_seconds": 0.044505972000024485
+    },
+    {
+      "id": "p226_066",
+      "samples": 30793,
+      "si_sdr_noisy": -2.0229332027306937,
+      "si_sdr_enhanced": 12.864524338449076,
+      "si_sdri": 14.88745754117977,
+      "processing_seconds": 0.02458689700006289
+    },
+    {
+      "id": "p226_067",
+      "samples": 30239,
+      "si_sdr_noisy": 13.40153791403327,
+      "si_sdr_enhanced": 18.728879320534634,
+      "si_sdri": 5.327341406501365,
+      "processing_seconds": 0.02057236400014517
+    },
+    {
+      "id": "p226_068",
+      "samples": 44681,
+      "si_sdr_noisy": 7.862106562263943,
+      "si_sdr_enhanced": 12.720048081543,
+      "si_sdri": 4.857941519279057,
+      "processing_seconds": 0.03278497299970695
+    },
+    {
+      "id": "p226_069",
+      "samples": 47680,
+      "si_sdr_noisy": 3.544687813214305,
+      "si_sdr_enhanced": 9.399138173827703,
+      "si_sdri": 5.854450360613399,
+      "processing_seconds": 0.039496228999723826
+    },
+    {
+      "id": "p226_070",
+      "samples": 70240,
+      "si_sdr_noisy": -1.0334494137571213,
+      "si_sdr_enhanced": 5.587752799611598,
+      "si_sdri": 6.621202213368719,
+      "processing_seconds": 0.052887830000145186
+    },
+    {
+      "id": "p226_071",
+      "samples": 72960,
+      "si_sdr_noisy": 13.326563879112607,
+      "si_sdr_enhanced": 17.69576512700482,
+      "si_sdri": 4.369201247892212,
+      "processing_seconds": 0.07074531799980832
+    },
+    {
+      "id": "p226_072",
+      "samples": 75680,
+      "si_sdr_noisy": 8.786891073779916,
+      "si_sdr_enhanced": 14.126217423478813,
+      "si_sdri": 5.339326349698897,
+      "processing_seconds": 0.06004885199990895
+    },
+    {
+      "id": "p226_073",
+      "samples": 34880,
+      "si_sdr_noisy": 2.2999447976684064,
+      "si_sdr_enhanced": 11.284764905564488,
+      "si_sdri": 8.984820107896082,
+      "processing_seconds": 0.028416359999937413
+    },
+    {
+      "id": "p226_074",
+      "samples": 35840,
+      "si_sdr_noisy": -3.0226142646868026,
+      "si_sdr_enhanced": 6.544698452463665,
+      "si_sdri": 9.567312717150468,
+      "processing_seconds": 0.032099654999910854
+    },
+    {
+      "id": "p226_075",
+      "samples": 49600,
+      "si_sdr_noisy": 13.348679633981623,
+      "si_sdr_enhanced": 17.333950396521058,
+      "si_sdri": 3.985270762539434,
+      "processing_seconds": 0.04152471699990201
+    },
+    {
+      "id": "p226_076",
+      "samples": 33280,
+      "si_sdr_noisy": 7.0004076269504365,
+      "si_sdr_enhanced": 15.174910508975648,
+      "si_sdri": 8.174502882025212,
+      "processing_seconds": 0.02399103300012939
+    },
+    {
+      "id": "p226_077",
+      "samples": 38240,
+      "si_sdr_noisy": 2.5464496651710666,
+      "si_sdr_enhanced": 12.556734077164737,
+      "si_sdri": 10.01028441199367,
+      "processing_seconds": 0.03690041200025007
+    },
+    {
+      "id": "p226_078",
+      "samples": 31441,
+      "si_sdr_noisy": -1.747367100590642,
+      "si_sdr_enhanced": 8.170627494063682,
+      "si_sdri": 9.917994594654324,
+      "processing_seconds": 0.024693353000202478
+    },
+    {
+      "id": "p226_079",
+      "samples": 30365,
+      "si_sdr_noisy": 12.873170569351819,
+      "si_sdr_enhanced": 18.146704971271767,
+      "si_sdri": 5.273534401919948,
+      "processing_seconds": 0.026289125999937824
+    },
+    {
+      "id": "p226_080",
+      "samples": 74400,
+      "si_sdr_noisy": 9.079169023497446,
+      "si_sdr_enhanced": 18.680152371615787,
+      "si_sdri": 9.60098334811834,
+      "processing_seconds": 0.06356415399977777
+    },
+    {
+      "id": "p226_082",
+      "samples": 39040,
+      "si_sdr_noisy": 2.5715845913906286,
+      "si_sdr_enhanced": 17.076400849005786,
+      "si_sdri": 14.504816257615158,
+      "processing_seconds": 0.029975634000038553
+    },
+    {
+      "id": "p226_083",
+      "samples": 33120,
+      "si_sdr_noisy": -3.3268626998702313,
+      "si_sdr_enhanced": 11.436092001849365,
+      "si_sdri": 14.762954701719597,
+      "processing_seconds": 0.029440108000017062
+    },
+    {
+      "id": "p226_084",
+      "samples": 69600,
+      "si_sdr_noisy": 13.675702986817939,
+      "si_sdr_enhanced": 16.225114161144646,
+      "si_sdri": 2.549411174326707,
+      "processing_seconds": 0.059112636000008933
+    },
+    {
+      "id": "p226_085",
+      "samples": 32480,
+      "si_sdr_noisy": 7.59848527772758,
+      "si_sdr_enhanced": 11.873716525963731,
+      "si_sdri": 4.275231248236151,
+      "processing_seconds": 0.024182599000141636
+    },
+    {
+      "id": "p226_086",
+      "samples": 43995,
+      "si_sdr_noisy": 2.9814548225665045,
+      "si_sdr_enhanced": 6.572228311658145,
+      "si_sdri": 3.59077348909164,
+      "processing_seconds": 0.038539192999905936
+    },
+    {
+      "id": "p226_088",
+      "samples": 42006,
+      "si_sdr_noisy": -1.453607225283486,
+      "si_sdr_enhanced": 2.7798080315325913,
+      "si_sdri": 4.233415256816077,
+      "processing_seconds": 0.03864535000002434
+    },
+    {
+      "id": "p226_089",
+      "samples": 46720,
+      "si_sdr_noisy": 13.24406584213304,
+      "si_sdr_enhanced": 17.787081504785505,
+      "si_sdri": 4.543015662652465,
+      "processing_seconds": 0.04496321299984629
+    },
+    {
+      "id": "p226_090",
+      "samples": 49920,
+      "si_sdr_noisy": 8.277455181931245,
+      "si_sdr_enhanced": 12.612326810001262,
+      "si_sdri": 4.334871628070017,
+      "processing_seconds": 0.04922507399987808
+    },
+    {
+      "id": "p226_091",
+      "samples": 36000,
+      "si_sdr_noisy": 2.245845405628738,
+      "si_sdr_enhanced": 10.494773560565617,
+      "si_sdri": 8.24892815493688,
+      "processing_seconds": 0.029464369999914197
+    },
+    {
+      "id": "p226_092",
+      "samples": 27389,
+      "si_sdr_noisy": -1.5994606786626262,
+      "si_sdr_enhanced": 8.728565749293807,
+      "si_sdri": 10.328026427956434,
+      "processing_seconds": 0.019058230000155163
+    },
+    {
+      "id": "p226_093",
+      "samples": 29750,
+      "si_sdr_noisy": 13.038035716258594,
+      "si_sdr_enhanced": 20.43484929959137,
+      "si_sdri": 7.396813583332776,
+      "processing_seconds": 0.03195789299979879
+    },
+    {
+      "id": "p226_094",
+      "samples": 65067,
+      "si_sdr_noisy": 8.824106988890675,
+      "si_sdr_enhanced": 21.565031918237807,
+      "si_sdri": 12.740924929347132,
+      "processing_seconds": 0.06699209299995346
+    },
+    {
+      "id": "p226_095",
+      "samples": 47680,
+      "si_sdr_noisy": 3.3115842390540746,
+      "si_sdr_enhanced": 18.51840701804814,
+      "si_sdri": 15.206822778994066,
+      "processing_seconds": 0.05058819999976549
+    },
+    {
+      "id": "p226_096",
+      "samples": 43200,
+      "si_sdr_noisy": -2.1065060660258363,
+      "si_sdr_enhanced": 18.93904922299894,
+      "si_sdri": 21.045555289024776,
+      "processing_seconds": 0.04687286799980939
+    },
+    {
+      "id": "p226_097",
+      "samples": 39060,
+      "si_sdr_noisy": 13.444476574289588,
+      "si_sdr_enhanced": 19.425304782076132,
+      "si_sdri": 5.980828207786544,
+      "processing_seconds": 0.03903757999978552
+    },
+    {
+      "id": "p226_098",
+      "samples": 33600,
+      "si_sdr_noisy": 7.088845285703194,
+      "si_sdr_enhanced": 18.728676947736776,
+      "si_sdri": 11.639831662033583,
+      "processing_seconds": 0.03270221100001436
+    },
+    {
+      "id": "p226_099",
+      "samples": 60320,
+      "si_sdr_noisy": 4.616619903108027,
+      "si_sdr_enhanced": 15.880821152330666,
+      "si_sdri": 11.26420124922264,
+      "processing_seconds": 0.06217691500023648
+    },
+    {
+      "id": "p226_100",
+      "samples": 55680,
+      "si_sdr_noisy": -0.15110956823718666,
+      "si_sdr_enhanced": 16.417554858248163,
+      "si_sdri": 16.56866442648535,
+      "processing_seconds": 0.04914762799990058
+    },
+    {
+      "id": "p226_101",
+      "samples": 32640,
+      "si_sdr_noisy": 12.663241182480089,
+      "si_sdr_enhanced": 16.906866794728067,
+      "si_sdri": 4.243625612247978,
+      "processing_seconds": 0.024376594999921508
+    },
+    {
+      "id": "p226_102",
+      "samples": 51411,
+      "si_sdr_noisy": 8.838716277064563,
+      "si_sdr_enhanced": 12.803716356521544,
+      "si_sdri": 3.9650000794569813,
+      "processing_seconds": 0.04919431500002247
+    },
+    {
+      "id": "p226_103",
+      "samples": 38880,
+      "si_sdr_noisy": 3.3594204334755293,
+      "si_sdr_enhanced": 12.638412086931805,
+      "si_sdri": 9.278991653456275,
+      "processing_seconds": 0.03167958099993484
+    },
+    {
+      "id": "p226_104",
+      "samples": 83642,
+      "si_sdr_noisy": -0.904611518674021,
+      "si_sdr_enhanced": 2.648440647712265,
+      "si_sdri": 3.553052166386286,
+      "processing_seconds": 0.07106781199991019
+    },
+    {
+      "id": "p226_105",
+      "samples": 36985,
+      "si_sdr_noisy": 12.803006270770963,
+      "si_sdr_enhanced": 20.22398978931943,
+      "si_sdri": 7.420983518548466,
+      "processing_seconds": 0.032447539000258985
+    },
+    {
+      "id": "p226_106",
+      "samples": 55851,
+      "si_sdr_noisy": 8.893177025602995,
+      "si_sdr_enhanced": 15.647990177570554,
+      "si_sdri": 6.754813151967559,
+      "processing_seconds": 0.06013817699977153
+    },
+    {
+      "id": "p226_107",
+      "samples": 40480,
+      "si_sdr_noisy": 2.8482905053784306,
+      "si_sdr_enhanced": 14.260377753678476,
+      "si_sdri": 11.412087248300045,
+      "processing_seconds": 0.04038962900040133
+    },
+    {
+      "id": "p226_108",
+      "samples": 43164,
+      "si_sdr_noisy": -1.7868347187875928,
+      "si_sdr_enhanced": 12.858497637861003,
+      "si_sdri": 14.645332356648595,
+      "processing_seconds": 0.03170910800008642
+    },
+    {
+      "id": "p226_109",
+      "samples": 42351,
+      "si_sdr_noisy": 13.628940757515666,
+      "si_sdr_enhanced": 16.534142743542265,
+      "si_sdri": 2.905201986026599,
+      "processing_seconds": 0.028156760000001668
+    },
+    {
+      "id": "p226_110",
+      "samples": 43680,
+      "si_sdr_noisy": 7.910473010524774,
+      "si_sdr_enhanced": 13.126105795285952,
+      "si_sdri": 5.215632784761178,
+      "processing_seconds": 0.03315009400012059
+    },
+    {
+      "id": "p226_111",
+      "samples": 34560,
+      "si_sdr_noisy": 2.58792542066324,
+      "si_sdr_enhanced": 9.784263546474163,
+      "si_sdri": 7.196338125810923,
+      "processing_seconds": 0.028626724000332615
+    },
+    {
+      "id": "p226_112",
+      "samples": 53120,
+      "si_sdr_noisy": -1.2714372423004505,
+      "si_sdr_enhanced": 5.70012409764257,
+      "si_sdri": 6.971561339943021,
+      "processing_seconds": 0.04292157700001553
+    },
+    {
+      "id": "p226_113",
+      "samples": 62880,
+      "si_sdr_noisy": 13.649416423660144,
+      "si_sdr_enhanced": 17.667106255611692,
+      "si_sdri": 4.017689831951548,
+      "processing_seconds": 0.05126388999997289
+    },
+    {
+      "id": "p226_114",
+      "samples": 46519,
+      "si_sdr_noisy": 8.323770395634298,
+      "si_sdr_enhanced": 14.085279324781343,
+      "si_sdri": 5.761508929147045,
+      "processing_seconds": 0.04061566900008984
+    },
+    {
+      "id": "p226_115",
+      "samples": 45600,
+      "si_sdr_noisy": 3.3060400638952165,
+      "si_sdr_enhanced": 10.132212522684437,
+      "si_sdri": 6.8261724587892205,
+      "processing_seconds": 0.036177883000164
+    },
+    {
+      "id": "p226_116",
+      "samples": 25253,
+      "si_sdr_noisy": -2.069971442296975,
+      "si_sdr_enhanced": 4.848450585746536,
+      "si_sdri": 6.918422028043511,
+      "processing_seconds": 0.024379078000038135
+    },
+    {
+      "id": "p226_117",
+      "samples": 35459,
+      "si_sdr_noisy": 13.153823791509334,
+      "si_sdr_enhanced": 18.93642497844503,
+      "si_sdri": 5.782601186935695,
+      "processing_seconds": 0.028436190000320494
+    },
+    {
+      "id": "p226_118",
+      "samples": 66720,
+      "si_sdr_noisy": 8.824469120854115,
+      "si_sdr_enhanced": 15.419412017742948,
+      "si_sdri": 6.594942896888833,
+      "processing_seconds": 0.04918554899995797
+    },
+    {
+      "id": "p226_119",
+      "samples": 47338,
+      "si_sdr_noisy": 3.9855725341395924,
+      "si_sdr_enhanced": 12.426542615220654,
+      "si_sdri": 8.440970081081062,
+      "processing_seconds": 0.03192188899993198
+    },
+    {
+      "id": "p226_120",
+      "samples": 60800,
+      "si_sdr_noisy": -1.4291240138876318,
+      "si_sdr_enhanced": 7.008232217912891,
+      "si_sdri": 8.437356231800523,
+      "processing_seconds": 0.05840031399975487
+    },
+    {
+      "id": "p226_121",
+      "samples": 41600,
+      "si_sdr_noisy": 13.364131263699484,
+      "si_sdr_enhanced": 20.06237800514379,
+      "si_sdri": 6.698246741444304,
+      "processing_seconds": 0.04222699799993279
+    },
+    {
+      "id": "p226_122",
+      "samples": 87680,
+      "si_sdr_noisy": 8.852787308161687,
+      "si_sdr_enhanced": 20.346464914855304,
+      "si_sdri": 11.493677606693616,
+      "processing_seconds": 0.06172959500008801
+    },
+    {
+      "id": "p226_124",
+      "samples": 67259,
+      "si_sdr_noisy": 4.058316107505383,
+      "si_sdr_enhanced": 13.447228562409002,
+      "si_sdri": 9.388912454903618,
+      "processing_seconds": 0.04967338500000551
+    },
+    {
+      "id": "p226_125",
+      "samples": 38560,
+      "si_sdr_noisy": -2.609401377636071,
+      "si_sdr_enhanced": 9.442048632847404,
+      "si_sdri": 12.051450010483475,
+      "processing_seconds": 0.03658500500023365
+    },
+    {
+      "id": "p226_126",
+      "samples": 39852,
+      "si_sdr_noisy": 13.329525104016206,
+      "si_sdr_enhanced": 16.574582807212945,
+      "si_sdri": 3.245057703196739,
+      "processing_seconds": 0.03633107299992844
+    },
+    {
+      "id": "p226_127",
+      "samples": 83665,
+      "si_sdr_noisy": 9.136015620410818,
+      "si_sdr_enhanced": 12.45170227535677,
+      "si_sdri": 3.315686654945951,
+      "processing_seconds": 0.078738501999851
+    },
+    {
+      "id": "p226_128",
+      "samples": 55680,
+      "si_sdr_noisy": 3.23264531504634,
+      "si_sdr_enhanced": 6.60177554308253,
+      "si_sdri": 3.36913022803619,
+      "processing_seconds": 0.052452454999638576
+    },
+    {
+      "id": "p226_129",
+      "samples": 35360,
+      "si_sdr_noisy": -3.031897100602726,
+      "si_sdr_enhanced": 1.4886626212600533,
+      "si_sdri": 4.52055972186278,
+      "processing_seconds": 0.026553236999916408
+    },
+    {
+      "id": "p226_130",
+      "samples": 44800,
+      "si_sdr_noisy": 13.218998666914528,
+      "si_sdr_enhanced": 18.406865219556835,
+      "si_sdri": 5.187866552642307,
+      "processing_seconds": 0.03077893399995446
+    },
+    {
+      "id": "p226_131",
+      "samples": 27860,
+      "si_sdr_noisy": 7.7515974137331956,
+      "si_sdr_enhanced": 15.533602389278789,
+      "si_sdri": 7.782004975545593,
+      "processing_seconds": 0.029729221999787114
+    },
+    {
+      "id": "p226_132",
+      "samples": 46036,
+      "si_sdr_noisy": 3.3385326989176667,
+      "si_sdr_enhanced": 16.56352423539351,
+      "si_sdri": 13.22499153647584,
+      "processing_seconds": 0.040192383999965386
+    },
+    {
+      "id": "p226_133",
+      "samples": 44160,
+      "si_sdr_noisy": -2.151946527489255,
+      "si_sdr_enhanced": 4.9059393307615675,
+      "si_sdri": 7.057885858250822,
+      "processing_seconds": 0.040931210999588075
+    },
+    {
+      "id": "p226_134",
+      "samples": 60960,
+      "si_sdr_noisy": 13.689489891764115,
+      "si_sdr_enhanced": 21.06483962375636,
+      "si_sdri": 7.3753497319922445,
+      "processing_seconds": 0.052347233000091364
+    },
+    {
+      "id": "p226_135",
+      "samples": 53572,
+      "si_sdr_noisy": 8.544460137326968,
+      "si_sdr_enhanced": 21.686918645442738,
+      "si_sdri": 13.14245850811577,
+      "processing_seconds": 0.03922460199964917
+    },
+    {
+      "id": "p226_136",
+      "samples": 62720,
+      "si_sdr_noisy": 3.703147548313741,
+      "si_sdr_enhanced": 17.419028808472323,
+      "si_sdri": 13.715881260158582,
+      "processing_seconds": 0.047969893000299635
+    },
+    {
+      "id": "p226_137",
+      "samples": 36000,
+      "si_sdr_noisy": -2.9156604744259065,
+      "si_sdr_enhanced": 18.65932053636496,
+      "si_sdri": 21.574981010790864,
+      "processing_seconds": 0.02879467399998248
+    },
+    {
+      "id": "p226_138",
+      "samples": 51040,
+      "si_sdr_noisy": 13.827063626464543,
+      "si_sdr_enhanced": 19.920100014975056,
+      "si_sdri": 6.093036388510512,
+      "processing_seconds": 0.04106492699975206
+    },
+    {
+      "id": "p226_139",
+      "samples": 40320,
+      "si_sdr_noisy": 8.692052437846012,
+      "si_sdr_enhanced": 20.125472604349284,
+      "si_sdri": 11.433420166503272,
+      "processing_seconds": 0.03304816300033053
+    },
+    {
+      "id": "p226_140",
+      "samples": 47680,
+      "si_sdr_noisy": 3.515072431859193,
+      "si_sdr_enhanced": 7.95829449471193,
+      "si_sdri": 4.443222062852737,
+      "processing_seconds": 0.039142377999723976
+    },
+    {
+      "id": "p226_141",
+      "samples": 38560,
+      "si_sdr_noisy": -2.0941973228564255,
+      "si_sdr_enhanced": 17.327038788303636,
+      "si_sdri": 19.421236111160063,
+      "processing_seconds": 0.031181088999801432
+    },
+    {
+      "id": "p226_142",
+      "samples": 38849,
+      "si_sdr_noisy": 13.028782305926034,
+      "si_sdr_enhanced": 16.244400288873035,
+      "si_sdri": 3.215617982947,
+      "processing_seconds": 0.03278889100010929
+    },
+    {
+      "id": "p226_143",
+      "samples": 67551,
+      "si_sdr_noisy": 9.344308724089425,
+      "si_sdr_enhanced": 14.168198947426266,
+      "si_sdri": 4.823890223336841,
+      "processing_seconds": 0.051473069000167015
+    },
+    {
+      "id": "p226_144",
+      "samples": 56497,
+      "si_sdr_noisy": 4.087821448632404,
+      "si_sdr_enhanced": 7.358160637764978,
+      "si_sdri": 3.2703391891325744,
+      "processing_seconds": 0.045712782999999035
+    },
+    {
+      "id": "p226_145",
+      "samples": 71520,
+      "si_sdr_noisy": -0.8249230326878254,
+      "si_sdr_enhanced": 2.1564049584885536,
+      "si_sdri": 2.981327991176379,
+      "processing_seconds": 0.05406769899991559
+    },
+    {
+      "id": "p226_146",
+      "samples": 74240,
+      "si_sdr_noisy": 13.852645613286178,
+      "si_sdr_enhanced": 19.533800969380522,
+      "si_sdri": 5.681155356094344,
+      "processing_seconds": 0.06424476100028187
+    },
+    {
+      "id": "p226_148",
+      "samples": 41760,
+      "si_sdr_noisy": 7.615675375618503,
+      "si_sdr_enhanced": 15.354165390732694,
+      "si_sdri": 7.738490015114191,
+      "processing_seconds": 0.044105037999997876
+    },
+    {
+      "id": "p226_149",
+      "samples": 53706,
+      "si_sdr_noisy": 4.03288796867164,
+      "si_sdr_enhanced": 19.10236929882872,
+      "si_sdri": 15.069481330157078,
+      "processing_seconds": 0.04046641400009321
+    },
+    {
+      "id": "p226_150",
+      "samples": 36640,
+      "si_sdr_noisy": -2.7616531737150547,
+      "si_sdr_enhanced": 8.19758053915708,
+      "si_sdri": 10.959233712872134,
+      "processing_seconds": 0.029280298999765364
+    },
+    {
+      "id": "p226_151",
+      "samples": 43043,
+      "si_sdr_noisy": 13.88419910831735,
+      "si_sdr_enhanced": 17.567405263730485,
+      "si_sdri": 3.683206155413135,
+      "processing_seconds": 0.028433191999738483
+    },
+    {
+      "id": "p226_152",
+      "samples": 64485,
+      "si_sdr_noisy": 9.022723849175497,
+      "si_sdr_enhanced": 13.418636192131814,
+      "si_sdri": 4.395912342956317,
+      "processing_seconds": 0.057434111000020494
+    },
+    {
+      "id": "p226_153",
+      "samples": 51840,
+      "si_sdr_noisy": 3.8740723990648296,
+      "si_sdr_enhanced": 8.067741143412135,
+      "si_sdri": 4.193668744347306,
+      "processing_seconds": 0.05272013500007233
+    },
+    {
+      "id": "p226_154",
+      "samples": 73760,
+      "si_sdr_noisy": -0.7373579566610388,
+      "si_sdr_enhanced": 5.930172038826393,
+      "si_sdri": 6.667529995487432,
+      "processing_seconds": 0.06166308599995318
+    },
+    {
+      "id": "p226_155",
+      "samples": 50240,
+      "si_sdr_noisy": 13.448719544628315,
+      "si_sdr_enhanced": 17.504555797586487,
+      "si_sdri": 4.055836252958173,
+      "processing_seconds": 0.05304870700001629
+    },
+    {
+      "id": "p226_156",
+      "samples": 68160,
+      "si_sdr_noisy": 8.96618347906394,
+      "si_sdr_enhanced": 13.9728196787401,
+      "si_sdri": 5.00663619967616,
+      "processing_seconds": 0.06935635899981207
+    },
+    {
+      "id": "p226_157",
+      "samples": 62240,
+      "si_sdr_noisy": 3.721380514615438,
+      "si_sdr_enhanced": 9.55658090856051,
+      "si_sdri": 5.8352003939450725,
+      "processing_seconds": 0.043794884999897477
+    },
+    {
+      "id": "p226_158",
+      "samples": 36480,
+      "si_sdr_noisy": -2.7817177869289855,
+      "si_sdr_enhanced": 3.9009804278391798,
+      "si_sdri": 6.682698214768165,
+      "processing_seconds": 0.03270486399969741
+    },
+    {
+      "id": "p226_159",
+      "samples": 56960,
+      "si_sdr_noisy": 13.570123301615515,
+      "si_sdr_enhanced": 17.17022120333711,
+      "si_sdri": 3.600097901721595,
+      "processing_seconds": 0.057634378999864566
+    },
+    {
+      "id": "p226_160",
+      "samples": 42080,
+      "si_sdr_noisy": 7.910272535387884,
+      "si_sdr_enhanced": 16.186350413261973,
+      "si_sdri": 8.276077877874089,
+      "processing_seconds": 0.041780792999816185
+    },
+    {
+      "id": "p226_161",
+      "samples": 39680,
+      "si_sdr_noisy": 2.755436575634593,
+      "si_sdr_enhanced": 12.704066169152327,
+      "si_sdri": 9.948629593517733,
+      "processing_seconds": 0.029639934999977413
+    },
+    {
+      "id": "p226_162",
+      "samples": 42400,
+      "si_sdr_noisy": -1.914422204892431,
+      "si_sdr_enhanced": 8.130383700550128,
+      "si_sdri": 10.044805905442558,
+      "processing_seconds": 0.034412994000376784
+    },
+    {
+      "id": "p226_163",
+      "samples": 42720,
+      "si_sdr_noisy": 12.574177864831961,
+      "si_sdr_enhanced": 20.48734654028996,
+      "si_sdri": 7.913168675457998,
+      "processing_seconds": 0.03790689299967198
+    },
+    {
+      "id": "p226_164",
+      "samples": 61600,
+      "si_sdr_noisy": 8.805816151905276,
+      "si_sdr_enhanced": 17.459038902348944,
+      "si_sdri": 8.653222750443668,
+      "processing_seconds": 0.055771990999801346
+    },
+    {
+      "id": "p226_165",
+      "samples": 36480,
+      "si_sdr_noisy": 3.1469856943050543,
+      "si_sdr_enhanced": 13.452598771342991,
+      "si_sdri": 10.305613077037936,
+      "processing_seconds": 0.03526898599966444
+    },
+    {
+      "id": "p226_166",
+      "samples": 73920,
+      "si_sdr_noisy": -1.270999349200531,
+      "si_sdr_enhanced": 8.581669897611953,
+      "si_sdri": 9.852669246812484,
+      "processing_seconds": 0.06692173700002968
+    },
+    {
+      "id": "p226_167",
+      "samples": 39200,
+      "si_sdr_noisy": 12.835265131332319,
+      "si_sdr_enhanced": 15.383356548921782,
+      "si_sdri": 2.548091417589463,
+      "processing_seconds": 0.02608841699975528
+    },
+    {
+      "id": "p226_168",
+      "samples": 37440,
+      "si_sdr_noisy": 7.679638868742399,
+      "si_sdr_enhanced": 12.56911574003694,
+      "si_sdri": 4.889476871294542,
+      "processing_seconds": 0.028734126000017568
+    },
+    {
+      "id": "p226_169",
+      "samples": 39553,
+      "si_sdr_noisy": 3.2924715245696468,
+      "si_sdr_enhanced": 5.232623500555355,
+      "si_sdri": 1.940151975985708,
+      "processing_seconds": 0.029851321000023745
+    },
+    {
+      "id": "p226_171",
+      "samples": 57508,
+      "si_sdr_noisy": -1.2139368239848318,
+      "si_sdr_enhanced": -0.12637999166281266,
+      "si_sdri": 1.087556832322019,
+      "processing_seconds": 0.05013236499962659
+    },
+    {
+      "id": "p226_172",
+      "samples": 43680,
+      "si_sdr_noisy": 12.866211627140627,
+      "si_sdr_enhanced": 16.739665634197628,
+      "si_sdri": 3.873454007057001,
+      "processing_seconds": 0.03513006100001803
+    },
+    {
+      "id": "p226_173",
+      "samples": 47983,
+      "si_sdr_noisy": 8.818055505836938,
+      "si_sdr_enhanced": 15.883708394819006,
+      "si_sdri": 7.0656528889820684,
+      "processing_seconds": 0.04096896300006847
+    },
+    {
+      "id": "p226_174",
+      "samples": 38080,
+      "si_sdr_noisy": 2.91671800544968,
+      "si_sdr_enhanced": 10.98682937002774,
+      "si_sdri": 8.07011136457806,
+      "processing_seconds": 0.03865977700024814
+    },
+    {
+      "id": "p226_175",
+      "samples": 66560,
+      "si_sdr_noisy": -0.9292793990188057,
+      "si_sdr_enhanced": 3.972200432441416,
+      "si_sdri": 4.901479831460222,
+      "processing_seconds": 0.060876150999774836
+    },
+    {
+      "id": "p226_176",
+      "samples": 48640,
+      "si_sdr_noisy": 13.306642391544221,
+      "si_sdr_enhanced": 22.290112076126395,
+      "si_sdri": 8.983469684582174,
+      "processing_seconds": 0.041421914999773435
+    },
+    {
+      "id": "p226_177",
+      "samples": 33280,
+      "si_sdr_noisy": 7.305492104019333,
+      "si_sdr_enhanced": 18.20405921737257,
+      "si_sdri": 10.898567113353238,
+      "processing_seconds": 0.02213586200014106
+    },
+    {
+      "id": "p226_178",
+      "samples": 69120,
+      "si_sdr_noisy": 2.7181282566884954,
+      "si_sdr_enhanced": 21.16160650432153,
+      "si_sdri": 18.443478247633035,
+      "processing_seconds": 0.0487646310002674
+    },
+    {
+      "id": "p226_179",
+      "samples": 57671,
+      "si_sdr_noisy": -1.0300917416563573,
+      "si_sdr_enhanced": 17.543731626991345,
+      "si_sdri": 18.5738233686477,
+      "processing_seconds": 0.04900152500022159
+    },
+    {
+      "id": "p226_180",
+      "samples": 57313,
+      "si_sdr_noisy": 14.439124908321837,
+      "si_sdr_enhanced": 23.15813180979113,
+      "si_sdri": 8.719006901469292,
+      "processing_seconds": 0.04116567499977464
+    },
+    {
+      "id": "p226_181",
+      "samples": 23773,
+      "si_sdr_noisy": 7.972317097705924,
+      "si_sdr_enhanced": 20.231190530516923,
+      "si_sdri": 12.258873432810999,
+      "processing_seconds": 0.01838121000037063
+    },
+    {
+      "id": "p226_183",
+      "samples": 48880,
+      "si_sdr_noisy": 3.533147721523684,
+      "si_sdr_enhanced": 13.647865541600442,
+      "si_sdri": 10.11471782007676,
+      "processing_seconds": 0.04114036999999371
+    },
+    {
+      "id": "p226_184",
+      "samples": 65089,
+      "si_sdr_noisy": -1.0402217562430873,
+      "si_sdr_enhanced": 16.474624896220856,
+      "si_sdri": 17.514846652463945,
+      "processing_seconds": 0.0482491310003752
+    },
+    {
+      "id": "p226_185",
+      "samples": 32800,
+      "si_sdr_noisy": 12.899349286908716,
+      "si_sdr_enhanced": 15.899944299320989,
+      "si_sdri": 3.0005950124122727,
+      "processing_seconds": 0.029177503000028082
+    },
+    {
+      "id": "p226_186",
+      "samples": 45120,
+      "si_sdr_noisy": 8.231128660234226,
+      "si_sdr_enhanced": 12.043437044172677,
+      "si_sdri": 3.8123083839384506,
+      "processing_seconds": 0.03586366299987276
+    },
+    {
+      "id": "p226_187",
+      "samples": 40160,
+      "si_sdr_noisy": 2.28530521539022,
+      "si_sdr_enhanced": 8.54363546571183,
+      "si_sdri": 6.25833025032161,
+      "processing_seconds": 0.03530021699998542
+    },
+    {
+      "id": "p226_188",
+      "samples": 64581,
+      "si_sdr_noisy": -0.9874304825242847,
+      "si_sdr_enhanced": 5.429053503491097,
+      "si_sdri": 6.416483986015382,
+      "processing_seconds": 0.052293876000021555
+    },
+    {
+      "id": "p226_190",
+      "samples": 50932,
+      "si_sdr_noisy": 13.625063275529483,
+      "si_sdr_enhanced": 22.6763296058604,
+      "si_sdri": 9.051266330330916,
+      "processing_seconds": 0.040943516999959684
+    },
+    {
+      "id": "p226_191",
+      "samples": 81120,
+      "si_sdr_noisy": 9.090202878962963,
+      "si_sdr_enhanced": 16.80893180471594,
+      "si_sdri": 7.718728925752977,
+      "processing_seconds": 0.06742553599997336
+    },
+    {
+      "id": "p226_192",
+      "samples": 39360,
+      "si_sdr_noisy": 2.6338729241375445,
+      "si_sdr_enhanced": 14.591620412818715,
+      "si_sdri": 11.957747488681171,
+      "processing_seconds": 0.03795167299995228
+    },
+    {
+      "id": "p226_193",
+      "samples": 63952,
+      "si_sdr_noisy": -1.0298140329417877,
+      "si_sdr_enhanced": 11.0767668812896,
+      "si_sdri": 12.106580914231388,
+      "processing_seconds": 0.05962286600015432
+    },
+    {
+      "id": "p226_194",
+      "samples": 39499,
+      "si_sdr_noisy": 13.925389505238847,
+      "si_sdr_enhanced": 17.70786732341311,
+      "si_sdri": 3.7824778181742644,
+      "processing_seconds": 0.03922613299982913
+    },
+    {
+      "id": "p226_195",
+      "samples": 61374,
+      "si_sdr_noisy": 8.97868112939891,
+      "si_sdr_enhanced": 13.45019271253853,
+      "si_sdri": 4.4715115831396215,
+      "processing_seconds": 0.05434528900013902
+    },
+    {
+      "id": "p226_197",
+      "samples": 27744,
+      "si_sdr_noisy": 3.2454738166788113,
+      "si_sdr_enhanced": 9.303744908847145,
+      "si_sdri": 6.058271092168334,
+      "processing_seconds": 0.02838785799985999
+    },
+    {
+      "id": "p226_198",
+      "samples": 29623,
+      "si_sdr_noisy": -2.9349910672035384,
+      "si_sdr_enhanced": 5.395451760639639,
+      "si_sdri": 8.330442827843177,
+      "processing_seconds": 0.028147720000106347
+    },
+    {
+      "id": "p226_199",
+      "samples": 36832,
+      "si_sdr_noisy": 13.579417859610398,
+      "si_sdr_enhanced": 17.40628423898388,
+      "si_sdri": 3.826866379373481,
+      "processing_seconds": 0.033618258999922546
+    },
+    {
+      "id": "p226_200",
+      "samples": 34560,
+      "si_sdr_noisy": 7.174420365024979,
+      "si_sdr_enhanced": 15.730128820169007,
+      "si_sdri": 8.555708455144028,
+      "processing_seconds": 0.03498908499977915
+    },
+    {
+      "id": "p226_201",
+      "samples": 46062,
+      "si_sdr_noisy": 3.7496794143767573,
+      "si_sdr_enhanced": 10.57665746084867,
+      "si_sdri": 6.826978046471913,
+      "processing_seconds": 0.04519902499987438
+    },
+    {
+      "id": "p226_202",
+      "samples": 27661,
+      "si_sdr_noisy": -1.7034656385198568,
+      "si_sdr_enhanced": 4.020232691122252,
+      "si_sdri": 5.723698329642109,
+      "processing_seconds": 0.028202058999795554
+    },
+    {
+      "id": "p226_203",
+      "samples": 65019,
+      "si_sdr_noisy": 13.936194461847638,
+      "si_sdr_enhanced": 18.664863356407665,
+      "si_sdri": 4.728668894560027,
+      "processing_seconds": 0.06329447699999946
+    },
+    {
+      "id": "p226_204",
+      "samples": 49543,
+      "si_sdr_noisy": 9.013016961540007,
+      "si_sdr_enhanced": 15.04524753607684,
+      "si_sdri": 6.0322305745368325,
+      "processing_seconds": 0.047301856000103726
+    },
+    {
+      "id": "p226_205",
+      "samples": 52189,
+      "si_sdr_noisy": 4.028409743443599,
+      "si_sdr_enhanced": 12.367548867365489,
+      "si_sdri": 8.339139123921889,
+      "processing_seconds": 0.05038858700027049
+    },
+    {
+      "id": "p226_206",
+      "samples": 73095,
+      "si_sdr_noisy": -0.8170913599660263,
+      "si_sdr_enhanced": 8.192240518215176,
+      "si_sdri": 9.009331878181202,
+      "processing_seconds": 0.06622565399993618
+    },
+    {
+      "id": "p226_207",
+      "samples": 32466,
+      "si_sdr_noisy": 13.43239858375879,
+      "si_sdr_enhanced": 19.79315393009805,
+      "si_sdri": 6.3607553463392605,
+      "processing_seconds": 0.0356557340001018
+    },
+    {
+      "id": "p226_208",
+      "samples": 28464,
+      "si_sdr_noisy": 8.235448901924302,
+      "si_sdr_enhanced": 15.388221286491468,
+      "si_sdri": 7.152772384567166,
+      "processing_seconds": 0.018885519999912503
+    },
+    {
+      "id": "p226_209",
+      "samples": 36886,
+      "si_sdr_noisy": 3.070503152673951,
+      "si_sdr_enhanced": 12.544494546499527,
+      "si_sdri": 9.473991393825576,
+      "processing_seconds": 0.035927477999848634
+    },
+    {
+      "id": "p226_210",
+      "samples": 36160,
+      "si_sdr_noisy": -2.7872915999971113,
+      "si_sdr_enhanced": 9.059699810722158,
+      "si_sdri": 11.84699141071927,
+      "processing_seconds": 0.033109366000189766
+    },
+    {
+      "id": "p226_211",
+      "samples": 37600,
+      "si_sdr_noisy": 12.633811721499349,
+      "si_sdr_enhanced": 16.25178289063595,
+      "si_sdri": 3.6179711691366023,
+      "processing_seconds": 0.02533946800031117
+    },
+    {
+      "id": "p226_212",
+      "samples": 57254,
+      "si_sdr_noisy": 8.768656091963638,
+      "si_sdr_enhanced": 12.523645546674981,
+      "si_sdri": 3.7549894547113425,
+      "processing_seconds": 0.05601361699973495
+    },
+    {
+      "id": "p226_213",
+      "samples": 24550,
+      "si_sdr_noisy": 1.8358458571475724,
+      "si_sdr_enhanced": 7.54470609706755,
+      "si_sdri": 5.708860239919978,
+      "processing_seconds": 0.018738954000127706
+    },
+    {
+      "id": "p226_214",
+      "samples": 38080,
+      "si_sdr_noisy": -2.474480906337295,
+      "si_sdr_enhanced": 1.4590534678049358,
+      "si_sdri": 3.933534374142231,
+      "processing_seconds": 0.03664873900015664
+    },
+    {
+      "id": "p226_215",
+      "samples": 40147,
+      "si_sdr_noisy": 13.03360395440059,
+      "si_sdr_enhanced": 17.63443509698032,
+      "si_sdri": 4.600831142579729,
+      "processing_seconds": 0.03943039200021303
+    },
+    {
+      "id": "p226_216",
+      "samples": 41440,
+      "si_sdr_noisy": 7.906220270015921,
+      "si_sdr_enhanced": 13.98471577824856,
+      "si_sdri": 6.078495508232639,
+      "processing_seconds": 0.03219234900006995
+    },
+    {
+      "id": "p226_217",
+      "samples": 30339,
+      "si_sdr_noisy": 2.7735419959090732,
+      "si_sdr_enhanced": 10.73547805801348,
+      "si_sdri": 7.9619360621044075,
+      "processing_seconds": 0.021977790000164532
+    },
+    {
+      "id": "p226_218",
+      "samples": 36160,
+      "si_sdr_noisy": -2.8871386327932558,
+      "si_sdr_enhanced": 6.415803595075823,
+      "si_sdri": 9.302942227869078,
+      "processing_seconds": 0.029343499000333395
+    },
+    {
+      "id": "p226_219",
+      "samples": 32800,
+      "si_sdr_noisy": 11.744251666328829,
+      "si_sdr_enhanced": 21.00677071696467,
+      "si_sdri": 9.262519050635841,
+      "processing_seconds": 0.023161213000093994
+    },
+    {
+      "id": "p226_220",
+      "samples": 72114,
+      "si_sdr_noisy": 8.96078839723505,
+      "si_sdr_enhanced": 20.70913302790114,
+      "si_sdri": 11.74834463066609,
+      "processing_seconds": 0.06188105299997915
+    },
+    {
+      "id": "p226_221",
+      "samples": 73525,
+      "si_sdr_noisy": 3.954313275474803,
+      "si_sdr_enhanced": 19.071342767708902,
+      "si_sdri": 15.1170294922341,
+      "processing_seconds": 0.0769992010000351
+    },
+    {
+      "id": "p226_223",
+      "samples": 48640,
+      "si_sdr_noisy": -1.7549082429881073,
+      "si_sdr_enhanced": 15.616274171290085,
+      "si_sdri": 17.37118241427819,
+      "processing_seconds": 0.044662872000117204
+    },
+    {
+      "id": "p226_224",
+      "samples": 46832,
+      "si_sdr_noisy": 13.407635520187661,
+      "si_sdr_enhanced": 21.22315745903108,
+      "si_sdri": 7.815521938843418,
+      "processing_seconds": 0.038809939000202576
+    },
+    {
+      "id": "p226_225",
+      "samples": 49760,
+      "si_sdr_noisy": 8.677580837452675,
+      "si_sdr_enhanced": 20.968277620198815,
+      "si_sdri": 12.29069678274614,
+      "processing_seconds": 0.04292979199999536
+    },
+    {
+      "id": "p226_226",
+      "samples": 62375,
+      "si_sdr_noisy": 4.6976444462549125,
+      "si_sdr_enhanced": 20.627277252851634,
+      "si_sdri": 15.929632806596722,
+      "processing_seconds": 0.04708808100031092
+    },
+    {
+      "id": "p226_227",
+      "samples": 66400,
+      "si_sdr_noisy": 0.14518770263798003,
+      "si_sdr_enhanced": 17.641830109894986,
+      "si_sdri": 17.496642407257006,
+      "processing_seconds": 0.055218329999661364
+    },
+    {
+      "id": "p226_228",
+      "samples": 39680,
+      "si_sdr_noisy": 12.986835060928119,
+      "si_sdr_enhanced": 17.678196867464067,
+      "si_sdri": 4.691361806535948,
+      "processing_seconds": 0.03466192499990939
+    },
+    {
+      "id": "p226_229",
+      "samples": 42240,
+      "si_sdr_noisy": 8.032510814343807,
+      "si_sdr_enhanced": 12.034306876144852,
+      "si_sdri": 4.001796061801045,
+      "processing_seconds": 0.04233246400008284
+    },
+    {
+      "id": "p226_230",
+      "samples": 68640,
+      "si_sdr_noisy": 3.8879869614970493,
+      "si_sdr_enhanced": 8.084165761671736,
+      "si_sdri": 4.196178800174687,
+      "processing_seconds": 0.06464005500038184
+    },
+    {
+      "id": "p226_231",
+      "samples": 50240,
+      "si_sdr_noisy": -1.3569074334441433,
+      "si_sdr_enhanced": 3.5502618237961876,
+      "si_sdri": 4.907169257240331,
+      "processing_seconds": 0.04435456399960458
+    },
+    {
+      "id": "p226_232",
+      "samples": 51285,
+      "si_sdr_noisy": 13.805742042971616,
+      "si_sdr_enhanced": 21.3401833591317,
+      "si_sdri": 7.534441316160084,
+      "processing_seconds": 0.04280269600030806
+    },
+    {
+      "id": "p226_233",
+      "samples": 64954,
+      "si_sdr_noisy": 9.11656423584302,
+      "si_sdr_enhanced": 16.513470602170862,
+      "si_sdri": 7.396906366327842,
+      "processing_seconds": 0.063586258000214
+    },
+    {
+      "id": "p226_234",
+      "samples": 52800,
+      "si_sdr_noisy": 3.105932767063888,
+      "si_sdr_enhanced": 13.500292711447068,
+      "si_sdri": 10.39435994438318,
+      "processing_seconds": 0.04805737299966495
+    },
+    {
+      "id": "p226_235",
+      "samples": 67520,
+      "si_sdr_noisy": -1.1115208869253532,
+      "si_sdr_enhanced": 8.84893684494547,
+      "si_sdri": 9.960457731870823,
+      "processing_seconds": 0.05756622500030062
+    },
+    {
+      "id": "p226_236",
+      "samples": 37280,
+      "si_sdr_noisy": 12.59487109683265,
+      "si_sdr_enhanced": 17.12718703378049,
+      "si_sdri": 4.532315936947841,
+      "processing_seconds": 0.029610799999773008
+    },
+    {
+      "id": "p226_237",
+      "samples": 61760,
+      "si_sdr_noisy": 8.664780576159345,
+      "si_sdr_enhanced": 14.382342091451026,
+      "si_sdri": 5.717561515291681,
+      "processing_seconds": 0.047058061999905476
+    },
+    {
+      "id": "p226_238",
+      "samples": 40640,
+      "si_sdr_noisy": 3.0609312367531514,
+      "si_sdr_enhanced": 8.86094470815644,
+      "si_sdri": 5.800013471403289,
+      "processing_seconds": 0.033322860000225774
+    },
+    {
+      "id": "p226_239",
+      "samples": 64800,
+      "si_sdr_noisy": -1.3256665675506851,
+      "si_sdr_enhanced": 4.90837713077158,
+      "si_sdri": 6.234043698322266,
+      "processing_seconds": 0.050913823999962915
+    },
+    {
+      "id": "p226_240",
+      "samples": 37920,
+      "si_sdr_noisy": 11.754712539892635,
+      "si_sdr_enhanced": 17.29973092274647,
+      "si_sdri": 5.545018382853835,
+      "processing_seconds": 0.026256083000134822
+    },
+    {
+      "id": "p226_241",
+      "samples": 43040,
+      "si_sdr_noisy": 7.6500944327851395,
+      "si_sdr_enhanced": 13.966713854301966,
+      "si_sdri": 6.316619421516827,
+      "processing_seconds": 0.03972653699975126
+    },
+    {
+      "id": "p226_242",
+      "samples": 32160,
+      "si_sdr_noisy": 2.099458665691788,
+      "si_sdr_enhanced": 10.509721012579988,
+      "si_sdri": 8.4102623468882,
+      "processing_seconds": 0.024568245999944338
+    },
+    {
+      "id": "p226_243",
+      "samples": 55840,
+      "si_sdr_noisy": -1.1309778995940443,
+      "si_sdr_enhanced": 6.436839100547621,
+      "si_sdri": 7.567817000141665,
+      "processing_seconds": 0.05627226200022051
+    },
+    {
+      "id": "p226_244",
+      "samples": 67522,
+      "si_sdr_noisy": 14.125393640361388,
+      "si_sdr_enhanced": 19.690984522640864,
+      "si_sdri": 5.565590882279476,
+      "processing_seconds": 0.059747382000296057
+    },
+    {
+      "id": "p226_245",
+      "samples": 62920,
+      "si_sdr_noisy": 9.072235319476214,
+      "si_sdr_enhanced": 15.294734040234149,
+      "si_sdri": 6.222498720757935,
+      "processing_seconds": 0.05495071499990445
+    },
+    {
+      "id": "p226_246",
+      "samples": 37372,
+      "si_sdr_noisy": 3.6386522568444595,
+      "si_sdr_enhanced": 10.71817918058542,
+      "si_sdri": 7.079526923740961,
+      "processing_seconds": 0.034543593999842415
+    },
+    {
+      "id": "p226_247",
+      "samples": 56000,
+      "si_sdr_noisy": -1.344300459726008,
+      "si_sdr_enhanced": 8.269305090724515,
+      "si_sdri": 9.613605550450522,
+      "processing_seconds": 0.04560987400009253
+    },
+    {
+      "id": "p226_248",
+      "samples": 30711,
+      "si_sdr_noisy": 11.34663733920221,
+      "si_sdr_enhanced": 18.537907558821853,
+      "si_sdri": 7.191270219619643,
+      "processing_seconds": 0.025464172000283725
+    },
+    {
+      "id": "p226_249",
+      "samples": 31427,
+      "si_sdr_noisy": 8.339603862424758,
+      "si_sdr_enhanced": 17.22108523512183,
+      "si_sdri": 8.881481372697072,
+      "processing_seconds": 0.03026142799990339
+    },
+    {
+      "id": "p226_251",
+      "samples": 29203,
+      "si_sdr_noisy": 1.4850535884867369,
+      "si_sdr_enhanced": 16.50912286215273,
+      "si_sdri": 15.024069273665992,
+      "processing_seconds": 0.023659789000248566
+    },
+    {
+      "id": "p226_252",
+      "samples": 53779,
+      "si_sdr_noisy": -0.9667120291570805,
+      "si_sdr_enhanced": 7.84912329553091,
+      "si_sdri": 8.81583532468799,
+      "processing_seconds": 0.042940628999986075
+    },
+    {
+      "id": "p226_253",
+      "samples": 47680,
+      "si_sdr_noisy": 13.23930715688389,
+      "si_sdr_enhanced": 16.13067091296949,
+      "si_sdri": 2.8913637560855996,
+      "processing_seconds": 0.040243636000013794
+    },
+    {
+      "id": "p226_254",
+      "samples": 58720,
+      "si_sdr_noisy": 8.520873914132665,
+      "si_sdr_enhanced": 12.439264734346807,
+      "si_sdri": 3.9183908202141424,
+      "processing_seconds": 0.050576101999922685
+    },
+    {
+      "id": "p226_255",
+      "samples": 58400,
+      "si_sdr_noisy": 3.7690211384572683,
+      "si_sdr_enhanced": 7.782730220155061,
+      "si_sdri": 4.013709081697793,
+      "processing_seconds": 0.04540383599987763
+    },
+    {
+      "id": "p226_256",
+      "samples": 67452,
+      "si_sdr_noisy": -2.4771911967163946,
+      "si_sdr_enhanced": 0.10938534730239122,
+      "si_sdri": 2.586576544018786,
+      "processing_seconds": 0.047281804000249394
+    },
+    {
+      "id": "p226_257",
+      "samples": 70389,
+      "si_sdr_noisy": 13.976376027629554,
+      "si_sdr_enhanced": 17.768238668283217,
+      "si_sdri": 3.7918626406536635,
+      "processing_seconds": 0.06466669900009947
+    },
+    {
+      "id": "p226_258",
+      "samples": 62720,
+      "si_sdr_noisy": 8.571414981328623,
+      "si_sdr_enhanced": 13.83056792997165,
+      "si_sdri": 5.2591529486430275,
+      "processing_seconds": 0.05929949299979853
+    },
+    {
+      "id": "p226_259",
+      "samples": 73920,
+      "si_sdr_noisy": 4.06224204199916,
+      "si_sdr_enhanced": 10.29654837868865,
+      "si_sdri": 6.23430633668949,
+      "processing_seconds": 0.060930274999918765
+    },
+    {
+      "id": "p226_260",
+      "samples": 54080,
+      "si_sdr_noisy": -1.738961416969026,
+      "si_sdr_enhanced": 5.870727792860819,
+      "si_sdri": 7.609689209829845,
+      "processing_seconds": 0.04597952899985103
+    },
+    {
+      "id": "p226_261",
+      "samples": 62400,
+      "si_sdr_noisy": 13.771485229544833,
+      "si_sdr_enhanced": 21.757048022373976,
+      "si_sdri": 7.985562792829143,
+      "processing_seconds": 0.05162884400033363
+    },
+    {
+      "id": "p226_262",
+      "samples": 62880,
+      "si_sdr_noisy": 8.659525742572832,
+      "si_sdr_enhanced": 23.079266649110465,
+      "si_sdri": 14.419740906537633,
+      "processing_seconds": 0.05360886600010417
+    },
+    {
+      "id": "p226_263",
+      "samples": 44960,
+      "si_sdr_noisy": 3.0898384052842025,
+      "si_sdr_enhanced": 19.510637768011655,
+      "si_sdri": 16.420799362727454,
+      "processing_seconds": 0.04346248799993191
+    },
+    {
+      "id": "p226_264",
+      "samples": 57585,
+      "si_sdr_noisy": -1.3268975752642176,
+      "si_sdr_enhanced": 17.231553349640883,
+      "si_sdri": 18.558450924905102,
+      "processing_seconds": 0.04488311300019632
+    },
+    {
+      "id": "p226_265",
+      "samples": 66330,
+      "si_sdr_noisy": 20.335834684680457,
+      "si_sdr_enhanced": 23.01345706553517,
+      "si_sdri": 2.6776223808547144,
+      "processing_seconds": 0.05468341899995721
+    },
+    {
+      "id": "p226_266",
+      "samples": 36960,
+      "si_sdr_noisy": 7.901316616223719,
+      "si_sdr_enhanced": 18.146361052359378,
+      "si_sdri": 10.24504443613566,
+      "processing_seconds": 0.04069983099998353
+    },
+    {
+      "id": "p226_267",
+      "samples": 83200,
+      "si_sdr_noisy": 3.713101527723131,
+      "si_sdr_enhanced": 18.294275337611158,
+      "si_sdri": 14.581173809888027,
+      "processing_seconds": 0.06646788299985928
+    },
+    {
+      "id": "p226_268",
+      "samples": 57760,
+      "si_sdr_noisy": -0.1497511203414043,
+      "si_sdr_enhanced": 14.994684443761464,
+      "si_sdri": 15.144435564102869,
+      "processing_seconds": 0.050363887999992585
+    },
+    {
+      "id": "p226_269",
+      "samples": 34720,
+      "si_sdr_noisy": 12.460214916333427,
+      "si_sdr_enhanced": 17.272475056050073,
+      "si_sdri": 4.812260139716646,
+      "processing_seconds": 0.03675685300004261
+    },
+    {
+      "id": "p226_270",
+      "samples": 51343,
+      "si_sdr_noisy": 8.92273644780026,
+      "si_sdr_enhanced": 12.691299824551582,
+      "si_sdri": 3.768563376751322,
+      "processing_seconds": 0.042348651999873255
+    },
+    {
+      "id": "p226_271",
+      "samples": 34720,
+      "si_sdr_noisy": 4.062047860067955,
+      "si_sdr_enhanced": 9.40375025153528,
+      "si_sdri": 5.341702391467325,
+      "processing_seconds": 0.028645372000028146
+    },
+    {
+      "id": "p226_272",
+      "samples": 50736,
+      "si_sdr_noisy": -0.8319705185490066,
+      "si_sdr_enhanced": 10.483447818048514,
+      "si_sdri": 11.31541833659752,
+      "processing_seconds": 0.04275357200003782
+    },
+    {
+      "id": "p226_273",
+      "samples": 58676,
+      "si_sdr_noisy": 14.179098516924189,
+      "si_sdr_enhanced": 18.237454232975022,
+      "si_sdri": 4.0583557160508335,
+      "processing_seconds": 0.04983479400016222
+    },
+    {
+      "id": "p226_274",
+      "samples": 64704,
+      "si_sdr_noisy": 9.137517786191845,
+      "si_sdr_enhanced": 18.106540150421264,
+      "si_sdri": 8.969022364229419,
+      "processing_seconds": 0.05370912399985173
+    },
+    {
+      "id": "p226_276",
+      "samples": 27319,
+      "si_sdr_noisy": 2.5908356368573733,
+      "si_sdr_enhanced": 14.741496464284074,
+      "si_sdri": 12.150660827426702,
+      "processing_seconds": 0.024960462999843003
+    },
+    {
+      "id": "p226_278",
+      "samples": 30287,
+      "si_sdr_noisy": -2.318885721183118,
+      "si_sdr_enhanced": 2.919372711847152,
+      "si_sdri": 5.2382584330302695,
+      "processing_seconds": 0.018635352999808674
+    },
+    {
+      "id": "p226_279",
+      "samples": 55363,
+      "si_sdr_noisy": 14.340324396035767,
+      "si_sdr_enhanced": 17.567794550639746,
+      "si_sdri": 3.2274701546039797,
+      "processing_seconds": 0.04331587700016826
+    },
+    {
+      "id": "p226_280",
+      "samples": 42080,
+      "si_sdr_noisy": 8.301684669809575,
+      "si_sdr_enhanced": 13.973465819640667,
+      "si_sdri": 5.671781149831093,
+      "processing_seconds": 0.03367142300021442
+    },
+    {
+      "id": "p226_281",
+      "samples": 36848,
+      "si_sdr_noisy": 4.496738096420039,
+      "si_sdr_enhanced": 9.08246491123952,
+      "si_sdri": 4.5857268148194805,
+      "processing_seconds": 0.03138746700005868
+    },
+    {
+      "id": "p226_283",
+      "samples": 36223,
+      "si_sdr_noisy": -2.1432158225518165,
+      "si_sdr_enhanced": 3.606830198910582,
+      "si_sdri": 5.750046021462399,
+      "processing_seconds": 0.027687560000231315
+    },
+    {
+      "id": "p226_284",
+      "samples": 65600,
+      "si_sdr_noisy": 13.713073924829517,
+      "si_sdr_enhanced": 17.024607051015543,
+      "si_sdri": 3.311533126186026,
+      "processing_seconds": 0.059469998000167834
+    },
+    {
+      "id": "p226_285",
+      "samples": 28516,
+      "si_sdr_noisy": 7.846030370845055,
+      "si_sdr_enhanced": 14.33316112813867,
+      "si_sdri": 6.487130757293615,
+      "processing_seconds": 0.021883482999783155
+    },
+    {
+      "id": "p226_286",
+      "samples": 30676,
+      "si_sdr_noisy": 3.5839195239084547,
+      "si_sdr_enhanced": 9.774322959408247,
+      "si_sdri": 6.1904034354997926,
+      "processing_seconds": 0.0233714709997912
+    },
+    {
+      "id": "p226_287",
+      "samples": 28921,
+      "si_sdr_noisy": -2.6537311112401296,
+      "si_sdr_enhanced": 7.227772955480973,
+      "si_sdri": 9.881504066721103,
+      "processing_seconds": 0.032313946999693144
+    },
+    {
+      "id": "p226_288",
+      "samples": 70805,
+      "si_sdr_noisy": 13.819347559897938,
+      "si_sdr_enhanced": 18.623800489539217,
+      "si_sdri": 4.804452929641279,
+      "processing_seconds": 0.051748472999861406
+    },
+    {
+      "id": "p226_289",
+      "samples": 32180,
+      "si_sdr_noisy": 8.368773520739557,
+      "si_sdr_enhanced": 14.948572721959565,
+      "si_sdri": 6.579799201220007,
+      "processing_seconds": 0.02523567499974888
+    },
+    {
+      "id": "p226_290",
+      "samples": 39258,
+      "si_sdr_noisy": 3.1478385372710687,
+      "si_sdr_enhanced": 11.195120881398097,
+      "si_sdri": 8.047282344127028,
+      "processing_seconds": 0.03229139699988082
+    },
+    {
+      "id": "p226_291",
+      "samples": 59226,
+      "si_sdr_noisy": -0.6417111348660787,
+      "si_sdr_enhanced": 8.319478617973253,
+      "si_sdri": 8.961189752839331,
+      "processing_seconds": 0.0526336769999034
+    },
+    {
+      "id": "p226_292",
+      "samples": 35106,
+      "si_sdr_noisy": 12.961100989997556,
+      "si_sdr_enhanced": 20.478453211663123,
+      "si_sdri": 7.517352221665567,
+      "processing_seconds": 0.03224380599976939
+    },
+    {
+      "id": "p226_293",
+      "samples": 68074,
+      "si_sdr_noisy": 9.317923458172562,
+      "si_sdr_enhanced": 16.92235346698738,
+      "si_sdri": 7.60443000881482,
+      "processing_seconds": 0.06289192199983518
+    },
+    {
+      "id": "p226_294",
+      "samples": 40944,
+      "si_sdr_noisy": 3.877515050227121,
+      "si_sdr_enhanced": 13.988076006523402,
+      "si_sdri": 10.11056095629628,
+      "processing_seconds": 0.03352602799986926
+    },
+    {
+      "id": "p226_295",
+      "samples": 25269,
+      "si_sdr_noisy": -1.3133266786385553,
+      "si_sdr_enhanced": 8.56362599226487,
+      "si_sdri": 9.876952670903425,
+      "processing_seconds": 0.016446467000150733
+    },
+    {
+      "id": "p226_296",
+      "samples": 60960,
+      "si_sdr_noisy": 13.793516915295491,
+      "si_sdr_enhanced": 16.641417967487683,
+      "si_sdri": 2.847901052192192,
+      "processing_seconds": 0.06078827300007106
+    },
+    {
+      "id": "p226_297",
+      "samples": 27527,
+      "si_sdr_noisy": 7.706870951295861,
+      "si_sdr_enhanced": 12.320279692123385,
+      "si_sdri": 4.613408740827524,
+      "processing_seconds": 0.028211250999902404
+    },
+    {
+      "id": "p226_298",
+      "samples": 68800,
+      "si_sdr_noisy": 3.8899889119199567,
+      "si_sdr_enhanced": 6.869581601842939,
+      "si_sdri": 2.9795926899229825,
+      "processing_seconds": 0.06246662400008063
+    },
+    {
+      "id": "p226_299",
+      "samples": 40320,
+      "si_sdr_noisy": -1.8902981904605682,
+      "si_sdr_enhanced": 1.7284479178356424,
+      "si_sdri": 3.618746108296211,
+      "processing_seconds": 0.03855993600018337
+    },
+    {
+      "id": "p226_300",
+      "samples": 43840,
+      "si_sdr_noisy": 12.957709631314628,
+      "si_sdr_enhanced": 17.431820748911896,
+      "si_sdri": 4.474111117597268,
+      "processing_seconds": 0.03778325999974186
+    },
+    {
+      "id": "p226_301",
+      "samples": 53600,
+      "si_sdr_noisy": 8.44912089149325,
+      "si_sdr_enhanced": 14.012461889404355,
+      "si_sdri": 5.563340997911105,
+      "processing_seconds": 0.0537230280001495
+    },
+    {
+      "id": "p226_302",
+      "samples": 56995,
+      "si_sdr_noisy": 4.014919098585143,
+      "si_sdr_enhanced": 11.301102973625177,
+      "si_sdri": 7.2861838750400345,
+      "processing_seconds": 0.05237057900012587
+    },
+    {
+      "id": "p226_303",
+      "samples": 26187,
+      "si_sdr_noisy": -2.2591362317019485,
+      "si_sdr_enhanced": 4.919994276042849,
+      "si_sdri": 7.179130507744798,
+      "processing_seconds": 0.027034826000090106
+    },
+    {
+      "id": "p226_304",
+      "samples": 43109,
+      "si_sdr_noisy": 13.59830149887684,
+      "si_sdr_enhanced": 22.293737832215793,
+      "si_sdri": 8.695436333338954,
+      "processing_seconds": 0.03572974000007889
+    },
+    {
+      "id": "p226_305",
+      "samples": 72960,
+      "si_sdr_noisy": 8.830555913944249,
+      "si_sdr_enhanced": 22.32025855440466,
+      "si_sdri": 13.489702640460411,
+      "processing_seconds": 0.0703739460000179
+    },
+    {
+      "id": "p226_306",
+      "samples": 60320,
+      "si_sdr_noisy": 3.7176502136039495,
+      "si_sdr_enhanced": 15.147750852658584,
+      "si_sdri": 11.430100639054634,
+      "processing_seconds": 0.045338733999869874
+    },
+    {
+      "id": "p226_307",
+      "samples": 51040,
+      "si_sdr_noisy": -1.6245791364778928,
+      "si_sdr_enhanced": 14.430101346047843,
+      "si_sdri": 16.054680482525736,
+      "processing_seconds": 0.03328068800010442
+    },
+    {
+      "id": "p226_308",
+      "samples": 39858,
+      "si_sdr_noisy": 14.021165836917104,
+      "si_sdr_enhanced": 21.750197517193037,
+      "si_sdri": 7.7290316802759325,
+      "processing_seconds": 0.03170200499971543
+    },
+    {
+      "id": "p226_309",
+      "samples": 59727,
+      "si_sdr_noisy": 10.320661079196963,
+      "si_sdr_enhanced": 19.79029282754279,
+      "si_sdri": 9.469631748345826,
+      "processing_seconds": 0.04708116899973902
+    },
+    {
+      "id": "p226_310",
+      "samples": 61920,
+      "si_sdr_noisy": 4.380421764185476,
+      "si_sdr_enhanced": 19.187326526120625,
+      "si_sdri": 14.806904761935149,
+      "processing_seconds": 0.04642308199981926
+    },
+    {
+      "id": "p226_311",
+      "samples": 58872,
+      "si_sdr_noisy": -0.3726690779003838,
+      "si_sdr_enhanced": 12.781446379887655,
+      "si_sdri": 13.154115457788038,
+      "processing_seconds": 0.03794203400002516
+    },
+    {
+      "id": "p226_312",
+      "samples": 56117,
+      "si_sdr_noisy": 13.784239637722361,
+      "si_sdr_enhanced": 16.686736463311103,
+      "si_sdri": 2.9024968255887416,
+      "processing_seconds": 0.04217450300029668
+    },
+    {
+      "id": "p226_313",
+      "samples": 40303,
+      "si_sdr_noisy": 8.551873605617967,
+      "si_sdr_enhanced": 16.39956059161017,
+      "si_sdri": 7.847686985992205,
+      "processing_seconds": 0.026576077999834524
+    },
+    {
+      "id": "p226_314",
+      "samples": 28922,
+      "si_sdr_noisy": 3.20668416089273,
+      "si_sdr_enhanced": 8.943962282555658,
+      "si_sdri": 5.7372781216629285,
+      "processing_seconds": 0.021588172000065242
+    },
+    {
+      "id": "p226_315",
+      "samples": 38031,
+      "si_sdr_noisy": -1.4922289059877105,
+      "si_sdr_enhanced": 2.8747452512575142,
+      "si_sdri": 4.366974157245225,
+      "processing_seconds": 0.027334208999945986
+    },
+    {
+      "id": "p226_316",
+      "samples": 39840,
+      "si_sdr_noisy": 12.8620065042326,
+      "si_sdr_enhanced": 17.755797866569246,
+      "si_sdri": 4.893791362336646,
+      "processing_seconds": 0.03093447199989896
+    },
+    {
+      "id": "p226_317",
+      "samples": 45323,
+      "si_sdr_noisy": 8.14052202893309,
+      "si_sdr_enhanced": 20.463326250525693,
+      "si_sdri": 12.322804221592603,
+      "processing_seconds": 0.037486812000224745
+    },
+    {
+      "id": "p226_319",
+      "samples": 46174,
+      "si_sdr_noisy": 3.049626580780658,
+      "si_sdr_enhanced": 18.341795792019354,
+      "si_sdri": 15.292169211238697,
+      "processing_seconds": 0.04087991999995211
+    },
+    {
+      "id": "p226_320",
+      "samples": 41062,
+      "si_sdr_noisy": -1.2243582237803625,
+      "si_sdr_enhanced": 14.349863299573531,
+      "si_sdri": 15.574221523353893,
+      "processing_seconds": 0.03856523200010997
+    },
+    {
+      "id": "p226_321",
+      "samples": 41552,
+      "si_sdr_noisy": 13.415936651257262,
+      "si_sdr_enhanced": 17.708878466930482,
+      "si_sdri": 4.29294181567322,
+      "processing_seconds": 0.032121112999902834
+    },
+    {
+      "id": "p226_323",
+      "samples": 29445,
+      "si_sdr_noisy": 8.27636279016962,
+      "si_sdr_enhanced": 13.593137921477927,
+      "si_sdri": 5.316775131308308,
+      "processing_seconds": 0.02491810199990141
+    },
+    {
+      "id": "p226_324",
+      "samples": 32552,
+      "si_sdr_noisy": 3.541725803165361,
+      "si_sdr_enhanced": 8.877523838666706,
+      "si_sdri": 5.335798035501345,
+      "processing_seconds": 0.026414682999984507
+    },
+    {
+      "id": "p226_325",
+      "samples": 36836,
+      "si_sdr_noisy": -1.9612897002310938,
+      "si_sdr_enhanced": 2.6424907147912564,
+      "si_sdri": 4.60378041502235,
+      "processing_seconds": 0.02393095200022799
+    },
+    {
+      "id": "p226_326",
+      "samples": 40800,
+      "si_sdr_noisy": 12.626577451787032,
+      "si_sdr_enhanced": 17.980618034631814,
+      "si_sdri": 5.354040582844782,
+      "processing_seconds": 0.029054494999854796
+    },
+    {
+      "id": "p226_327",
+      "samples": 28555,
+      "si_sdr_noisy": 7.808066579956733,
+      "si_sdr_enhanced": 13.939778282848696,
+      "si_sdri": 6.131711702891963,
+      "processing_seconds": 0.0206475310001224
+    },
+    {
+      "id": "p226_328",
+      "samples": 32397,
+      "si_sdr_noisy": 2.9979830518278265,
+      "si_sdr_enhanced": 9.159359262852005,
+      "si_sdri": 6.161376211024178,
+      "processing_seconds": 0.023516221000136284
+    },
+    {
+      "id": "p226_329",
+      "samples": 67040,
+      "si_sdr_noisy": -1.2285731256416546,
+      "si_sdr_enhanced": 4.908004873916245,
+      "si_sdri": 6.1365779995578995,
+      "processing_seconds": 0.04024471299999277
+    },
+    {
+      "id": "p226_330",
+      "samples": 48800,
+      "si_sdr_noisy": 13.34456019719715,
+      "si_sdr_enhanced": 16.221129947284915,
+      "si_sdri": 2.8765697500877643,
+      "processing_seconds": 0.040144696999959706
+    },
+    {
+      "id": "p226_331",
+      "samples": 31290,
+      "si_sdr_noisy": 8.36741317645284,
+      "si_sdr_enhanced": 14.548874456374161,
+      "si_sdri": 6.18146127992132,
+      "processing_seconds": 0.03030677500009915
+    },
+    {
+      "id": "p226_332",
+      "samples": 28240,
+      "si_sdr_noisy": 3.080777476777532,
+      "si_sdr_enhanced": 12.015855942076637,
+      "si_sdri": 8.935078465299105,
+      "processing_seconds": 0.024397760000283597
+    },
+    {
+      "id": "p226_333",
+      "samples": 55360,
+      "si_sdr_noisy": -1.4418227288555578,
+      "si_sdr_enhanced": 7.265197225649201,
+      "si_sdri": 8.707019954504759,
+      "processing_seconds": 0.054709352999907424
+    },
+    {
+      "id": "p226_334",
+      "samples": 86411,
+      "si_sdr_noisy": 14.060655014137728,
+      "si_sdr_enhanced": 19.6965688617524,
+      "si_sdri": 5.635913847614672,
+      "processing_seconds": 0.07075664100011636
+    },
+    {
+      "id": "p226_335",
+      "samples": 38400,
+      "si_sdr_noisy": 7.833041453036945,
+      "si_sdr_enhanced": 16.928802045815218,
+      "si_sdri": 9.095760592778273,
+      "processing_seconds": 0.03473072399992816
+    },
+    {
+      "id": "p226_336",
+      "samples": 34080,
+      "si_sdr_noisy": 2.3827852471975053,
+      "si_sdr_enhanced": 12.925790698969966,
+      "si_sdri": 10.54300545177246,
+      "processing_seconds": 0.025979683000059595
+    },
+    {
+      "id": "p226_337",
+      "samples": 38400,
+      "si_sdr_noisy": -2.3204765952670234,
+      "si_sdr_enhanced": 8.37993677874207,
+      "si_sdri": 10.700413374009095,
+      "processing_seconds": 0.041011435000200436
+    },
+    {
+      "id": "p226_338",
+      "samples": 55742,
+      "si_sdr_noisy": 8.909595450735786,
+      "si_sdr_enhanced": 18.22918676501641,
+      "si_sdri": 9.319591314280625,
+      "processing_seconds": 0.056468615000085265
+    },
+    {
+      "id": "p226_339",
+      "samples": 50240,
+      "si_sdr_noisy": 13.052391191515458,
+      "si_sdr_enhanced": 18.360795884677202,
+      "si_sdri": 5.308404693161744,
+      "processing_seconds": 0.04915101500000674
+    },
+    {
+      "id": "p226_340",
+      "samples": 64480,
+      "si_sdr_noisy": 13.84925698354049,
+      "si_sdr_enhanced": 17.964043387077968,
+      "si_sdri": 4.114786403537478,
+      "processing_seconds": 0.06362461399976382
+    },
+    {
+      "id": "p226_341",
+      "samples": 59668,
+      "si_sdr_noisy": 14.19268107859692,
+      "si_sdr_enhanced": 16.330252135413133,
+      "si_sdri": 2.1375710568162134,
+      "processing_seconds": 0.058448179999686545
+    },
+    {
+      "id": "p226_342",
+      "samples": 39460,
+      "si_sdr_noisy": -1.656933025601808,
+      "si_sdr_enhanced": 17.997404766928334,
+      "si_sdri": 19.654337792530143,
+      "processing_seconds": 0.039433674000065366
+    },
+    {
+      "id": "p226_343",
+      "samples": 53280,
+      "si_sdr_noisy": 8.57617550617613,
+      "si_sdr_enhanced": 12.88117039045871,
+      "si_sdri": 4.30499488428258,
+      "processing_seconds": 0.05684862299995075
+    },
+    {
+      "id": "p226_344",
+      "samples": 67885,
+      "si_sdr_noisy": -0.5852187538213987,
+      "si_sdr_enhanced": 6.816534866788779,
+      "si_sdri": 7.401753620610178,
+      "processing_seconds": 0.0613837189998776
+    },
+    {
+      "id": "p226_345",
+      "samples": 64329,
+      "si_sdr_noisy": -1.2086840010490278,
+      "si_sdr_enhanced": 5.2232581552492805,
+      "si_sdri": 6.431942156298309,
+      "processing_seconds": 0.04474910999988424
+    },
+    {
+      "id": "p226_346",
+      "samples": 57318,
+      "si_sdr_noisy": 14.168026596555261,
+      "si_sdr_enhanced": 19.895531750986187,
+      "si_sdri": 5.727505154430926,
+      "processing_seconds": 0.03932910900039133
+    },
+    {
+      "id": "p226_347",
+      "samples": 60367,
+      "si_sdr_noisy": 3.9969646273856068,
+      "si_sdr_enhanced": 20.059059039423744,
+      "si_sdri": 16.062094412038135,
+      "processing_seconds": 0.059823396999945544
+    },
+    {
+      "id": "p226_348",
+      "samples": 30446,
+      "si_sdr_noisy": 12.974346114444408,
+      "si_sdr_enhanced": 19.161275626977446,
+      "si_sdri": 6.1869295125330375,
+      "processing_seconds": 0.027188817000023846
+    },
+    {
+      "id": "p226_349",
+      "samples": 39821,
+      "si_sdr_noisy": -0.7510475040946387,
+      "si_sdr_enhanced": 13.129876909120991,
+      "si_sdri": 13.88092441321563,
+      "processing_seconds": 0.03037624999979016
+    },
+    {
+      "id": "p226_350",
+      "samples": 50661,
+      "si_sdr_noisy": 3.9009696773417755,
+      "si_sdr_enhanced": 9.189922543631079,
+      "si_sdri": 5.2889528662893035,
+      "processing_seconds": 0.04005963800000245
+    },
+    {
+      "id": "p226_351",
+      "samples": 84000,
+      "si_sdr_noisy": 3.948813166178107,
+      "si_sdr_enhanced": 9.600814638399637,
+      "si_sdri": 5.65200147222153,
+      "processing_seconds": 0.07845304099964778
+    },
+    {
+      "id": "p226_352",
+      "samples": 44969,
+      "si_sdr_noisy": 9.013802387802016,
+      "si_sdr_enhanced": 14.528580910938995,
+      "si_sdri": 5.514778523136979,
+      "processing_seconds": 0.045979018000252836
+    },
+    {
+      "id": "p226_353",
+      "samples": 69424,
+      "si_sdr_noisy": 8.343843472907086,
+      "si_sdr_enhanced": 17.164440749769398,
+      "si_sdri": 8.820597276862312,
+      "processing_seconds": 0.06178025899998829
+    },
+    {
+      "id": "p226_354",
+      "samples": 40640,
+      "si_sdr_noisy": 3.4247666222562656,
+      "si_sdr_enhanced": 9.829822393169758,
+      "si_sdri": 6.405055770913492,
+      "processing_seconds": 0.04330376600000818
+    },
+    {
+      "id": "p226_355",
+      "samples": 81191,
+      "si_sdr_noisy": 14.31119857654879,
+      "si_sdr_enhanced": 17.96431847702471,
+      "si_sdri": 3.6531199004759216,
+      "processing_seconds": 0.08377538699960496
+    },
+    {
+      "id": "p226_356",
+      "samples": 26567,
+      "si_sdr_noisy": 9.20769800003842,
+      "si_sdr_enhanced": 13.267466551021956,
+      "si_sdri": 4.059768550983536,
+      "processing_seconds": 0.025072456000089005
+    },
+    {
+      "id": "p226_357",
+      "samples": 36121,
+      "si_sdr_noisy": -2.0160591623711035,
+      "si_sdr_enhanced": -0.6699333238994025,
+      "si_sdri": 1.346125838471701,
+      "processing_seconds": 0.03791042300008485
+    },
+    {
+      "id": "p226_358",
+      "samples": 52841,
+      "si_sdr_noisy": 8.926297720625593,
+      "si_sdr_enhanced": 12.99434827573618,
+      "si_sdri": 4.068050555110586,
+      "processing_seconds": 0.05248245600023438
+    },
+    {
+      "id": "p226_359",
+      "samples": 35079,
+      "si_sdr_noisy": -2.574182276420036,
+      "si_sdr_enhanced": 7.820685301561587,
+      "si_sdri": 10.394867577981623,
+      "processing_seconds": 0.022664132000045356
+    },
+    {
+      "id": "p226_360",
+      "samples": 60156,
+      "si_sdr_noisy": -0.8873890840037069,
+      "si_sdr_enhanced": 1.5660201309029924,
+      "si_sdri": 2.4534092149066993,
+      "processing_seconds": 0.03668563500013988
+    },
+    {
+      "id": "p226_361",
+      "samples": 32862,
+      "si_sdr_noisy": 8.36294628238469,
+      "si_sdr_enhanced": 22.140130690461465,
+      "si_sdri": 13.777184408076774,
+      "processing_seconds": 0.03145738400007758
+    },
+    {
+      "id": "p226_362",
+      "samples": 83840,
+      "si_sdr_noisy": 3.018086532899396,
+      "si_sdr_enhanced": 11.688026581031695,
+      "si_sdri": 8.669940048132299,
+      "processing_seconds": 0.056846280000172555
+    },
+    {
+      "id": "p226_363",
+      "samples": 65600,
+      "si_sdr_noisy": 14.249394648248291,
+      "si_sdr_enhanced": 19.98415996975648,
+      "si_sdri": 5.734765321508188,
+      "processing_seconds": 0.05724170599978606
+    },
+    {
+      "id": "p226_364",
+      "samples": 38043,
+      "si_sdr_noisy": -1.3341714730599543,
+      "si_sdr_enhanced": 17.930703008879437,
+      "si_sdri": 19.26487448193939,
+      "processing_seconds": 0.03227852800000619
+    },
+    {
+      "id": "p226_365",
+      "samples": 34261,
+      "si_sdr_noisy": 3.1964551739681517,
+      "si_sdr_enhanced": 7.351949604359955,
+      "si_sdri": 4.155494430391803,
+      "processing_seconds": 0.03197072000011758
+    },
+    {
+      "id": "p226_366",
+      "samples": 48000,
+      "si_sdr_noisy": 3.608156248103149,
+      "si_sdr_enhanced": 12.386618799060846,
+      "si_sdri": 8.778462550957698,
+      "processing_seconds": 0.046487416999752895
+    },
+    {
+      "id": "p226_367",
+      "samples": 42720,
+      "si_sdr_noisy": 2.9500992626746365,
+      "si_sdr_enhanced": 6.807863446903224,
+      "si_sdri": 3.8577641842285875,
+      "processing_seconds": 0.041505912999582506
+    },
+    {
+      "id": "p226_368",
+      "samples": 60000,
+      "si_sdr_noisy": 8.789560524932797,
+      "si_sdr_enhanced": 12.682954023831153,
+      "si_sdri": 3.893393498898355,
+      "processing_seconds": 0.051689233999695716
+    },
+    {
+      "id": "p226_369",
+      "samples": 38055,
+      "si_sdr_noisy": 13.320524502650064,
+      "si_sdr_enhanced": 15.670866141929798,
+      "si_sdri": 2.3503416392797334,
+      "processing_seconds": 0.039144636999935756
+    },
+    {
+      "id": "p226_370",
+      "samples": 65440,
+      "si_sdr_noisy": 3.7322420881528866,
+      "si_sdr_enhanced": 14.943212783189416,
+      "si_sdri": 11.21097069503653,
+      "processing_seconds": 0.06573174000004656
+    },
+    {
+      "id": "p287_001",
+      "samples": 31367,
+      "si_sdr_noisy": 12.752404221149119,
+      "si_sdr_enhanced": 15.00620673525033,
+      "si_sdri": 2.2538025141012117,
+      "processing_seconds": 0.032105709000006755
+    },
+    {
+      "id": "p287_002",
+      "samples": 52086,
+      "si_sdr_noisy": 8.98178283347936,
+      "si_sdr_enhanced": 11.469828338617985,
+      "si_sdri": 2.4880455051386257,
+      "processing_seconds": 0.04352790300026754
+    },
+    {
+      "id": "p287_003",
+      "samples": 115715,
+      "si_sdr_noisy": 4.236122745494047,
+      "si_sdr_enhanced": 7.629114516349068,
+      "si_sdri": 3.392991770855021,
+      "processing_seconds": 0.09261941800014029
+    },
+    {
+      "id": "p287_004",
+      "samples": 77781,
+      "si_sdr_noisy": -0.8078447979917089,
+      "si_sdr_enhanced": 1.741819488856937,
+      "si_sdri": 2.549664286848646,
+      "processing_seconds": 0.06683472900022025
+    },
+    {
+      "id": "p287_005",
+      "samples": 103896,
+      "si_sdr_noisy": 14.546409560657882,
+      "si_sdr_enhanced": 17.303799983753997,
+      "si_sdri": 2.7573904230961155,
+      "processing_seconds": 0.0831864020001376
+    },
+    {
+      "id": "p287_006",
+      "samples": 81271,
+      "si_sdr_noisy": 9.498405740623966,
+      "si_sdr_enhanced": 13.5029147496588,
+      "si_sdri": 4.004509009034834,
+      "processing_seconds": 0.06636588400033361
+    },
+    {
+      "id": "p287_007",
+      "samples": 66471,
+      "si_sdr_noisy": 4.522725959867548,
+      "si_sdr_enhanced": 9.965225395548424,
+      "si_sdri": 5.442499435680876,
+      "processing_seconds": 0.055921595999734564
+    },
+    {
+      "id": "p287_008",
+      "samples": 121571,
+      "si_sdr_noisy": -0.37345282710877997,
+      "si_sdr_enhanced": 5.553113559984847,
+      "si_sdri": 5.926566387093627,
+      "processing_seconds": 0.10121666199984247
+    },
+    {
+      "id": "p287_009",
+      "samples": 79308,
+      "si_sdr_noisy": 14.240753848747882,
+      "si_sdr_enhanced": 21.706944621148647,
+      "si_sdri": 7.466190772400765,
+      "processing_seconds": 0.06909149500006606
+    },
+    {
+      "id": "p287_010",
+      "samples": 45819,
+      "si_sdr_noisy": 8.611864843246796,
+      "si_sdr_enhanced": 21.106353466808265,
+      "si_sdri": 12.49448862356147,
+      "processing_seconds": 0.04498738200027219
+    },
+    {
+      "id": "p287_011",
+      "samples": 101965,
+      "si_sdr_noisy": 4.439979064456684,
+      "si_sdr_enhanced": 15.35059249881953,
+      "si_sdri": 10.910613434362848,
+      "processing_seconds": 0.09058844899982432
+    },
+    {
+      "id": "p287_012",
+      "samples": 62033,
+      "si_sdr_noisy": -0.8054013255817355,
+      "si_sdr_enhanced": 14.549781793671677,
+      "si_sdri": 15.355183119253413,
+      "processing_seconds": 0.05214772699991954
+    },
+    {
+      "id": "p287_013",
+      "samples": 64892,
+      "si_sdr_noisy": 15.005001138738194,
+      "si_sdr_enhanced": 23.490199854583476,
+      "si_sdri": 8.485198715845282,
+      "processing_seconds": 0.04315177800026504
+    },
+    {
+      "id": "p287_014",
+      "samples": 74442,
+      "si_sdr_noisy": 9.956078409507874,
+      "si_sdr_enhanced": 23.950562459898464,
+      "si_sdri": 13.99448405039059,
+      "processing_seconds": 0.055752208000285464
+    },
+    {
+      "id": "p287_015",
+      "samples": 90475,
+      "si_sdr_noisy": 5.269288223419607,
+      "si_sdr_enhanced": 20.369083261525223,
+      "si_sdri": 15.099795038105615,
+      "processing_seconds": 0.06730277100041349
+    },
+    {
+      "id": "p287_016",
+      "samples": 114600,
+      "si_sdr_noisy": 0.1970863653956727,
+      "si_sdr_enhanced": 7.187418488432123,
+      "si_sdri": 6.990332123036451,
+      "processing_seconds": 0.08461256300006426
+    },
+    {
+      "id": "p287_017",
+      "samples": 49038,
+      "si_sdr_noisy": 14.121923677356268,
+      "si_sdr_enhanced": 17.742387156254612,
+      "si_sdri": 3.620463478898344,
+      "processing_seconds": 0.04179069800011348
+    },
+    {
+      "id": "p287_018",
+      "samples": 89159,
+      "si_sdr_noisy": 9.332105546592025,
+      "si_sdr_enhanced": 13.120550089820881,
+      "si_sdri": 3.788444543228856,
+      "processing_seconds": 0.08919605600021896
+    },
+    {
+      "id": "p287_019",
+      "samples": 112265,
+      "si_sdr_noisy": 4.737526062252588,
+      "si_sdr_enhanced": 8.86284337100091,
+      "si_sdri": 4.125317308748322,
+      "processing_seconds": 0.08705991999977414
+    },
+    {
+      "id": "p287_020",
+      "samples": 64000,
+      "si_sdr_noisy": -0.8227406040367771,
+      "si_sdr_enhanced": 4.816426622305927,
+      "si_sdri": 5.639167226342703,
+      "processing_seconds": 0.051939115000095626
+    },
+    {
+      "id": "p287_021",
+      "samples": 139286,
+      "si_sdr_noisy": 14.61048942216543,
+      "si_sdr_enhanced": 21.9401050729984,
+      "si_sdri": 7.32961565083297,
+      "processing_seconds": 0.10561206499960463
+    },
+    {
+      "id": "p287_022",
+      "samples": 98879,
+      "si_sdr_noisy": 9.485959735454935,
+      "si_sdr_enhanced": 18.106849995022905,
+      "si_sdri": 8.62089025956797,
+      "processing_seconds": 0.09508711699982086
+    },
+    {
+      "id": "p287_023",
+      "samples": 173255,
+      "si_sdr_noisy": 4.489109834082366,
+      "si_sdr_enhanced": 15.012792031641077,
+      "si_sdri": 10.52368219755871,
+      "processing_seconds": 0.15751136799963206
+    },
+    {
+      "id": "p287_024",
+      "samples": 103807,
+      "si_sdr_noisy": -0.7307712468646095,
+      "si_sdr_enhanced": 14.263903476007014,
+      "si_sdri": 14.994674722871624,
+      "processing_seconds": 0.07328434200007905
+    },
+    {
+      "id": "p287_025",
+      "samples": 56320,
+      "si_sdr_noisy": 13.604004557794537,
+      "si_sdr_enhanced": 18.40226899342251,
+      "si_sdri": 4.7982644356279724,
+      "processing_seconds": 0.04311701100004939
+    },
+    {
+      "id": "p287_026",
+      "samples": 44428,
+      "si_sdr_noisy": 8.97265907973541,
+      "si_sdr_enhanced": 13.368255000326212,
+      "si_sdri": 4.395595920590802,
+      "processing_seconds": 0.03590304399995148
+    },
+    {
+      "id": "p287_027",
+      "samples": 40111,
+      "si_sdr_noisy": 3.738122006417722,
+      "si_sdr_enhanced": 8.090474154736327,
+      "si_sdri": 4.352352148318605,
+      "processing_seconds": 0.034648971000024176
+    },
+    {
+      "id": "p287_029",
+      "samples": 46552,
+      "si_sdr_noisy": -1.123534196326979,
+      "si_sdr_enhanced": 5.321137571925776,
+      "si_sdri": 6.444671768252755,
+      "processing_seconds": 0.04336461999992025
+    },
+    {
+      "id": "p287_030",
+      "samples": 33876,
+      "si_sdr_noisy": 13.532237193942072,
+      "si_sdr_enhanced": 17.521007808984105,
+      "si_sdri": 3.988770615042034,
+      "processing_seconds": 0.027573906000270654
+    },
+    {
+      "id": "p287_031",
+      "samples": 30775,
+      "si_sdr_noisy": 8.269913812055936,
+      "si_sdr_enhanced": 12.903887598247907,
+      "si_sdri": 4.633973786191971,
+      "processing_seconds": 0.025996157999998104
+    },
+    {
+      "id": "p287_032",
+      "samples": 35867,
+      "si_sdr_noisy": 3.6119524579289095,
+      "si_sdr_enhanced": 9.56271052920884,
+      "si_sdri": 5.95075807127993,
+      "processing_seconds": 0.03647994299990387
+    },
+    {
+      "id": "p287_033",
+      "samples": 31514,
+      "si_sdr_noisy": -1.9100478458157832,
+      "si_sdr_enhanced": 7.073769477333231,
+      "si_sdri": 8.983817323149015,
+      "processing_seconds": 0.03471640499992645
+    },
+    {
+      "id": "p287_034",
+      "samples": 35193,
+      "si_sdr_noisy": 13.49464910878616,
+      "si_sdr_enhanced": 18.144909400121254,
+      "si_sdri": 4.650260291335094,
+      "processing_seconds": 0.03620832699971288
+    },
+    {
+      "id": "p287_035",
+      "samples": 34866,
+      "si_sdr_noisy": 8.46071121679733,
+      "si_sdr_enhanced": 14.75008758873819,
+      "si_sdri": 6.289376371940859,
+      "processing_seconds": 0.03993923600000926
+    },
+    {
+      "id": "p287_037",
+      "samples": 60008,
+      "si_sdr_noisy": 3.910490948964763,
+      "si_sdr_enhanced": 12.799811948344562,
+      "si_sdri": 8.889320999379798,
+      "processing_seconds": 0.055489832000148454
+    },
+    {
+      "id": "p287_038",
+      "samples": 40261,
+      "si_sdr_noisy": -1.2356932503770288,
+      "si_sdr_enhanced": 7.518011571426807,
+      "si_sdri": 8.753704821803836,
+      "processing_seconds": 0.04417215700004817
+    },
+    {
+      "id": "p287_039",
+      "samples": 30768,
+      "si_sdr_noisy": 12.676895157441363,
+      "si_sdr_enhanced": 18.442704905920525,
+      "si_sdri": 5.765809748479162,
+      "processing_seconds": 0.018556546000127128
+    },
+    {
+      "id": "p287_040",
+      "samples": 36743,
+      "si_sdr_noisy": 8.435839628275534,
+      "si_sdr_enhanced": 15.561579781330995,
+      "si_sdri": 7.12574015305546,
+      "processing_seconds": 0.040856679000171425
+    },
+    {
+      "id": "p287_041",
+      "samples": 33112,
+      "si_sdr_noisy": 3.5075165577511216,
+      "si_sdr_enhanced": 14.213447263282568,
+      "si_sdri": 10.705930705531447,
+      "processing_seconds": 0.03218101900029069
+    },
+    {
+      "id": "p287_042",
+      "samples": 35385,
+      "si_sdr_noisy": -1.5269384978015181,
+      "si_sdr_enhanced": 8.88955914437248,
+      "si_sdri": 10.416497642173999,
+      "processing_seconds": 0.02929585899983067
+    },
+    {
+      "id": "p287_043",
+      "samples": 30913,
+      "si_sdr_noisy": 13.305601800679414,
+      "si_sdr_enhanced": 16.139560115869905,
+      "si_sdri": 2.8339583151904915,
+      "processing_seconds": 0.02680274200019994
+    },
+    {
+      "id": "p287_044",
+      "samples": 31559,
+      "si_sdr_noisy": 8.287475112070968,
+      "si_sdr_enhanced": 12.062674481438226,
+      "si_sdri": 3.7751993693672574,
+      "processing_seconds": 0.028356965000057244
+    },
+    {
+      "id": "p287_046",
+      "samples": 43359,
+      "si_sdr_noisy": 3.639226403673786,
+      "si_sdr_enhanced": 6.329478743248456,
+      "si_sdri": 2.69025233957467,
+      "processing_seconds": 0.03349596099997143
+    },
+    {
+      "id": "p287_047",
+      "samples": 29536,
+      "si_sdr_noisy": -1.9098962576254233,
+      "si_sdr_enhanced": 1.0671612257919711,
+      "si_sdri": 2.9770574834173944,
+      "processing_seconds": 0.03185164599972268
+    },
+    {
+      "id": "p287_048",
+      "samples": 34684,
+      "si_sdr_noisy": 13.210578740195142,
+      "si_sdr_enhanced": 17.38210073947274,
+      "si_sdri": 4.171521999277598,
+      "processing_seconds": 0.03034618700030478
+    },
+    {
+      "id": "p287_049",
+      "samples": 31071,
+      "si_sdr_noisy": 7.884435672341442,
+      "si_sdr_enhanced": 12.842236319107474,
+      "si_sdri": 4.9578006467660325,
+      "processing_seconds": 0.033429996999984724
+    },
+    {
+      "id": "p287_050",
+      "samples": 39635,
+      "si_sdr_noisy": 3.8069153214142566,
+      "si_sdr_enhanced": 10.739512406375137,
+      "si_sdri": 6.9325970849608805,
+      "processing_seconds": 0.042924965000111115
+    },
+    {
+      "id": "p287_051",
+      "samples": 31443,
+      "si_sdr_noisy": -1.6051972752454577,
+      "si_sdr_enhanced": 5.120589660433856,
+      "si_sdri": 6.725786935679314,
+      "processing_seconds": 0.03175559200008138
+    },
+    {
+      "id": "p287_052",
+      "samples": 36383,
+      "si_sdr_noisy": 13.542148944375217,
+      "si_sdr_enhanced": 21.399715623040944,
+      "si_sdri": 7.857566678665727,
+      "processing_seconds": 0.030462302999694657
+    },
+    {
+      "id": "p287_053",
+      "samples": 40108,
+      "si_sdr_noisy": 8.726813849103005,
+      "si_sdr_enhanced": 21.27982346469652,
+      "si_sdri": 12.553009615593515,
+      "processing_seconds": 0.030306000000109634
+    },
+    {
+      "id": "p287_054",
+      "samples": 51089,
+      "si_sdr_noisy": 4.021581101755803,
+      "si_sdr_enhanced": 19.09975759911834,
+      "si_sdri": 15.078176497362538,
+      "processing_seconds": 0.04352149599981203
+    },
+    {
+      "id": "p287_055",
+      "samples": 32025,
+      "si_sdr_noisy": -1.711590568236097,
+      "si_sdr_enhanced": 15.523031769398807,
+      "si_sdri": 17.234622337634903,
+      "processing_seconds": 0.02390292700010832
+    },
+    {
+      "id": "p287_056",
+      "samples": 31596,
+      "si_sdr_noisy": 15.164693490228158,
+      "si_sdr_enhanced": 23.52874926528903,
+      "si_sdri": 8.364055775060871,
+      "processing_seconds": 0.035247529999651306
+    },
+    {
+      "id": "p287_057",
+      "samples": 33387,
+      "si_sdr_noisy": 8.375483089123156,
+      "si_sdr_enhanced": 22.7146331707078,
+      "si_sdri": 14.339150081584643,
+      "processing_seconds": 0.032905950999975175
+    },
+    {
+      "id": "p287_058",
+      "samples": 23525,
+      "si_sdr_noisy": 2.8489739020358225,
+      "si_sdr_enhanced": 6.398034433800745,
+      "si_sdri": 3.549060531764922,
+      "processing_seconds": 0.02126252600010048
+    },
+    {
+      "id": "p287_059",
+      "samples": 32265,
+      "si_sdr_noisy": -2.487878376583184,
+      "si_sdr_enhanced": 19.94731903091853,
+      "si_sdri": 22.43519740750171,
+      "processing_seconds": 0.0341005350001069
+    },
+    {
+      "id": "p287_060",
+      "samples": 31358,
+      "si_sdr_noisy": 12.328545927118778,
+      "si_sdr_enhanced": 16.11704825164521,
+      "si_sdri": 3.78850232452643,
+      "processing_seconds": 0.029641348000041035
+    },
+    {
+      "id": "p287_061",
+      "samples": 24570,
+      "si_sdr_noisy": 7.623880713209146,
+      "si_sdr_enhanced": 13.116417414734665,
+      "si_sdri": 5.492536701525519,
+      "processing_seconds": 0.026502757999878668
+    },
+    {
+      "id": "p287_062",
+      "samples": 34976,
+      "si_sdr_noisy": 3.038783418734161,
+      "si_sdr_enhanced": 7.018859609054512,
+      "si_sdri": 3.9800761903203505,
+      "processing_seconds": 0.038229127999784396
+    },
+    {
+      "id": "p287_063",
+      "samples": 60488,
+      "si_sdr_noisy": -0.5927378569828189,
+      "si_sdr_enhanced": 4.252469868398922,
+      "si_sdri": 4.845207725381741,
+      "processing_seconds": 0.06106857700024193
+    },
+    {
+      "id": "p287_064",
+      "samples": 62340,
+      "si_sdr_noisy": 14.059738297791956,
+      "si_sdr_enhanced": 22.14962247622394,
+      "si_sdri": 8.089884178431983,
+      "processing_seconds": 0.04775625199999922
+    },
+    {
+      "id": "p287_065",
+      "samples": 31633,
+      "si_sdr_noisy": 7.5733417789202475,
+      "si_sdr_enhanced": 17.71601652627758,
+      "si_sdri": 10.142674747357333,
+      "processing_seconds": 0.024646878999647015
+    },
+    {
+      "id": "p287_066",
+      "samples": 45567,
+      "si_sdr_noisy": 3.29157516173062,
+      "si_sdr_enhanced": 10.08799276585325,
+      "si_sdri": 6.796417604122631,
+      "processing_seconds": 0.044267935000334546
+    },
+    {
+      "id": "p287_067",
+      "samples": 45903,
+      "si_sdr_noisy": -1.1383018348340712,
+      "si_sdr_enhanced": 5.567294432015223,
+      "si_sdri": 6.7055962668492946,
+      "processing_seconds": 0.04638731600016399
+    },
+    {
+      "id": "p287_068",
+      "samples": 42998,
+      "si_sdr_noisy": 12.463123473177449,
+      "si_sdr_enhanced": 16.846997944484006,
+      "si_sdri": 4.383874471306557,
+      "processing_seconds": 0.032686758000181726
+    },
+    {
+      "id": "p287_069",
+      "samples": 37553,
+      "si_sdr_noisy": 7.273094145028088,
+      "si_sdr_enhanced": 12.815937659604337,
+      "si_sdri": 5.54284351457625,
+      "processing_seconds": 0.03982320699969932
+    },
+    {
+      "id": "p287_070",
+      "samples": 53624,
+      "si_sdr_noisy": 4.223965778125976,
+      "si_sdr_enhanced": 9.585630953940358,
+      "si_sdri": 5.361665175814382,
+      "processing_seconds": 0.05282985599978929
+    },
+    {
+      "id": "p287_071",
+      "samples": 30204,
+      "si_sdr_noisy": -2.399828959758767,
+      "si_sdr_enhanced": 6.9944846246900605,
+      "si_sdri": 9.394313584448827,
+      "processing_seconds": 0.03014950000033423
+    },
+    {
+      "id": "p287_072",
+      "samples": 47958,
+      "si_sdr_noisy": 14.015473367649946,
+      "si_sdr_enhanced": 17.713805973370988,
+      "si_sdri": 3.698332605721042,
+      "processing_seconds": 0.04204803799984802
+    },
+    {
+      "id": "p287_073",
+      "samples": 37738,
+      "si_sdr_noisy": 8.420465062424608,
+      "si_sdr_enhanced": 14.249337973889837,
+      "si_sdri": 5.828872911465229,
+      "processing_seconds": 0.03730562099963208
+    },
+    {
+      "id": "p287_074",
+      "samples": 27035,
+      "si_sdr_noisy": 3.094715203955883,
+      "si_sdr_enhanced": 10.068685873553544,
+      "si_sdri": 6.973970669597661,
+      "processing_seconds": 0.03084225799966589
+    },
+    {
+      "id": "p287_075",
+      "samples": 49253,
+      "si_sdr_noisy": -1.2051295395906083,
+      "si_sdr_enhanced": 6.3434473456576725,
+      "si_sdri": 7.548576885248281,
+      "processing_seconds": 0.04740150799989351
+    },
+    {
+      "id": "p287_076",
+      "samples": 42562,
+      "si_sdr_noisy": 13.587481303524385,
+      "si_sdr_enhanced": 19.423530736339497,
+      "si_sdri": 5.836049432815113,
+      "processing_seconds": 0.0466708449998805
+    },
+    {
+      "id": "p287_077",
+      "samples": 52975,
+      "si_sdr_noisy": 8.710150032637188,
+      "si_sdr_enhanced": 15.294456447297408,
+      "si_sdri": 6.584306414660221,
+      "processing_seconds": 0.05269744699990042
+    },
+    {
+      "id": "p287_078",
+      "samples": 45383,
+      "si_sdr_noisy": 3.7699390490910236,
+      "si_sdr_enhanced": 11.336580958140512,
+      "si_sdri": 7.566641909049489,
+      "processing_seconds": 0.04705976800005374
+    },
+    {
+      "id": "p287_079",
+      "samples": 37073,
+      "si_sdr_noisy": -1.4485797170235124,
+      "si_sdr_enhanced": 6.592148523647366,
+      "si_sdri": 8.040728240670878,
+      "processing_seconds": 0.03215311399981147
+    },
+    {
+      "id": "p287_080",
+      "samples": 31157,
+      "si_sdr_noisy": 13.309322789106389,
+      "si_sdr_enhanced": 17.571587366168934,
+      "si_sdri": 4.262264577062545,
+      "processing_seconds": 0.03126822000012908
+    },
+    {
+      "id": "p287_081",
+      "samples": 36295,
+      "si_sdr_noisy": 8.456551552024989,
+      "si_sdr_enhanced": 15.318876015021385,
+      "si_sdri": 6.862324462996396,
+      "processing_seconds": 0.036643309999817575
+    },
+    {
+      "id": "p287_082",
+      "samples": 46056,
+      "si_sdr_noisy": 3.8493508798300073,
+      "si_sdr_enhanced": 12.288637439812549,
+      "si_sdri": 8.439286559982541,
+      "processing_seconds": 0.03171435299964287
+    },
+    {
+      "id": "p287_083",
+      "samples": 25815,
+      "si_sdr_noisy": -2.0679322597453993,
+      "si_sdr_enhanced": 7.486420388246172,
+      "si_sdri": 9.554352647991571,
+      "processing_seconds": 0.020031829999879847
+    },
+    {
+      "id": "p287_084",
+      "samples": 46079,
+      "si_sdr_noisy": 13.76845709264662,
+      "si_sdr_enhanced": 13.696746124160356,
+      "si_sdri": -0.0717109684862649,
+      "processing_seconds": 0.042564540000057605
+    },
+    {
+      "id": "p287_085",
+      "samples": 30374,
+      "si_sdr_noisy": 8.293404248298748,
+      "si_sdr_enhanced": 10.954235546572193,
+      "si_sdri": 2.660831298273445,
+      "processing_seconds": 0.02849339800013695
+    },
+    {
+      "id": "p287_086",
+      "samples": 43196,
+      "si_sdr_noisy": 3.954410577237395,
+      "si_sdr_enhanced": 6.283594284187533,
+      "si_sdri": 2.329183706950138,
+      "processing_seconds": 0.03725920099986979
+    },
+    {
+      "id": "p287_087",
+      "samples": 55305,
+      "si_sdr_noisy": -1.9023536365754459,
+      "si_sdr_enhanced": 1.0254740050068052,
+      "si_sdri": 2.927827641582251,
+      "processing_seconds": 0.04267220299971086
+    },
+    {
+      "id": "p287_088",
+      "samples": 26973,
+      "si_sdr_noisy": 13.139562870135308,
+      "si_sdr_enhanced": 17.471824673202075,
+      "si_sdri": 4.332261803066768,
+      "processing_seconds": 0.024066996999863477
+    },
+    {
+      "id": "p287_089",
+      "samples": 33516,
+      "si_sdr_noisy": 8.62847711792223,
+      "si_sdr_enhanced": 12.762199837504975,
+      "si_sdri": 4.133722719582744,
+      "processing_seconds": 0.03134785800011741
+    },
+    {
+      "id": "p287_090",
+      "samples": 33785,
+      "si_sdr_noisy": 3.3798709444743933,
+      "si_sdr_enhanced": 12.07492072871547,
+      "si_sdri": 8.695049784241078,
+      "processing_seconds": 0.03092830800005686
+    },
+    {
+      "id": "p287_091",
+      "samples": 39492,
+      "si_sdr_noisy": -1.4297573781798416,
+      "si_sdr_enhanced": 6.603649581698475,
+      "si_sdri": 8.033406959878317,
+      "processing_seconds": 0.041767377000269335
+    },
+    {
+      "id": "p287_092",
+      "samples": 36916,
+      "si_sdr_noisy": 13.384746278823108,
+      "si_sdr_enhanced": 20.71854557387303,
+      "si_sdri": 7.333799295049921,
+      "processing_seconds": 0.031171322999853146
+    },
+    {
+      "id": "p287_093",
+      "samples": 38233,
+      "si_sdr_noisy": 8.139216450355807,
+      "si_sdr_enhanced": 19.564358319610243,
+      "si_sdri": 11.425141869254436,
+      "processing_seconds": 0.031140563000008115
+    },
+    {
+      "id": "p287_094",
+      "samples": 45932,
+      "si_sdr_noisy": 3.750095815877427,
+      "si_sdr_enhanced": 18.245462455333787,
+      "si_sdri": 14.49536663945636,
+      "processing_seconds": 0.038478450999718916
+    },
+    {
+      "id": "p287_095",
+      "samples": 51776,
+      "si_sdr_noisy": -1.9415438673200123,
+      "si_sdr_enhanced": 15.245733755362332,
+      "si_sdri": 17.187277622682345,
+      "processing_seconds": 0.04893015399966316
+    },
+    {
+      "id": "p287_096",
+      "samples": 58744,
+      "si_sdr_noisy": 14.37340088982892,
+      "si_sdr_enhanced": 22.040610947129405,
+      "si_sdri": 7.667210057300485,
+      "processing_seconds": 0.051634774999911315
+    },
+    {
+      "id": "p287_097",
+      "samples": 37561,
+      "si_sdr_noisy": 9.909898471987265,
+      "si_sdr_enhanced": 19.373643795275598,
+      "si_sdri": 9.463745323288332,
+      "processing_seconds": 0.031205517000216787
+    },
+    {
+      "id": "p287_098",
+      "samples": 33622,
+      "si_sdr_noisy": 2.961319250321606,
+      "si_sdr_enhanced": 17.590437553583293,
+      "si_sdri": 14.629118303261686,
+      "processing_seconds": 0.026923170999907597
+    },
+    {
+      "id": "p287_099",
+      "samples": 30814,
+      "si_sdr_noisy": -1.665837974914284,
+      "si_sdr_enhanced": 17.28915406524991,
+      "si_sdri": 18.954992040164193,
+      "processing_seconds": 0.0241580189999695
+    },
+    {
+      "id": "p287_100",
+      "samples": 27312,
+      "si_sdr_noisy": 13.160087966997482,
+      "si_sdr_enhanced": 16.332584818676732,
+      "si_sdri": 3.1724968516792504,
+      "processing_seconds": 0.02543211900001552
+    },
+    {
+      "id": "p287_101",
+      "samples": 31591,
+      "si_sdr_noisy": 8.644761833489536,
+      "si_sdr_enhanced": 12.764178401909573,
+      "si_sdri": 4.1194165684200374,
+      "processing_seconds": 0.026544112999999925
+    },
+    {
+      "id": "p287_102",
+      "samples": 34705,
+      "si_sdr_noisy": 3.5921114490891037,
+      "si_sdr_enhanced": 11.32463671138156,
+      "si_sdri": 7.732525262292456,
+      "processing_seconds": 0.022782441999879666
+    },
+    {
+      "id": "p287_103",
+      "samples": 31601,
+      "si_sdr_noisy": -2.228412804198209,
+      "si_sdr_enhanced": 4.915148889735385,
+      "si_sdri": 7.143561693933594,
+      "processing_seconds": 0.020582766000188712
+    },
+    {
+      "id": "p287_104",
+      "samples": 31581,
+      "si_sdr_noisy": 12.619283578184355,
+      "si_sdr_enhanced": 20.06390344756991,
+      "si_sdri": 7.444619869385555,
+      "processing_seconds": 0.022645674000159488
+    },
+    {
+      "id": "p287_105",
+      "samples": 40784,
+      "si_sdr_noisy": 8.709229484048574,
+      "si_sdr_enhanced": 19.720402559386553,
+      "si_sdri": 11.011173075337979,
+      "processing_seconds": 0.034908758999790734
+    },
+    {
+      "id": "p287_106",
+      "samples": 37427,
+      "si_sdr_noisy": 3.096617504889821,
+      "si_sdr_enhanced": 15.540751942432287,
+      "si_sdri": 12.444134437542466,
+      "processing_seconds": 0.036917129999892495
+    },
+    {
+      "id": "p287_107",
+      "samples": 27472,
+      "si_sdr_noisy": -1.8836221943783742,
+      "si_sdr_enhanced": 2.7375625130314734,
+      "si_sdri": 4.6211847074098475,
+      "processing_seconds": 0.027361462000044412
+    },
+    {
+      "id": "p287_108",
+      "samples": 43842,
+      "si_sdr_noisy": 14.336071523652105,
+      "si_sdr_enhanced": 17.83557418767135,
+      "si_sdri": 3.4995026640192464,
+      "processing_seconds": 0.046441545999641676
+    },
+    {
+      "id": "p287_109",
+      "samples": 37253,
+      "si_sdr_noisy": 8.186388093259016,
+      "si_sdr_enhanced": 14.466807181375597,
+      "si_sdri": 6.280419088116581,
+      "processing_seconds": 0.04018103299995346
+    },
+    {
+      "id": "p287_110",
+      "samples": 35883,
+      "si_sdr_noisy": 3.606345262717079,
+      "si_sdr_enhanced": 10.13330658494229,
+      "si_sdri": 6.52696132222521,
+      "processing_seconds": 0.03440891299987925
+    },
+    {
+      "id": "p287_111",
+      "samples": 37659,
+      "si_sdr_noisy": -4.575713695031943,
+      "si_sdr_enhanced": 4.177079726569902,
+      "si_sdri": 8.752793421601844,
+      "processing_seconds": 0.03291020500000741
+    },
+    {
+      "id": "p287_112",
+      "samples": 30613,
+      "si_sdr_noisy": 13.153496753735771,
+      "si_sdr_enhanced": 16.89561529524243,
+      "si_sdri": 3.742118541506658,
+      "processing_seconds": 0.031173391999800515
+    },
+    {
+      "id": "p287_113",
+      "samples": 37917,
+      "si_sdr_noisy": 8.201785720297677,
+      "si_sdr_enhanced": 13.920597690310517,
+      "si_sdri": 5.71881197001284,
+      "processing_seconds": 0.04144038999993427
+    },
+    {
+      "id": "p287_114",
+      "samples": 29323,
+      "si_sdr_noisy": 3.0891601522631684,
+      "si_sdr_enhanced": 9.249269923605997,
+      "si_sdri": 6.160109771342828,
+      "processing_seconds": 0.018591755999750603
+    },
+    {
+      "id": "p287_115",
+      "samples": 50527,
+      "si_sdr_noisy": -1.80944437336648,
+      "si_sdr_enhanced": 5.38796612096101,
+      "si_sdri": 7.19741049432749,
+      "processing_seconds": 0.03738586200006466
+    },
+    {
+      "id": "p287_116",
+      "samples": 36960,
+      "si_sdr_noisy": 12.686509983424603,
+      "si_sdr_enhanced": 17.710527891250717,
+      "si_sdri": 5.024017907826114,
+      "processing_seconds": 0.04168221600002653
+    },
+    {
+      "id": "p287_117",
+      "samples": 38596,
+      "si_sdr_noisy": 8.393608954499019,
+      "si_sdr_enhanced": 15.030330225075762,
+      "si_sdri": 6.636721270576743,
+      "processing_seconds": 0.027272845999959827
+    },
+    {
+      "id": "p287_118",
+      "samples": 34270,
+      "si_sdr_noisy": 3.0563617673687955,
+      "si_sdr_enhanced": 10.770854961083764,
+      "si_sdri": 7.7144931937149686,
+      "processing_seconds": 0.02399018200003411
+    },
+    {
+      "id": "p287_119",
+      "samples": 51303,
+      "si_sdr_noisy": -1.0692302679974572,
+      "si_sdr_enhanced": 7.580740096022946,
+      "si_sdri": 8.649970364020403,
+      "processing_seconds": 0.04769761000034123
+    },
+    {
+      "id": "p287_120",
+      "samples": 31474,
+      "si_sdr_noisy": 13.01603817159532,
+      "si_sdr_enhanced": 18.599703660567847,
+      "si_sdri": 5.583665488972528,
+      "processing_seconds": 0.025389074000031542
+    },
+    {
+      "id": "p287_121",
+      "samples": 37639,
+      "si_sdr_noisy": 8.054241267429315,
+      "si_sdr_enhanced": 13.389386473173094,
+      "si_sdri": 5.335145205743778,
+      "processing_seconds": 0.03006158600010167
+    },
+    {
+      "id": "p287_122",
+      "samples": 36402,
+      "si_sdr_noisy": 3.5134497800365576,
+      "si_sdr_enhanced": 12.779185625507242,
+      "si_sdri": 9.265735845470685,
+      "processing_seconds": 0.03175306499997532
+    },
+    {
+      "id": "p287_123",
+      "samples": 30472,
+      "si_sdr_noisy": -1.8519269021770626,
+      "si_sdr_enhanced": 7.675590161114756,
+      "si_sdri": 9.527517063291818,
+      "processing_seconds": 0.0260465739997926
+    },
+    {
+      "id": "p287_124",
+      "samples": 29737,
+      "si_sdr_noisy": 13.092295516464699,
+      "si_sdr_enhanced": 14.537996039156218,
+      "si_sdri": 1.445700522691519,
+      "processing_seconds": 0.024698722999801248
+    },
+    {
+      "id": "p287_125",
+      "samples": 45017,
+      "si_sdr_noisy": 8.765686479184268,
+      "si_sdr_enhanced": 11.753686442080426,
+      "si_sdri": 2.9879999628961578,
+      "processing_seconds": 0.04125375100011297
+    },
+    {
+      "id": "p287_126",
+      "samples": 48136,
+      "si_sdr_noisy": 3.857802908056353,
+      "si_sdr_enhanced": 6.571771420159522,
+      "si_sdri": 2.713968512103169,
+      "processing_seconds": 0.043234451999978774
+    },
+    {
+      "id": "p287_127",
+      "samples": 34233,
+      "si_sdr_noisy": -1.757015291275984,
+      "si_sdr_enhanced": 0.04596550130425106,
+      "si_sdri": 1.802980792580235,
+      "processing_seconds": 0.030254891000367934
+    },
+    {
+      "id": "p287_128",
+      "samples": 47595,
+      "si_sdr_noisy": 14.211399779118485,
+      "si_sdr_enhanced": 17.247364528941585,
+      "si_sdri": 3.0359647498230995,
+      "processing_seconds": 0.03439320899997256
+    },
+    {
+      "id": "p287_129",
+      "samples": 28843,
+      "si_sdr_noisy": 8.228344178054305,
+      "si_sdr_enhanced": 13.349525886591287,
+      "si_sdri": 5.121181708536982,
+      "processing_seconds": 0.030376659000012296
+    },
+    {
+      "id": "p287_131",
+      "samples": 56967,
+      "si_sdr_noisy": 3.9113601284889077,
+      "si_sdr_enhanced": 9.574923563857391,
+      "si_sdri": 5.663563435368483,
+      "processing_seconds": 0.04553635699994629
+    },
+    {
+      "id": "p287_132",
+      "samples": 29488,
+      "si_sdr_noisy": -2.171878298725041,
+      "si_sdr_enhanced": 5.16405480295231,
+      "si_sdri": 7.335933101677352,
+      "processing_seconds": 0.018150022000099852
+    },
+    {
+      "id": "p287_133",
+      "samples": 37168,
+      "si_sdr_noisy": 12.143215714283158,
+      "si_sdr_enhanced": 19.780045631826148,
+      "si_sdri": 7.63682991754299,
+      "processing_seconds": 0.030800327000179095
+    },
+    {
+      "id": "p287_134",
+      "samples": 34521,
+      "si_sdr_noisy": 8.399738782984782,
+      "si_sdr_enhanced": 18.905626730484602,
+      "si_sdri": 10.50588794749982,
+      "processing_seconds": 0.027242707000368682
+    },
+    {
+      "id": "p287_135",
+      "samples": 40364,
+      "si_sdr_noisy": 3.4361961074488407,
+      "si_sdr_enhanced": 16.119994253452752,
+      "si_sdri": 12.683798146003912,
+      "processing_seconds": 0.04407905900006881
+    },
+    {
+      "id": "p287_136",
+      "samples": 43391,
+      "si_sdr_noisy": -1.2568233623994698,
+      "si_sdr_enhanced": 17.208897039116735,
+      "si_sdri": 18.465720401516204,
+      "processing_seconds": 0.03831168599981538
+    },
+    {
+      "id": "p287_137",
+      "samples": 47099,
+      "si_sdr_noisy": 13.572942495960179,
+      "si_sdr_enhanced": 16.164485274021324,
+      "si_sdri": 2.591542778061145,
+      "processing_seconds": 0.04095588600011979
+    },
+    {
+      "id": "p287_138",
+      "samples": 35605,
+      "si_sdr_noisy": 8.615890218094624,
+      "si_sdr_enhanced": 13.435945090354032,
+      "si_sdri": 4.8200548722594085,
+      "processing_seconds": 0.03551990400001159
+    },
+    {
+      "id": "p287_139",
+      "samples": 50591,
+      "si_sdr_noisy": 4.112951184387112,
+      "si_sdr_enhanced": 20.30100174200479,
+      "si_sdri": 16.18805055761768,
+      "processing_seconds": 0.04422416700026588
+    },
+    {
+      "id": "p287_140",
+      "samples": 69457,
+      "si_sdr_noisy": 0.08162622251513636,
+      "si_sdr_enhanced": 15.952680928707032,
+      "si_sdri": 15.871054706191895,
+      "processing_seconds": 0.062356906999866624
+    },
+    {
+      "id": "p287_141",
+      "samples": 41600,
+      "si_sdr_noisy": 13.227358765641961,
+      "si_sdr_enhanced": 16.503342027934355,
+      "si_sdri": 3.275983262292394,
+      "processing_seconds": 0.025387473000137106
+    },
+    {
+      "id": "p287_142",
+      "samples": 35184,
+      "si_sdr_noisy": 8.571560700867614,
+      "si_sdr_enhanced": 13.610120700779571,
+      "si_sdri": 5.038559999911957,
+      "processing_seconds": 0.02768277599989233
+    },
+    {
+      "id": "p287_143",
+      "samples": 28267,
+      "si_sdr_noisy": 3.585955946103481,
+      "si_sdr_enhanced": 10.348322129125386,
+      "si_sdri": 6.762366183021904,
+      "processing_seconds": 0.024176794000140944
+    },
+    {
+      "id": "p287_144",
+      "samples": 56104,
+      "si_sdr_noisy": -0.9703261476178089,
+      "si_sdr_enhanced": 3.632899856276942,
+      "si_sdri": 4.603226003894751,
+      "processing_seconds": 0.04392825500008257
+    },
+    {
+      "id": "p287_145",
+      "samples": 54526,
+      "si_sdr_noisy": 14.115649146278455,
+      "si_sdr_enhanced": 15.323993819618485,
+      "si_sdri": 1.2083446733400294,
+      "processing_seconds": 0.04062225699999544
+    },
+    {
+      "id": "p287_146",
+      "samples": 42367,
+      "si_sdr_noisy": 8.7006318301495,
+      "si_sdr_enhanced": 14.676639414155622,
+      "si_sdri": 5.976007584006121,
+      "processing_seconds": 0.03611900600026274
+    },
+    {
+      "id": "p287_147",
+      "samples": 39791,
+      "si_sdr_noisy": 2.8482112141963505,
+      "si_sdr_enhanced": 17.18255857618463,
+      "si_sdri": 14.334347361988279,
+      "processing_seconds": 0.035609523999937664
+    },
+    {
+      "id": "p287_148",
+      "samples": 27785,
+      "si_sdr_noisy": -1.6535093805837158,
+      "si_sdr_enhanced": 12.967288728076785,
+      "si_sdri": 14.6207981086605,
+      "processing_seconds": 0.022757542000363173
+    },
+    {
+      "id": "p287_149",
+      "samples": 48320,
+      "si_sdr_noisy": 13.459094916112218,
+      "si_sdr_enhanced": 16.207781750861965,
+      "si_sdri": 2.7486868347497477,
+      "processing_seconds": 0.03536945999985619
+    },
+    {
+      "id": "p287_150",
+      "samples": 31086,
+      "si_sdr_noisy": 8.26553659308193,
+      "si_sdr_enhanced": 12.568801602382704,
+      "si_sdri": 4.303265009300775,
+      "processing_seconds": 0.03547304899984738
+    },
+    {
+      "id": "p287_151",
+      "samples": 40092,
+      "si_sdr_noisy": 3.6789655877371774,
+      "si_sdr_enhanced": 9.114474560842995,
+      "si_sdri": 5.435508973105817,
+      "processing_seconds": 0.03306832999987819
+    },
+    {
+      "id": "p287_152",
+      "samples": 34759,
+      "si_sdr_noisy": -1.791782256658407,
+      "si_sdr_enhanced": 4.196452684829842,
+      "si_sdri": 5.9882349414882485,
+      "processing_seconds": 0.02648222999960126
+    },
+    {
+      "id": "p287_153",
+      "samples": 37884,
+      "si_sdr_noisy": 12.148120683399306,
+      "si_sdr_enhanced": 18.202842162733294,
+      "si_sdri": 6.054721479333988,
+      "processing_seconds": 0.027632599000298796
+    },
+    {
+      "id": "p287_154",
+      "samples": 35397,
+      "si_sdr_noisy": 7.986763131032886,
+      "si_sdr_enhanced": 13.804729394350254,
+      "si_sdri": 5.817966263317368,
+      "processing_seconds": 0.03845994299990707
+    },
+    {
+      "id": "p287_155",
+      "samples": 62158,
+      "si_sdr_noisy": 3.755250083089168,
+      "si_sdr_enhanced": 10.000440944343287,
+      "si_sdri": 6.24519086125412,
+      "processing_seconds": 0.06279252199965413
+    },
+    {
+      "id": "p287_156",
+      "samples": 61873,
+      "si_sdr_noisy": -1.040123616219169,
+      "si_sdr_enhanced": 4.777173105882731,
+      "si_sdri": 5.817296722101901,
+      "processing_seconds": 0.06189118199972654
+    },
+    {
+      "id": "p287_157",
+      "samples": 53055,
+      "si_sdr_noisy": 13.842242416450265,
+      "si_sdr_enhanced": 18.125577385779504,
+      "si_sdri": 4.283334969329239,
+      "processing_seconds": 0.05172765499992238
+    },
+    {
+      "id": "p287_158",
+      "samples": 28390,
+      "si_sdr_noisy": 8.083076314900708,
+      "si_sdr_enhanced": 14.199257005369068,
+      "si_sdri": 6.11618069046836,
+      "processing_seconds": 0.028234543000053236
+    },
+    {
+      "id": "p287_159",
+      "samples": 37150,
+      "si_sdr_noisy": 3.5098060288428994,
+      "si_sdr_enhanced": 11.01064146849894,
+      "si_sdri": 7.500835439656042,
+      "processing_seconds": 0.035916281000027084
+    },
+    {
+      "id": "p287_160",
+      "samples": 45227,
+      "si_sdr_noisy": -1.2843467959371573,
+      "si_sdr_enhanced": 6.88623239532482,
+      "si_sdri": 8.170579191261977,
+      "processing_seconds": 0.03451428400012446
+    },
+    {
+      "id": "p287_161",
+      "samples": 38320,
+      "si_sdr_noisy": 13.529647489267552,
+      "si_sdr_enhanced": 18.458998575771727,
+      "si_sdri": 4.929351086504175,
+      "processing_seconds": 0.029602565000004688
+    },
+    {
+      "id": "p287_162",
+      "samples": 55184,
+      "si_sdr_noisy": 9.152794989062537,
+      "si_sdr_enhanced": 16.749352403557417,
+      "si_sdri": 7.59655741449488,
+      "processing_seconds": 0.04445838499987076
+    },
+    {
+      "id": "p287_163",
+      "samples": 32611,
+      "si_sdr_noisy": 3.41806374096084,
+      "si_sdr_enhanced": 9.129688084039321,
+      "si_sdri": 5.711624343078482,
+      "processing_seconds": 0.02683373699983349
+    },
+    {
+      "id": "p287_164",
+      "samples": 30772,
+      "si_sdr_noisy": -1.483982749198861,
+      "si_sdr_enhanced": 11.252780661796342,
+      "si_sdri": 12.736763410995202,
+      "processing_seconds": 0.028834514999743988
+    },
+    {
+      "id": "p287_165",
+      "samples": 25129,
+      "si_sdr_noisy": 12.73916531765936,
+      "si_sdr_enhanced": 16.3723718047429,
+      "si_sdri": 3.633206487083541,
+      "processing_seconds": 0.02332916200020918
+    },
+    {
+      "id": "p287_166",
+      "samples": 23248,
+      "si_sdr_noisy": 7.455305811442239,
+      "si_sdr_enhanced": 12.531789644603382,
+      "si_sdri": 5.076483833161143,
+      "processing_seconds": 0.021777074999590695
+    },
+    {
+      "id": "p287_167",
+      "samples": 25130,
+      "si_sdr_noisy": 2.071977166260928,
+      "si_sdr_enhanced": 6.768485795323924,
+      "si_sdri": 4.696508629062996,
+      "processing_seconds": 0.02253811599985056
+    },
+    {
+      "id": "p287_168",
+      "samples": 30014,
+      "si_sdr_noisy": -1.4410943361553619,
+      "si_sdr_enhanced": 1.002949467617597,
+      "si_sdri": 2.444043803772959,
+      "processing_seconds": 0.025806418000229314
+    },
+    {
+      "id": "p287_169",
+      "samples": 33169,
+      "si_sdr_noisy": 13.490645637865075,
+      "si_sdr_enhanced": 16.89803196774034,
+      "si_sdri": 3.4073863298752656,
+      "processing_seconds": 0.026803766999819345
+    },
+    {
+      "id": "p287_170",
+      "samples": 36388,
+      "si_sdr_noisy": 8.089646131380242,
+      "si_sdr_enhanced": 12.389991472395925,
+      "si_sdri": 4.300345341015683,
+      "processing_seconds": 0.03540802099996654
+    },
+    {
+      "id": "p287_171",
+      "samples": 31562,
+      "si_sdr_noisy": 2.5744178628310443,
+      "si_sdr_enhanced": 10.486380690194146,
+      "si_sdri": 7.9119628273631015,
+      "processing_seconds": 0.02933728100015287
+    },
+    {
+      "id": "p287_172",
+      "samples": 51752,
+      "si_sdr_noisy": -1.1555291157131033,
+      "si_sdr_enhanced": 6.142158464901055,
+      "si_sdri": 7.297687580614158,
+      "processing_seconds": 0.05159040200032905
+    },
+    {
+      "id": "p287_173",
+      "samples": 40282,
+      "si_sdr_noisy": 13.73742657977525,
+      "si_sdr_enhanced": 20.945504657360008,
+      "si_sdri": 7.208078077584759,
+      "processing_seconds": 0.03924610900003245
+    },
+    {
+      "id": "p287_174",
+      "samples": 41574,
+      "si_sdr_noisy": 8.739923451619415,
+      "si_sdr_enhanced": 20.399775286332428,
+      "si_sdri": 11.659851834713013,
+      "processing_seconds": 0.04083691200003159
+    },
+    {
+      "id": "p287_175",
+      "samples": 38227,
+      "si_sdr_noisy": 3.326446343371019,
+      "si_sdr_enhanced": 16.021567153019344,
+      "si_sdri": 12.695120809648325,
+      "processing_seconds": 0.039182588000130636
+    },
+    {
+      "id": "p287_176",
+      "samples": 37207,
+      "si_sdr_noisy": -1.5421811019677882,
+      "si_sdr_enhanced": 15.737563068360089,
+      "si_sdri": 17.279744170327877,
+      "processing_seconds": 0.029146302999834006
+    },
+    {
+      "id": "p287_177",
+      "samples": 40683,
+      "si_sdr_noisy": 14.504977838829287,
+      "si_sdr_enhanced": 20.42961250163642,
+      "si_sdri": 5.924634662807133,
+      "processing_seconds": 0.041231988000163255
+    },
+    {
+      "id": "p287_178",
+      "samples": 44024,
+      "si_sdr_noisy": 9.430747720655958,
+      "si_sdr_enhanced": 17.678427549485022,
+      "si_sdri": 8.247679828829064,
+      "processing_seconds": 0.034910519999812095
+    },
+    {
+      "id": "p287_179",
+      "samples": 49274,
+      "si_sdr_noisy": 4.154758075121995,
+      "si_sdr_enhanced": 13.32467480004289,
+      "si_sdri": 9.169916724920895,
+      "processing_seconds": 0.04562527799998861
+    },
+    {
+      "id": "p287_180",
+      "samples": 37752,
+      "si_sdr_noisy": -1.7490829905485992,
+      "si_sdr_enhanced": 17.390932872856414,
+      "si_sdri": 19.14001586340501,
+      "processing_seconds": 0.031783895999978995
+    },
+    {
+      "id": "p287_181",
+      "samples": 41173,
+      "si_sdr_noisy": 13.971698353358569,
+      "si_sdr_enhanced": 18.38962975793836,
+      "si_sdri": 4.4179314045797895,
+      "processing_seconds": 0.03490855499967438
+    },
+    {
+      "id": "p287_182",
+      "samples": 60027,
+      "si_sdr_noisy": 8.66898237800007,
+      "si_sdr_enhanced": 13.292245151034482,
+      "si_sdri": 4.623262773034412,
+      "processing_seconds": 0.05023597800027346
+    },
+    {
+      "id": "p287_183",
+      "samples": 33308,
+      "si_sdr_noisy": 2.9712420214769253,
+      "si_sdr_enhanced": 7.707547999104358,
+      "si_sdri": 4.736305977627433,
+      "processing_seconds": 0.027190691999749106
+    },
+    {
+      "id": "p287_184",
+      "samples": 33428,
+      "si_sdr_noisy": -1.4026754796943974,
+      "si_sdr_enhanced": 4.32611684103871,
+      "si_sdri": 5.728792320733107,
+      "processing_seconds": 0.028369897000175115
+    },
+    {
+      "id": "p287_185",
+      "samples": 56784,
+      "si_sdr_noisy": 14.023723415699418,
+      "si_sdr_enhanced": 17.23982231072923,
+      "si_sdri": 3.2160988950298126,
+      "processing_seconds": 0.043924646000050416
+    },
+    {
+      "id": "p287_186",
+      "samples": 36509,
+      "si_sdr_noisy": 7.980772961856432,
+      "si_sdr_enhanced": 14.828281768226425,
+      "si_sdri": 6.847508806369993,
+      "processing_seconds": 0.027856104999955278
+    },
+    {
+      "id": "p287_187",
+      "samples": 34010,
+      "si_sdr_noisy": 3.028912785231872,
+      "si_sdr_enhanced": 9.404119251134322,
+      "si_sdri": 6.375206465902449,
+      "processing_seconds": 0.02734116300007372
+    },
+    {
+      "id": "p287_188",
+      "samples": 59322,
+      "si_sdr_noisy": -0.876449120486442,
+      "si_sdr_enhanced": 9.944517050614856,
+      "si_sdri": 10.820966171101297,
+      "processing_seconds": 0.047203918999912275
+    },
+    {
+      "id": "p287_189",
+      "samples": 35453,
+      "si_sdr_noisy": 13.65860748625735,
+      "si_sdr_enhanced": 16.7070337723616,
+      "si_sdri": 3.0484262861042506,
+      "processing_seconds": 0.029401734999737528
+    },
+    {
+      "id": "p287_190",
+      "samples": 51797,
+      "si_sdr_noisy": 9.180492309445762,
+      "si_sdr_enhanced": 13.66750266149467,
+      "si_sdri": 4.487010352048907,
+      "processing_seconds": 0.03564780200031237
+    },
+    {
+      "id": "p287_191",
+      "samples": 28073,
+      "si_sdr_noisy": 3.1100941155264037,
+      "si_sdr_enhanced": 8.96376607550425,
+      "si_sdri": 5.853671959977846,
+      "processing_seconds": 0.018090392999965843
+    },
+    {
+      "id": "p287_192",
+      "samples": 33897,
+      "si_sdr_noisy": -1.2128868146617395,
+      "si_sdr_enhanced": 5.479976499211031,
+      "si_sdri": 6.6928633138727704,
+      "processing_seconds": 0.02095026400002098
+    },
+    {
+      "id": "p287_193",
+      "samples": 40509,
+      "si_sdr_noisy": 13.245118690605464,
+      "si_sdr_enhanced": 17.959206520465038,
+      "si_sdri": 4.714087829859574,
+      "processing_seconds": 0.03145586299979186
+    },
+    {
+      "id": "p287_194",
+      "samples": 42775,
+      "si_sdr_noisy": 8.102584534950307,
+      "si_sdr_enhanced": 13.707912462061502,
+      "si_sdri": 5.605327927111196,
+      "processing_seconds": 0.0328318639999452
+    },
+    {
+      "id": "p287_195",
+      "samples": 44714,
+      "si_sdr_noisy": 3.833502199778753,
+      "si_sdr_enhanced": 10.203610519906219,
+      "si_sdri": 6.370108320127466,
+      "processing_seconds": 0.03335900699994454
+    },
+    {
+      "id": "p287_196",
+      "samples": 41966,
+      "si_sdr_noisy": -1.6450425336834438,
+      "si_sdr_enhanced": 5.224783179034067,
+      "si_sdri": 6.86982571271751,
+      "processing_seconds": 0.03384348100007628
+    },
+    {
+      "id": "p287_197",
+      "samples": 50508,
+      "si_sdr_noisy": 13.849805535003297,
+      "si_sdr_enhanced": 18.482196075145474,
+      "si_sdri": 4.632390540142177,
+      "processing_seconds": 0.03821221699990929
+    },
+    {
+      "id": "p287_198",
+      "samples": 45988,
+      "si_sdr_noisy": 8.458432735925944,
+      "si_sdr_enhanced": 15.073865012041384,
+      "si_sdri": 6.61543227611544,
+      "processing_seconds": 0.03100491700024577
+    },
+    {
+      "id": "p287_199",
+      "samples": 52624,
+      "si_sdr_noisy": 3.7965022871811964,
+      "si_sdr_enhanced": 11.670232675335011,
+      "si_sdri": 7.873730388153815,
+      "processing_seconds": 0.03711050999982035
+    },
+    {
+      "id": "p287_200",
+      "samples": 67680,
+      "si_sdr_noisy": -1.1420896670309082,
+      "si_sdr_enhanced": 6.862222475766421,
+      "si_sdri": 8.004312142797328,
+      "processing_seconds": 0.05256603299994822
+    },
+    {
+      "id": "p287_201",
+      "samples": 36867,
+      "si_sdr_noisy": 13.631025005165515,
+      "si_sdr_enhanced": 17.809430052577724,
+      "si_sdri": 4.178405047412209,
+      "processing_seconds": 0.03697985199960385
+    },
+    {
+      "id": "p287_202",
+      "samples": 28564,
+      "si_sdr_noisy": 7.538143151630429,
+      "si_sdr_enhanced": 17.569265418636945,
+      "si_sdri": 10.031122267006516,
+      "processing_seconds": 0.02890402000002723
+    },
+    {
+      "id": "p287_203",
+      "samples": 30121,
+      "si_sdr_noisy": 2.472342861760416,
+      "si_sdr_enhanced": 14.697508464136465,
+      "si_sdri": 12.225165602376048,
+      "processing_seconds": 0.029419764000067516
+    },
+    {
+      "id": "p287_204",
+      "samples": 25640,
+      "si_sdr_noisy": -2.069765020440584,
+      "si_sdr_enhanced": 12.11487563064666,
+      "si_sdri": 14.184640651087244,
+      "processing_seconds": 0.025506917999791767
+    },
+    {
+      "id": "p287_205",
+      "samples": 35407,
+      "si_sdr_noisy": 13.501081178735802,
+      "si_sdr_enhanced": 16.498088481797886,
+      "si_sdri": 2.997007303062084,
+      "processing_seconds": 0.03551985500007504
+    },
+    {
+      "id": "p287_206",
+      "samples": 23305,
+      "si_sdr_noisy": 7.13244837701272,
+      "si_sdr_enhanced": 11.164359898032512,
+      "si_sdri": 4.031911521019792,
+      "processing_seconds": 0.015250574999754463
+    },
+    {
+      "id": "p287_207",
+      "samples": 52640,
+      "si_sdr_noisy": 3.3630633537188577,
+      "si_sdr_enhanced": 6.546074067604009,
+      "si_sdri": 3.183010713885151,
+      "processing_seconds": 0.03591728099991087
+    },
+    {
+      "id": "p287_208",
+      "samples": 57600,
+      "si_sdr_noisy": -2.5309799354838916,
+      "si_sdr_enhanced": -0.21248277199854076,
+      "si_sdri": 2.318497163485351,
+      "processing_seconds": 0.05568779599980189
+    },
+    {
+      "id": "p287_209",
+      "samples": 32671,
+      "si_sdr_noisy": 12.492537244865144,
+      "si_sdr_enhanced": 15.612069979584637,
+      "si_sdri": 3.1195327347194937,
+      "processing_seconds": 0.03613592100009555
+    },
+    {
+      "id": "p287_210",
+      "samples": 49608,
+      "si_sdr_noisy": 8.763423989283503,
+      "si_sdr_enhanced": 13.512393985226785,
+      "si_sdri": 4.748969995943282,
+      "processing_seconds": 0.04490761499982909
+    },
+    {
+      "id": "p287_212",
+      "samples": 32305,
+      "si_sdr_noisy": 2.8223597478549722,
+      "si_sdr_enhanced": 8.658997236734626,
+      "si_sdri": 5.836637488879654,
+      "processing_seconds": 0.029113752000284876
+    },
+    {
+      "id": "p287_213",
+      "samples": 40814,
+      "si_sdr_noisy": -1.2366446884380773,
+      "si_sdr_enhanced": 7.109396801340243,
+      "si_sdri": 8.34604148977832,
+      "processing_seconds": 0.034497156999805156
+    },
+    {
+      "id": "p287_214",
+      "samples": 35241,
+      "si_sdr_noisy": 13.200604676245057,
+      "si_sdr_enhanced": 22.138683030528,
+      "si_sdri": 8.938078354282943,
+      "processing_seconds": 0.0245005060000949
+    },
+    {
+      "id": "p287_215",
+      "samples": 35450,
+      "si_sdr_noisy": 8.491533210709047,
+      "si_sdr_enhanced": 18.955234596128815,
+      "si_sdri": 10.463701385419768,
+      "processing_seconds": 0.03767489900019427
+    },
+    {
+      "id": "p287_217",
+      "samples": 40574,
+      "si_sdr_noisy": 3.6822129599945903,
+      "si_sdr_enhanced": 19.91801976876412,
+      "si_sdri": 16.235806808769528,
+      "processing_seconds": 0.02754759399977047
+    },
+    {
+      "id": "p287_218",
+      "samples": 48363,
+      "si_sdr_noisy": -1.4184770585863584,
+      "si_sdr_enhanced": 14.00028417205679,
+      "si_sdri": 15.418761230643149,
+      "processing_seconds": 0.03151595300005283
+    },
+    {
+      "id": "p287_219",
+      "samples": 49021,
+      "si_sdr_noisy": 21.105926195397878,
+      "si_sdr_enhanced": 25.400403306412347,
+      "si_sdri": 4.294477111014469,
+      "processing_seconds": 0.04223705799995514
+    },
+    {
+      "id": "p287_220",
+      "samples": 39468,
+      "si_sdr_noisy": 8.559190153440595,
+      "si_sdr_enhanced": 21.80798968939014,
+      "si_sdri": 13.248799535949546,
+      "processing_seconds": 0.04058498699987467
+    },
+    {
+      "id": "p287_221",
+      "samples": 44699,
+      "si_sdr_noisy": 3.2102516775110495,
+      "si_sdr_enhanced": 17.472293446683437,
+      "si_sdri": 14.262041769172388,
+      "processing_seconds": 0.046548452000024554
+    },
+    {
+      "id": "p287_222",
+      "samples": 49385,
+      "si_sdr_noisy": -0.43367367420874764,
+      "si_sdr_enhanced": 17.0079685011686,
+      "si_sdri": 17.44164217537735,
+      "processing_seconds": 0.05054838199976075
+    },
+    {
+      "id": "p287_223",
+      "samples": 47448,
+      "si_sdr_noisy": 13.763550430133717,
+      "si_sdr_enhanced": 18.752749538291933,
+      "si_sdri": 4.989199108158216,
+      "processing_seconds": 0.04676453499996569
+    },
+    {
+      "id": "p287_224",
+      "samples": 50901,
+      "si_sdr_noisy": 8.995392746997288,
+      "si_sdr_enhanced": 13.9542518233443,
+      "si_sdri": 4.958859076347013,
+      "processing_seconds": 0.05473505300005854
+    },
+    {
+      "id": "p287_225",
+      "samples": 36509,
+      "si_sdr_noisy": 3.8306790783856384,
+      "si_sdr_enhanced": 6.214232243637181,
+      "si_sdri": 2.3835531652515423,
+      "processing_seconds": 0.032304271000157314
+    },
+    {
+      "id": "p287_226",
+      "samples": 52645,
+      "si_sdr_noisy": -0.8654931941029188,
+      "si_sdr_enhanced": 0.535536664532103,
+      "si_sdri": 1.4010298586350218,
+      "processing_seconds": 0.05006120100006228
+    },
+    {
+      "id": "p287_227",
+      "samples": 51401,
+      "si_sdr_noisy": 13.709628675261914,
+      "si_sdr_enhanced": 20.277622480158538,
+      "si_sdri": 6.5679938048966235,
+      "processing_seconds": 0.054114816000037536
+    },
+    {
+      "id": "p287_228",
+      "samples": 39570,
+      "si_sdr_noisy": 8.180700673747033,
+      "si_sdr_enhanced": 12.710508570591193,
+      "si_sdri": 4.52980789684416,
+      "processing_seconds": 0.03102966100004778
+    },
+    {
+      "id": "p287_229",
+      "samples": 35230,
+      "si_sdr_noisy": 2.7978251656896154,
+      "si_sdr_enhanced": 14.926381665607922,
+      "si_sdri": 12.128556499918307,
+      "processing_seconds": 0.026210436999917874
+    },
+    {
+      "id": "p287_230",
+      "samples": 35220,
+      "si_sdr_noisy": -1.4040176124723027,
+      "si_sdr_enhanced": 2.771743266050131,
+      "si_sdri": 4.175760878522434,
+      "processing_seconds": 0.029979075000028388
+    },
+    {
+      "id": "p287_231",
+      "samples": 36037,
+      "si_sdr_noisy": 13.714338381746467,
+      "si_sdr_enhanced": 16.801700493444955,
+      "si_sdri": 3.0873621116984875,
+      "processing_seconds": 0.028223338999850967
+    },
+    {
+      "id": "p287_232",
+      "samples": 66080,
+      "si_sdr_noisy": 9.019115330521595,
+      "si_sdr_enhanced": 12.7470483393218,
+      "si_sdri": 3.727933008800205,
+      "processing_seconds": 0.060471345000223664
+    },
+    {
+      "id": "p287_233",
+      "samples": 34791,
+      "si_sdr_noisy": 3.408141185474814,
+      "si_sdr_enhanced": 10.053367834519554,
+      "si_sdri": 6.64522664904474,
+      "processing_seconds": 0.02308273900007407
+    },
+    {
+      "id": "p287_234",
+      "samples": 37596,
+      "si_sdr_noisy": -1.6298374831275466,
+      "si_sdr_enhanced": 6.2029849201606835,
+      "si_sdri": 7.83282240328823,
+      "processing_seconds": 0.02824545900011799
+    },
+    {
+      "id": "p287_235",
+      "samples": 30542,
+      "si_sdr_noisy": 13.003565759299065,
+      "si_sdr_enhanced": 17.558370394706387,
+      "si_sdri": 4.554804635407322,
+      "processing_seconds": 0.02621833700004572
+    },
+    {
+      "id": "p287_236",
+      "samples": 36831,
+      "si_sdr_noisy": 8.5927948554305,
+      "si_sdr_enhanced": 13.680128421676965,
+      "si_sdri": 5.087333566246466,
+      "processing_seconds": 0.036867948999770306
+    },
+    {
+      "id": "p287_237",
+      "samples": 49381,
+      "si_sdr_noisy": 3.350494559935794,
+      "si_sdr_enhanced": 10.591806287262848,
+      "si_sdri": 7.241311727327054,
+      "processing_seconds": 0.03238622800017765
+    },
+    {
+      "id": "p287_238",
+      "samples": 43321,
+      "si_sdr_noisy": -1.0988954588941604,
+      "si_sdr_enhanced": 7.057688706720912,
+      "si_sdri": 8.156584165615072,
+      "processing_seconds": 0.02959620100000393
+    },
+    {
+      "id": "p287_239",
+      "samples": 38766,
+      "si_sdr_noisy": 13.118144963263216,
+      "si_sdr_enhanced": 16.337857568202633,
+      "si_sdri": 3.219712604939417,
+      "processing_seconds": 0.04064750199995615
+    },
+    {
+      "id": "p287_240",
+      "samples": 37232,
+      "si_sdr_noisy": 7.921381195731197,
+      "si_sdr_enhanced": 14.261007968490421,
+      "si_sdri": 6.339626772759225,
+      "processing_seconds": 0.02838054900030329
+    },
+    {
+      "id": "p287_241",
+      "samples": 32182,
+      "si_sdr_noisy": 4.016600520322312,
+      "si_sdr_enhanced": 10.679849415129812,
+      "si_sdri": 6.6632488948075,
+      "processing_seconds": 0.02589674599994396
+    },
+    {
+      "id": "p287_242",
+      "samples": 54166,
+      "si_sdr_noisy": -1.1744997449152916,
+      "si_sdr_enhanced": 6.866187002437588,
+      "si_sdri": 8.04068674735288,
+      "processing_seconds": 0.03531432699992365
+    },
+    {
+      "id": "p287_243",
+      "samples": 32002,
+      "si_sdr_noisy": 13.617655516819525,
+      "si_sdr_enhanced": 16.51747897425977,
+      "si_sdri": 2.8998234574402453,
+      "processing_seconds": 0.02191199199978655
+    },
+    {
+      "id": "p287_245",
+      "samples": 45348,
+      "si_sdr_noisy": 8.678111991513223,
+      "si_sdr_enhanced": 14.80794366317523,
+      "si_sdri": 6.129831671662007,
+      "processing_seconds": 0.030420712999784882
+    },
+    {
+      "id": "p287_246",
+      "samples": 49093,
+      "si_sdr_noisy": 3.520790441946653,
+      "si_sdr_enhanced": 13.266274000760829,
+      "si_sdri": 9.745483558814175,
+      "processing_seconds": 0.03425509799990323
+    },
+    {
+      "id": "p287_247",
+      "samples": 38020,
+      "si_sdr_noisy": -1.9200261578130606,
+      "si_sdr_enhanced": 10.067382457543717,
+      "si_sdri": 11.987408615356777,
+      "processing_seconds": 0.02701157299998158
+    },
+    {
+      "id": "p287_248",
+      "samples": 57760,
+      "si_sdr_noisy": 13.660686770019064,
+      "si_sdr_enhanced": 15.679543102042196,
+      "si_sdri": 2.018856332023132,
+      "processing_seconds": 0.04142415999967852
+    },
+    {
+      "id": "p287_249",
+      "samples": 67200,
+      "si_sdr_noisy": 8.826954316229891,
+      "si_sdr_enhanced": 11.729920763764095,
+      "si_sdri": 2.9029664475342045,
+      "processing_seconds": 0.055724446999647625
+    },
+    {
+      "id": "p287_250",
+      "samples": 63902,
+      "si_sdr_noisy": 3.654710677550455,
+      "si_sdr_enhanced": 5.358329864295141,
+      "si_sdri": 1.7036191867446857,
+      "processing_seconds": 0.06302341199989314
+    },
+    {
+      "id": "p287_251",
+      "samples": 36312,
+      "si_sdr_noisy": -1.0464662665920446,
+      "si_sdr_enhanced": 2.4129210801319827,
+      "si_sdri": 3.4593873467240273,
+      "processing_seconds": 0.0349670780001361
+    },
+    {
+      "id": "p287_252",
+      "samples": 40847,
+      "si_sdr_noisy": 13.301528267442231,
+      "si_sdr_enhanced": 17.428347716408105,
+      "si_sdri": 4.126819448965874,
+      "processing_seconds": 0.03981474600004731
+    },
+    {
+      "id": "p287_253",
+      "samples": 42899,
+      "si_sdr_noisy": 8.780488198024845,
+      "si_sdr_enhanced": 14.002340003482246,
+      "si_sdri": 5.221851805457401,
+      "processing_seconds": 0.03714266899987706
+    },
+    {
+      "id": "p287_254",
+      "samples": 55380,
+      "si_sdr_noisy": 4.047778036928907,
+      "si_sdr_enhanced": 10.446636071644289,
+      "si_sdri": 6.398858034715381,
+      "processing_seconds": 0.05550095599983251
+    },
+    {
+      "id": "p287_255",
+      "samples": 29518,
+      "si_sdr_noisy": -1.8628187721150171,
+      "si_sdr_enhanced": 5.3789387810791345,
+      "si_sdri": 7.241757553194152,
+      "processing_seconds": 0.023274879999917175
+    },
+    {
+      "id": "p287_256",
+      "samples": 27360,
+      "si_sdr_noisy": 12.76468935056558,
+      "si_sdr_enhanced": 17.979784924821587,
+      "si_sdri": 5.215095574256006,
+      "processing_seconds": 0.03127546899986555
+    },
+    {
+      "id": "p287_257",
+      "samples": 32110,
+      "si_sdr_noisy": 8.325425321458578,
+      "si_sdr_enhanced": 18.71421988641888,
+      "si_sdri": 10.388794564960303,
+      "processing_seconds": 0.029902151999976923
+    },
+    {
+      "id": "p287_258",
+      "samples": 26899,
+      "si_sdr_noisy": 2.689214835887711,
+      "si_sdr_enhanced": 16.313585037910986,
+      "si_sdri": 13.624370202023275,
+      "processing_seconds": 0.029307180999694538
+    },
+    {
+      "id": "p287_259",
+      "samples": 51040,
+      "si_sdr_noisy": -1.3686002100295425,
+      "si_sdr_enhanced": 12.582539857484711,
+      "si_sdri": 13.951140067514254,
+      "processing_seconds": 0.04152196599989111
+    },
+    {
+      "id": "p287_260",
+      "samples": 30808,
+      "si_sdr_noisy": 14.595335795707243,
+      "si_sdr_enhanced": 22.637669262731613,
+      "si_sdri": 8.04233346702437,
+      "processing_seconds": 0.027884154999810562
+    },
+    {
+      "id": "p287_261",
+      "samples": 40849,
+      "si_sdr_noisy": 9.407915506530735,
+      "si_sdr_enhanced": 21.785489055727723,
+      "si_sdri": 12.377573549196988,
+      "processing_seconds": 0.04395341700001154
+    },
+    {
+      "id": "p287_262",
+      "samples": 34331,
+      "si_sdr_noisy": 4.615941286132747,
+      "si_sdr_enhanced": 20.68726665363878,
+      "si_sdri": 16.071325367506034,
+      "processing_seconds": 0.03000421800015829
+    },
+    {
+      "id": "p287_263",
+      "samples": 50872,
+      "si_sdr_noisy": -0.3609731900071065,
+      "si_sdr_enhanced": 16.164656977447468,
+      "si_sdri": 16.525630167454572,
+      "processing_seconds": 0.046309573000144155
+    },
+    {
+      "id": "p287_264",
+      "samples": 51849,
+      "si_sdr_noisy": 13.95589106199707,
+      "si_sdr_enhanced": 15.334344378530162,
+      "si_sdri": 1.3784533165330917,
+      "processing_seconds": 0.05002384299996265
+    },
+    {
+      "id": "p287_265",
+      "samples": 47680,
+      "si_sdr_noisy": 6.69230810054536,
+      "si_sdr_enhanced": 12.718856889528379,
+      "si_sdri": 6.0265487889830185,
+      "processing_seconds": 0.04506820400001743
+    },
+    {
+      "id": "p287_266",
+      "samples": 36871,
+      "si_sdr_noisy": 3.0801794915850342,
+      "si_sdr_enhanced": 8.27134205778564,
+      "si_sdri": 5.191162566200606,
+      "processing_seconds": 0.0279604859997562
+    },
+    {
+      "id": "p287_267",
+      "samples": 38170,
+      "si_sdr_noisy": -1.4075397000481717,
+      "si_sdr_enhanced": 7.564702513333343,
+      "si_sdri": 8.972242213381515,
+      "processing_seconds": 0.03187223900022218
+    },
+    {
+      "id": "p287_268",
+      "samples": 61165,
+      "si_sdr_noisy": 14.101737594874983,
+      "si_sdr_enhanced": 16.828330206541015,
+      "si_sdri": 2.7265926116660317,
+      "processing_seconds": 0.04303783099976499
+    },
+    {
+      "id": "p287_269",
+      "samples": 51679,
+      "si_sdr_noisy": 8.93023424233223,
+      "si_sdr_enhanced": 16.415461540688433,
+      "si_sdri": 7.485227298356204,
+      "processing_seconds": 0.03268958799981192
+    },
+    {
+      "id": "p287_270",
+      "samples": 44079,
+      "si_sdr_noisy": 3.1239979310199892,
+      "si_sdr_enhanced": 6.403984172475699,
+      "si_sdri": 3.2799862414557097,
+      "processing_seconds": 0.03752597400034574
+    },
+    {
+      "id": "p287_271",
+      "samples": 31621,
+      "si_sdr_noisy": -1.528960799221223,
+      "si_sdr_enhanced": 12.250764170564132,
+      "si_sdri": 13.779724969785356,
+      "processing_seconds": 0.02256876599994939
+    },
+    {
+      "id": "p287_272",
+      "samples": 31455,
+      "si_sdr_noisy": 13.162314959925556,
+      "si_sdr_enhanced": 16.926794636541324,
+      "si_sdri": 3.7644796766157675,
+      "processing_seconds": 0.025596005999886984
+    },
+    {
+      "id": "p287_273",
+      "samples": 36844,
+      "si_sdr_noisy": 8.785430630837388,
+      "si_sdr_enhanced": 13.546035029052465,
+      "si_sdri": 4.760604398215078,
+      "processing_seconds": 0.02618857100014793
+    },
+    {
+      "id": "p287_274",
+      "samples": 36833,
+      "si_sdr_noisy": 4.2274822501880385,
+      "si_sdr_enhanced": 10.695624217568934,
+      "si_sdri": 6.4681419673808955,
+      "processing_seconds": 0.02831884799979889
+    },
+    {
+      "id": "p287_275",
+      "samples": 31414,
+      "si_sdr_noisy": -1.5829259440778638,
+      "si_sdr_enhanced": 4.126318311496521,
+      "si_sdri": 5.709244255574385,
+      "processing_seconds": 0.023141216000112763
+    },
+    {
+      "id": "p287_276",
+      "samples": 27873,
+      "si_sdr_noisy": 13.025007117733608,
+      "si_sdr_enhanced": 17.73816794511674,
+      "si_sdri": 4.713160827383131,
+      "processing_seconds": 0.020938066000326216
+    },
+    {
+      "id": "p287_277",
+      "samples": 22287,
+      "si_sdr_noisy": 6.8034369010642495,
+      "si_sdr_enhanced": 15.280396437585216,
+      "si_sdri": 8.476959536520965,
+      "processing_seconds": 0.01780237799994211
+    },
+    {
+      "id": "p287_278",
+      "samples": 53802,
+      "si_sdr_noisy": 3.765774656523517,
+      "si_sdr_enhanced": 11.065880256148379,
+      "si_sdri": 7.300105599624862,
+      "processing_seconds": 0.04036582800017641
+    },
+    {
+      "id": "p287_279",
+      "samples": 60716,
+      "si_sdr_noisy": -1.0278642449966888,
+      "si_sdr_enhanced": 5.353132064438987,
+      "si_sdri": 6.380996309435676,
+      "processing_seconds": 0.05746202500040454
+    },
+    {
+      "id": "p287_280",
+      "samples": 51398,
+      "si_sdr_noisy": 13.878919111198202,
+      "si_sdr_enhanced": 18.691389028068592,
+      "si_sdri": 4.8124699168703895,
+      "processing_seconds": 0.04262829099980081
+    },
+    {
+      "id": "p287_281",
+      "samples": 62560,
+      "si_sdr_noisy": 8.731852179345802,
+      "si_sdr_enhanced": 14.499735560972734,
+      "si_sdri": 5.767883381626932,
+      "processing_seconds": 0.051941169000201626
+    },
+    {
+      "id": "p287_282",
+      "samples": 51431,
+      "si_sdr_noisy": 3.496463945925025,
+      "si_sdr_enhanced": 11.913594935990329,
+      "si_sdri": 8.417130990065303,
+      "processing_seconds": 0.052611643000091135
+    },
+    {
+      "id": "p287_283",
+      "samples": 38618,
+      "si_sdr_noisy": -1.437416090885126,
+      "si_sdr_enhanced": 3.227085130116038,
+      "si_sdri": 4.664501221001164,
+      "processing_seconds": 0.03784152200023527
+    },
+    {
+      "id": "p287_284",
+      "samples": 41029,
+      "si_sdr_noisy": 13.794890343410366,
+      "si_sdr_enhanced": 17.980743228483657,
+      "si_sdri": 4.185852885073292,
+      "processing_seconds": 0.03420294399984414
+    },
+    {
+      "id": "p287_285",
+      "samples": 55855,
+      "si_sdr_noisy": 8.87064304423432,
+      "si_sdr_enhanced": 16.468352097572232,
+      "si_sdri": 7.597709053337912,
+      "processing_seconds": 0.05076062999978603
+    },
+    {
+      "id": "p287_286",
+      "samples": 58173,
+      "si_sdr_noisy": 4.230624819515679,
+      "si_sdr_enhanced": 15.873157337789202,
+      "si_sdri": 11.642532518273523,
+      "processing_seconds": 0.050714602999960334
+    },
+    {
+      "id": "p287_287",
+      "samples": 36169,
+      "si_sdr_noisy": -1.2882516263369252,
+      "si_sdr_enhanced": 8.063622109686202,
+      "si_sdri": 9.351873736023126,
+      "processing_seconds": 0.03969713200012848
+    },
+    {
+      "id": "p287_288",
+      "samples": 31051,
+      "si_sdr_noisy": 13.452772012017187,
+      "si_sdr_enhanced": 15.034050873919018,
+      "si_sdri": 1.581278861901831,
+      "processing_seconds": 0.022642583000106242
+    },
+    {
+      "id": "p287_289",
+      "samples": 31994,
+      "si_sdr_noisy": 8.335550600566753,
+      "si_sdr_enhanced": 10.194834478574915,
+      "si_sdri": 1.8592838780081618,
+      "processing_seconds": 0.028971055000056367
+    },
+    {
+      "id": "p287_290",
+      "samples": 39468,
+      "si_sdr_noisy": 3.486253008668724,
+      "si_sdr_enhanced": 6.639390187575205,
+      "si_sdri": 3.153137178906481,
+      "processing_seconds": 0.031041318999996292
+    },
+    {
+      "id": "p287_291",
+      "samples": 50694,
+      "si_sdr_noisy": -1.0072498332450082,
+      "si_sdr_enhanced": 0.6688589295362948,
+      "si_sdri": 1.676108762781303,
+      "processing_seconds": 0.043641287999889755
+    },
+    {
+      "id": "p287_292",
+      "samples": 53062,
+      "si_sdr_noisy": 13.957043510870989,
+      "si_sdr_enhanced": 17.179175291192145,
+      "si_sdri": 3.222131780321156,
+      "processing_seconds": 0.04737619499974244
+    },
+    {
+      "id": "p287_293",
+      "samples": 45841,
+      "si_sdr_noisy": 8.695808407735191,
+      "si_sdr_enhanced": 14.26061064408578,
+      "si_sdri": 5.564802236350589,
+      "processing_seconds": 0.035516104999715026
+    },
+    {
+      "id": "p287_294",
+      "samples": 35783,
+      "si_sdr_noisy": 4.1935112179218645,
+      "si_sdr_enhanced": 10.919930847885443,
+      "si_sdri": 6.726419629963578,
+      "processing_seconds": 0.03026813399992534
+    },
+    {
+      "id": "p287_295",
+      "samples": 52746,
+      "si_sdr_noisy": -1.078782714949809,
+      "si_sdr_enhanced": 5.873990039471398,
+      "si_sdri": 6.952772754421207,
+      "processing_seconds": 0.05762930399987454
+    },
+    {
+      "id": "p287_296",
+      "samples": 42409,
+      "si_sdr_noisy": 12.551799301994118,
+      "si_sdr_enhanced": 20.087346409100828,
+      "si_sdri": 7.53554710710671,
+      "processing_seconds": 0.04494573500005572
+    },
+    {
+      "id": "p287_297",
+      "samples": 62684,
+      "si_sdr_noisy": 9.00375439550951,
+      "si_sdr_enhanced": 20.773540703136597,
+      "si_sdri": 11.769786307627086,
+      "processing_seconds": 0.0606369279998944
+    },
+    {
+      "id": "p287_298",
+      "samples": 32320,
+      "si_sdr_noisy": 2.269016872993958,
+      "si_sdr_enhanced": 16.503040087704235,
+      "si_sdri": 14.234023214710277,
+      "processing_seconds": 0.03293654399976731
+    },
+    {
+      "id": "p287_299",
+      "samples": 46240,
+      "si_sdr_noisy": -1.7945786522156213,
+      "si_sdr_enhanced": 14.348089650454563,
+      "si_sdri": 16.142668302670184,
+      "processing_seconds": 0.04731909799966161
+    },
+    {
+      "id": "p287_300",
+      "samples": 30658,
+      "si_sdr_noisy": 13.672135608094983,
+      "si_sdr_enhanced": 17.43207196819608,
+      "si_sdri": 3.759936360101097,
+      "processing_seconds": 0.029389163999894663
+    },
+    {
+      "id": "p287_301",
+      "samples": 31237,
+      "si_sdr_noisy": 8.5181577734999,
+      "si_sdr_enhanced": 15.444330185562706,
+      "si_sdri": 6.926172412062806,
+      "processing_seconds": 0.027774165000209905
+    },
+    {
+      "id": "p287_302",
+      "samples": 38587,
+      "si_sdr_noisy": 2.8070966527453933,
+      "si_sdr_enhanced": 15.671841061188038,
+      "si_sdri": 12.864744408442645,
+      "processing_seconds": 0.03078081800003929
+    },
+    {
+      "id": "p287_303",
+      "samples": 41288,
+      "si_sdr_noisy": -0.7441927816140198,
+      "si_sdr_enhanced": 18.512350564332586,
+      "si_sdri": 19.256543345946607,
+      "processing_seconds": 0.03453698399971472
+    },
+    {
+      "id": "p287_304",
+      "samples": 31041,
+      "si_sdr_noisy": 13.250806764088757,
+      "si_sdr_enhanced": 18.374413771474142,
+      "si_sdri": 5.1236070073853845,
+      "processing_seconds": 0.024083791000066412
+    },
+    {
+      "id": "p287_305",
+      "samples": 41641,
+      "si_sdr_noisy": 9.129149099737102,
+      "si_sdr_enhanced": 14.187239609233826,
+      "si_sdri": 5.058090509496724,
+      "processing_seconds": 0.03532021799992435
+    },
+    {
+      "id": "p287_306",
+      "samples": 63565,
+      "si_sdr_noisy": 4.252216022563903,
+      "si_sdr_enhanced": 9.171024283105613,
+      "si_sdri": 4.918808260541709,
+      "processing_seconds": 0.06370641600005911
+    },
+    {
+      "id": "p287_307",
+      "samples": 41785,
+      "si_sdr_noisy": -2.924035873388453,
+      "si_sdr_enhanced": 1.6198486553021785,
+      "si_sdri": 4.543884528690631,
+      "processing_seconds": 0.04550413500010109
+    },
+    {
+      "id": "p287_308",
+      "samples": 35826,
+      "si_sdr_noisy": 13.068112957642704,
+      "si_sdr_enhanced": 18.248148497256977,
+      "si_sdri": 5.180035539614273,
+      "processing_seconds": 0.030783508999775222
+    },
+    {
+      "id": "p287_309",
+      "samples": 35707,
+      "si_sdr_noisy": 8.51274369500271,
+      "si_sdr_enhanced": 16.668826578231357,
+      "si_sdri": 8.156082883228647,
+      "processing_seconds": 0.027104540999971505
+    },
+    {
+      "id": "p287_310",
+      "samples": 31519,
+      "si_sdr_noisy": 3.2764133549738617,
+      "si_sdr_enhanced": 15.735975098310064,
+      "si_sdri": 12.459561743336202,
+      "processing_seconds": 0.023845711999911146
+    },
+    {
+      "id": "p287_311",
+      "samples": 36207,
+      "si_sdr_noisy": -1.3086198829233109,
+      "si_sdr_enhanced": 7.724701982272048,
+      "si_sdri": 9.03332186519536,
+      "processing_seconds": 0.023867056999733904
+    },
+    {
+      "id": "p287_312",
+      "samples": 47290,
+      "si_sdr_noisy": 14.404707322491195,
+      "si_sdr_enhanced": 17.452998007491463,
+      "si_sdri": 3.048290685000268,
+      "processing_seconds": 0.033076943999731157
+    },
+    {
+      "id": "p287_313",
+      "samples": 28544,
+      "si_sdr_noisy": 8.330941242906688,
+      "si_sdr_enhanced": 13.414457041217034,
+      "si_sdri": 5.083515798310346,
+      "processing_seconds": 0.02921338400028617
+    },
+    {
+      "id": "p287_314",
+      "samples": 45805,
+      "si_sdr_noisy": 4.155540726411742,
+      "si_sdr_enhanced": 10.058820464561805,
+      "si_sdri": 5.903279738150063,
+      "processing_seconds": 0.03689124400034416
+    },
+    {
+      "id": "p287_315",
+      "samples": 46673,
+      "si_sdr_noisy": -1.5353320646755653,
+      "si_sdr_enhanced": 6.818870729466595,
+      "si_sdri": 8.35420279414216,
+      "processing_seconds": 0.04001260499990167
+    },
+    {
+      "id": "p287_316",
+      "samples": 37227,
+      "si_sdr_noisy": 13.335921271926523,
+      "si_sdr_enhanced": 17.314401502864296,
+      "si_sdri": 3.978480230937773,
+      "processing_seconds": 0.026442208999924333
+    },
+    {
+      "id": "p287_317",
+      "samples": 57354,
+      "si_sdr_noisy": 9.414037601961994,
+      "si_sdr_enhanced": 13.92767190645281,
+      "si_sdri": 4.513634304490816,
+      "processing_seconds": 0.044654989999799
+    },
+    {
+      "id": "p287_318",
+      "samples": 40975,
+      "si_sdr_noisy": 3.726393062795501,
+      "si_sdr_enhanced": 9.408944700494127,
+      "si_sdri": 5.682551637698626,
+      "processing_seconds": 0.03216898700020465
+    },
+    {
+      "id": "p287_319",
+      "samples": 38133,
+      "si_sdr_noisy": -1.5538203346642407,
+      "si_sdr_enhanced": 6.688401463105573,
+      "si_sdri": 8.242221797769814,
+      "processing_seconds": 0.034974983999745746
+    },
+    {
+      "id": "p287_320",
+      "samples": 32598,
+      "si_sdr_noisy": 12.163809444266358,
+      "si_sdr_enhanced": 16.324220059423503,
+      "si_sdri": 4.160410615157145,
+      "processing_seconds": 0.02743396899995787
+    },
+    {
+      "id": "p287_321",
+      "samples": 28471,
+      "si_sdr_noisy": 8.626798409751933,
+      "si_sdr_enhanced": 13.785155251092236,
+      "si_sdri": 5.158356841340304,
+      "processing_seconds": 0.03350853200026904
+    },
+    {
+      "id": "p287_322",
+      "samples": 29801,
+      "si_sdr_noisy": 3.577227653924245,
+      "si_sdr_enhanced": 9.852814398378687,
+      "si_sdri": 6.275586744454442,
+      "processing_seconds": 0.024032520000218938
+    },
+    {
+      "id": "p287_323",
+      "samples": 63369,
+      "si_sdr_noisy": -0.8834700137948834,
+      "si_sdr_enhanced": 6.753933292372785,
+      "si_sdri": 7.637403306167668,
+      "processing_seconds": 0.06579665699973702
+    },
+    {
+      "id": "p287_324",
+      "samples": 66630,
+      "si_sdr_noisy": 14.324914115584235,
+      "si_sdr_enhanced": 17.491697920699526,
+      "si_sdri": 3.1667838051152906,
+      "processing_seconds": 0.06753824199995506
+    },
+    {
+      "id": "p287_325",
+      "samples": 70960,
+      "si_sdr_noisy": 8.69441766186995,
+      "si_sdr_enhanced": 15.9697198960942,
+      "si_sdri": 7.275302234224249,
+      "processing_seconds": 0.07140795699979208
+    },
+    {
+      "id": "p287_326",
+      "samples": 38128,
+      "si_sdr_noisy": 3.6461440934720812,
+      "si_sdr_enhanced": 10.899920607805306,
+      "si_sdri": 7.253776514333225,
+      "processing_seconds": 0.029732401000273967
+    },
+    {
+      "id": "p287_327",
+      "samples": 53437,
+      "si_sdr_noisy": -1.123084774284617,
+      "si_sdr_enhanced": 10.253584485867158,
+      "si_sdri": 11.376669260151775,
+      "processing_seconds": 0.038031168000088655
+    },
+    {
+      "id": "p287_328",
+      "samples": 30175,
+      "si_sdr_noisy": 13.361151628836108,
+      "si_sdr_enhanced": 14.688560887614353,
+      "si_sdri": 1.3274092587782444,
+      "processing_seconds": 0.02162564599984762
+    },
+    {
+      "id": "p287_329",
+      "samples": 33320,
+      "si_sdr_noisy": 8.391247664396857,
+      "si_sdr_enhanced": 10.643948704023916,
+      "si_sdri": 2.252701039627059,
+      "processing_seconds": 0.029552797000178543
+    },
+    {
+      "id": "p287_330",
+      "samples": 29993,
+      "si_sdr_noisy": 3.16462697242373,
+      "si_sdr_enhanced": 7.506980771856023,
+      "si_sdri": 4.342353799432293,
+      "processing_seconds": 0.022304351999991923
+    },
+    {
+      "id": "p287_331",
+      "samples": 22631,
+      "si_sdr_noisy": -2.1441933120639898,
+      "si_sdr_enhanced": 0.041146785834889704,
+      "si_sdri": 2.1853400978988793,
+      "processing_seconds": 0.021213801000158128
+    },
+    {
+      "id": "p287_332",
+      "samples": 21719,
+      "si_sdr_noisy": 12.302525248639121,
+      "si_sdr_enhanced": 16.35575483479173,
+      "si_sdri": 4.053229586152607,
+      "processing_seconds": 0.018975309999859746
+    },
+    {
+      "id": "p287_333",
+      "samples": 32928,
+      "si_sdr_noisy": 7.112867783027811,
+      "si_sdr_enhanced": 14.533513779424421,
+      "si_sdri": 7.42064599639661,
+      "processing_seconds": 0.03153449199999159
+    },
+    {
+      "id": "p287_334",
+      "samples": 44907,
+      "si_sdr_noisy": 3.3833936921646983,
+      "si_sdr_enhanced": 11.55098819433428,
+      "si_sdri": 8.167594502169582,
+      "processing_seconds": 0.045911789999991015
+    },
+    {
+      "id": "p287_335",
+      "samples": 31162,
+      "si_sdr_noisy": -2.41858669023747,
+      "si_sdr_enhanced": 5.180206724529912,
+      "si_sdri": 7.598793414767382,
+      "processing_seconds": 0.032496723999884125
+    },
+    {
+      "id": "p287_336",
+      "samples": 32534,
+      "si_sdr_noisy": 13.341388334424591,
+      "si_sdr_enhanced": 19.277094836688498,
+      "si_sdri": 5.935706502263907,
+      "processing_seconds": 0.024214255000060803
+    },
+    {
+      "id": "p287_337",
+      "samples": 35550,
+      "si_sdr_noisy": 8.318116303630186,
+      "si_sdr_enhanced": 20.328190264067892,
+      "si_sdri": 12.010073960437706,
+      "processing_seconds": 0.032814498000334424
+    },
+    {
+      "id": "p287_338",
+      "samples": 33185,
+      "si_sdr_noisy": 2.804152549321431,
+      "si_sdr_enhanced": 16.94700361173353,
+      "si_sdri": 14.142851062412097,
+      "processing_seconds": 0.03367894500024704
+    },
+    {
+      "id": "p287_339",
+      "samples": 57753,
+      "si_sdr_noisy": -1.2128293100113638,
+      "si_sdr_enhanced": 16.38755520634459,
+      "si_sdri": 17.600384516355955,
+      "processing_seconds": 0.0514197789998434
+    },
+    {
+      "id": "p287_340",
+      "samples": 31122,
+      "si_sdr_noisy": 13.935506593077383,
+      "si_sdr_enhanced": 15.558694855538569,
+      "si_sdri": 1.623188262461186,
+      "processing_seconds": 0.03194361599980766
+    },
+    {
+      "id": "p287_341",
+      "samples": 40462,
+      "si_sdr_noisy": 9.230281399484632,
+      "si_sdr_enhanced": 21.532609236629217,
+      "si_sdri": 12.302327837144585,
+      "processing_seconds": 0.04115553700012242
+    },
+    {
+      "id": "p287_342",
+      "samples": 36632,
+      "si_sdr_noisy": 3.813588902781289,
+      "si_sdr_enhanced": 18.467849573474957,
+      "si_sdri": 14.654260670693668,
+      "processing_seconds": 0.03040164599997297
+    },
+    {
+      "id": "p287_343",
+      "samples": 37744,
+      "si_sdr_noisy": -1.0283218788731892,
+      "si_sdr_enhanced": 15.03587004412294,
+      "si_sdri": 16.064191922996127,
+      "processing_seconds": 0.0413742360001379
+    },
+    {
+      "id": "p287_344",
+      "samples": 31818,
+      "si_sdr_noisy": 13.354720053003135,
+      "si_sdr_enhanced": 16.276150461689294,
+      "si_sdri": 2.9214304086861596,
+      "processing_seconds": 0.023606124999787426
+    },
+    {
+      "id": "p287_345",
+      "samples": 39552,
+      "si_sdr_noisy": 8.682496054261048,
+      "si_sdr_enhanced": 11.807605989673968,
+      "si_sdri": 3.1251099354129206,
+      "processing_seconds": 0.04219162300023527
+    },
+    {
+      "id": "p287_346",
+      "samples": 35143,
+      "si_sdr_noisy": 3.4169974700705774,
+      "si_sdr_enhanced": 8.45238123259634,
+      "si_sdri": 5.035383762525762,
+      "processing_seconds": 0.028765230000317388
+    },
+    {
+      "id": "p287_347",
+      "samples": 40536,
+      "si_sdr_noisy": -2.2071073437042275,
+      "si_sdr_enhanced": 1.4906474283178932,
+      "si_sdri": 3.6977547720221207,
+      "processing_seconds": 0.032880082999781735
+    },
+    {
+      "id": "p287_348",
+      "samples": 58479,
+      "si_sdr_noisy": 14.146724568866247,
+      "si_sdr_enhanced": 17.336706055853654,
+      "si_sdri": 3.1899814869874064,
+      "processing_seconds": 0.05457238999997571
+    },
+    {
+      "id": "p287_349",
+      "samples": 33973,
+      "si_sdr_noisy": 8.844772935305942,
+      "si_sdr_enhanced": 13.16855314836382,
+      "si_sdri": 4.323780213057878,
+      "processing_seconds": 0.028671876000316843
+    },
+    {
+      "id": "p287_350",
+      "samples": 45843,
+      "si_sdr_noisy": 3.9653167785241665,
+      "si_sdr_enhanced": 14.615771086064955,
+      "si_sdri": 10.650454307540787,
+      "processing_seconds": 0.05151644799980204
+    },
+    {
+      "id": "p287_351",
+      "samples": 51701,
+      "si_sdr_noisy": -1.2495540063783301,
+      "si_sdr_enhanced": 9.200061510632706,
+      "si_sdri": 10.449615517011036,
+      "processing_seconds": 0.048929916999895795
+    },
+    {
+      "id": "p287_352",
+      "samples": 69476,
+      "si_sdr_noisy": 14.399876405136023,
+      "si_sdr_enhanced": 17.168862378560917,
+      "si_sdri": 2.7689859734248934,
+      "processing_seconds": 0.053648382000119454
+    },
+    {
+      "id": "p287_353",
+      "samples": 33982,
+      "si_sdr_noisy": 8.573856975079075,
+      "si_sdr_enhanced": 11.42984055295371,
+      "si_sdri": 2.8559835778746354,
+      "processing_seconds": 0.02668300100003762
+    },
+    {
+      "id": "p287_354",
+      "samples": 37391,
+      "si_sdr_noisy": 3.618999311152798,
+      "si_sdr_enhanced": 10.59902744719851,
+      "si_sdri": 6.980028136045712,
+      "processing_seconds": 0.037157022999963374
+    },
+    {
+      "id": "p287_355",
+      "samples": 35197,
+      "si_sdr_noisy": -1.674010352171214,
+      "si_sdr_enhanced": 4.485813614953807,
+      "si_sdri": 6.159823967125021,
+      "processing_seconds": 0.03157606600007057
+    },
+    {
+      "id": "p287_356",
+      "samples": 45519,
+      "si_sdr_noisy": 13.486058702125636,
+      "si_sdr_enhanced": 17.222008480264154,
+      "si_sdri": 3.7359497781385187,
+      "processing_seconds": 0.03741683899988857
+    },
+    {
+      "id": "p287_357",
+      "samples": 34971,
+      "si_sdr_noisy": 8.476887323256438,
+      "si_sdr_enhanced": 13.470151385179783,
+      "si_sdri": 4.993264061923345,
+      "processing_seconds": 0.038011462000213214
+    },
+    {
+      "id": "p287_358",
+      "samples": 33547,
+      "si_sdr_noisy": 2.4866554867011113,
+      "si_sdr_enhanced": 9.469767391297685,
+      "si_sdri": 6.983111904596574,
+      "processing_seconds": 0.031034162999731052
+    },
+    {
+      "id": "p287_359",
+      "samples": 57174,
+      "si_sdr_noisy": -0.9395626371033132,
+      "si_sdr_enhanced": 6.344739424096554,
+      "si_sdri": 7.284302061199867,
+      "processing_seconds": 0.05066826999973273
+    },
+    {
+      "id": "p287_360",
+      "samples": 63896,
+      "si_sdr_noisy": 14.457385258075767,
+      "si_sdr_enhanced": 16.530139394517235,
+      "si_sdri": 2.0727541364414677,
+      "processing_seconds": 0.05741449000015564
+    },
+    {
+      "id": "p287_361",
+      "samples": 34655,
+      "si_sdr_noisy": 8.476590574248966,
+      "si_sdr_enhanced": 14.380263356795162,
+      "si_sdri": 5.903672782546195,
+      "processing_seconds": 0.028194171999984974
+    },
+    {
+      "id": "p287_362",
+      "samples": 55458,
+      "si_sdr_noisy": 3.854022878369813,
+      "si_sdr_enhanced": 10.81770744346845,
+      "si_sdri": 6.963684565098637,
+      "processing_seconds": 0.04584816599981423
+    },
+    {
+      "id": "p287_363",
+      "samples": 44937,
+      "si_sdr_noisy": -1.1866885743132936,
+      "si_sdr_enhanced": 6.853997199491878,
+      "si_sdri": 8.040685773805171,
+      "processing_seconds": 0.0376674300000559
+    },
+    {
+      "id": "p287_364",
+      "samples": 46885,
+      "si_sdr_noisy": 13.554100654035368,
+      "si_sdr_enhanced": 17.97399815793068,
+      "si_sdri": 4.419897503895312,
+      "processing_seconds": 0.03411632200004533
+    },
+    {
+      "id": "p287_365",
+      "samples": 27795,
+      "si_sdr_noisy": 8.071010346480623,
+      "si_sdr_enhanced": 16.00673722868291,
+      "si_sdri": 7.935726882202285,
+      "processing_seconds": 0.025928652000402508
+    },
+    {
+      "id": "p287_366",
+      "samples": 41313,
+      "si_sdr_noisy": 3.3565551743806443,
+      "si_sdr_enhanced": 14.000217661706618,
+      "si_sdri": 10.643662487325972,
+      "processing_seconds": 0.039005544999781705
+    },
+    {
+      "id": "p287_367",
+      "samples": 32370,
+      "si_sdr_noisy": -1.6858956205886335,
+      "si_sdr_enhanced": 8.205828457152068,
+      "si_sdri": 9.891724077740701,
+      "processing_seconds": 0.036448086999826046
+    },
+    {
+      "id": "p287_368",
+      "samples": 46112,
+      "si_sdr_noisy": 13.865670562750502,
+      "si_sdr_enhanced": 16.10497734002454,
+      "si_sdri": 2.239306777274038,
+      "processing_seconds": 0.03810088599993833
+    },
+    {
+      "id": "p287_369",
+      "samples": 37861,
+      "si_sdr_noisy": 8.0982723932161,
+      "si_sdr_enhanced": 11.224808395528392,
+      "si_sdri": 3.1265360023122923,
+      "processing_seconds": 0.03507024500004263
+    },
+    {
+      "id": "p287_370",
+      "samples": 37460,
+      "si_sdr_noisy": 3.4630119182402175,
+      "si_sdr_enhanced": 6.29187702272596,
+      "si_sdri": 2.8288651044857427,
+      "processing_seconds": 0.034788685999956215
+    },
+    {
+      "id": "p287_371",
+      "samples": 38672,
+      "si_sdr_noisy": -1.2785133818321577,
+      "si_sdr_enhanced": 2.0238022857195146,
+      "si_sdri": 3.3023156675516723,
+      "processing_seconds": 0.038077211000199895
+    },
+    {
+      "id": "p287_372",
+      "samples": 39383,
+      "si_sdr_noisy": 12.915953038047352,
+      "si_sdr_enhanced": 16.796220592015317,
+      "si_sdri": 3.8802675539679647,
+      "processing_seconds": 0.03524862500034942
+    },
+    {
+      "id": "p287_373",
+      "samples": 47320,
+      "si_sdr_noisy": 8.83492050622156,
+      "si_sdr_enhanced": 14.680726635079873,
+      "si_sdri": 5.845806128858314,
+      "processing_seconds": 0.047678984999947716
+    },
+    {
+      "id": "p287_374",
+      "samples": 38861,
+      "si_sdr_noisy": 3.180429879259508,
+      "si_sdr_enhanced": 9.98984028256478,
+      "si_sdri": 6.809410403305272,
+      "processing_seconds": 0.03725963100032459
+    },
+    {
+      "id": "p287_375",
+      "samples": 43683,
+      "si_sdr_noisy": -0.969122266826512,
+      "si_sdr_enhanced": 4.56419763550923,
+      "si_sdri": 5.533319902335743,
+      "processing_seconds": 0.041335090000302444
+    },
+    {
+      "id": "p287_376",
+      "samples": 60728,
+      "si_sdr_noisy": 13.996119952991119,
+      "si_sdr_enhanced": 20.855144432299234,
+      "si_sdri": 6.859024479308115,
+      "processing_seconds": 0.05796931900022173
+    },
+    {
+      "id": "p287_377",
+      "samples": 37260,
+      "si_sdr_noisy": 8.642260798286882,
+      "si_sdr_enhanced": 16.487779151580064,
+      "si_sdri": 7.845518353293182,
+      "processing_seconds": 0.02696358399998644
+    },
+    {
+      "id": "p287_378",
+      "samples": 33842,
+      "si_sdr_noisy": 3.2771184902313615,
+      "si_sdr_enhanced": 17.633759268276147,
+      "si_sdri": 14.356640778044786,
+      "processing_seconds": 0.02335103400037042
+    },
+    {
+      "id": "p287_379",
+      "samples": 35124,
+      "si_sdr_noisy": -2.2781329912609074,
+      "si_sdr_enhanced": 16.811730066200596,
+      "si_sdri": 19.089863057461503,
+      "processing_seconds": 0.02619534699988435
+    },
+    {
+      "id": "p287_380",
+      "samples": 34895,
+      "si_sdr_noisy": 12.935800284540221,
+      "si_sdr_enhanced": 21.715075897340775,
+      "si_sdri": 8.779275612800554,
+      "processing_seconds": 0.03050852600017606
+    },
+    {
+      "id": "p287_381",
+      "samples": 35815,
+      "si_sdr_noisy": 8.873318493786043,
+      "si_sdr_enhanced": 19.06359269620024,
+      "si_sdri": 10.190274202414196,
+      "processing_seconds": 0.03486296200026118
+    },
+    {
+      "id": "p287_382",
+      "samples": 39342,
+      "si_sdr_noisy": 3.7112943632820876,
+      "si_sdr_enhanced": 18.844322604080453,
+      "si_sdri": 15.133028240798366,
+      "processing_seconds": 0.039404721000209975
+    },
+    {
+      "id": "p287_383",
+      "samples": 35179,
+      "si_sdr_noisy": -0.9143711117150739,
+      "si_sdr_enhanced": 13.648694269804118,
+      "si_sdri": 14.563065381519191,
+      "processing_seconds": 0.02615012599972033
+    },
+    {
+      "id": "p287_384",
+      "samples": 41547,
+      "si_sdr_noisy": 13.411320979839552,
+      "si_sdr_enhanced": 16.687504414355068,
+      "si_sdri": 3.2761834345155165,
+      "processing_seconds": 0.03857583499984685
+    },
+    {
+      "id": "p287_385",
+      "samples": 52585,
+      "si_sdr_noisy": 9.039390779624817,
+      "si_sdr_enhanced": 11.643500087633614,
+      "si_sdri": 2.6041093080087965,
+      "processing_seconds": 0.044975117000376486
+    },
+    {
+      "id": "p287_386",
+      "samples": 29330,
+      "si_sdr_noisy": 4.437736448961556,
+      "si_sdr_enhanced": 10.013112045113573,
+      "si_sdri": 5.575375596152017,
+      "processing_seconds": 0.024270875000183878
+    },
+    {
+      "id": "p287_387",
+      "samples": 68673,
+      "si_sdr_noisy": -0.5890967637796223,
+      "si_sdr_enhanced": 4.052407318773266,
+      "si_sdri": 4.641504082552888,
+      "processing_seconds": 0.06691766999983884
+    },
+    {
+      "id": "p287_388",
+      "samples": 27455,
+      "si_sdr_noisy": 12.693609706645326,
+      "si_sdr_enhanced": 16.403575965773186,
+      "si_sdri": 3.70996625912786,
+      "processing_seconds": 0.026811035000264383
+    },
+    {
+      "id": "p287_389",
+      "samples": 34759,
+      "si_sdr_noisy": 8.142503068783473,
+      "si_sdr_enhanced": 16.143022476229604,
+      "si_sdri": 8.00051940744613,
+      "processing_seconds": 0.03727393199960716
+    },
+    {
+      "id": "p287_390",
+      "samples": 35496,
+      "si_sdr_noisy": 3.5245676639931514,
+      "si_sdr_enhanced": 13.949107656949014,
+      "si_sdri": 10.424539992955863,
+      "processing_seconds": 0.030520786000124644
+    },
+    {
+      "id": "p287_391",
+      "samples": 34729,
+      "si_sdr_noisy": -2.7078505557905492,
+      "si_sdr_enhanced": 12.62242155060462,
+      "si_sdri": 15.33027210639517,
+      "processing_seconds": 0.024442294999971637
+    },
+    {
+      "id": "p287_392",
+      "samples": 42606,
+      "si_sdr_noisy": 14.666352613716358,
+      "si_sdr_enhanced": 17.779995940889737,
+      "si_sdri": 3.1136433271733797,
+      "processing_seconds": 0.04211395100037407
+    },
+    {
+      "id": "p287_393",
+      "samples": 32275,
+      "si_sdr_noisy": 8.134080074905123,
+      "si_sdr_enhanced": 13.559056459029666,
+      "si_sdri": 5.424976384124543,
+      "processing_seconds": 0.02720684300038556
+    },
+    {
+      "id": "p287_394",
+      "samples": 51950,
+      "si_sdr_noisy": 4.127254441772374,
+      "si_sdr_enhanced": 11.078508339210629,
+      "si_sdri": 6.951253897438255,
+      "processing_seconds": 0.03456744200002504
+    },
+    {
+      "id": "p287_395",
+      "samples": 55520,
+      "si_sdr_noisy": -1.3693909505204906,
+      "si_sdr_enhanced": 5.402795185310621,
+      "si_sdri": 6.772186135831112,
+      "processing_seconds": 0.05131124199988335
+    },
+    {
+      "id": "p287_396",
+      "samples": 43262,
+      "si_sdr_noisy": 13.878216813440492,
+      "si_sdr_enhanced": 17.018850991645323,
+      "si_sdri": 3.140634178204831,
+      "processing_seconds": 0.043087853000088217
+    },
+    {
+      "id": "p287_397",
+      "samples": 31189,
+      "si_sdr_noisy": 8.950292786055856,
+      "si_sdr_enhanced": 15.118783201785446,
+      "si_sdri": 6.16849041572959,
+      "processing_seconds": 0.028703445999781252
+    },
+    {
+      "id": "p287_398",
+      "samples": 32801,
+      "si_sdr_noisy": 3.4044861581176673,
+      "si_sdr_enhanced": 9.313553367736429,
+      "si_sdri": 5.909067209618762,
+      "processing_seconds": 0.03265656099983971
+    },
+    {
+      "id": "p287_399",
+      "samples": 30090,
+      "si_sdr_noisy": -1.7604831432346002,
+      "si_sdr_enhanced": 5.848398918421656,
+      "si_sdri": 7.608882061656256,
+      "processing_seconds": 0.024610544000097434
+    },
+    {
+      "id": "p287_400",
+      "samples": 25693,
+      "si_sdr_noisy": 12.338707914892542,
+      "si_sdr_enhanced": 16.64881227398153,
+      "si_sdri": 4.310104359088989,
+      "processing_seconds": 0.020971970000118745
+    },
+    {
+      "id": "p287_401",
+      "samples": 24481,
+      "si_sdr_noisy": 7.3620287935372755,
+      "si_sdr_enhanced": 13.546927124736388,
+      "si_sdri": 6.184898331199113,
+      "processing_seconds": 0.021137829000053898
+    },
+    {
+      "id": "p287_402",
+      "samples": 57586,
+      "si_sdr_noisy": 4.063219717903527,
+      "si_sdr_enhanced": 11.503650843167733,
+      "si_sdri": 7.440431125264206,
+      "processing_seconds": 0.041299571999843465
+    },
+    {
+      "id": "p287_403",
+      "samples": 44019,
+      "si_sdr_noisy": -0.6275316122357406,
+      "si_sdr_enhanced": 7.467776717141841,
+      "si_sdri": 8.09530832937758,
+      "processing_seconds": 0.03951056200003222
+    },
+    {
+      "id": "p287_404",
+      "samples": 40160,
+      "si_sdr_noisy": 13.157365613379381,
+      "si_sdr_enhanced": 17.525808109135525,
+      "si_sdri": 4.368442495756144,
+      "processing_seconds": 0.030873542000335874
+    },
+    {
+      "id": "p287_405",
+      "samples": 30716,
+      "si_sdr_noisy": 8.374991778369388,
+      "si_sdr_enhanced": 15.363717482546662,
+      "si_sdri": 6.9887257041772735,
+      "processing_seconds": 0.027033723999920767
+    },
+    {
+      "id": "p287_406",
+      "samples": 53227,
+      "si_sdr_noisy": 3.8951086434211044,
+      "si_sdr_enhanced": 11.933389379189965,
+      "si_sdri": 8.038280735768861,
+      "processing_seconds": 0.04555664400004389
+    },
+    {
+      "id": "p287_407",
+      "samples": 34112,
+      "si_sdr_noisy": -1.346543353981937,
+      "si_sdr_enhanced": 9.688609760552398,
+      "si_sdri": 11.035153114534335,
+      "processing_seconds": 0.035953056999915134
+    },
+    {
+      "id": "p287_408",
+      "samples": 48696,
+      "si_sdr_noisy": 13.091413036404166,
+      "si_sdr_enhanced": 17.979771461445303,
+      "si_sdri": 4.888358425041137,
+      "processing_seconds": 0.050962799999979325
+    },
+    {
+      "id": "p287_409",
+      "samples": 40755,
+      "si_sdr_noisy": 13.536003092857666,
+      "si_sdr_enhanced": 15.299895971421213,
+      "si_sdri": 1.7638928785635475,
+      "processing_seconds": 0.03229990399995586
+    },
+    {
+      "id": "p287_410",
+      "samples": 36702,
+      "si_sdr_noisy": 8.630197886660588,
+      "si_sdr_enhanced": 14.708835075454614,
+      "si_sdri": 6.078637188794026,
+      "processing_seconds": 0.03324024299990924
+    },
+    {
+      "id": "p287_411",
+      "samples": 34418,
+      "si_sdr_noisy": 8.03151651773226,
+      "si_sdr_enhanced": 19.909030055278855,
+      "si_sdri": 11.877513537546594,
+      "processing_seconds": 0.034886007999830326
+    },
+    {
+      "id": "p287_412",
+      "samples": 29543,
+      "si_sdr_noisy": 3.1255373125640573,
+      "si_sdr_enhanced": 17.83298571861558,
+      "si_sdri": 14.70744840605152,
+      "processing_seconds": 0.028941587999725016
+    },
+    {
+      "id": "p287_413",
+      "samples": 35499,
+      "si_sdr_noisy": 3.7232367666686637,
+      "si_sdr_enhanced": 10.183931719773526,
+      "si_sdri": 6.460694953104862,
+      "processing_seconds": 0.03091919999997117
+    },
+    {
+      "id": "p287_414",
+      "samples": 44452,
+      "si_sdr_noisy": 13.608940427327799,
+      "si_sdr_enhanced": 17.24094761135978,
+      "si_sdri": 3.6320071840319805,
+      "processing_seconds": 0.04425093300005756
+    },
+    {
+      "id": "p287_415",
+      "samples": 36850,
+      "si_sdr_noisy": 2.9120633668693534,
+      "si_sdr_enhanced": 10.989503532777348,
+      "si_sdri": 8.077440165907994,
+      "processing_seconds": 0.025486183000339224
+    },
+    {
+      "id": "p287_416",
+      "samples": 55939,
+      "si_sdr_noisy": 9.641470171980744,
+      "si_sdr_enhanced": 20.214196820603426,
+      "si_sdri": 10.572726648622682,
+      "processing_seconds": 0.04905352400010088
+    },
+    {
+      "id": "p287_417",
+      "samples": 41301,
+      "si_sdr_noisy": -1.2567202685816796,
+      "si_sdr_enhanced": 5.9994502414182325,
+      "si_sdri": 7.256170509999912,
+      "processing_seconds": 0.03153880899981232
+    },
+    {
+      "id": "p287_418",
+      "samples": 70145,
+      "si_sdr_noisy": -3.373829959396794,
+      "si_sdr_enhanced": -2.7298516011758878,
+      "si_sdri": 0.6439783582209064,
+      "processing_seconds": 0.04330431700009285
+    },
+    {
+      "id": "p287_419",
+      "samples": 45381,
+      "si_sdr_noisy": -1.7959697753259949,
+      "si_sdr_enhanced": 18.195727535109988,
+      "si_sdri": 19.99169731043598,
+      "processing_seconds": 0.03211245200009216
+    },
+    {
+      "id": "p287_420",
+      "samples": 38720,
+      "si_sdr_noisy": 2.752712471152423,
+      "si_sdr_enhanced": 15.099645056746668,
+      "si_sdri": 12.346932585594246,
+      "processing_seconds": 0.038455344999874796
+    },
+    {
+      "id": "p287_421",
+      "samples": 38225,
+      "si_sdr_noisy": 13.665757609226251,
+      "si_sdr_enhanced": 18.607225158158315,
+      "si_sdri": 4.941467548932064,
+      "processing_seconds": 0.039306822000071406
+    },
+    {
+      "id": "p287_422",
+      "samples": 46982,
+      "si_sdr_noisy": -1.0752647558722892,
+      "si_sdr_enhanced": 4.889975884156969,
+      "si_sdri": 5.965240640029258,
+      "processing_seconds": 0.03656596000018908
+    },
+    {
+      "id": "p287_423",
+      "samples": 65214,
+      "si_sdr_noisy": 13.927288517842323,
+      "si_sdr_enhanced": 17.25595190931843,
+      "si_sdri": 3.3286633914761072,
+      "processing_seconds": 0.05577648799999224
+    },
+    {
+      "id": "p287_424",
+      "samples": 46732,
+      "si_sdr_noisy": -1.6265858047964414,
+      "si_sdr_enhanced": 13.270332920407162,
+      "si_sdri": 14.896918725203603,
+      "processing_seconds": 0.04533531700008098
+    }
+  ],
+  "model": {
+    "source": "/content/esp32_runs/deploy_baseline/denoiser_int8.bin",
+    "model_sha256": "bfd31b653e5924e8ee10fec0721f8e61ba49943817e5c74d58e59279aa798182",
+    "model_bytes": 94480,
+    "neural_state_bytes": 8280,
+    "precision": "INT8 C neural core, float32 C DSP, portable host FFT",
+    "io_format": "pcm16",
+    "io_statistics": {
+      "samples": 36473269,
+      "input_clipped_samples": 0,
+      "output_at_rail_samples": 4
+    }
+  },
+  "comparison": {
+    "torch_dsp_integer_neural_summary": {
+      "utterances": 770,
+      "valid_utterances": 770,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 6.016738904979768,
+      "si_sdr_enhanced": 13.407445398288147,
+      "si_sdri": 7.39070649330838,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "float32_full_c_summary": {
+      "utterances": 770,
+      "valid_utterances": 770,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 6.016738904979768,
+      "si_sdr_enhanced": 13.40704224915527,
+      "si_sdri": 7.390303344175503,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "versus_torch_dsp_si_sdri_difference_db": -0.00036269923340270793,
+    "versus_unclipped_c_si_sdri_difference_db": 4.044989947438182e-05
+  }
+}

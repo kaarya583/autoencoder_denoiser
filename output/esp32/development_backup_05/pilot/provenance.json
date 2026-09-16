@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "model": {
+    "learned_parameters": 84738,
+    "convolution_weights": 83392,
+    "macs_per_second": 5212000.0,
+    "context_frames": 127,
+    "neural_state_bytes_int8": 8064
+  },
+  "gpu": "NVIDIA L4",
+  "test_used_for_selection": false,
+  "selection_metric": "mean utterance SI-SDR improvement"
+}

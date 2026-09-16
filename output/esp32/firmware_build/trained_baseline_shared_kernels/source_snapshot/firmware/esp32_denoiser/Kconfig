@@ -1,0 +1,14 @@
+menu "Integer denoiser kernels"
+
+config EDN_S3_SIMD_DOT
+    bool "Use ESP32-S3 signed INT8 SIMD dot products"
+    depends on IDF_TARGET_ESP32S3
+    default n
+    help
+        Accelerate supported dense rows with pinned ESP-NN assembly while
+        preserving the portable runtime's exact requantization. Alignment,
+        readable guards, and scalar tails are handled by the adapter.
+        The benchmark executes a known-answer self-test before measuring.
+        Disabled by default until verified on the intended physical board.
+
+endmenu

@@ -1,0 +1,7 @@
+{
+  "status": "pruned_uncompetitive",
+  "epoch": 84,
+  "best_si_sdri": 7.442673647290838,
+  "elapsed_hours": 0.8789364263913889,
+  "reason": "Plain frequency model remains about0.5dB below completed spectral TCN; encoder-BN version already substantially stronger. Preserve checkpoints and prioritize broader-source training. This is a manual research pruning decision, not configured early stopping."
+}

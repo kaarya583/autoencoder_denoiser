@@ -1,0 +1,20 @@
+idf_component_register(SRCS "main.c"
+                       INCLUDE_DIRS "."
+                       REQUIRES experimental_gtcrn esp_timer esp_hw_support)
+if(CMAKE_BUILD_EARLY_EXPANSION)
+    return()
+endif()
+set(GTCRN_MODEL_PATH "${CMAKE_CURRENT_LIST_DIR}/model.bin")
+if(NOT EXISTS "${GTCRN_MODEL_PATH}")
+    message(FATAL_ERROR "Copy a validated GTI8PK01 binary to main/model.bin before building")
+endif()
+if(NOT EXISTS "${CMAKE_CURRENT_LIST_DIR}/known_answer.h")
+    message(FATAL_ERROR "Run generate_known_answer.py for this model before building")
+endif()
+file(SHA256 "${GTCRN_MODEL_PATH}" GTCRN_MODEL_SHA256)
+configure_file("${CMAKE_CURRENT_LIST_DIR}/model.S.in" "${CMAKE_CURRENT_BINARY_DIR}/model.S" @ONLY)
+set_source_files_properties("${CMAKE_CURRENT_BINARY_DIR}/model.S"
+                            PROPERTIES OBJECT_DEPENDS "${GTCRN_MODEL_PATH}")
+target_sources(${COMPONENT_LIB} PRIVATE "${CMAKE_CURRENT_BINARY_DIR}/model.S")
+target_compile_definitions(${COMPONENT_LIB} PRIVATE GTCRN_MODEL_SHA256="${GTCRN_MODEL_SHA256}")
+target_compile_options(${COMPONENT_LIB} PRIVATE -fstack-usage)

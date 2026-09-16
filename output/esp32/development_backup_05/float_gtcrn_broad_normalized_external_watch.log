@@ -1,0 +1,5 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad_normalized", "epoch": 0, "si_sdri": -29.526619423208246}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad_normalized", "epoch": 5, "si_sdri": 5.49490196380463}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad_normalized", "epoch": 10, "si_sdri": 7.722150523705363}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad_normalized", "epoch": 15, "si_sdri": 8.544600331260876}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad_normalized", "epoch": 20, "si_sdri": 7.820399584520002}

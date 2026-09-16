@@ -1,0 +1,137 @@
+{"event": "start", "device": "cuda", "torch": "2.11.0+cu128", "model": {"learned_parameters": 84738, "convolution_weights": 83392, "macs_per_second": 5212000.0, "context_frames": 127, "neural_state_bytes_int8": 8064}, "model_kind": "spectral_tcn", "gpu": "NVIDIA L4", "test_used_for_selection": false, "selection_metric": "mean utterance SI-SDR improvement", "validation_is_partial": false, "calibration": null, "added_training_sources": null, "distillation": null, "resume_checkpoint_sha256": "db460fa6ddbadfd28660b72147ac13aa7e3de0db7ed825bae8d349610a5c1cf7", "manifest_sha256": {"train": "c0b9ea9aa7b13d30aadd30f76274f6b2f932d802ae85c55426c2c3e13a4a247c", "val": "c1e0ccf95766f1542da3e8eebc1cf33107ca6ecf3ccf59c7a2d8078c171f5668"}, "source_sha256": {"__init__.py": "8fa53a117dcac5ce5f496e7685d7f3a4af5c4ed2b87475e4ba888f9925b3a560", "comparison.py": "a72684d6697349141729ba28d1973dfdba7131e6bbc9e6684b91883b9f5c7350", "data.py": "1b755c38236483957f8ecc62a4923841aa33f3bd9c26e2a1de288ae5132f22f3", "development.py": "11b16e960701f64e5813b84e1f40e6be62d682777e04d683c4f671110ca70d44", "development_checkpoints.py": "97737ea04e6d702114661b0e45cd27ab7d3aa76c46c7542b9d53b672967230d8", "distillation.py": "6e2b72d890afa061d9361e43587cfb446455bff94b4177f7afc76e23446758f7", "embedded.py": "a31581b4d7c51fd82488420fa7b7997605d056b0001b6582aeb852fe2e1022b2", "evaluate.py": "c2f71a72cf7ee5b1a7ef358af06db13f612d51ea66029c53c57b33e81f34c3e3", "export.py": "e76ad5ab812577fde4e89da543fd0f42a3b1d374221c754b00f5a6d4c3593cb0", "extra_data.py": "193cf8fd9d8704d040602ad00ba13b10d3ff61c06ffebe739a0acf72728979a3", "frequency_deep_filter.py": "7ef7b10ac56bf0dcec9a6f2cfb141cfd47514593ecf0c46e3a817146ee8a4dd9", "frequency_embedded.py": "04808d9e34f42e68a960be9476bb40303a6e897c5461a09413885029c256b6ee", "frequency_evaluate.py": "bdc5f29e7a49f1b3251b29257b68044c733eaa942802feb4e9d70db70c4699a6", "frequency_export.py": "947e8e06a6e4501d4d3e21305e7b903d433d28158ec6c79e2cde063e5eca33fe", "frequency_gru.py": "41e0f10b122e8afb588d08f7d5220257c9b9f4f8ea792749baa07cbf3f292632", "frequency_model.py": "68da4df1ae92084c1ca1dba91ccbc16be4731fa2561bd48bdac6117127f689f4", "frequency_normalization.py": "407ae0de89eeb9202fe4ef8389b6308112564b4a84665745e98f9883fb0cac90", "frequency_quantization.py": "4739cdcac4753e31465593d3372c11936048778db29da2debf2975a33a4de162", "gtcrn_model.py": "14cd761539cee0b81da95fa35ba3e21dc0e5317572a9546f4fd20c522b1da2b8", "losses.py": "5f0e7753d8c7d5e827bb58e688288bbb883322b1326b878ab826139734621753", "mask_diagnostics.py": "0e7b71ffd2de26d647c91091d90a6090fe4dda579cb34393f4ba8c78ac1a44c3", "metrics.py": "9832420689fcc6e27d02ef2c751f76ac86c17d9f9164864543bf7604826da2b5", "mixtures.py": "aa52046143db594b101027108f1e4cad1a5dbdbbcde717146155b2847a3eef7a", "model.py": "ae35b641f3dd1a58932a8675cc58cac0029c637dbb196c125b3ae560ad61482e", "models.py": "c137123d38119828cdc1d3eaeeb59ac258012daf06161823aed9ee0b202b806b", "quality.py": "39cae6c04fb76d8493f4bf6bec12c99a01dee5a8a25402ded65dbdb90f311874", "quantization.py": "cb16d537edc4dbac1a378e0f3e33b8e614a956da0fe1dc469d386c911696d5c5", "runtime_cache.py": "8b0dc114256533810bddefe350d4bf57009dc69b75d42819ae1590c4ee0e7019", "train.py": "c87608f1df2cbb33c26dac41ee0c4de00177e02980444e396e481a8c5e9241bd", "vendor/__init__.py": "bce826e18e3d79c14e2a9aebd441101f82cfe9ef703698e3cfebda168e9f2561", "vendor/gtcrn/__init__.py": "ef43765e819258761704a8ce25fa34a15b9c31140992b1bb2ba654ecf1879f89", "vendor/gtcrn/convert.py": "dbff3a360a720f11fca0b4a4f8bc6bdb3ebb712fa617dfe37df8b31a9c5a586e", "vendor/gtcrn/convolution.py": "28465f8a160b8484548ec2e2d8319d5b0650f45079f5abf9d41a8cb15ce2fdf4", "vendor/gtcrn/network.py": "20bf0610702506fa45cd543454b84bbeb862d73c7c20a3f8d820fdc04da6099b", "vendor/gtcrn/streaming.py": "649cede9019dd9397de2b773797ee7a37b860c71cfea41a09e41b3193f527007", "warm_start.py": "1f4431725906167c03c1b2cebb0c4d69dd8585789cfe580df29fa399cafc6b4f"}, "train_utterances": 10802, "validation_utterances": 770, "train_speakers": ["p227", "p228", "p230", "p231", "p233", "p236", "p239", "p243", "p244", "p250", "p254", "p256", "p258", "p259", "p267", "p268", "p269", "p270", "p273", "p274", "p276", "p277", "p278", "p279", "p282", "p286"], "validation_speakers": ["p226", "p287"], "phase": "float"}
+{"event": "initial_validation", "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.95580576666073, "si_sdri": 7.93906686168096}
+{"event": "progress", "epoch": 1, "step": 0, "loss": -13.558161664171383, "seconds": 12}
+{"event": "progress", "epoch": 1, "step": 50, "loss": -13.70455362244424, "seconds": 30}
+{"event": "progress", "epoch": 1, "step": 100, "loss": -15.804192115651205, "seconds": 47}
+{"event": "progress", "epoch": 1, "step": 150, "loss": -16.443721153798187, "seconds": 65}
+{"event": "progress", "epoch": 1, "step": 200, "loss": -14.666602452764383, "seconds": 80}
+{"event": "progress", "epoch": 1, "step": 250, "loss": -11.094171507605033, "seconds": 98}
+{"event": "progress", "epoch": 1, "step": 300, "loss": -14.060842805449758, "seconds": 116}
+{"event": "epoch", "epoch": 1, "phase": "float", "loss": -14.645032811167145, "seconds": 125.64894302900029, "elapsed_seconds": 135.29404208900087, "learning_rate": 0.0002, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.893626316482889, "si_sdri": 7.87688741150312, "best_si_sdri": 7.93906686168096}
+{"event": "progress", "epoch": 2, "step": 0, "loss": -15.17218962309434, "seconds": 136}
+{"event": "progress", "epoch": 2, "step": 50, "loss": -14.371732770321803, "seconds": 154}
+{"event": "progress", "epoch": 2, "step": 100, "loss": -16.321735610899417, "seconds": 172}
+{"event": "progress", "epoch": 2, "step": 150, "loss": -13.29068046607932, "seconds": 190}
+{"event": "progress", "epoch": 2, "step": 200, "loss": -13.848644846124728, "seconds": 208}
+{"event": "progress", "epoch": 2, "step": 250, "loss": -13.247265132446165, "seconds": 225}
+{"event": "progress", "epoch": 2, "step": 300, "loss": -14.026018565619436, "seconds": 241}
+{"event": "epoch", "epoch": 2, "phase": "float", "loss": -14.58971602934986, "seconds": 125.48442049099867, "elapsed_seconds": 260.7904856840014, "learning_rate": 0.0002, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.90562721062619, "si_sdri": 7.88888830564642, "best_si_sdri": 7.93906686168096}
+{"event": "progress", "epoch": 3, "step": 0, "loss": -14.443798808015444, "seconds": 261}
+{"event": "progress", "epoch": 3, "step": 50, "loss": -14.706098341752902, "seconds": 280}
+{"event": "progress", "epoch": 3, "step": 100, "loss": -13.620835473278142, "seconds": 298}
+{"event": "progress", "epoch": 3, "step": 150, "loss": -14.178778877672565, "seconds": 316}
+{"event": "progress", "epoch": 3, "step": 200, "loss": -13.89867114228199, "seconds": 333}
+{"event": "progress", "epoch": 3, "step": 250, "loss": -14.563108155685203, "seconds": 351}
+{"event": "progress", "epoch": 3, "step": 300, "loss": -15.797848243278132, "seconds": 369}
+{"event": "epoch", "epoch": 3, "phase": "float", "loss": -14.588177894892445, "seconds": 125.99927846799983, "elapsed_seconds": 386.80571848300133, "learning_rate": 0.0002, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.958962888280153, "si_sdri": 7.942223983300385, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 4, "step": 0, "loss": -13.746320163958737, "seconds": 387}
+{"event": "progress", "epoch": 4, "step": 50, "loss": -19.07557608686519, "seconds": 405}
+{"event": "progress", "epoch": 4, "step": 100, "loss": -15.0498027280814, "seconds": 423}
+{"event": "progress", "epoch": 4, "step": 150, "loss": -12.932751190860579, "seconds": 440}
+{"event": "progress", "epoch": 4, "step": 200, "loss": -13.169008793665984, "seconds": 458}
+{"event": "progress", "epoch": 4, "step": 250, "loss": -14.938981551194338, "seconds": 476}
+{"event": "progress", "epoch": 4, "step": 300, "loss": -13.911576470590516, "seconds": 494}
+{"event": "epoch", "epoch": 4, "phase": "float", "loss": -14.695192966819372, "seconds": 126.80560091199914, "elapsed_seconds": 513.6459378430009, "learning_rate": 0.0002, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.885898678183679, "si_sdri": 7.869159773203911, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 5, "step": 0, "loss": -15.831451242368079, "seconds": 514}
+{"event": "progress", "epoch": 5, "step": 50, "loss": -15.405817964370048, "seconds": 530}
+{"event": "progress", "epoch": 5, "step": 100, "loss": -12.83845208592223, "seconds": 544}
+{"event": "progress", "epoch": 5, "step": 150, "loss": -12.136586918354556, "seconds": 561}
+{"event": "progress", "epoch": 5, "step": 200, "loss": -13.258206364534626, "seconds": 577}
+{"event": "progress", "epoch": 5, "step": 250, "loss": -15.29681571055838, "seconds": 594}
+{"event": "progress", "epoch": 5, "step": 300, "loss": -14.440057497313617, "seconds": 611}
+{"event": "epoch", "epoch": 5, "phase": "float", "loss": -14.529407358258611, "seconds": 115.39344204999907, "elapsed_seconds": 629.0611545290012, "learning_rate": 0.0002, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.917812885377007, "si_sdri": 7.90107398039724, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 6, "step": 0, "loss": -14.169070234199989, "seconds": 630}
+{"event": "progress", "epoch": 6, "step": 50, "loss": -12.850982421374303, "seconds": 646}
+{"event": "progress", "epoch": 6, "step": 100, "loss": -15.831784847786267, "seconds": 663}
+{"event": "progress", "epoch": 6, "step": 150, "loss": -14.330501012771819, "seconds": 676}
+{"event": "progress", "epoch": 6, "step": 200, "loss": -14.112330550900676, "seconds": 693}
+{"event": "progress", "epoch": 6, "step": 250, "loss": -13.940407806660513, "seconds": 710}
+{"event": "progress", "epoch": 6, "step": 300, "loss": -14.280731205839203, "seconds": 727}
+{"event": "epoch", "epoch": 6, "phase": "float", "loss": -14.499397383765613, "seconds": 115.99482276900017, "elapsed_seconds": 745.0749815940017, "learning_rate": 0.0002, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.917102025065626, "si_sdri": 7.900363120085858, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 7, "step": 0, "loss": -14.67266023531522, "seconds": 746}
+{"event": "progress", "epoch": 7, "step": 50, "loss": -14.903482802620273, "seconds": 762}
+{"event": "progress", "epoch": 7, "step": 100, "loss": -14.742183840511814, "seconds": 778}
+{"event": "progress", "epoch": 7, "step": 150, "loss": -13.841700026639664, "seconds": 795}
+{"event": "progress", "epoch": 7, "step": 200, "loss": -13.994380233517397, "seconds": 811}
+{"event": "progress", "epoch": 7, "step": 250, "loss": -14.497514497325435, "seconds": 827}
+{"event": "progress", "epoch": 7, "step": 300, "loss": -15.504119569292776, "seconds": 843}
+{"event": "epoch", "epoch": 7, "phase": "float", "loss": -14.576469448437495, "seconds": 115.84480262800025, "elapsed_seconds": 860.9357971750014, "learning_rate": 0.0002, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.895516245282181, "si_sdri": 7.8787773403024115, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 8, "step": 0, "loss": -14.390350096025278, "seconds": 861}
+{"event": "progress", "epoch": 8, "step": 50, "loss": -15.450428228666556, "seconds": 878}
+{"event": "progress", "epoch": 8, "step": 100, "loss": -15.853739675599261, "seconds": 895}
+{"event": "progress", "epoch": 8, "step": 150, "loss": -14.513988403499289, "seconds": 912}
+{"event": "progress", "epoch": 8, "step": 200, "loss": -13.493263270340755, "seconds": 929}
+{"event": "progress", "epoch": 8, "step": 250, "loss": -15.932235523501458, "seconds": 944}
+{"event": "progress", "epoch": 8, "step": 300, "loss": -13.05990600552062, "seconds": 959}
+{"event": "epoch", "epoch": 8, "phase": "float", "loss": -14.674428258908584, "seconds": 115.84579388199927, "elapsed_seconds": 976.8043298230004, "learning_rate": 0.0001, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.930467123900703, "si_sdri": 7.913728218920935, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 9, "step": 0, "loss": -14.249479095372678, "seconds": 977}
+{"event": "progress", "epoch": 9, "step": 50, "loss": -12.56486386082954, "seconds": 994}
+{"event": "progress", "epoch": 9, "step": 100, "loss": -14.12964004762275, "seconds": 1011}
+{"event": "progress", "epoch": 9, "step": 150, "loss": -12.575747753804965, "seconds": 1028}
+{"event": "progress", "epoch": 9, "step": 200, "loss": -14.477447254604506, "seconds": 1044}
+{"event": "progress", "epoch": 9, "step": 250, "loss": -16.366742131886127, "seconds": 1060}
+{"event": "progress", "epoch": 9, "step": 300, "loss": -12.849108560389011, "seconds": 1077}
+{"event": "epoch", "epoch": 9, "phase": "float", "loss": -14.682483142272183, "seconds": 117.58186897799897, "elapsed_seconds": 1094.402831618001, "learning_rate": 0.0001, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.925844045256689, "si_sdri": 7.909105140276921, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 10, "step": 0, "loss": -15.78571844953013, "seconds": 1095}
+{"event": "progress", "epoch": 10, "step": 50, "loss": -13.557621439345695, "seconds": 1111}
+{"event": "progress", "epoch": 10, "step": 100, "loss": -13.65917315764321, "seconds": 1127}
+{"event": "progress", "epoch": 10, "step": 150, "loss": -14.433645241367595, "seconds": 1144}
+{"event": "progress", "epoch": 10, "step": 200, "loss": -14.992480456943634, "seconds": 1160}
+{"event": "progress", "epoch": 10, "step": 250, "loss": -17.3122691511678, "seconds": 1177}
+{"event": "progress", "epoch": 10, "step": 300, "loss": -14.394183714034854, "seconds": 1193}
+{"event": "epoch", "epoch": 10, "phase": "float", "loss": -14.694464795282366, "seconds": 117.65528531100063, "elapsed_seconds": 1212.0876868430005, "learning_rate": 0.0001, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.924646414946407, "si_sdri": 7.90790750996664, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 11, "step": 0, "loss": -14.772611023003915, "seconds": 1213}
+{"event": "progress", "epoch": 11, "step": 50, "loss": -15.307790489724182, "seconds": 1229}
+{"event": "progress", "epoch": 11, "step": 100, "loss": -14.740127845407335, "seconds": 1243}
+{"event": "progress", "epoch": 11, "step": 150, "loss": -13.037582464531162, "seconds": 1259}
+{"event": "progress", "epoch": 11, "step": 200, "loss": -15.77541826458906, "seconds": 1277}
+{"event": "progress", "epoch": 11, "step": 250, "loss": -13.944072300913668, "seconds": 1294}
+{"event": "progress", "epoch": 11, "step": 300, "loss": -14.648184739923078, "seconds": 1310}
+{"event": "epoch", "epoch": 11, "phase": "float", "loss": -14.780785607322887, "seconds": 116.3645788419999, "elapsed_seconds": 1328.4696587220005, "learning_rate": 0.0001, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.904090857665667, "si_sdri": 7.887351952685899, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 12, "step": 0, "loss": -13.626522053807474, "seconds": 1329}
+{"event": "progress", "epoch": 12, "step": 50, "loss": -14.602601478588017, "seconds": 1346}
+{"event": "progress", "epoch": 12, "step": 100, "loss": -14.890996125759134, "seconds": 1362}
+{"event": "progress", "epoch": 12, "step": 150, "loss": -16.070983342103027, "seconds": 1377}
+{"event": "progress", "epoch": 12, "step": 200, "loss": -15.974162562853529, "seconds": 1393}
+{"event": "progress", "epoch": 12, "step": 250, "loss": -14.592185693104646, "seconds": 1410}
+{"event": "progress", "epoch": 12, "step": 300, "loss": -13.875418389962526, "seconds": 1427}
+{"event": "epoch", "epoch": 12, "phase": "float", "loss": -14.61692421448566, "seconds": 116.61881638699924, "elapsed_seconds": 1445.1033158040009, "learning_rate": 0.0001, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.958488656794252, "si_sdri": 7.941749751814485, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 13, "step": 0, "loss": -15.03094886695063, "seconds": 1446}
+{"event": "progress", "epoch": 13, "step": 50, "loss": -18.861397878624608, "seconds": 1462}
+{"event": "progress", "epoch": 13, "step": 100, "loss": -17.649523234306454, "seconds": 1479}
+{"event": "progress", "epoch": 13, "step": 150, "loss": -16.20920949667129, "seconds": 1496}
+{"event": "progress", "epoch": 13, "step": 200, "loss": -15.008833783142796, "seconds": 1513}
+{"event": "progress", "epoch": 13, "step": 250, "loss": -12.898705532093555, "seconds": 1527}
+{"event": "progress", "epoch": 13, "step": 300, "loss": -14.753690120209907, "seconds": 1543}
+{"event": "epoch", "epoch": 13, "phase": "float", "loss": -14.742414438146684, "seconds": 116.30836125600035, "elapsed_seconds": 1561.4314433530017, "learning_rate": 5e-05, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.922214088569813, "si_sdri": 7.905475183590044, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 14, "step": 0, "loss": -13.275828979014797, "seconds": 1562}
+{"event": "progress", "epoch": 14, "step": 50, "loss": -14.800614121306769, "seconds": 1579}
+{"event": "progress", "epoch": 14, "step": 100, "loss": -13.990181412411776, "seconds": 1595}
+{"event": "progress", "epoch": 14, "step": 150, "loss": -12.891570838435037, "seconds": 1612}
+{"event": "progress", "epoch": 14, "step": 200, "loss": -14.02136692505912, "seconds": 1629}
+{"event": "progress", "epoch": 14, "step": 250, "loss": -15.784837825457071, "seconds": 1645}
+{"event": "progress", "epoch": 14, "step": 300, "loss": -15.206339509441248, "seconds": 1659}
+{"event": "epoch", "epoch": 14, "phase": "float", "loss": -14.798235429847168, "seconds": 116.22005302499929, "elapsed_seconds": 1677.6686646050002, "learning_rate": 5e-05, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.903241850235673, "si_sdri": 7.886502945255906, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 15, "step": 0, "loss": -14.953795969108599, "seconds": 1678}
+{"event": "progress", "epoch": 15, "step": 50, "loss": -15.669146693020298, "seconds": 1695}
+{"event": "progress", "epoch": 15, "step": 100, "loss": -15.303688915926466, "seconds": 1712}
+{"event": "progress", "epoch": 15, "step": 150, "loss": -17.169433384343918, "seconds": 1728}
+{"event": "progress", "epoch": 15, "step": 200, "loss": -16.875811679279987, "seconds": 1744}
+{"event": "progress", "epoch": 15, "step": 250, "loss": -15.576544847318882, "seconds": 1761}
+{"event": "progress", "epoch": 15, "step": 300, "loss": -13.0959830923672, "seconds": 1778}
+{"event": "epoch", "epoch": 15, "phase": "float", "loss": -14.73917130756426, "seconds": 117.84206118200018, "elapsed_seconds": 1795.5276731440008, "learning_rate": 5e-05, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.946082054188796, "si_sdri": 7.929343149209027, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 16, "step": 0, "loss": -14.702591401576836, "seconds": 1796}
+{"event": "progress", "epoch": 16, "step": 50, "loss": -14.401496570951121, "seconds": 1812}
+{"event": "progress", "epoch": 16, "step": 100, "loss": -12.770742189539202, "seconds": 1828}
+{"event": "progress", "epoch": 16, "step": 150, "loss": -13.220508781792436, "seconds": 1844}
+{"event": "progress", "epoch": 16, "step": 200, "loss": -13.484575000996816, "seconds": 1861}
+{"event": "progress", "epoch": 16, "step": 250, "loss": -15.943881945294201, "seconds": 1878}
+{"event": "progress", "epoch": 16, "step": 300, "loss": -15.823172508265138, "seconds": 1895}
+{"event": "epoch", "epoch": 16, "phase": "float", "loss": -14.674278922849412, "seconds": 117.60683649100065, "elapsed_seconds": 1913.150833048001, "learning_rate": 5e-05, "utterances": 770, "total_utterances": 770, "invalid_utterances": 0, "noisy_si_sdr": 6.016738904979767, "si_sdr": 13.94512130902793, "si_sdri": 7.928382404048163, "best_si_sdri": 7.942223983300385}
+{"event": "progress", "epoch": 17, "step": 0, "loss": -13.425409109816677, "seconds": 1914}
+{"event": "progress", "epoch": 17, "step": 50, "loss": -15.48459141535465, "seconds": 1929}
+{"event": "progress", "epoch": 17, "step": 100, "loss": -11.86964487325871, "seconds": 1943}
+{"event": "progress", "epoch": 17, "step": 150, "loss": -14.42385081151414, "seconds": 1960}
+{"event": "progress", "epoch": 17, "step": 200, "loss": -13.313309465149946, "seconds": 1977}
+{"event": "progress", "epoch": 17, "step": 250, "loss": -15.37261059624467, "seconds": 1994}
+{"event": "progress", "epoch": 17, "step": 300, "loss": -12.55278398775016, "seconds": 2011}

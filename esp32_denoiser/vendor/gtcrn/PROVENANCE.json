@@ -1,0 +1,47 @@
+{
+  "repository": "https://github.com/Xiaobin-Rong/gtcrn",
+  "revision": "502ebfab64da7c4a9af78dcb9c6ceef1ebb01c73",
+  "license": "MIT; Copyright (c) 2024 Rong Xiaobin",
+  "source_audited_utc_date": "2026-09-13",
+  "pretrained_weights_included": false,
+  "files": [
+    {
+      "upstream_path": "gtcrn.py",
+      "local_path": "network.py",
+      "upstream_sha256": "20bf0610702506fa45cd543454b84bbeb862d73c7c20a3f8d820fdc04da6099b",
+      "vendored_sha256": "20bf0610702506fa45cd543454b84bbeb862d73c7c20a3f8d820fdc04da6099b",
+      "modifications": []
+    },
+    {
+      "upstream_path": "stream/gtcrn_stream.py",
+      "local_path": "streaming.py",
+      "upstream_sha256": "850cb413b4355c0df65113d1f0a623fc813940a8f14578fdd39a1c20ded2d951",
+      "vendored_sha256": "649cede9019dd9397de2b773797ee7a37b860c71cfea41a09e41b3193f527007",
+      "modifications": [
+        "Import streaming convolution helpers from the vendored package."
+      ]
+    },
+    {
+      "upstream_path": "stream/modules/convolution.py",
+      "local_path": "convolution.py",
+      "upstream_sha256": "28465f8a160b8484548ec2e2d8319d5b0650f45079f5abf9d41a8cb15ce2fdf4",
+      "vendored_sha256": "28465f8a160b8484548ec2e2d8319d5b0650f45079f5abf9d41a8cb15ce2fdf4",
+      "modifications": []
+    },
+    {
+      "upstream_path": "stream/modules/convert.py",
+      "local_path": "convert.py",
+      "upstream_sha256": "dbff3a360a720f11fca0b4a4f8bc6bdb3ebb712fa617dfe37df8b31a9c5a586e",
+      "vendored_sha256": "dbff3a360a720f11fca0b4a4f8bc6bdb3ebb712fa617dfe37df8b31a9c5a586e",
+      "modifications": []
+    },
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "LICENSE",
+      "upstream_sha256": "c467165e5860b4a7494ef4a6e2788e4115d95b5b8989bb5f86287089adddf794",
+      "vendored_sha256": "c467165e5860b4a7494ef4a6e2788e4115d95b5b8989bb5f86287089adddf794",
+      "modifications": []
+    }
+  ],
+  "adapter_changes": "The network operators are preserved. The outer adapter uses causal zero-padded FFT512/hop256 framing and exact-length overlap-add instead of the upstream inference script's centered reflect-padding. Training loss/data recipe are defined separately in our experiment configuration."
+}

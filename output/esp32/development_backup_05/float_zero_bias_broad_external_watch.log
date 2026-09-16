@@ -1,0 +1,4 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad", "epoch": 9, "si_sdri": 5.55398939177208}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad", "epoch": 14, "si_sdri": 5.855540515866505}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad", "epoch": 19, "si_sdri": 5.941089237634397}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_zero_bias_broad", "epoch": 20, "si_sdri": 5.932568262986546}

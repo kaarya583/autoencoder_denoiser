@@ -1,0 +1,42 @@
+{
+  "steps": 8,
+  "losses": [
+    9.735670395087588,
+    9.0587707954175,
+    6.760320828523241,
+    4.782690574784514,
+    1.1880660726062178,
+    1.6061565190006628,
+    1.2081969409139206,
+    0.5539370220051129
+  ],
+  "finite_gradients": true,
+  "elapsed_seconds": 16.608330682000087,
+  "stats": {
+    "precision": "float-only; INT8 QAT/export/runtime are not implemented",
+    "learned_parameters": 23669,
+    "fixed_erb_parameters": 24576,
+    "total_parameters_including_fixed": 48245,
+    "learned_parameter_bytes_float32": 94676,
+    "fixed_erb_bytes_float32": 98304,
+    "state_dict_bytes": 197524,
+    "fixed_erb_shape": [
+      64,
+      192
+    ],
+    "fixed_erb_nonzero_values_one_direction": 382,
+    "fixed_erb_transpose_duplicate": true,
+    "macs_per_second": 33000000,
+    "macs_status": "published upstream accounting; not measured MCU cycles or an INT8 runtime",
+    "context_frames": null,
+    "temporal_context": "causal recurrent history; intra-frame bidirectional frequency GRUs",
+    "neural_state_elements": 18048,
+    "neural_state_bytes_float32": 72192,
+    "audio_overlap_state_bytes_float32": 3072,
+    "state_scope": "batch1 persistent state only; activations, weight snapshot and FFT scratch excluded",
+    "packed_bytes_status": "unavailable; no integer exporter",
+    "upstream_revision": "502ebfab64da7c4a9af78dcb9c6ceef1ebb01c73",
+    "framing": "causal_zero_overlap_v1",
+    "constructor_initialization": "fresh; the adapter does not load pretrained weights"
+  }
+}

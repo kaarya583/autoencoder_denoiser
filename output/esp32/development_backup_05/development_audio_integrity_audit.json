@@ -1,0 +1,23 @@
+[
+  {
+    "manifest": "/content/voicebank/manifests/val.jsonl",
+    "sha256": "c1e0ccf95766f1542da3e8eebc1cf33107ca6ecf3ccf59c7a2d8078c171f5668",
+    "rows": 770,
+    "exact_lengths_verified": true,
+    "audio_hashes_verified": 0
+  },
+  {
+    "manifest": "/content/extra_audio/development/mixtures.jsonl",
+    "sha256": "b82497d1febcfba26e1449ac57596e8f6983071e82d48482a1d6de00a5a84742",
+    "rows": 500,
+    "exact_lengths_verified": true,
+    "audio_hashes_verified": 1000
+  },
+  {
+    "manifest": "/content/extra_audio/development/clean.jsonl",
+    "sha256": "5095c806d052665f14ca8c2ca8789caaf6020c425e80f8daae752fcd4db6c808",
+    "rows": 100,
+    "exact_lengths_verified": true,
+    "audio_hashes_verified": 200
+  }
+]

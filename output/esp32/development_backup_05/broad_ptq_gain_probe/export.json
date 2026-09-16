@@ -1,0 +1,13 @@
+{
+  "format": "EDNSI8-v2",
+  "dsp_version": 2,
+  "source_sha256": "50ebbb78f5834f8ec20051f2d6bfb5aebda7d994bdd7b54c2179c6b0d885525e",
+  "model_sha256": "7938f862413bb42e7aa221c0f949d0432a0e879f0e6077d98e2d35d9e8f3b062",
+  "model_bytes": 94484,
+  "previous_output_gain": 1.0,
+  "output_gain": 0.7415905594825745,
+  "neural_weights_and_state_unchanged": true,
+  "scope": "float32 external DSP multiply after overlap-add, before PCM16 output conversion",
+  "calibration_sha256": "ceb6dc193b6ed0dafe71a5085a66ebe9c484f4ea7e3cfa2a3460dd5b86a7b1b5",
+  "source_bundle_sha256": "c4acc2155adc62cdfbb42fe904a5502361d1c1260dfabb60860c6aeb82815fef"
+}

@@ -1,0 +1,1324 @@
+{
+  "version": 1,
+  "method": "equal-utterance reference-RMS-normalized least squares on clean training inputs",
+  "output_gain": 0.3339764696311776,
+  "teacher_checkpoint_sha256": "c786337a634d3210d0a6a2d05df3e3280913d4e22c5bf6da3ec7faf3ada38da9",
+  "teacher_manifest_sha256": {
+    "train": "c0b9ea9aa7b13d30aadd30f76274f6b2f932d802ae85c55426c2c3e13a4a247c",
+    "val": "c1e0ccf95766f1542da3e8eebc1cf33107ca6ecf3ccf59c7a2d8078c171f5668"
+  },
+  "training_sources": {
+    "paired_train": {
+      "manifest": "/content/voicebank/manifests/train.jsonl",
+      "manifest_sha256": "c0b9ea9aa7b13d30aadd30f76274f6b2f932d802ae85c55426c2c3e13a4a247c"
+    },
+    "speech_train": {
+      "manifest": "/content/extra_audio/manifests/speech_train.jsonl",
+      "manifest_sha256": "24acf8d2789c019fb966b39754bd71376e016b4d1169cd611031f94271d7ac77"
+    }
+  },
+  "sampling": {
+    "examples_per_source": 64,
+    "crop_seconds": 3,
+    "batch_size": 8,
+    "seed": 2026,
+    "sample_rate": 16000,
+    "selection": "distinct training recordings; one random clean crop each; no augmentation"
+  },
+  "fit": {
+    "cross_sum": 382.02499120433254,
+    "estimate_energy_sum": 1143.8679845505783,
+    "reference_energy_sum": 128.0,
+    "valid_examples": 128,
+    "silent_examples": 0
+  },
+  "selected_examples": [
+    {
+      "source": "paired_train",
+      "id": "p268_205",
+      "speaker": "p268",
+      "path": "/content/voicebank/audio_16000_hf/clean/p268_205_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "6e1c281ac2519a2c8ace465bfd3558159af65e05bcfd2c680126efb55042bdaa",
+      "offset": 2486,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p256_219",
+      "speaker": "p256",
+      "path": "/content/voicebank/audio_16000_hf/clean/p256_219_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "71cd54bf4e9ba70efc47f220de5b75f6dfa116f12df6d836108e10dfb55b6bb8",
+      "offset": 0,
+      "samples": 36480,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p277_439",
+      "speaker": "p277",
+      "path": "/content/voicebank/audio_16000_hf/clean/p277_439_b880534f3768c251d55d.wav",
+      "audio_sha256": "707812e6733a3da254a65c7337f5f29614547f151bd6add00a07768f7db72e4d",
+      "offset": 0,
+      "samples": 27371,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p227_293",
+      "speaker": "p227",
+      "path": "/content/voicebank/audio_16000_hf/clean/p227_293_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "9c3e66423f54c0bc7d122b3f52f044544f285a331ca931fe8518d84e7ed12f69",
+      "offset": 3062,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p233_348",
+      "speaker": "p233",
+      "path": "/content/voicebank/audio_16000_hf/clean/p233_348_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "ec8d2a8ecfbdd2f0a68d43d4488585baa0339028026aa43597bf9ad4ca22867a",
+      "offset": 0,
+      "samples": 45771,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p277_098",
+      "speaker": "p277",
+      "path": "/content/voicebank/audio_16000_hf/clean/p277_098_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "949ab22ba59453a5982b8f7ac124901e13f7783f8561dd7f9f175f7cff0bfdcf",
+      "offset": 0,
+      "samples": 38080,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p256_036",
+      "speaker": "p256",
+      "path": "/content/voicebank/audio_16000_hf/clean/p256_036_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "ab0680723c4dc04339dcd4fcff01a348d5104cb557614f76af7a1d066ac83684",
+      "offset": 20555,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p277_161",
+      "speaker": "p277",
+      "path": "/content/voicebank/audio_16000_hf/clean/p277_161_b880534f3768c251d55d.wav",
+      "audio_sha256": "dfc21de4e18568f40903bc2cd6ff71a45f4e39e9cbd0cb2fab829e64e120918f",
+      "offset": 0,
+      "samples": 29191,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p250_238",
+      "speaker": "p250",
+      "path": "/content/voicebank/audio_16000_hf/clean/p250_238_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "92ee0372747e5cba811f5ebd81ef9a664cfb41efcfc7b3b7742802007211b2cc",
+      "offset": 0,
+      "samples": 35938,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p258_028",
+      "speaker": "p258",
+      "path": "/content/voicebank/audio_16000_hf/clean/p258_028_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "08ddcb129aaeaf889f0fb60c4fbf658d448c30e5f339a3e95a6b3ff1f3432df2",
+      "offset": 0,
+      "samples": 27168,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p227_141",
+      "speaker": "p227",
+      "path": "/content/voicebank/audio_16000_hf/clean/p227_141_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "14e697836c9613a14a54faf6e86b5a81656471100e969fde6f55a121cba88a62",
+      "offset": 0,
+      "samples": 34071,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p258_229",
+      "speaker": "p258",
+      "path": "/content/voicebank/audio_16000_hf/clean/p258_229_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "4e6c7b26f620b8133d6530b281bb170de4cb30bc57bfe96add104c20a9627dc2",
+      "offset": 0,
+      "samples": 33491,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p258_093",
+      "speaker": "p258",
+      "path": "/content/voicebank/audio_16000_hf/clean/p258_093_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "26f8af9e795634366d5a48371f5b515aa5cb725899d3e67769bec1a96081a701",
+      "offset": 0,
+      "samples": 35941,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p279_101",
+      "speaker": "p279",
+      "path": "/content/voicebank/audio_16000_hf/clean/p279_101_b880534f3768c251d55d.wav",
+      "audio_sha256": "49165a7d3af5396e498264e90d2ef13bc35b0757c8baf655f4853a89b0e9608a",
+      "offset": 1337,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p233_110",
+      "speaker": "p233",
+      "path": "/content/voicebank/audio_16000_hf/clean/p233_110_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "996b94270da49ea0da4d953ba93aec6c3de60742f9d2208e3c0b017e93f07041",
+      "offset": 0,
+      "samples": 46234,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p274_214",
+      "speaker": "p274",
+      "path": "/content/voicebank/audio_16000_hf/clean/p274_214_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "f4660c1be8d16a6d199a5301317b5ed61fa0577db10702e6806a686ad8c7134e",
+      "offset": 1204,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p230_253",
+      "speaker": "p230",
+      "path": "/content/voicebank/audio_16000_hf/clean/p230_253_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "31e14d7bb695197d03d297f81d94e1cd7189b2229e4aaec25ef39d95822fa1bd",
+      "offset": 739,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p269_224",
+      "speaker": "p269",
+      "path": "/content/voicebank/audio_16000_hf/clean/p269_224_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "4663285fefef277c0afaa8cea6f8752b13e99551246b142f5a80893f630cabc9",
+      "offset": 0,
+      "samples": 25158,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p279_270",
+      "speaker": "p279",
+      "path": "/content/voicebank/audio_16000_hf/clean/p279_270_b880534f3768c251d55d.wav",
+      "audio_sha256": "f1977bb0e5e93bcc02b80b7c8930971c7e4611748737fb5fe16bb5ae636c3a8e",
+      "offset": 0,
+      "samples": 41440,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p244_319",
+      "speaker": "p244",
+      "path": "/content/voicebank/audio_16000_hf/clean/p244_319_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "30a8a36fab043c52636caa002d8a7998a48a650c6bfe7e640cdd8e680a3f3089",
+      "offset": 0,
+      "samples": 37164,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p277_140",
+      "speaker": "p277",
+      "path": "/content/voicebank/audio_16000_hf/clean/p277_140_b880534f3768c251d55d.wav",
+      "audio_sha256": "061de61fa064b62ab36eb5f6e30d46ea893298b517bcc6f261f77bbca26380a5",
+      "offset": 1590,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p256_089",
+      "speaker": "p256",
+      "path": "/content/voicebank/audio_16000_hf/clean/p256_089_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "adff9fb37e267e213eb7d09d666edee0d75b0d3177d9404fb0acfb1c0b1492d8",
+      "offset": 0,
+      "samples": 36320,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p243_094",
+      "speaker": "p243",
+      "path": "/content/voicebank/audio_16000_hf/clean/p243_094_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "ea1b9836852fec6de23d7af91509a3bff6b041581c17391725b216bba3c23578",
+      "offset": 2837,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p231_459",
+      "speaker": "p231",
+      "path": "/content/voicebank/audio_16000_hf/clean/p231_459_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "15b7d94cd4b4b70c5b1d16e0ce3217f7fbe3244e00eda7c626966196795739fa",
+      "offset": 0,
+      "samples": 34944,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p250_065",
+      "speaker": "p250",
+      "path": "/content/voicebank/audio_16000_hf/clean/p250_065_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "a78a7bdb958f480a51f4c45411e923c9f0e81d0d33c1c44093ac56b82eefa9e1",
+      "offset": 0,
+      "samples": 27871,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p286_454",
+      "speaker": "p286",
+      "path": "/content/voicebank/audio_16000_hf/clean/p286_454_b880534f3768c251d55d.wav",
+      "audio_sha256": "0cb0be35a78923c401637db2f0ee6fa21fbdb0c273e00a26d2d07af53d2b00f7",
+      "offset": 1442,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p278_007",
+      "speaker": "p278",
+      "path": "/content/voicebank/audio_16000_hf/clean/p278_007_b880534f3768c251d55d.wav",
+      "audio_sha256": "e437a117c9f0b0ca39a99d8e555dca480fa8db0f144c318b4aa2285398b21e74",
+      "offset": 18395,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p243_296",
+      "speaker": "p243",
+      "path": "/content/voicebank/audio_16000_hf/clean/p243_296_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "d930f60ff9a79d72177e59543514f85c8d89b9ffc053eaf87a76a53103608ce9",
+      "offset": 7476,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p258_097",
+      "speaker": "p258",
+      "path": "/content/voicebank/audio_16000_hf/clean/p258_097_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "b9e27813f3a0f8de3159f3190557941787955f3b46ea30673e59efe724e2045a",
+      "offset": 0,
+      "samples": 36494,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p259_213",
+      "speaker": "p259",
+      "path": "/content/voicebank/audio_16000_hf/clean/p259_213_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "ca862e44df678915641de0f66dd37f586b669b9ee15dced0fb9040e260fd102b",
+      "offset": 0,
+      "samples": 29500,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p286_457",
+      "speaker": "p286",
+      "path": "/content/voicebank/audio_16000_hf/clean/p286_457_b880534f3768c251d55d.wav",
+      "audio_sha256": "1139aa20651db8b6d6adb37e1d8259f413a429da8412bf30dd11db5138a8c958",
+      "offset": 0,
+      "samples": 32544,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p259_337",
+      "speaker": "p259",
+      "path": "/content/voicebank/audio_16000_hf/clean/p259_337_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "75cfc7dae96c54561428e889ea6278bfdb62c15c06dce8206a83f283ff909674",
+      "offset": 0,
+      "samples": 41010,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p230_118",
+      "speaker": "p230",
+      "path": "/content/voicebank/audio_16000_hf/clean/p230_118_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "868098b231f814ba1503998f765f2dc03ce78910686c8ecd40ec8d3244a1241c",
+      "offset": 3033,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p250_194",
+      "speaker": "p250",
+      "path": "/content/voicebank/audio_16000_hf/clean/p250_194_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "8b5489e9e12500ba635dc65e2fe7c0d0e0a8cf45f3b5db9acbf6020ae1ca6030",
+      "offset": 0,
+      "samples": 29972,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p286_074",
+      "speaker": "p286",
+      "path": "/content/voicebank/audio_16000_hf/clean/p286_074_b880534f3768c251d55d.wav",
+      "audio_sha256": "838a416e2efd5f91933b56c65ca16bbcd64837f394225186dcd3899bc43b04ac",
+      "offset": 159,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p236_493",
+      "speaker": "p236",
+      "path": "/content/voicebank/audio_16000_hf/clean/p236_493_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "df43950e29ffe4a8bd922883e13c66d51cb92451827e87071e727de9eaf65e4c",
+      "offset": 0,
+      "samples": 40453,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p282_103",
+      "speaker": "p282",
+      "path": "/content/voicebank/audio_16000_hf/clean/p282_103_b880534f3768c251d55d.wav",
+      "audio_sha256": "7328c39d7ab05e67d083cae8c63bac6b9b90e516f1ae3163ad24023f71514940",
+      "offset": 0,
+      "samples": 33566,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p270_143",
+      "speaker": "p270",
+      "path": "/content/voicebank/audio_16000_hf/clean/p270_143_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "2a5056cd63cf796b3173305a6bb3bf27f8231c27ddbab06c70afc66fb67136a2",
+      "offset": 0,
+      "samples": 29673,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p269_297",
+      "speaker": "p269",
+      "path": "/content/voicebank/audio_16000_hf/clean/p269_297_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "ef59d69367a57670d1f4b06df382e5772180391fa5d25faa92bcd7824297cab6",
+      "offset": 169,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p270_002",
+      "speaker": "p270",
+      "path": "/content/voicebank/audio_16000_hf/clean/p270_002_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "625b16742dcb5571ba199d30c9b721e2c924b83616d570a76d888d2646dc5042",
+      "offset": 12255,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p231_137",
+      "speaker": "p231",
+      "path": "/content/voicebank/audio_16000_hf/clean/p231_137_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "647671f3b818a12ad11c30b327cd1ca93784eba3db7ae0dbe8746e89b4d1dad4",
+      "offset": 0,
+      "samples": 38218,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p250_180",
+      "speaker": "p250",
+      "path": "/content/voicebank/audio_16000_hf/clean/p250_180_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "3c8f5e2dd4985c10bb9c8ae6701fa41d06f755d844ba9b9674c9839cdeed3089",
+      "offset": 0,
+      "samples": 41189,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p276_149",
+      "speaker": "p276",
+      "path": "/content/voicebank/audio_16000_hf/clean/p276_149_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "821029aa23226de4c6341d7b8c6fda1fbe90d916551c227d758b7b18b760c7b0",
+      "offset": 0,
+      "samples": 35149,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p269_253",
+      "speaker": "p269",
+      "path": "/content/voicebank/audio_16000_hf/clean/p269_253_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "6ffacc7f6e57367d09fd92a02de8fa1b260172d387b0ca16b14af4801028a943",
+      "offset": 5685,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p273_290",
+      "speaker": "p273",
+      "path": "/content/voicebank/audio_16000_hf/clean/p273_290_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "18b7e21e711c4aff70a81d5fbc85715293485ff2c0dfac70e846487d734ac038",
+      "offset": 3390,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p230_330",
+      "speaker": "p230",
+      "path": "/content/voicebank/audio_16000_hf/clean/p230_330_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "99ef674306e50e202cd72b944c270e5ea3d10041df485d4982db67f074e911b9",
+      "offset": 0,
+      "samples": 44551,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p244_190",
+      "speaker": "p244",
+      "path": "/content/voicebank/audio_16000_hf/clean/p244_190_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "683c72c1e350c1eada1972b4f1f4a5aebfd2b06d0ad30cf674d4da0388424541",
+      "offset": 0,
+      "samples": 46458,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p243_265",
+      "speaker": "p243",
+      "path": "/content/voicebank/audio_16000_hf/clean/p243_265_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "0634a9f2556c2895b33a8d48d3e741cb2bd44d37673e446e6570189d98b37f14",
+      "offset": 1003,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p233_334",
+      "speaker": "p233",
+      "path": "/content/voicebank/audio_16000_hf/clean/p233_334_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "16f7455ebbe3757b30db27d2a8a7c371d6b7f9c691aefd8ff1c28819364463ec",
+      "offset": 9127,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p277_373",
+      "speaker": "p277",
+      "path": "/content/voicebank/audio_16000_hf/clean/p277_373_b880534f3768c251d55d.wav",
+      "audio_sha256": "4e939e5ffe3b8b12d2a93bc199de045c922834c230f20b5de134c057c5529e82",
+      "offset": 427,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p270_132",
+      "speaker": "p270",
+      "path": "/content/voicebank/audio_16000_hf/clean/p270_132_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "b1932b1ec82cb4a89d2b634e9a5d42a57fb7a6b90a4a29d53e159e03ec5bac19",
+      "offset": 0,
+      "samples": 30048,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p286_060",
+      "speaker": "p286",
+      "path": "/content/voicebank/audio_16000_hf/clean/p286_060_b880534f3768c251d55d.wav",
+      "audio_sha256": "abf931481870db09c1ba1a63122f6f3be220a408bbdebc4c9469591cc21f505d",
+      "offset": 3681,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p273_372",
+      "speaker": "p273",
+      "path": "/content/voicebank/audio_16000_hf/clean/p273_372_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "00c825ecdc4188fd971ed1ea1738c7eeef55b9a2f773abd45f8e7ecc93f7443d",
+      "offset": 0,
+      "samples": 44051,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p278_223",
+      "speaker": "p278",
+      "path": "/content/voicebank/audio_16000_hf/clean/p278_223_b880534f3768c251d55d.wav",
+      "audio_sha256": "89b9dbd63c7e3deabe28e3c10cb5633ed8a7ffcfad682323f7d04325b3cfd5ab",
+      "offset": 0,
+      "samples": 40621,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p269_323",
+      "speaker": "p269",
+      "path": "/content/voicebank/audio_16000_hf/clean/p269_323_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "3a69d2cdde9a82fb8631e15999b423140e4b4778fd80e6bf052763a16b6ecf4f",
+      "offset": 18439,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p239_474",
+      "speaker": "p239",
+      "path": "/content/voicebank/audio_16000_hf/clean/p239_474_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "708c452b777afe16ad64f0f6c406e01b3928dcbd709f7ade53d91674b24cac20",
+      "offset": 8813,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p236_158",
+      "speaker": "p236",
+      "path": "/content/voicebank/audio_16000_hf/clean/p236_158_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "2f8060575a301f00c3333f2f1aff178fe31c85462c2c7062ef0cdc9749c5b9c8",
+      "offset": 0,
+      "samples": 32808,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p268_289",
+      "speaker": "p268",
+      "path": "/content/voicebank/audio_16000_hf/clean/p268_289_9bb782c65d96d7aaf696.wav",
+      "audio_sha256": "ca5e931e6ab3b8a2035cef119d65857700301295381e8bd2cc7a59386961187b",
+      "offset": 0,
+      "samples": 31368,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p233_200",
+      "speaker": "p233",
+      "path": "/content/voicebank/audio_16000_hf/clean/p233_200_2cd94a8ac239d64e9dd5.wav",
+      "audio_sha256": "c2629f80ce866f7524d1362c9f444266dc8c42bf783cd468dbfc77fa7488a95a",
+      "offset": 0,
+      "samples": 38231,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p273_105",
+      "speaker": "p273",
+      "path": "/content/voicebank/audio_16000_hf/clean/p273_105_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "51977ff4b772eb01b57a06ed39b88cb230cae0da6e3bb16673d4b306d36b912a",
+      "offset": 0,
+      "samples": 28974,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p243_048",
+      "speaker": "p243",
+      "path": "/content/voicebank/audio_16000_hf/clean/p243_048_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "5b21e33c82eb72f9dad9f923295e11035ee3ae9d15217fa354c9f8916b27f342",
+      "offset": 0,
+      "samples": 44480,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p270_047",
+      "speaker": "p270",
+      "path": "/content/voicebank/audio_16000_hf/clean/p270_047_783f953a5cb9d19e5a52.wav",
+      "audio_sha256": "1f4317d73d99e7d89d586318338a3f3b042e4becc598e50395c43ff623d44772",
+      "offset": 0,
+      "samples": 43755,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p286_350",
+      "speaker": "p286",
+      "path": "/content/voicebank/audio_16000_hf/clean/p286_350_b880534f3768c251d55d.wav",
+      "audio_sha256": "55d297af9c0f4fac5371996f17a1be18a2ba35b4f5353155ea7b44077414557d",
+      "offset": 0,
+      "samples": 25233,
+      "included": true
+    },
+    {
+      "source": "paired_train",
+      "id": "p236_314",
+      "speaker": "p236",
+      "path": "/content/voicebank/audio_16000_hf/clean/p236_314_d0b1a8750373d8413fd9.wav",
+      "audio_sha256": "48b3842933b24dd7c60ad1fd203d09e7ce5cd1af4ea57c7b79bf161e169d4662",
+      "offset": 0,
+      "samples": 36087,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:4297-13006-0004",
+      "speaker": "4297",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/4297/13006/4297-13006-0004.flac",
+      "audio_sha256": "bb611afae8347835769440c56564a486b0bbc96773ca02fa8e90d414c83c9e86",
+      "offset": 69637,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1183-133256-0018",
+      "speaker": "1183",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1183/133256/1183-133256-0018.flac",
+      "audio_sha256": "81e27a1c693341f110135a0d99393b96489545f27c283dd5b0a1a6da4dfa6fb5",
+      "offset": 27820,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:4859-22176-0016",
+      "speaker": "4859",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/4859/22176/4859-22176-0016.flac",
+      "audio_sha256": "1c3d0198c86b0f42e5c2202ff92e1f2141fe66d4b23d7c8760782c5d8ca77eea",
+      "offset": 147072,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8098-278278-0002",
+      "speaker": "8098",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8098/278278/8098-278278-0002.flac",
+      "audio_sha256": "98f3086e15c7d8d5957bc68f3ddf3a259d8990414f8c2b391218444a35d3ce0b",
+      "offset": 99378,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:7067-76047-0023",
+      "speaker": "7067",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/7067/76047/7067-76047-0023.flac",
+      "audio_sha256": "633ac84a40513e4679f4530c02017930fb33b557dc8a01565559ad1b0fa461a8",
+      "offset": 118704,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8312-279791-0027",
+      "speaker": "8312",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8312/279791/8312-279791-0027.flac",
+      "audio_sha256": "cbe7c9c7b532b982a4d8ef64d8edbcf576e902034be3eef38a59a4e29d80b344",
+      "offset": 107288,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1737-148989-0016",
+      "speaker": "1737",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1737/148989/1737-148989-0016.flac",
+      "audio_sha256": "371097cefeb1d8c4eb1563d1de54d5bdbba4782508111c5224399e540204af43",
+      "offset": 66251,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:587-41611-0027",
+      "speaker": "587",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/587/41611/587-41611-0027.flac",
+      "audio_sha256": "18870e99574bc8668044640a3e8676435f2e42929506528486999f4afd8966d8",
+      "offset": 22866,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8975-270782-0056",
+      "speaker": "8975",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8975/270782/8975-270782-0056.flac",
+      "audio_sha256": "c6f08ef35014b91917f3b659ff1afafbdc0986c612f3d12c8c7fb73c30e28634",
+      "offset": 14130,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8630-305212-0040",
+      "speaker": "8630",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8630/305212/8630-305212-0040.flac",
+      "audio_sha256": "f45430809c99db26377738bd98118d4dfe95852c5be132377567b1b5a44f2501",
+      "offset": 437,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1737-142396-0022",
+      "speaker": "1737",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1737/142396/1737-142396-0022.flac",
+      "audio_sha256": "c2b7599388f06f2613732dfb48a99d205f3bc173a2d1aeb102a29e1f76fcbb77",
+      "offset": 58210,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5390-24512-0011",
+      "speaker": "5390",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5390/24512/5390-24512-0011.flac",
+      "audio_sha256": "ce36cb8eee3b5eca48327ec73838dc27682692b0a1f71b705591e6c41dae3c83",
+      "offset": 27636,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:3259-158083-0099",
+      "speaker": "3259",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/3259/158083/3259-158083-0099.flac",
+      "audio_sha256": "7a777fc90850ba31a4aac3d1647bf8d37e830cbb7c54514586bb7e214aff0646",
+      "offset": 155,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1098-133695-0057",
+      "speaker": "1098",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1098/133695/1098-133695-0057.flac",
+      "audio_sha256": "7b59d6cc2469553df7d0abd5118faa07487a47a89772ec6a320fd685b2a764c9",
+      "offset": 49793,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1455-134435-0063",
+      "speaker": "1455",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1455/134435/1455-134435-0063.flac",
+      "audio_sha256": "c4340186cd5cbb80828fd1a79645e70923bf58fe7912fe859de4d5b0261e45a5",
+      "offset": 29343,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1363-139304-0030",
+      "speaker": "1363",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1363/139304/1363-139304-0030.flac",
+      "audio_sha256": "dd83f3fc96570bd974c4a78ecd8683e53b648a3e6e21a69b05e3e626995e6534",
+      "offset": 8709,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8312-279791-0043",
+      "speaker": "8312",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8312/279791/8312-279791-0043.flac",
+      "audio_sha256": "7535d3d376053b46cec5581685638bddd10eb21fb1328f71733804aa7e8f109c",
+      "offset": 23791,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:4160-11549-0020",
+      "speaker": "4160",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/4160/11549/4160-11549-0020.flac",
+      "audio_sha256": "a4b817264dbc70d5b002e3e1ff87e855dbd4af2d0f9a751a77f14df4caf3ed00",
+      "offset": 135612,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8797-294123-0098",
+      "speaker": "8797",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8797/294123/8797-294123-0098.flac",
+      "audio_sha256": "b93e1ba87c5559496bfac988121241e2661bbc6d54485d867ae37ad239c50f1b",
+      "offset": 68418,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:7302-86814-0019",
+      "speaker": "7302",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/7302/86814/7302-86814-0019.flac",
+      "audio_sha256": "52e6a070b3645a79a9a6a21f72d227ad5aceff07ac5fa09e30a5520a32bee77e",
+      "offset": 117531,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5022-29405-0029",
+      "speaker": "5022",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5022/29405/5022-29405-0029.flac",
+      "audio_sha256": "abfa31841e554e27a0a63c55e4ad4e9141d45651819a7cc9665f3d8dcd6b5a5e",
+      "offset": 21941,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8580-287363-0024",
+      "speaker": "8580",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8580/287363/8580-287363-0024.flac",
+      "audio_sha256": "22a90c1ef50dcd25a5d3b951e0b9dd8118ae5e7aebc81d4e396286cc0250fe0f",
+      "offset": 131039,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:7190-90542-0002",
+      "speaker": "7190",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/7190/90542/7190-90542-0002.flac",
+      "audio_sha256": "a32b307722e33296de92145863e6423d15a5401fc058f975516c4f3d7c2fa7ee",
+      "offset": 45680,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:6531-61334-0023",
+      "speaker": "6531",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/6531/61334/6531-61334-0023.flac",
+      "audio_sha256": "822c5ef54351fe0ffaa7f49b2126b34fa76a4298cc22c7bbbf2aaad3ce75f5e8",
+      "offset": 10561,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2691-156750-0026",
+      "speaker": "2691",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2691/156750/2691-156750-0026.flac",
+      "audio_sha256": "6ef45122421f9d14d58060ffbb3c613f949432f4a650d6c9b33747a97a776af8",
+      "offset": 131536,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2196-174172-0009",
+      "speaker": "2196",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2196/174172/2196-174172-0009.flac",
+      "audio_sha256": "d90fd61ba5a43598bba3f96b7ab9eedecabb2ae27ca1a858221a3bd146a2ba69",
+      "offset": 52584,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:7178-34644-0066",
+      "speaker": "7178",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/7178/34644/7178-34644-0066.flac",
+      "audio_sha256": "088d786416bbcb27a581fc08dd853d2912e1c2a3b28be7117a743b153db5f492",
+      "offset": 51362,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:311-124404-0092",
+      "speaker": "311",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/311/124404/311-124404-0092.flac",
+      "audio_sha256": "0026fbf58ea872895f6f622fd617b909db5fd50f26d99cd39ac42148dd6d6b33",
+      "offset": 5184,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:289-121652-0027",
+      "speaker": "289",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/289/121652/289-121652-0027.flac",
+      "audio_sha256": "fe84488d4396ff94ea554efdbbf6064c4b745afcfa16f3adc4597f59e224cdc4",
+      "offset": 95055,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5456-62043-0005",
+      "speaker": "5456",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5456/62043/5456-62043-0005.flac",
+      "audio_sha256": "c620d69d82cabdd1e37f166a152a44cf4da444209539fb6d8f6c05d503154946",
+      "offset": 40435,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:481-123719-0021",
+      "speaker": "481",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/481/123719/481-123719-0021.flac",
+      "audio_sha256": "ab401828f3ed47fdb3d3f032a541e180557223b05f873d2596b6d092a81d0ee3",
+      "offset": 27236,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2764-36619-0031",
+      "speaker": "2764",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2764/36619/2764-36619-0031.flac",
+      "audio_sha256": "a2fb69bc822d12a6896ead519345deca5a88fc566fca3e16f6eedbdf73f96b56",
+      "offset": 90385,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2989-138028-0060",
+      "speaker": "2989",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2989/138028/2989-138028-0060.flac",
+      "audio_sha256": "d186c8e1f822dd1283c1218ac6756441ca1214e049cd27ad6591634893c63580",
+      "offset": 65088,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5339-14134-0018",
+      "speaker": "5339",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5339/14134/5339-14134-0018.flac",
+      "audio_sha256": "b069205baad766497eb6fd2967bf380a2fc429d85c2ecc67941f5d3f72fd315e",
+      "offset": 29947,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2989-138035-0070",
+      "speaker": "2989",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2989/138035/2989-138035-0070.flac",
+      "audio_sha256": "7d29f94efd6f33479bdaba7abfde87f195789b0d3e4391bfdfcdd496fcce9537",
+      "offset": 26838,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:4195-186238-0022",
+      "speaker": "4195",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/4195/186238/4195-186238-0022.flac",
+      "audio_sha256": "b93ced57e3b106e4a51fbd4daa463bfabdf864ab9b70c014dbccfbe6acffe0cb",
+      "offset": 49956,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:4830-25898-0029",
+      "speaker": "4830",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/4830/25898/4830-25898-0029.flac",
+      "audio_sha256": "897212d47fd1373f63c6e1ad9fd010d1cae2991cc71431ee751b8c9c3d57709e",
+      "offset": 107857,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5750-100289-0064",
+      "speaker": "5750",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5750/100289/5750-100289-0064.flac",
+      "audio_sha256": "e94a8ca6fe4e00813bc98c5dd62835a06923de28d0d00095b4de28fcf56a5627",
+      "offset": 51304,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:7780-274562-0075",
+      "speaker": "7780",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/7780/274562/7780-274562-0075.flac",
+      "audio_sha256": "851ea076f7f1f0dc5ad9618b800968ab59842f1c4a24fea7070dd30c3915721a",
+      "offset": 93285,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:7059-88364-0025",
+      "speaker": "7059",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/7059/88364/7059-88364-0025.flac",
+      "audio_sha256": "d43875b7a905ef9603ecd2e9e0c6dc2eb0c1ca38d813d93692005cf553ff0fd8",
+      "offset": 19917,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:311-124404-0080",
+      "speaker": "311",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/311/124404/311-124404-0080.flac",
+      "audio_sha256": "7bca1dbc8611867a6da803e07cc9224177cb8b9e6d4b0e4211683b26bd0bbdbd",
+      "offset": 4804,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:163-121908-0010",
+      "speaker": "163",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/163/121908/163-121908-0010.flac",
+      "audio_sha256": "8b7c738211add1863e870a7f4436fcc5811aa4bff6501af30b3e605ed71a0793",
+      "offset": 127270,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5339-14133-0037",
+      "speaker": "5339",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5339/14133/5339-14133-0037.flac",
+      "audio_sha256": "4010bc6736e90ee02054c0cdb8bd072230ae4b2a2d0ea49d4699cb1360c3e16b",
+      "offset": 97845,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1553-140048-0017",
+      "speaker": "1553",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1553/140048/1553-140048-0017.flac",
+      "audio_sha256": "9d520e2dd45d76b15f2fb23081936baabb652ae27a5b4a51df823aa645055109",
+      "offset": 109092,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2136-5147-0028",
+      "speaker": "2136",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2136/5147/2136-5147-0028.flac",
+      "audio_sha256": "9b0cadba98c2f64b2686d2fa4bbfe22a6e9b0d308888ed651203f7dcb66e9bfa",
+      "offset": 104383,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1081-125237-0023",
+      "speaker": "1081",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1081/125237/1081-125237-0023.flac",
+      "audio_sha256": "82f654e6e232fb471a3d2ede2e68d711112573a0d91182ab5c4b3ff4d8e0a6db",
+      "offset": 51007,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:3879-174923-0017",
+      "speaker": "3879",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/3879/174923/3879-174923-0017.flac",
+      "audio_sha256": "50a667e78f4dfe148bd9cb7e062ec7548b3ddd3fd433e33b3111d32588e6f6ab",
+      "offset": 2418,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1594-135914-0067",
+      "speaker": "1594",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1594/135914/1594-135914-0067.flac",
+      "audio_sha256": "74d38a097a86a7a3587d033087d104d077fe08730965e715b27166283db46c9b",
+      "offset": 31579,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:6064-300880-0020",
+      "speaker": "6064",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/6064/300880/6064-300880-0020.flac",
+      "audio_sha256": "5ba5c1af3cbcd709f6fd6501f621f476fa1a353c328910dab1bd2cff2b7137cf",
+      "offset": 45218,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:4340-15220-0003",
+      "speaker": "4340",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/4340/15220/4340-15220-0003.flac",
+      "audio_sha256": "11c25f6488d627b28673fe1730831e278404f11bc483ceebd56388c765286920",
+      "offset": 88453,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2952-407-0002",
+      "speaker": "2952",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2952/407/2952-407-0002.flac",
+      "audio_sha256": "954628691388773e15cb8b501a2db6b79adbb6b86173d0525927016865f0821f",
+      "offset": 170088,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:1455-138263-0033",
+      "speaker": "1455",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/1455/138263/1455-138263-0033.flac",
+      "audio_sha256": "6ce8cdb428c8651ba143a9dc6131a001854d3cee4ecde22d2eb8a641f6ae3adb",
+      "offset": 3727,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8468-294887-0003",
+      "speaker": "8468",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8468/294887/8468-294887-0003.flac",
+      "audio_sha256": "acf0fc0a4747870b6cb2f712f8c28f0954ec1675295f03aa5f446eee82593142",
+      "offset": 65576,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:32-21625-0002",
+      "speaker": "32",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/32/21625/32-21625-0002.flac",
+      "audio_sha256": "f14b60890588f60a7732316f4c7659439959a83b897c008796d8db9e12235c02",
+      "offset": 6875,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:2002-139469-0080",
+      "speaker": "2002",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/2002/139469/2002-139469-0080.flac",
+      "audio_sha256": "e89b8948b6db97cb63be2463805f7d87036b77d67103ab4ecc3a1463568174cb",
+      "offset": 8363,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:233-134440-0040",
+      "speaker": "233",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/233/134440/233-134440-0040.flac",
+      "audio_sha256": "57a290c50197ccbbc5f14b299fa4d4b798eecbcfd575dd09075e577ea1baf1f5",
+      "offset": 2535,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5390-30102-0016",
+      "speaker": "5390",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5390/30102/5390-30102-0016.flac",
+      "audio_sha256": "cad9904c8a100933155daef8ac0fb4a72eb6bf59fbbedb3547ef5f5842ca87a9",
+      "offset": 168515,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5561-41615-0026",
+      "speaker": "5561",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5561/41615/5561-41615-0026.flac",
+      "audio_sha256": "5749e89e1b1b444688b35c052943d1687e3dc98ef1b8636d5a0c328bc6cb39f2",
+      "offset": 114838,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:3486-166424-0065",
+      "speaker": "3486",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/3486/166424/3486-166424-0065.flac",
+      "audio_sha256": "5a5beac8a475415350db4c5967817cc5ecd316bdd70089e997e39dfa678c89ce",
+      "offset": 5410,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:198-129977-0025",
+      "speaker": "198",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/198/129977/198-129977-0025.flac",
+      "audio_sha256": "8e06c5fa7bcc79a85db445d27bb514c183cc98d714a0a0925298643c5d98ffba",
+      "offset": 117565,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:5104-33407-0004",
+      "speaker": "5104",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/5104/33407/5104-33407-0004.flac",
+      "audio_sha256": "7c425f653bb5855b5190cfcababebd17fd8d0eb6c666d5fc1eab3837dfedc007",
+      "offset": 21935,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:8425-287387-0009",
+      "speaker": "8425",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/8425/287387/8425-287387-0009.flac",
+      "audio_sha256": "5787c7d710140b4d507f80b6123a249ac65f4ce6f14b611784d8208db8e1b9e9",
+      "offset": 138594,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:198-209-0023",
+      "speaker": "198",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/198/209/198-209-0023.flac",
+      "audio_sha256": "db4f56197558e392aa399dc12c2a896643b0ab39774736a816e93f1b10f00173",
+      "offset": 99237,
+      "samples": 48000,
+      "included": true
+    },
+    {
+      "source": "speech_train",
+      "id": "librispeech:7178-34645-0002",
+      "speaker": "7178",
+      "path": "/content/extra_audio/sources/speech/LibriSpeech/train-clean-100/7178/34645/7178-34645-0002.flac",
+      "audio_sha256": "ca485f4b280d515c291b38ce2958ca30300b9c0dd13abd72d761a81dd46dfff7",
+      "offset": 59518,
+      "samples": 48000,
+      "included": true
+    }
+  ],
+  "diagnostics": {
+    "raw_mean_projection_gain": 2.984570243783847,
+    "corrected_mean_projection_gain": 0.9967762333851924,
+    "normalized_mse_before": 3.967328141733697,
+    "normalized_mse_after": 0.0032237666148074995
+  },
+  "scope": "Teacher training response correction only; no teacher weight change, student inference operation, or development-set fit"
+}

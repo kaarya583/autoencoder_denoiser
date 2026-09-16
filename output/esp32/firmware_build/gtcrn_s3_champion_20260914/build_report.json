@@ -1,0 +1,133 @@
+{
+  "status": "ESP32-S3 champion cross-compile/link and binary-bound host known answers passed",
+  "recorded_at_utc": "2026-09-14T19:23:17.636647+00:00",
+  "model": {
+    "model.bin": {
+      "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/model.bin",
+      "sha256": "dd9c1c83a44bea891fad7d47591578b57a4b3d0d54f2942a17e5402d4ca93e3f"
+    },
+    "model.pt": {
+      "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/model.pt",
+      "sha256": "cc27329996d70c634f712216d2fd09b3b999b6342eda617613f033d3b29828c6"
+    },
+    "model.calibration.json": {
+      "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/model.calibration.json",
+      "sha256": "aa9c19361f7379eec8a79f04b1b53711c82a7352663469795b576f5dc2a3ae40"
+    },
+    "evaluation.json": {
+      "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/evaluation.json",
+      "sha256": "79ab1bb985e7f5e9a759030ef960aa21f51bac7c43126ab2d2b8c3bf8c8bff35"
+    }
+  },
+  "toolchain": {
+    "sdk": "ESP-IDF5.4.2",
+    "dsp": "ESP-DSP1.8.2",
+    "target": "esp32s3",
+    "cpu_mhz": 240,
+    "psram": false,
+    "compiler": "xtensa-esp-elf-gcc (crosstool-NG esp-14.2.0_20241119) 14.2.0"
+  },
+  "packed_model": {
+    "bytes": 46768,
+    "sha256": "dd9c1c83a44bea891fad7d47591578b57a4b3d0d54f2942a17e5402d4ca93e3f",
+    "flash_address": "0x3c028f00",
+    "alignment_bytes": 16
+  },
+  "application_bin_bytes": 298576,
+  "factory_partition_bytes": 1048576,
+  "factory_partition_free_bytes": 750000,
+  "memory": {
+    "model_handle_bytes": 5784,
+    "neural_state_bytes": 18048,
+    "neural_workspace_bytes": 17536,
+    "audio_state_bytes": 12528,
+    "allocated_internal_arena_bytes": 53904,
+    "pcm_buffers_bytes": 1024,
+    "configured_main_task_stack_bytes": 8192,
+    "fft_bit_reversal_heap_request_bytes": 960,
+    "benchmark_timing_array_bytes": 4096,
+    "explicit_audio_reservations_bytes": 64080,
+    "explicit_benchmark_subtotal_bytes": 68176,
+    "whole_application_static_dram_writable_bytes": 18236,
+    "whole_application_static_rtc_bytes": 52
+  },
+  "target_sizeof": {
+    "graph": {
+      "sizeof(edng_model)": 1576,
+      "sizeof(edng_operator)": 20,
+      "sizeof(edng_workspace)": 17536,
+      "EDNG_NEURAL_STATE_BYTES": 18048
+    },
+    "affine": {
+      "sizeof(ednx_affine)": 96
+    },
+    "primitives": {
+      "sizeof(ednx_gru)": 52,
+      "sizeof(ednx_layer_norm)": 32
+    },
+    "audio": {
+      "sizeof(edng_audio)": 12496,
+      "__alignof__(edng_audio)": 16
+    },
+    "erb": {
+      "sizeof(ednx_erb)": 20
+    }
+  },
+  "linked_fft_symbols": {
+    "dsps_fft2r_fc32_aes3_": "0x4201bfd4",
+    "dsps_bit_rev_fc32_ansi": "0x4200e6bc"
+  },
+  "artifacts": {
+    "gtcrn_integer_benchmark.bin": {
+      "bytes": 298576,
+      "sha256": "54253c39a05edeb1395f35edba3aafcf4d0a1f69616046225db9bad36523e727"
+    },
+    "gtcrn_integer_benchmark.elf": {
+      "bytes": 4246192,
+      "sha256": "e7d78d6cccf503f2cc6d7bf4584eae5775830e0b9ad34a8bd3fef512d77152d6"
+    },
+    "gtcrn_integer_benchmark.map": {
+      "bytes": 2975523,
+      "sha256": "7662d89f07c0b1a16abb5fa57b7e3f578316eecaac4418a1f7f6f7847abee754"
+    },
+    "compile_commands.json": {
+      "bytes": 7423962,
+      "sha256": "c1d40a9ce43eb8a90dc5d3a60276893ead6a627b44f965a216b9788c0b530e2b"
+    },
+    "project_description.json": {
+      "bytes": 239545,
+      "sha256": "dd84c395fbee7193cc1ba3daa1d87a75ca2d742145ed33e8973debaa420fe810"
+    },
+    "flasher_args.json": {
+      "bytes": 937,
+      "sha256": "9a559e97435e8517084ee66d5730275f9223361b2c418a45d9db64341a8d6bc1"
+    },
+    "config/sdkconfig.json": {
+      "bytes": 53677,
+      "sha256": "da4add23d1a8c20cfa3574b93c57b5f62e52ee1ac53c28446cdae5ec318ddbd6"
+    },
+    "partition_table/partition-table.bin": {
+      "bytes": 3072,
+      "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+    },
+    "bootloader/bootloader.bin": {
+      "bytes": 21104,
+      "sha256": "a00ba84f23ec5d9c028098c2013a00fd878c8d01d7b9522608f13fb90d1a050d"
+    }
+  },
+  "validation": {
+    "original_source_files_unchanged": 104,
+    "embedded_blob_byte_exact": true,
+    "host_numpy_c_known_answer_frames": 12,
+    "all_masks_and_states_exact": true,
+    "board_flashed": false,
+    "on_device_known_answers_executed": false,
+    "latency_measured": false,
+    "packed_calibration_digest_verified": true,
+    "checkpoint_digest_verified": true,
+    "external_development_score": 9.202213762239209,
+    "scored_packed_digest_verified": true
+  },
+  "scope": "Current 9.2022137622 dB external-development champion; official test remains sealed. Scalar neural C, ESP-DSP FFT. Compile/link only; no MCU throughput claim.",
+  "memory_caveats": "Target sizeof plus explicit reservations; not observed heap/stack peaks. Whole-app static DRAM overlaps PCM/timing arrays. Excludes allocator headers, other RTOS/interrupt stacks, I2S/DMA/radio and system reservations. PCM float scratch is inside task stack. FFT960B request derives from existing ESP-DSP1.8.2; S3 twiddles are ROM-provided."
+}

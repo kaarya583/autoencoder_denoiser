@@ -1,0 +1,18 @@
+{
+  "model.bin": {
+    "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/model.bin",
+    "sha256": "dd9c1c83a44bea891fad7d47591578b57a4b3d0d54f2942a17e5402d4ca93e3f"
+  },
+  "model.pt": {
+    "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/model.pt",
+    "sha256": "cc27329996d70c634f712216d2fd09b3b999b6342eda617613f033d3b29828c6"
+  },
+  "model.calibration.json": {
+    "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/model.calibration.json",
+    "sha256": "aa9c19361f7379eec8a79f04b1b53711c82a7352663469795b576f5dc2a3ae40"
+  },
+  "evaluation.json": {
+    "path": "/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/qat_development_2200/gtcrn_long_qat_batch16/candidates/epoch0001-ulylgdqg/evaluation.json",
+    "sha256": "79ab1bb985e7f5e9a759030ef960aa21f51bac7c43126ab2d2b8c3bf8c8bff35"
+  }
+}

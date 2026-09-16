@@ -1,0 +1,3031 @@
+{
+  "selection_split": "external development; not final test",
+  "manifest": "/content/extra_audio/development/mixtures.jsonl",
+  "manifest_sha256": "b82497d1febcfba26e1449ac57596e8f6983071e82d48482a1d6de00a5a84742",
+  "source_checkpoint": "/content/esp32_runs/float_gtcrn_broad/last.pt",
+  "checkpoint_sha256": "a9ee8b173d0618b3c43c2c1d529c2e36a3e3d09d4acbcabdcdb030fc718e6a0f",
+  "model": {
+    "phase": "float",
+    "model_kind": "gtcrn",
+    "precision": "float32 PyTorch",
+    "model_config": {
+      "sample_rate": 16000,
+      "n_fft": 512,
+      "hop_length": 256,
+      "upstream_revision": "502ebfab64da7c4a9af78dcb9c6ceef1ebb01c73",
+      "framing": "causal_zero_overlap_v1"
+    },
+    "checkpoint_epoch": 25
+  },
+  "validation": {
+    "utterances": 500,
+    "total_utterances": 500,
+    "invalid_utterances": 0,
+    "noisy_si_sdr": 3.5130347054488795,
+    "si_sdr": 12.20006039845233,
+    "si_sdri": 8.687025693003449,
+    "per_utterance": [
+      {
+        "id": "extra_development_mixtures_00000_condition00",
+        "noisy_si_sdr": -9.63138252176222,
+        "si_sdr": 1.604536475316143,
+        "si_sdri": 11.235918997078363
+      },
+      {
+        "id": "extra_development_mixtures_00000_condition01",
+        "noisy_si_sdr": -4.488495835116152,
+        "si_sdr": 5.439199772864902,
+        "si_sdri": 9.927695607981054
+      },
+      {
+        "id": "extra_development_mixtures_00000_condition02",
+        "noisy_si_sdr": 0.5908350363082816,
+        "si_sdr": 8.71804424372329,
+        "si_sdri": 8.127209207415008
+      },
+      {
+        "id": "extra_development_mixtures_00000_condition03",
+        "noisy_si_sdr": 5.635129515304342,
+        "si_sdr": 11.74117860261557,
+        "si_sdri": 6.106049087311227
+      },
+      {
+        "id": "extra_development_mixtures_00000_condition04",
+        "noisy_si_sdr": 15.673859715990769,
+        "si_sdr": 18.990358964612607,
+        "si_sdri": 3.316499248621838
+      },
+      {
+        "id": "extra_development_mixtures_00001_condition00",
+        "noisy_si_sdr": -6.871359179385382,
+        "si_sdr": 8.226254702810106,
+        "si_sdri": 15.097613882195489
+      },
+      {
+        "id": "extra_development_mixtures_00001_condition01",
+        "noisy_si_sdr": -1.886884139502599,
+        "si_sdr": 12.194089003192495,
+        "si_sdri": 14.080973142695093
+      },
+      {
+        "id": "extra_development_mixtures_00001_condition02",
+        "noisy_si_sdr": 3.1043732126726855,
+        "si_sdr": 15.51705585172222,
+        "si_sdri": 12.412682639049535
+      },
+      {
+        "id": "extra_development_mixtures_00001_condition03",
+        "noisy_si_sdr": 8.099452540301108,
+        "si_sdr": 19.052686650149248,
+        "si_sdri": 10.95323410984814
+      },
+      {
+        "id": "extra_development_mixtures_00001_condition04",
+        "noisy_si_sdr": 18.095127401012412,
+        "si_sdr": 24.76051613808214,
+        "si_sdri": 6.665388737069726
+      },
+      {
+        "id": "extra_development_mixtures_00002_condition00",
+        "noisy_si_sdr": -6.562635015069521,
+        "si_sdr": 6.585672783986475,
+        "si_sdri": 13.148307799055996
+      },
+      {
+        "id": "extra_development_mixtures_00002_condition01",
+        "noisy_si_sdr": -1.5364566191145377,
+        "si_sdr": 10.635697303172893,
+        "si_sdri": 12.172153922287432
+      },
+      {
+        "id": "extra_development_mixtures_00002_condition02",
+        "noisy_si_sdr": 3.478230535750227,
+        "si_sdr": 13.876071126188503,
+        "si_sdri": 10.397840590438276
+      },
+      {
+        "id": "extra_development_mixtures_00002_condition03",
+        "noisy_si_sdr": 8.486478337085959,
+        "si_sdr": 16.867794355340237,
+        "si_sdri": 8.381316018254278
+      },
+      {
+        "id": "extra_development_mixtures_00002_condition04",
+        "noisy_si_sdr": 18.493718769795077,
+        "si_sdr": 22.972092465589704,
+        "si_sdri": 4.478373695794627
+      },
+      {
+        "id": "extra_development_mixtures_00003_condition00",
+        "noisy_si_sdr": -6.691287433578232,
+        "si_sdr": -4.115911840438837,
+        "si_sdri": 2.5753755931393947
+      },
+      {
+        "id": "extra_development_mixtures_00003_condition01",
+        "noisy_si_sdr": -1.4241782943519723,
+        "si_sdr": 1.8939533490992444,
+        "si_sdri": 3.318131643451217
+      },
+      {
+        "id": "extra_development_mixtures_00003_condition02",
+        "noisy_si_sdr": 3.7224967518656396,
+        "si_sdr": 6.155957160070347,
+        "si_sdri": 2.4334604082047075
+      },
+      {
+        "id": "extra_development_mixtures_00003_condition03",
+        "noisy_si_sdr": 8.803902826831319,
+        "si_sdr": 10.066924379420605,
+        "si_sdri": 1.2630215525892865
+      },
+      {
+        "id": "extra_development_mixtures_00003_condition04",
+        "noisy_si_sdr": 18.874799430594095,
+        "si_sdr": 17.8091964473973,
+        "si_sdri": -1.0656029831967935
+      },
+      {
+        "id": "extra_development_mixtures_00004_condition00",
+        "noisy_si_sdr": -6.711408989694627,
+        "si_sdr": 2.108970631491152,
+        "si_sdri": 8.82037962118578
+      },
+      {
+        "id": "extra_development_mixtures_00004_condition01",
+        "noisy_si_sdr": -1.7761102541629459,
+        "si_sdr": 5.205644956425602,
+        "si_sdri": 6.981755210588548
+      },
+      {
+        "id": "extra_development_mixtures_00004_condition02",
+        "noisy_si_sdr": 3.1872930917496944,
+        "si_sdr": 7.847315604654562,
+        "si_sdri": 4.660022512904868
+      },
+      {
+        "id": "extra_development_mixtures_00004_condition03",
+        "noisy_si_sdr": 8.166644718018087,
+        "si_sdr": 11.18807232897397,
+        "si_sdri": 3.0214276109558824
+      },
+      {
+        "id": "extra_development_mixtures_00004_condition04",
+        "noisy_si_sdr": 18.14846356202873,
+        "si_sdr": 18.518964263213064,
+        "si_sdri": 0.37050070118433354
+      },
+      {
+        "id": "extra_development_mixtures_00005_condition00",
+        "noisy_si_sdr": -6.3630834036260575,
+        "si_sdr": 1.1243605029901707,
+        "si_sdri": 7.487443906616228
+      },
+      {
+        "id": "extra_development_mixtures_00005_condition01",
+        "noisy_si_sdr": -1.303799637567586,
+        "si_sdr": 4.8389453798655175,
+        "si_sdri": 6.1427450174331035
+      },
+      {
+        "id": "extra_development_mixtures_00005_condition02",
+        "noisy_si_sdr": 3.7293608570835235,
+        "si_sdr": 8.031386568574508,
+        "si_sdri": 4.302025711490984
+      },
+      {
+        "id": "extra_development_mixtures_00005_condition03",
+        "noisy_si_sdr": 8.74795304230945,
+        "si_sdr": 11.99122895226554,
+        "si_sdri": 3.2432759099560915
+      },
+      {
+        "id": "extra_development_mixtures_00005_condition04",
+        "noisy_si_sdr": 18.764254441767555,
+        "si_sdr": 20.033515439850092,
+        "si_sdri": 1.2692609980825367
+      },
+      {
+        "id": "extra_development_mixtures_00006_condition00",
+        "noisy_si_sdr": -5.757951503340585,
+        "si_sdr": 10.543613499869336,
+        "si_sdri": 16.30156500320992
+      },
+      {
+        "id": "extra_development_mixtures_00006_condition01",
+        "noisy_si_sdr": -0.7469757569648112,
+        "si_sdr": 12.258899748658612,
+        "si_sdri": 13.005875505623424
+      },
+      {
+        "id": "extra_development_mixtures_00006_condition02",
+        "noisy_si_sdr": 4.259189805696277,
+        "si_sdr": 13.685565418469835,
+        "si_sdri": 9.426375612773558
+      },
+      {
+        "id": "extra_development_mixtures_00006_condition03",
+        "noisy_si_sdr": 9.262654922456818,
+        "si_sdr": 16.41724435274269,
+        "si_sdri": 7.154589430285871
+      },
+      {
+        "id": "extra_development_mixtures_00006_condition04",
+        "noisy_si_sdr": 19.26569881226463,
+        "si_sdr": 22.75881114094281,
+        "si_sdri": 3.49311232867818
+      },
+      {
+        "id": "extra_development_mixtures_00007_condition00",
+        "noisy_si_sdr": -7.087561255359748,
+        "si_sdr": 12.998332897012936,
+        "si_sdri": 20.085894152372685
+      },
+      {
+        "id": "extra_development_mixtures_00007_condition01",
+        "noisy_si_sdr": -2.06687465579443,
+        "si_sdr": 15.53744916312733,
+        "si_sdri": 17.60432381892176
+      },
+      {
+        "id": "extra_development_mixtures_00007_condition02",
+        "noisy_si_sdr": 2.9447367692992064,
+        "si_sdr": 17.7139505012765,
+        "si_sdri": 14.769213731977294
+      },
+      {
+        "id": "extra_development_mixtures_00007_condition03",
+        "noisy_si_sdr": 7.951260213964896,
+        "si_sdr": 20.446788298285572,
+        "si_sdri": 12.495528084320675
+      },
+      {
+        "id": "extra_development_mixtures_00007_condition04",
+        "noisy_si_sdr": 17.956986571440773,
+        "si_sdr": 24.847590753411467,
+        "si_sdri": 6.890604181970694
+      },
+      {
+        "id": "extra_development_mixtures_00008_condition00",
+        "noisy_si_sdr": -7.491721102939081,
+        "si_sdr": 12.035535176075312,
+        "si_sdri": 19.527256279014395
+      },
+      {
+        "id": "extra_development_mixtures_00008_condition01",
+        "noisy_si_sdr": -2.499422503865952,
+        "si_sdr": 13.995454851423705,
+        "si_sdri": 16.494877355289656
+      },
+      {
+        "id": "extra_development_mixtures_00008_condition02",
+        "noisy_si_sdr": 2.496244138543024,
+        "si_sdr": 15.569365247592177,
+        "si_sdri": 13.073121109049154
+      },
+      {
+        "id": "extra_development_mixtures_00008_condition03",
+        "noisy_si_sdr": 7.493805786625099,
+        "si_sdr": 17.470282394523075,
+        "si_sdri": 9.976476607897975
+      },
+      {
+        "id": "extra_development_mixtures_00008_condition04",
+        "noisy_si_sdr": 17.491663679994048,
+        "si_sdr": 22.66471684863125,
+        "si_sdri": 5.173053168637203
+      },
+      {
+        "id": "extra_development_mixtures_00009_condition00",
+        "noisy_si_sdr": -6.124259344851336,
+        "si_sdr": -2.3913327181642057,
+        "si_sdri": 3.7329266266871306
+      },
+      {
+        "id": "extra_development_mixtures_00009_condition01",
+        "noisy_si_sdr": -1.2809829208886652,
+        "si_sdr": 3.683397535333399,
+        "si_sdri": 4.964380456222065
+      },
+      {
+        "id": "extra_development_mixtures_00009_condition02",
+        "noisy_si_sdr": 3.6296268097783377,
+        "si_sdr": 8.619306361563492,
+        "si_sdri": 4.989679551785154
+      },
+      {
+        "id": "extra_development_mixtures_00009_condition03",
+        "noisy_si_sdr": 8.578951761925143,
+        "si_sdr": 12.773295592035883,
+        "si_sdri": 4.194343830110739
+      },
+      {
+        "id": "extra_development_mixtures_00009_condition04",
+        "noisy_si_sdr": 18.534185165540016,
+        "si_sdr": 20.909586811967987,
+        "si_sdri": 2.375401646427971
+      },
+      {
+        "id": "extra_development_mixtures_00010_condition00",
+        "noisy_si_sdr": -8.558863358556783,
+        "si_sdr": 2.8988994455279675,
+        "si_sdri": 11.457762804084751
+      },
+      {
+        "id": "extra_development_mixtures_00010_condition01",
+        "noisy_si_sdr": -3.4705372817969615,
+        "si_sdr": 7.078037933634345,
+        "si_sdri": 10.548575215431306
+      },
+      {
+        "id": "extra_development_mixtures_00010_condition02",
+        "noisy_si_sdr": 1.578740381864815,
+        "si_sdr": 10.661519298088143,
+        "si_sdri": 9.082778916223328
+      },
+      {
+        "id": "extra_development_mixtures_00010_condition03",
+        "noisy_si_sdr": 6.606328752894267,
+        "si_sdr": 14.088436680246101,
+        "si_sdri": 7.482107927351834
+      },
+      {
+        "id": "extra_development_mixtures_00010_condition04",
+        "noisy_si_sdr": 16.630495187591453,
+        "si_sdr": 20.39451396616716,
+        "si_sdri": 3.764018778575707
+      },
+      {
+        "id": "extra_development_mixtures_00011_condition00",
+        "noisy_si_sdr": -6.6762044749552505,
+        "si_sdr": 11.829713506248691,
+        "si_sdri": 18.505917981203943
+      },
+      {
+        "id": "extra_development_mixtures_00011_condition01",
+        "noisy_si_sdr": -1.6594655295448149,
+        "si_sdr": 15.484680318469408,
+        "si_sdri": 17.144145848014222
+      },
+      {
+        "id": "extra_development_mixtures_00011_condition02",
+        "noisy_si_sdr": 3.3499338761610398,
+        "si_sdr": 18.75140348831242,
+        "si_sdri": 15.40146961215138
+      },
+      {
+        "id": "extra_development_mixtures_00011_condition03",
+        "noisy_si_sdr": 8.355214143107649,
+        "si_sdr": 21.597354636154375,
+        "si_sdri": 13.242140493046726
+      },
+      {
+        "id": "extra_development_mixtures_00011_condition04",
+        "noisy_si_sdr": 18.359851228863416,
+        "si_sdr": 25.212375937728382,
+        "si_sdri": 6.852524708864966
+      },
+      {
+        "id": "extra_development_mixtures_00012_condition00",
+        "noisy_si_sdr": -8.530994139084404,
+        "si_sdr": -0.3496744726372772,
+        "si_sdri": 8.181319666447127
+      },
+      {
+        "id": "extra_development_mixtures_00012_condition01",
+        "noisy_si_sdr": -3.5783800065581364,
+        "si_sdr": 3.6110667849935356,
+        "si_sdri": 7.189446791551672
+      },
+      {
+        "id": "extra_development_mixtures_00012_condition02",
+        "noisy_si_sdr": 1.3948593993108163,
+        "si_sdr": 6.973627569560569,
+        "si_sdri": 5.578768170249752
+      },
+      {
+        "id": "extra_development_mixtures_00012_condition03",
+        "noisy_si_sdr": 6.379774522442796,
+        "si_sdr": 11.681951576999403,
+        "si_sdri": 5.302177054556607
+      },
+      {
+        "id": "extra_development_mixtures_00012_condition04",
+        "noisy_si_sdr": 16.366499674359055,
+        "si_sdr": 20.01239699805627,
+        "si_sdri": 3.6458973236972163
+      },
+      {
+        "id": "extra_development_mixtures_00013_condition00",
+        "noisy_si_sdr": -13.279830747429388,
+        "si_sdr": 4.208200320178994,
+        "si_sdri": 17.488031067608382
+      },
+      {
+        "id": "extra_development_mixtures_00013_condition01",
+        "noisy_si_sdr": -8.240384712883612,
+        "si_sdr": 9.211869303451104,
+        "si_sdri": 17.452254016334717
+      },
+      {
+        "id": "extra_development_mixtures_00013_condition02",
+        "noisy_si_sdr": -3.2182813618015107,
+        "si_sdr": 13.79303163938432,
+        "si_sdri": 17.011313001185833
+      },
+      {
+        "id": "extra_development_mixtures_00013_condition03",
+        "noisy_si_sdr": 1.7941236344740954,
+        "si_sdr": 16.87541935150563,
+        "si_sdri": 15.081295717031535
+      },
+      {
+        "id": "extra_development_mixtures_00013_condition04",
+        "noisy_si_sdr": 11.805007922040776,
+        "si_sdr": 21.156543401995805,
+        "si_sdri": 9.351535479955029
+      },
+      {
+        "id": "extra_development_mixtures_00014_condition00",
+        "noisy_si_sdr": -22.397924807790133,
+        "si_sdr": 2.512662676581134,
+        "si_sdri": 24.910587484371266
+      },
+      {
+        "id": "extra_development_mixtures_00014_condition01",
+        "noisy_si_sdr": -17.394098721437615,
+        "si_sdr": 7.377382706473278,
+        "si_sdri": 24.771481427910892
+      },
+      {
+        "id": "extra_development_mixtures_00014_condition02",
+        "noisy_si_sdr": -12.391947972225683,
+        "si_sdr": 11.925789448198056,
+        "si_sdri": 24.31773742042374
+      },
+      {
+        "id": "extra_development_mixtures_00014_condition03",
+        "noisy_si_sdr": -7.390738402380781,
+        "si_sdr": 16.938874346416547,
+        "si_sdri": 24.329612748797327
+      },
+      {
+        "id": "extra_development_mixtures_00014_condition04",
+        "noisy_si_sdr": 2.6103239151803432,
+        "si_sdr": 20.85321226938256,
+        "si_sdri": 18.242888354202215
+      },
+      {
+        "id": "extra_development_mixtures_00015_condition00",
+        "noisy_si_sdr": -6.986219599078348,
+        "si_sdr": 7.4230908345992574,
+        "si_sdri": 14.409310433677605
+      },
+      {
+        "id": "extra_development_mixtures_00015_condition01",
+        "noisy_si_sdr": -1.9803277480716783,
+        "si_sdr": 10.503248023463305,
+        "si_sdri": 12.483575771534984
+      },
+      {
+        "id": "extra_development_mixtures_00015_condition02",
+        "noisy_si_sdr": 3.0229831506918394,
+        "si_sdr": 14.359089193339647,
+        "si_sdri": 11.336106042647808
+      },
+      {
+        "id": "extra_development_mixtures_00015_condition03",
+        "noisy_si_sdr": 8.024845426968378,
+        "si_sdr": 18.132265635840668,
+        "si_sdri": 10.10742020887229
+      },
+      {
+        "id": "extra_development_mixtures_00015_condition04",
+        "noisy_si_sdr": 18.026480208047953,
+        "si_sdr": 23.961755987229107,
+        "si_sdri": 5.935275779181154
+      },
+      {
+        "id": "extra_development_mixtures_00016_condition00",
+        "noisy_si_sdr": -5.835096806448915,
+        "si_sdr": 10.459455100676871,
+        "si_sdri": 16.294551907125786
+      },
+      {
+        "id": "extra_development_mixtures_00016_condition01",
+        "noisy_si_sdr": -0.842586467475603,
+        "si_sdr": 15.461598114091881,
+        "si_sdri": 16.304184581567483
+      },
+      {
+        "id": "extra_development_mixtures_00016_condition02",
+        "noisy_si_sdr": 4.153198488462222,
+        "si_sdr": 19.824658098445063,
+        "si_sdri": 15.67145960998284
+      },
+      {
+        "id": "extra_development_mixtures_00016_condition03",
+        "noisy_si_sdr": 9.150827510977656,
+        "si_sdr": 20.37775571569259,
+        "si_sdri": 11.226928204714934
+      },
+      {
+        "id": "extra_development_mixtures_00016_condition04",
+        "noisy_si_sdr": 19.148743640612533,
+        "si_sdr": 21.45631145760941,
+        "si_sdri": 2.307567816996876
+      },
+      {
+        "id": "extra_development_mixtures_00017_condition00",
+        "noisy_si_sdr": -6.634877742881217,
+        "si_sdr": 11.586570496229129,
+        "si_sdri": 18.221448239110345
+      },
+      {
+        "id": "extra_development_mixtures_00017_condition01",
+        "noisy_si_sdr": -1.7036663373935765,
+        "si_sdr": 12.978985612568163,
+        "si_sdri": 14.68265194996174
+      },
+      {
+        "id": "extra_development_mixtures_00017_condition02",
+        "noisy_si_sdr": 3.2574101982805526,
+        "si_sdr": 13.526053408261618,
+        "si_sdri": 10.268643209981065
+      },
+      {
+        "id": "extra_development_mixtures_00017_condition03",
+        "noisy_si_sdr": 8.235444975939366,
+        "si_sdr": 14.215943934696076,
+        "si_sdri": 5.98049895875671
+      },
+      {
+        "id": "extra_development_mixtures_00017_condition04",
+        "noisy_si_sdr": 18.2161010290564,
+        "si_sdr": 13.823440584380828,
+        "si_sdri": -4.392660444675572
+      },
+      {
+        "id": "extra_development_mixtures_00018_condition00",
+        "noisy_si_sdr": -8.403188439556502,
+        "si_sdr": 2.839003766550825,
+        "si_sdri": 11.242192206107326
+      },
+      {
+        "id": "extra_development_mixtures_00018_condition01",
+        "noisy_si_sdr": -3.485414446894403,
+        "si_sdr": 6.74757015422999,
+        "si_sdri": 10.232984601124393
+      },
+      {
+        "id": "extra_development_mixtures_00018_condition02",
+        "noisy_si_sdr": 1.4680016577805355,
+        "si_sdr": 11.721088370437464,
+        "si_sdri": 10.253086712656929
+      },
+      {
+        "id": "extra_development_mixtures_00018_condition03",
+        "noisy_si_sdr": 6.441695499976747,
+        "si_sdr": 15.763589856039651,
+        "si_sdri": 9.321894356062904
+      },
+      {
+        "id": "extra_development_mixtures_00018_condition04",
+        "noisy_si_sdr": 16.418517711375987,
+        "si_sdr": 20.066819699580453,
+        "si_sdri": 3.648301988204466
+      },
+      {
+        "id": "extra_development_mixtures_00019_condition00",
+        "noisy_si_sdr": -5.161155997234035,
+        "si_sdr": 5.087802097192855,
+        "si_sdri": 10.24895809442689
+      },
+      {
+        "id": "extra_development_mixtures_00019_condition01",
+        "noisy_si_sdr": -0.17858948741031025,
+        "si_sdr": 8.461851818421394,
+        "si_sdri": 8.640441305831704
+      },
+      {
+        "id": "extra_development_mixtures_00019_condition02",
+        "noisy_si_sdr": 4.811590682733226,
+        "si_sdr": 11.022165832086381,
+        "si_sdri": 6.210575149353155
+      },
+      {
+        "id": "extra_development_mixtures_00019_condition03",
+        "noisy_si_sdr": 9.806064820566633,
+        "si_sdr": 12.637496893656426,
+        "si_sdri": 2.8314320730897933
+      },
+      {
+        "id": "extra_development_mixtures_00019_condition04",
+        "noisy_si_sdr": 19.801205861418087,
+        "si_sdr": 14.660711494440813,
+        "si_sdri": -5.140494366977274
+      },
+      {
+        "id": "extra_development_mixtures_00020_condition00",
+        "noisy_si_sdr": -6.336331894965719,
+        "si_sdr": 6.092671981789727,
+        "si_sdri": 12.429003876755445
+      },
+      {
+        "id": "extra_development_mixtures_00020_condition01",
+        "noisy_si_sdr": -1.2657308747150045,
+        "si_sdr": 9.174276812297052,
+        "si_sdri": 10.440007687012056
+      },
+      {
+        "id": "extra_development_mixtures_00020_condition02",
+        "noisy_si_sdr": 3.7737197612986986,
+        "si_sdr": 12.118274613135666,
+        "si_sdri": 8.344554851836968
+      },
+      {
+        "id": "extra_development_mixtures_00020_condition03",
+        "noisy_si_sdr": 8.795826323953452,
+        "si_sdr": 14.968953048581406,
+        "si_sdri": 6.173126724627954
+      },
+      {
+        "id": "extra_development_mixtures_00020_condition04",
+        "noisy_si_sdr": 18.81520249911127,
+        "si_sdr": 21.975352867015335,
+        "si_sdri": 3.160150367904066
+      },
+      {
+        "id": "extra_development_mixtures_00021_condition00",
+        "noisy_si_sdr": -5.358803027343383,
+        "si_sdr": 8.701506985563011,
+        "si_sdri": 14.060310012906394
+      },
+      {
+        "id": "extra_development_mixtures_00021_condition01",
+        "noisy_si_sdr": -0.3593475650949495,
+        "si_sdr": 11.157351811315248,
+        "si_sdri": 11.516699376410198
+      },
+      {
+        "id": "extra_development_mixtures_00021_condition02",
+        "noisy_si_sdr": 4.6403471439226625,
+        "si_sdr": 13.793748782698373,
+        "si_sdri": 9.15340163877571
+      },
+      {
+        "id": "extra_development_mixtures_00021_condition03",
+        "noisy_si_sdr": 9.640174839308544,
+        "si_sdr": 16.619904234125723,
+        "si_sdri": 6.979729394817179
+      },
+      {
+        "id": "extra_development_mixtures_00021_condition04",
+        "noisy_si_sdr": 19.640023490154025,
+        "si_sdr": 21.31903340022067,
+        "si_sdri": 1.6790099100666431
+      },
+      {
+        "id": "extra_development_mixtures_00022_condition00",
+        "noisy_si_sdr": -6.861274064406081,
+        "si_sdr": 8.094650984235415,
+        "si_sdri": 14.955925048641497
+      },
+      {
+        "id": "extra_development_mixtures_00022_condition01",
+        "noisy_si_sdr": -1.878498935531281,
+        "si_sdr": 12.202841092778913,
+        "si_sdri": 14.081340028310194
+      },
+      {
+        "id": "extra_development_mixtures_00022_condition02",
+        "noisy_si_sdr": 3.111799367915258,
+        "si_sdr": 15.876928811640736,
+        "si_sdri": 12.765129443725478
+      },
+      {
+        "id": "extra_development_mixtures_00022_condition03",
+        "noisy_si_sdr": 8.106339536894295,
+        "si_sdr": 19.09609355786251,
+        "si_sdri": 10.989754020968215
+      },
+      {
+        "id": "extra_development_mixtures_00022_condition04",
+        "noisy_si_sdr": 18.10153895810585,
+        "si_sdr": 23.97686830371405,
+        "si_sdri": 5.8753293456082005
+      },
+      {
+        "id": "extra_development_mixtures_00023_condition00",
+        "noisy_si_sdr": -4.999828432875067,
+        "si_sdr": 7.630061239629712,
+        "si_sdri": 12.62988967250478
+      },
+      {
+        "id": "extra_development_mixtures_00023_condition01",
+        "noisy_si_sdr": -0.07717966442680475,
+        "si_sdr": 11.626346550468662,
+        "si_sdri": 11.703526214895467
+      },
+      {
+        "id": "extra_development_mixtures_00023_condition02",
+        "noisy_si_sdr": 4.879018080091215,
+        "si_sdr": 14.72223001257005,
+        "si_sdri": 9.843211932478834
+      },
+      {
+        "id": "extra_development_mixtures_00023_condition03",
+        "noisy_si_sdr": 9.854288649577837,
+        "si_sdr": 16.7092552982864,
+        "si_sdri": 6.854966648708563
+      },
+      {
+        "id": "extra_development_mixtures_00023_condition04",
+        "noisy_si_sdr": 19.832504299610157,
+        "si_sdr": 20.316969642032348,
+        "si_sdri": 0.4844653424221903
+      },
+      {
+        "id": "extra_development_mixtures_00024_condition00",
+        "noisy_si_sdr": -5.368581776574289,
+        "si_sdr": 13.451481674279202,
+        "si_sdri": 18.820063450853493
+      },
+      {
+        "id": "extra_development_mixtures_00024_condition01",
+        "noisy_si_sdr": -0.37362361904033103,
+        "si_sdr": 16.28385694614211,
+        "si_sdri": 16.65748056518244
+      },
+      {
+        "id": "extra_development_mixtures_00024_condition02",
+        "noisy_si_sdr": 4.623539822844501,
+        "si_sdr": 17.462488055259637,
+        "si_sdri": 12.838948232415136
+      },
+      {
+        "id": "extra_development_mixtures_00024_condition03",
+        "noisy_si_sdr": 9.621944596524711,
+        "si_sdr": 18.720891396271057,
+        "si_sdri": 9.098946799746345
+      },
+      {
+        "id": "extra_development_mixtures_00024_condition04",
+        "noisy_si_sdr": 19.620542299560086,
+        "si_sdr": 21.35155175293154,
+        "si_sdri": 1.7310094533714562
+      },
+      {
+        "id": "extra_development_mixtures_00025_condition00",
+        "noisy_si_sdr": -22.239862659639257,
+        "si_sdr": -19.4649033632648,
+        "si_sdri": 2.7749592963744583
+      },
+      {
+        "id": "extra_development_mixtures_00025_condition01",
+        "noisy_si_sdr": -17.18904382391161,
+        "si_sdr": -10.52275275687155,
+        "si_sdri": 6.66629106704006
+      },
+      {
+        "id": "extra_development_mixtures_00025_condition02",
+        "noisy_si_sdr": -12.160596200370675,
+        "si_sdr": -1.7853299881776392,
+        "si_sdri": 10.375266212193036
+      },
+      {
+        "id": "extra_development_mixtures_00025_condition03",
+        "noisy_si_sdr": -7.144640110843525,
+        "si_sdr": 4.7701074631419695,
+        "si_sdri": 11.914747573985494
+      },
+      {
+        "id": "extra_development_mixtures_00025_condition04",
+        "noisy_si_sdr": 2.8693543956237297,
+        "si_sdr": 14.697005479896216,
+        "si_sdri": 11.827651084272485
+      },
+      {
+        "id": "extra_development_mixtures_00026_condition00",
+        "noisy_si_sdr": -6.074752650436462,
+        "si_sdr": 2.9834993607683264,
+        "si_sdri": 9.05825201120479
+      },
+      {
+        "id": "extra_development_mixtures_00026_condition01",
+        "noisy_si_sdr": -1.1033432418530609,
+        "si_sdr": 5.831257301724166,
+        "si_sdri": 6.934600543577226
+      },
+      {
+        "id": "extra_development_mixtures_00026_condition02",
+        "noisy_si_sdr": 3.88053797460985,
+        "si_sdr": 7.428390278446199,
+        "si_sdri": 3.5478523038363488
+      },
+      {
+        "id": "extra_development_mixtures_00026_condition03",
+        "noisy_si_sdr": 8.87146023481298,
+        "si_sdr": 8.49634889182606,
+        "si_sdri": -0.37511134298692106
+      },
+      {
+        "id": "extra_development_mixtures_00026_condition04",
+        "noisy_si_sdr": 18.863476875458904,
+        "si_sdr": 9.330209812698843,
+        "si_sdri": -9.53326706276006
+      },
+      {
+        "id": "extra_development_mixtures_00027_condition00",
+        "noisy_si_sdr": -6.361163409150306,
+        "si_sdr": 0.7228787522464886,
+        "si_sdri": 7.084042161396795
+      },
+      {
+        "id": "extra_development_mixtures_00027_condition01",
+        "noisy_si_sdr": -1.1423715917076063,
+        "si_sdr": 3.7354621603673306,
+        "si_sdri": 4.877833752074936
+      },
+      {
+        "id": "extra_development_mixtures_00027_condition02",
+        "noisy_si_sdr": 3.9782861645784253,
+        "si_sdr": 6.845338147143773,
+        "si_sdri": 2.8670519825653473
+      },
+      {
+        "id": "extra_development_mixtures_00027_condition03",
+        "noisy_si_sdr": 9.045407577956743,
+        "si_sdr": 11.457866195708075,
+        "si_sdri": 2.412458617751332
+      },
+      {
+        "id": "extra_development_mixtures_00027_condition04",
+        "noisy_si_sdr": 19.103953564635376,
+        "si_sdr": 20.08344995330893,
+        "si_sdri": 0.979496388673553
+      },
+      {
+        "id": "extra_development_mixtures_00028_condition00",
+        "noisy_si_sdr": -8.187123510626915,
+        "si_sdr": 7.334031918680219,
+        "si_sdri": 15.521155429307134
+      },
+      {
+        "id": "extra_development_mixtures_00028_condition01",
+        "noisy_si_sdr": -3.11358406676221,
+        "si_sdr": 11.122535595643177,
+        "si_sdri": 14.236119662405386
+      },
+      {
+        "id": "extra_development_mixtures_00028_condition02",
+        "noisy_si_sdr": 1.9274984826825448,
+        "si_sdr": 14.257532647126505,
+        "si_sdri": 12.33003416444396
+      },
+      {
+        "id": "extra_development_mixtures_00028_condition03",
+        "noisy_si_sdr": 6.950516511415897,
+        "si_sdr": 17.048672044879865,
+        "si_sdri": 10.098155533463968
+      },
+      {
+        "id": "extra_development_mixtures_00028_condition04",
+        "noisy_si_sdr": 16.97068864240117,
+        "si_sdr": 22.509188567929954,
+        "si_sdri": 5.538499925528782
+      },
+      {
+        "id": "extra_development_mixtures_00029_condition00",
+        "noisy_si_sdr": -5.622139617063729,
+        "si_sdr": 10.937054256654516,
+        "si_sdri": 16.559193873718243
+      },
+      {
+        "id": "extra_development_mixtures_00029_condition01",
+        "noisy_si_sdr": -0.6504387604494561,
+        "si_sdr": 12.237942759669604,
+        "si_sdri": 12.88838152011906
+      },
+      {
+        "id": "extra_development_mixtures_00029_condition02",
+        "noisy_si_sdr": 4.333607160298988,
+        "si_sdr": 15.163692628304158,
+        "si_sdri": 10.83008546800517
+      },
+      {
+        "id": "extra_development_mixtures_00029_condition03",
+        "noisy_si_sdr": 9.32462276627678,
+        "si_sdr": 18.63993578542114,
+        "si_sdri": 9.31531301914436
+      },
+      {
+        "id": "extra_development_mixtures_00029_condition04",
+        "noisy_si_sdr": 19.316721620512443,
+        "si_sdr": 24.39122497159711,
+        "si_sdri": 5.074503351084669
+      },
+      {
+        "id": "extra_development_mixtures_00030_condition00",
+        "noisy_si_sdr": -6.934709894679766,
+        "si_sdr": 1.8093695587902092,
+        "si_sdri": 8.744079453469976
+      },
+      {
+        "id": "extra_development_mixtures_00030_condition01",
+        "noisy_si_sdr": -1.8618256554667287,
+        "si_sdr": 6.691120517687051,
+        "si_sdri": 8.55294617315378
+      },
+      {
+        "id": "extra_development_mixtures_00030_condition02",
+        "noisy_si_sdr": 3.178892575440349,
+        "si_sdr": 11.204295387778702,
+        "si_sdri": 8.025402812338353
+      },
+      {
+        "id": "extra_development_mixtures_00030_condition03",
+        "noisy_si_sdr": 8.201707028209515,
+        "si_sdr": 15.229964430558622,
+        "si_sdri": 7.028257402349107
+      },
+      {
+        "id": "extra_development_mixtures_00030_condition04",
+        "noisy_si_sdr": 18.221701502013367,
+        "si_sdr": 21.385925054582636,
+        "si_sdri": 3.1642235525692683
+      },
+      {
+        "id": "extra_development_mixtures_00031_condition00",
+        "noisy_si_sdr": -6.131286908276426,
+        "si_sdr": 1.3204623469337051,
+        "si_sdri": 7.451749255210131
+      },
+      {
+        "id": "extra_development_mixtures_00031_condition01",
+        "noisy_si_sdr": -1.2206526803599655,
+        "si_sdr": 4.965320691034955,
+        "si_sdri": 6.185973371394921
+      },
+      {
+        "id": "extra_development_mixtures_00031_condition02",
+        "noisy_si_sdr": 3.728686302307355,
+        "si_sdr": 9.422079690035707,
+        "si_sdri": 5.693393387728352
+      },
+      {
+        "id": "extra_development_mixtures_00031_condition03",
+        "noisy_si_sdr": 8.700067291762387,
+        "si_sdr": 13.253332696467698,
+        "si_sdri": 4.553265404705311
+      },
+      {
+        "id": "extra_development_mixtures_00031_condition04",
+        "noisy_si_sdr": 18.67484496555844,
+        "si_sdr": 20.373568491114987,
+        "si_sdri": 1.6987235255565487
+      },
+      {
+        "id": "extra_development_mixtures_00032_condition00",
+        "noisy_si_sdr": -7.093430508751098,
+        "si_sdr": -1.7135105497618721,
+        "si_sdri": 5.379919958989226
+      },
+      {
+        "id": "extra_development_mixtures_00032_condition01",
+        "noisy_si_sdr": -2.1439715489964835,
+        "si_sdr": 4.372825749346145,
+        "si_sdri": 6.516797298342628
+      },
+      {
+        "id": "extra_development_mixtures_00032_condition02",
+        "noisy_si_sdr": 2.8274768447430594,
+        "si_sdr": 5.933575242309564,
+        "si_sdri": 3.1060983975665044
+      },
+      {
+        "id": "extra_development_mixtures_00032_condition03",
+        "noisy_si_sdr": 7.811379882263935,
+        "si_sdr": 8.847068672169119,
+        "si_sdri": 1.0356887899051834
+      },
+      {
+        "id": "extra_development_mixtures_00032_condition04",
+        "noisy_si_sdr": 17.79721316099395,
+        "si_sdr": 18.056401235034162,
+        "si_sdri": 0.2591880740402104
+      },
+      {
+        "id": "extra_development_mixtures_00033_condition00",
+        "noisy_si_sdr": -11.898041730797592,
+        "si_sdr": -4.883119731782932,
+        "si_sdri": 7.0149219990146605
+      },
+      {
+        "id": "extra_development_mixtures_00033_condition01",
+        "noisy_si_sdr": -6.881873162392116,
+        "si_sdr": 1.163334104040176,
+        "si_sdri": 8.045207266432293
+      },
+      {
+        "id": "extra_development_mixtures_00033_condition02",
+        "noisy_si_sdr": -1.8727941545024487,
+        "si_sdr": 10.429121024912467,
+        "si_sdri": 12.301915179414916
+      },
+      {
+        "id": "extra_development_mixtures_00033_condition03",
+        "noisy_si_sdr": 3.132307222458617,
+        "si_sdr": 14.461955174469141,
+        "si_sdri": 11.329647952010525
+      },
+      {
+        "id": "extra_development_mixtures_00033_condition04",
+        "noisy_si_sdr": 13.136786740664945,
+        "si_sdr": 21.70829965234619,
+        "si_sdri": 8.571512911681246
+      },
+      {
+        "id": "extra_development_mixtures_00034_condition00",
+        "noisy_si_sdr": -8.331505493948132,
+        "si_sdr": 0.2100068937450758,
+        "si_sdri": 8.541512387693208
+      },
+      {
+        "id": "extra_development_mixtures_00034_condition01",
+        "noisy_si_sdr": -3.375547327930306,
+        "si_sdr": 2.818793040799928,
+        "si_sdri": 6.194340368730234
+      },
+      {
+        "id": "extra_development_mixtures_00034_condition02",
+        "noisy_si_sdr": 1.599587004743864,
+        "si_sdr": 5.834442037075123,
+        "si_sdri": 4.234855032331259
+      },
+      {
+        "id": "extra_development_mixtures_00034_condition03",
+        "noisy_si_sdr": 6.585573734313483,
+        "si_sdr": 9.19035271252356,
+        "si_sdri": 2.604778978210076
+      },
+      {
+        "id": "extra_development_mixtures_00034_condition04",
+        "noisy_si_sdr": 16.57324272076246,
+        "si_sdr": 16.729880316585742,
+        "si_sdri": 0.1566375958232804
+      },
+      {
+        "id": "extra_development_mixtures_00035_condition00",
+        "noisy_si_sdr": -7.269898577116367,
+        "si_sdr": 8.436347606604674,
+        "si_sdri": 15.70624618372104
+      },
+      {
+        "id": "extra_development_mixtures_00035_condition01",
+        "noisy_si_sdr": -2.350796545179736,
+        "si_sdr": 10.581320199791369,
+        "si_sdri": 12.932116744971104
+      },
+      {
+        "id": "extra_development_mixtures_00035_condition02",
+        "noisy_si_sdr": 2.6033782590255328,
+        "si_sdr": 12.982034121882462,
+        "si_sdri": 10.37865586285693
+      },
+      {
+        "id": "extra_development_mixtures_00035_condition03",
+        "noisy_si_sdr": 7.577502691661858,
+        "si_sdr": 15.850195603065362,
+        "si_sdri": 8.272692911403503
+      },
+      {
+        "id": "extra_development_mixtures_00035_condition04",
+        "noisy_si_sdr": 17.55470463204087,
+        "si_sdr": 22.21623977669136,
+        "si_sdri": 4.66153514465049
+      },
+      {
+        "id": "extra_development_mixtures_00036_condition00",
+        "noisy_si_sdr": -6.713792601924132,
+        "si_sdr": 1.5266458155530542,
+        "si_sdri": 8.240438417477186
+      },
+      {
+        "id": "extra_development_mixtures_00036_condition01",
+        "noisy_si_sdr": -1.7175946056235267,
+        "si_sdr": 6.0445934232561,
+        "si_sdri": 7.762188028879627
+      },
+      {
+        "id": "extra_development_mixtures_00036_condition02",
+        "noisy_si_sdr": 3.2802658591972467,
+        "si_sdr": 9.865505745956124,
+        "si_sdri": 6.5852398867588775
+      },
+      {
+        "id": "extra_development_mixtures_00036_condition03",
+        "noisy_si_sdr": 8.279063154101658,
+        "si_sdr": 13.075260171048303,
+        "si_sdri": 4.796197016946644
+      },
+      {
+        "id": "extra_development_mixtures_00036_condition04",
+        "noisy_si_sdr": 18.27800564958087,
+        "si_sdr": 18.950123806566445,
+        "si_sdri": 0.6721181569855759
+      },
+      {
+        "id": "extra_development_mixtures_00037_condition00",
+        "noisy_si_sdr": -8.565639257583594,
+        "si_sdr": 3.79177324142751,
+        "si_sdri": 12.357412499011105
+      },
+      {
+        "id": "extra_development_mixtures_00037_condition01",
+        "noisy_si_sdr": -3.5627898737595642,
+        "si_sdr": 8.90892807862433,
+        "si_sdri": 12.471717952383894
+      },
+      {
+        "id": "extra_development_mixtures_00037_condition02",
+        "noisy_si_sdr": 1.4388114621189692,
+        "si_sdr": 14.12983483134524,
+        "si_sdri": 12.691023369226272
+      },
+      {
+        "id": "extra_development_mixtures_00037_condition03",
+        "noisy_si_sdr": 6.43971195179768,
+        "si_sdr": 18.31166969444506,
+        "si_sdri": 11.871957742647382
+      },
+      {
+        "id": "extra_development_mixtures_00037_condition04",
+        "noisy_si_sdr": 16.440503603728015,
+        "si_sdr": 25.660975426376574,
+        "si_sdri": 9.220471822648559
+      },
+      {
+        "id": "extra_development_mixtures_00038_condition00",
+        "noisy_si_sdr": -8.407608476047313,
+        "si_sdr": 5.799817447181144,
+        "si_sdri": 14.207425923228456
+      },
+      {
+        "id": "extra_development_mixtures_00038_condition01",
+        "noisy_si_sdr": -3.3977681793213983,
+        "si_sdr": 9.674319367090817,
+        "si_sdri": 13.072087546412215
+      },
+      {
+        "id": "extra_development_mixtures_00038_condition02",
+        "noisy_si_sdr": 1.6077607876307718,
+        "si_sdr": 13.441309481503541,
+        "si_sdri": 11.83354869387277
+      },
+      {
+        "id": "extra_development_mixtures_00038_condition03",
+        "noisy_si_sdr": 6.610867947905092,
+        "si_sdr": 17.098286844095394,
+        "si_sdri": 10.487418896190302
+      },
+      {
+        "id": "extra_development_mixtures_00038_condition04",
+        "noisy_si_sdr": 16.613596973521155,
+        "si_sdr": 23.47805319144003,
+        "si_sdri": 6.864456217918875
+      },
+      {
+        "id": "extra_development_mixtures_00039_condition00",
+        "noisy_si_sdr": -6.866277102628681,
+        "si_sdr": 3.9223271597266205,
+        "si_sdri": 10.788604262355301
+      },
+      {
+        "id": "extra_development_mixtures_00039_condition01",
+        "noisy_si_sdr": -1.9353696730422891,
+        "si_sdr": 7.981910731076061,
+        "si_sdri": 9.917280404118351
+      },
+      {
+        "id": "extra_development_mixtures_00039_condition02",
+        "noisy_si_sdr": 3.0255338559249,
+        "si_sdr": 11.712789342098853,
+        "si_sdri": 8.687255486173953
+      },
+      {
+        "id": "extra_development_mixtures_00039_condition03",
+        "noisy_si_sdr": 8.003470639263917,
+        "si_sdr": 15.55653857540756,
+        "si_sdri": 7.553067936143643
+      },
+      {
+        "id": "extra_development_mixtures_00039_condition04",
+        "noisy_si_sdr": 17.984040574303265,
+        "si_sdr": 22.71492327159425,
+        "si_sdri": 4.730882697290987
+      },
+      {
+        "id": "extra_development_mixtures_00040_condition00",
+        "noisy_si_sdr": -9.54504338618705,
+        "si_sdr": 2.4657948352922143,
+        "si_sdri": 12.010838221479265
+      },
+      {
+        "id": "extra_development_mixtures_00040_condition01",
+        "noisy_si_sdr": -4.473656633766646,
+        "si_sdr": 6.437525011117456,
+        "si_sdri": 10.911181644884103
+      },
+      {
+        "id": "extra_development_mixtures_00040_condition02",
+        "noisy_si_sdr": 0.5662308736715376,
+        "si_sdr": 9.858167432173238,
+        "si_sdri": 9.2919365585017
+      },
+      {
+        "id": "extra_development_mixtures_00040_condition03",
+        "noisy_si_sdr": 5.5885811466276785,
+        "si_sdr": 13.192445037465426,
+        "si_sdri": 7.603863890837747
+      },
+      {
+        "id": "extra_development_mixtures_00040_condition04",
+        "noisy_si_sdr": 15.608170060697194,
+        "si_sdr": 19.63867948994817,
+        "si_sdri": 4.030509429250976
+      },
+      {
+        "id": "extra_development_mixtures_00041_condition00",
+        "noisy_si_sdr": -5.5084156559134465,
+        "si_sdr": 6.593243187431882,
+        "si_sdri": 12.101658843345328
+      },
+      {
+        "id": "extra_development_mixtures_00041_condition01",
+        "noisy_si_sdr": -0.3776119116633434,
+        "si_sdr": 8.775342027591249,
+        "si_sdri": 9.152953939254592
+      },
+      {
+        "id": "extra_development_mixtures_00041_condition02",
+        "noisy_si_sdr": 4.695087288873236,
+        "si_sdr": 10.666539798420944,
+        "si_sdri": 5.971452509547708
+      },
+      {
+        "id": "extra_development_mixtures_00041_condition03",
+        "noisy_si_sdr": 9.735703662348065,
+        "si_sdr": 12.543621255683385,
+        "si_sdri": 2.80791759333532
+      },
+      {
+        "id": "extra_development_mixtures_00041_condition04",
+        "noisy_si_sdr": 19.771231753943248,
+        "si_sdr": 18.098089407057127,
+        "si_sdri": -1.6731423468861202
+      },
+      {
+        "id": "extra_development_mixtures_00042_condition00",
+        "noisy_si_sdr": -6.605297868616194,
+        "si_sdr": 2.130921071019264,
+        "si_sdri": 8.736218939635458
+      },
+      {
+        "id": "extra_development_mixtures_00042_condition01",
+        "noisy_si_sdr": -1.5159562484727285,
+        "si_sdr": 4.931125048231469,
+        "si_sdri": 6.447081296704198
+      },
+      {
+        "id": "extra_development_mixtures_00042_condition02",
+        "noisy_si_sdr": 3.533883366600926,
+        "si_sdr": 7.70800661693394,
+        "si_sdri": 4.174123250333014
+      },
+      {
+        "id": "extra_development_mixtures_00042_condition03",
+        "noisy_si_sdr": 8.561785533716975,
+        "si_sdr": 11.246686833024608,
+        "si_sdri": 2.684901299307633
+      },
+      {
+        "id": "extra_development_mixtures_00042_condition04",
+        "noisy_si_sdr": 18.586225115283696,
+        "si_sdr": 20.402267496642793,
+        "si_sdri": 1.8160423813590967
+      },
+      {
+        "id": "extra_development_mixtures_00043_condition00",
+        "noisy_si_sdr": -5.9647734585693755,
+        "si_sdr": 0.6398976337496814,
+        "si_sdri": 6.604671092319057
+      },
+      {
+        "id": "extra_development_mixtures_00043_condition01",
+        "noisy_si_sdr": -0.9736242482962266,
+        "si_sdr": 4.613362999069707,
+        "si_sdri": 5.586987247365934
+      },
+      {
+        "id": "extra_development_mixtures_00043_condition02",
+        "noisy_si_sdr": 4.021395081335816,
+        "si_sdr": 8.30186134916142,
+        "si_sdri": 4.280466267825604
+      },
+      {
+        "id": "extra_development_mixtures_00043_condition03",
+        "noisy_si_sdr": 9.01859307838553,
+        "si_sdr": 12.842140037981641,
+        "si_sdri": 3.8235469595961113
+      },
+      {
+        "id": "extra_development_mixtures_00043_condition04",
+        "noisy_si_sdr": 19.01613006699557,
+        "si_sdr": 21.891072098193092,
+        "si_sdri": 2.8749420311975236
+      },
+      {
+        "id": "extra_development_mixtures_00044_condition00",
+        "noisy_si_sdr": -5.721860170639836,
+        "si_sdr": 8.831167685221013,
+        "si_sdri": 14.553027855860849
+      },
+      {
+        "id": "extra_development_mixtures_00044_condition01",
+        "noisy_si_sdr": -0.7376380586258886,
+        "si_sdr": 11.164962947647643,
+        "si_sdri": 11.902601006273532
+      },
+      {
+        "id": "extra_development_mixtures_00044_condition02",
+        "noisy_si_sdr": 4.253477253044125,
+        "si_sdr": 13.07714070413239,
+        "si_sdri": 8.823663451088265
+      },
+      {
+        "id": "extra_development_mixtures_00044_condition03",
+        "noisy_si_sdr": 9.248476796014527,
+        "si_sdr": 15.052940733818103,
+        "si_sdri": 5.804463937803575
+      },
+      {
+        "id": "extra_development_mixtures_00044_condition04",
+        "noisy_si_sdr": 19.244080965222878,
+        "si_sdr": 19.780842260969525,
+        "si_sdri": 0.536761295746647
+      },
+      {
+        "id": "extra_development_mixtures_00045_condition00",
+        "noisy_si_sdr": -7.058574766635512,
+        "si_sdr": 11.47975181100395,
+        "si_sdri": 18.538326577639463
+      },
+      {
+        "id": "extra_development_mixtures_00045_condition01",
+        "noisy_si_sdr": -2.049026574672904,
+        "si_sdr": 16.191589933252466,
+        "si_sdri": 18.24061650792537
+      },
+      {
+        "id": "extra_development_mixtures_00045_condition02",
+        "noisy_si_sdr": 2.9563372642656494,
+        "si_sdr": 20.310950750739266,
+        "si_sdri": 17.354613486473617
+      },
+      {
+        "id": "extra_development_mixtures_00045_condition03",
+        "noisy_si_sdr": 7.959352656590127,
+        "si_sdr": 23.902409183459863,
+        "si_sdri": 15.943056526869736
+      },
+      {
+        "id": "extra_development_mixtures_00045_condition04",
+        "noisy_si_sdr": 17.962001017380544,
+        "si_sdr": 29.370834229853656,
+        "si_sdri": 11.408833212473112
+      },
+      {
+        "id": "extra_development_mixtures_00046_condition00",
+        "noisy_si_sdr": -5.409572349685608,
+        "si_sdr": 3.894085588895619,
+        "si_sdri": 9.303657938581228
+      },
+      {
+        "id": "extra_development_mixtures_00046_condition01",
+        "noisy_si_sdr": -0.33645957921209324,
+        "si_sdr": 8.663774106181132,
+        "si_sdri": 9.000233685393225
+      },
+      {
+        "id": "extra_development_mixtures_00046_condition02",
+        "noisy_si_sdr": 4.704385386875937,
+        "si_sdr": 12.531700203585467,
+        "si_sdri": 7.8273148167095306
+      },
+      {
+        "id": "extra_development_mixtures_00046_condition03",
+        "noisy_si_sdr": 9.72727062021214,
+        "si_sdr": 14.950856544717714,
+        "si_sdri": 5.223585924505574
+      },
+      {
+        "id": "extra_development_mixtures_00046_condition04",
+        "noisy_si_sdr": 19.747327410192746,
+        "si_sdr": 20.410598385984468,
+        "si_sdri": 0.6632709757917219
+      },
+      {
+        "id": "extra_development_mixtures_00047_condition00",
+        "noisy_si_sdr": -6.268578360936338,
+        "si_sdr": 12.547090967865529,
+        "si_sdri": 18.815669328801867
+      },
+      {
+        "id": "extra_development_mixtures_00047_condition01",
+        "noisy_si_sdr": -1.2782592794017276,
+        "si_sdr": 14.695025032966145,
+        "si_sdri": 15.973284312367872
+      },
+      {
+        "id": "extra_development_mixtures_00047_condition02",
+        "noisy_si_sdr": 3.7162919839670017,
+        "si_sdr": 16.348546192070916,
+        "si_sdri": 12.632254208103914
+      },
+      {
+        "id": "extra_development_mixtures_00047_condition03",
+        "noisy_si_sdr": 8.713226482591443,
+        "si_sdr": 17.879414526616916,
+        "si_sdri": 9.166188044025473
+      },
+      {
+        "id": "extra_development_mixtures_00047_condition04",
+        "noisy_si_sdr": 18.71053205703677,
+        "si_sdr": 20.66555094025647,
+        "si_sdri": 1.9550188832197009
+      },
+      {
+        "id": "extra_development_mixtures_00048_condition00",
+        "noisy_si_sdr": -6.026132535048481,
+        "si_sdr": 2.3803138391980294,
+        "si_sdri": 8.40644637424651
+      },
+      {
+        "id": "extra_development_mixtures_00048_condition01",
+        "noisy_si_sdr": -0.9088234247762874,
+        "si_sdr": 5.888779691272673,
+        "si_sdri": 6.797603116048961
+      },
+      {
+        "id": "extra_development_mixtures_00048_condition02",
+        "noisy_si_sdr": 4.156454941401601,
+        "si_sdr": 9.544892185081967,
+        "si_sdri": 5.388437243680365
+      },
+      {
+        "id": "extra_development_mixtures_00048_condition03",
+        "noisy_si_sdr": 9.192948923315349,
+        "si_sdr": 12.550128280849888,
+        "si_sdri": 3.357179357534539
+      },
+      {
+        "id": "extra_development_mixtures_00048_condition04",
+        "noisy_si_sdr": 19.22488596338858,
+        "si_sdr": 19.462951902086502,
+        "si_sdri": 0.2380659386979218
+      },
+      {
+        "id": "extra_development_mixtures_00049_condition00",
+        "noisy_si_sdr": -5.9595352399324595,
+        "si_sdr": -2.482886002804619,
+        "si_sdri": 3.4766492371278406
+      },
+      {
+        "id": "extra_development_mixtures_00049_condition01",
+        "noisy_si_sdr": -0.8601804515153217,
+        "si_sdr": 0.7245608307401409,
+        "si_sdri": 1.5847412822554627
+      },
+      {
+        "id": "extra_development_mixtures_00049_condition02",
+        "noisy_si_sdr": 4.1951954658174415,
+        "si_sdr": 4.552873077468294,
+        "si_sdri": 0.35767761165085243
+      },
+      {
+        "id": "extra_development_mixtures_00049_condition03",
+        "noisy_si_sdr": 9.2261813459128,
+        "si_sdr": 8.735220043309756,
+        "si_sdri": -0.4909613026030435
+      },
+      {
+        "id": "extra_development_mixtures_00049_condition04",
+        "noisy_si_sdr": 19.253313302980867,
+        "si_sdr": 16.948551113475546,
+        "si_sdri": -2.304762189505322
+      },
+      {
+        "id": "extra_development_mixtures_00050_condition00",
+        "noisy_si_sdr": -6.461777080487156,
+        "si_sdr": 11.986211277836475,
+        "si_sdri": 18.44798835832363
+      },
+      {
+        "id": "extra_development_mixtures_00050_condition01",
+        "noisy_si_sdr": -1.4554228922806511,
+        "si_sdr": 16.564266896359015,
+        "si_sdri": 18.019689788639667
+      },
+      {
+        "id": "extra_development_mixtures_00050_condition02",
+        "noisy_si_sdr": 3.548148832056544,
+        "si_sdr": 19.719612621727983,
+        "si_sdri": 16.17146378967144
+      },
+      {
+        "id": "extra_development_mixtures_00050_condition03",
+        "noisy_si_sdr": 8.550156116251946,
+        "si_sdr": 21.30079172034019,
+        "si_sdri": 12.750635604088243
+      },
+      {
+        "id": "extra_development_mixtures_00050_condition04",
+        "noisy_si_sdr": 18.551919530028428,
+        "si_sdr": 24.019753793286544,
+        "si_sdri": 5.467834263258116
+      },
+      {
+        "id": "extra_development_mixtures_00051_condition00",
+        "noisy_si_sdr": -6.315701954922815,
+        "si_sdr": -2.8697585449388674,
+        "si_sdri": 3.445943409983948
+      },
+      {
+        "id": "extra_development_mixtures_00051_condition01",
+        "noisy_si_sdr": -1.1618245996639704,
+        "si_sdr": 1.1645711063352577,
+        "si_sdri": 2.326395705999228
+      },
+      {
+        "id": "extra_development_mixtures_00051_condition02",
+        "noisy_si_sdr": 3.923524547602166,
+        "si_sdr": 4.585622021115102,
+        "si_sdri": 0.6620974735129366
+      },
+      {
+        "id": "extra_development_mixtures_00051_condition03",
+        "noisy_si_sdr": 8.971154077431438,
+        "si_sdr": 8.910212190968496,
+        "si_sdri": -0.06094188646294185
+      },
+      {
+        "id": "extra_development_mixtures_00051_condition04",
+        "noisy_si_sdr": 19.01278487041426,
+        "si_sdr": 16.307683553453273,
+        "si_sdri": -2.705101316960988
+      },
+      {
+        "id": "extra_development_mixtures_00052_condition00",
+        "noisy_si_sdr": -8.090687521793402,
+        "si_sdr": 9.68715245157543,
+        "si_sdri": 17.777839973368835
+      },
+      {
+        "id": "extra_development_mixtures_00052_condition01",
+        "noisy_si_sdr": -3.10225420905077,
+        "si_sdr": 13.753775406159773,
+        "si_sdri": 16.856029615210545
+      },
+      {
+        "id": "extra_development_mixtures_00052_condition02",
+        "noisy_si_sdr": 1.891234647489588,
+        "si_sdr": 16.96756506126794,
+        "si_sdri": 15.076330413778352
+      },
+      {
+        "id": "extra_development_mixtures_00052_condition03",
+        "noisy_si_sdr": 6.887571025299334,
+        "si_sdr": 18.98371858371145,
+        "si_sdri": 12.096147558412117
+      },
+      {
+        "id": "extra_development_mixtures_00052_condition04",
+        "noisy_si_sdr": 16.88435154233482,
+        "si_sdr": 22.53355325113569,
+        "si_sdri": 5.64920170880087
+      },
+      {
+        "id": "extra_development_mixtures_00053_condition00",
+        "noisy_si_sdr": -12.23657177721094,
+        "si_sdr": 11.96854278686466,
+        "si_sdri": 24.2051145640756
+      },
+      {
+        "id": "extra_development_mixtures_00053_condition01",
+        "noisy_si_sdr": -7.1876667655592765,
+        "si_sdr": 15.849219394143555,
+        "si_sdri": 23.03688615970283
+      },
+      {
+        "id": "extra_development_mixtures_00053_condition02",
+        "noisy_si_sdr": -2.1602855889230086,
+        "si_sdr": 19.199112903636156,
+        "si_sdri": 21.359398492559166
+      },
+      {
+        "id": "extra_development_mixtures_00053_condition03",
+        "noisy_si_sdr": 2.8550742671311657,
+        "si_sdr": 21.24563158670729,
+        "si_sdri": 18.390557319576125
+      },
+      {
+        "id": "extra_development_mixtures_00053_condition04",
+        "noisy_si_sdr": 12.868546717834784,
+        "si_sdr": 22.986417596901777,
+        "si_sdri": 10.117870879066993
+      },
+      {
+        "id": "extra_development_mixtures_00054_condition00",
+        "noisy_si_sdr": -5.8365629019744585,
+        "si_sdr": 10.737456493374344,
+        "si_sdri": 16.574019395348802
+      },
+      {
+        "id": "extra_development_mixtures_00054_condition01",
+        "noisy_si_sdr": -0.8621989141106902,
+        "si_sdr": 13.388484335214844,
+        "si_sdri": 14.250683249325535
+      },
+      {
+        "id": "extra_development_mixtures_00054_condition02",
+        "noisy_si_sdr": 4.12335082524575,
+        "si_sdr": 15.806660647300363,
+        "si_sdri": 11.683309822054614
+      },
+      {
+        "id": "extra_development_mixtures_00054_condition03",
+        "noisy_si_sdr": 9.115214861906386,
+        "si_sdr": 18.696875703425807,
+        "si_sdri": 9.58166084151942
+      },
+      {
+        "id": "extra_development_mixtures_00054_condition04",
+        "noisy_si_sdr": 19.10806036445422,
+        "si_sdr": 24.028586121053443,
+        "si_sdri": 4.920525756599222
+      },
+      {
+        "id": "extra_development_mixtures_00055_condition00",
+        "noisy_si_sdr": -6.462402847525301,
+        "si_sdr": -0.9123199173777605,
+        "si_sdri": 5.55008293014754
+      },
+      {
+        "id": "extra_development_mixtures_00055_condition01",
+        "noisy_si_sdr": -1.5187425411296331,
+        "si_sdr": 4.139126902590342,
+        "si_sdri": 5.657869443719975
+      },
+      {
+        "id": "extra_development_mixtures_00055_condition02",
+        "noisy_si_sdr": 3.4494140645648312,
+        "si_sdr": 8.891560815835586,
+        "si_sdri": 5.442146751270755
+      },
+      {
+        "id": "extra_development_mixtures_00055_condition03",
+        "noisy_si_sdr": 8.431456728596942,
+        "si_sdr": 12.852526738596278,
+        "si_sdri": 4.421070009999337
+      },
+      {
+        "id": "extra_development_mixtures_00055_condition04",
+        "noisy_si_sdr": 18.415648392981453,
+        "si_sdr": 20.10400565082156,
+        "si_sdri": 1.6883572578401065
+      },
+      {
+        "id": "extra_development_mixtures_00056_condition00",
+        "noisy_si_sdr": -5.834572365327221,
+        "si_sdr": 3.8646648870815135,
+        "si_sdri": 9.699237252408734
+      },
+      {
+        "id": "extra_development_mixtures_00056_condition01",
+        "noisy_si_sdr": -0.8581695795642431,
+        "si_sdr": 7.259278675023419,
+        "si_sdri": 8.117448254587663
+      },
+      {
+        "id": "extra_development_mixtures_00056_condition02",
+        "noisy_si_sdr": 4.128533017894258,
+        "si_sdr": 10.396156377829007,
+        "si_sdri": 6.267623359934749
+      },
+      {
+        "id": "extra_development_mixtures_00056_condition03",
+        "noisy_si_sdr": 9.121046630488976,
+        "si_sdr": 12.072120299165876,
+        "si_sdri": 2.9510736686768997
+      },
+      {
+        "id": "extra_development_mixtures_00056_condition04",
+        "noisy_si_sdr": 19.114463448194602,
+        "si_sdr": 13.603901712379896,
+        "si_sdri": -5.510561735814706
+      },
+      {
+        "id": "extra_development_mixtures_00057_condition00",
+        "noisy_si_sdr": -6.809383363433187,
+        "si_sdr": 10.309847110494035,
+        "si_sdri": 17.11923047392722
+      },
+      {
+        "id": "extra_development_mixtures_00057_condition01",
+        "noisy_si_sdr": -1.8667233244084565,
+        "si_sdr": 12.479479939970716,
+        "si_sdri": 14.346203264379172
+      },
+      {
+        "id": "extra_development_mixtures_00057_condition02",
+        "noisy_si_sdr": 3.100865099049468,
+        "si_sdr": 15.056765629302634,
+        "si_sdri": 11.955900530253166
+      },
+      {
+        "id": "extra_development_mixtures_00057_condition03",
+        "noisy_si_sdr": 8.082585211824359,
+        "si_sdr": 17.449085506111302,
+        "si_sdri": 9.366500294286944
+      },
+      {
+        "id": "extra_development_mixtures_00057_condition04",
+        "noisy_si_sdr": 18.066493482041054,
+        "si_sdr": 22.67131460612484,
+        "si_sdri": 4.604821124083788
+      },
+      {
+        "id": "extra_development_mixtures_00058_condition00",
+        "noisy_si_sdr": -5.781392672409464,
+        "si_sdr": -2.151135661828057,
+        "si_sdri": 3.6302570105814076
+      },
+      {
+        "id": "extra_development_mixtures_00058_condition01",
+        "noisy_si_sdr": -0.7849383146715938,
+        "si_sdr": 3.082662034993124,
+        "si_sdri": 3.867600349664718
+      },
+      {
+        "id": "extra_development_mixtures_00058_condition02",
+        "noisy_si_sdr": 4.213067775727694,
+        "si_sdr": 7.645953262269036,
+        "si_sdri": 3.432885486541342
+      },
+      {
+        "id": "extra_development_mixtures_00058_condition03",
+        "noisy_si_sdr": 9.211945850492965,
+        "si_sdr": 12.652990648623026,
+        "si_sdri": 3.4410447981300614
+      },
+      {
+        "id": "extra_development_mixtures_00058_condition04",
+        "noisy_si_sdr": 19.21095976244659,
+        "si_sdr": 21.551008239375946,
+        "si_sdri": 2.3400484769293577
+      },
+      {
+        "id": "extra_development_mixtures_00059_condition00",
+        "noisy_si_sdr": -7.05444255422257,
+        "si_sdr": -8.55033338413929,
+        "si_sdri": -1.4958908299167195
+      },
+      {
+        "id": "extra_development_mixtures_00059_condition01",
+        "noisy_si_sdr": -2.0742981129250104,
+        "si_sdr": -2.254243654894861,
+        "si_sdri": -0.17994554196985035
+      },
+      {
+        "id": "extra_development_mixtures_00059_condition02",
+        "noisy_si_sdr": 2.914516467134256,
+        "si_sdr": 5.006200074714729,
+        "si_sdri": 2.0916836075804732
+      },
+      {
+        "id": "extra_development_mixtures_00059_condition03",
+        "noisy_si_sdr": 7.9082202198598885,
+        "si_sdr": 9.84586239192162,
+        "si_sdri": 1.9376421720617323
+      },
+      {
+        "id": "extra_development_mixtures_00059_condition04",
+        "noisy_si_sdr": 17.90268463908862,
+        "si_sdr": 18.337279591607242,
+        "si_sdri": 0.4345949525186228
+      },
+      {
+        "id": "extra_development_mixtures_00060_condition00",
+        "noisy_si_sdr": -7.001569014496038,
+        "si_sdr": -3.0848113353462434,
+        "si_sdri": 3.9167576791497947
+      },
+      {
+        "id": "extra_development_mixtures_00060_condition01",
+        "noisy_si_sdr": -1.8041495244734898,
+        "si_sdr": 2.682613214244964,
+        "si_sdri": 4.486762738718454
+      },
+      {
+        "id": "extra_development_mixtures_00060_condition02",
+        "noisy_si_sdr": 3.304927106459487,
+        "si_sdr": 6.439969527216163,
+        "si_sdri": 3.1350424207566756
+      },
+      {
+        "id": "extra_development_mixtures_00060_condition03",
+        "noisy_si_sdr": 8.36566939562021,
+        "si_sdr": 9.745196017465359,
+        "si_sdri": 1.379526621845148
+      },
+      {
+        "id": "extra_development_mixtures_00060_condition04",
+        "noisy_si_sdr": 18.418687204968798,
+        "si_sdr": 13.963112549854156,
+        "si_sdri": -4.455574655114642
+      },
+      {
+        "id": "extra_development_mixtures_00061_condition00",
+        "noisy_si_sdr": -6.79443568970802,
+        "si_sdr": 13.000335554228112,
+        "si_sdri": 19.794771243936133
+      },
+      {
+        "id": "extra_development_mixtures_00061_condition01",
+        "noisy_si_sdr": -1.7890985558294183,
+        "si_sdr": 16.9001670819546,
+        "si_sdri": 18.68926563778402
+      },
+      {
+        "id": "extra_development_mixtures_00061_condition02",
+        "noisy_si_sdr": 3.2139010849136227,
+        "si_sdr": 18.827054604214883,
+        "si_sdri": 15.61315351930126
+      },
+      {
+        "id": "extra_development_mixtures_00061_condition03",
+        "noisy_si_sdr": 8.215587157452948,
+        "si_sdr": 19.596237586175896,
+        "si_sdri": 11.380650428722948
+      },
+      {
+        "id": "extra_development_mixtures_00061_condition04",
+        "noisy_si_sdr": 18.217069026054077,
+        "si_sdr": 21.817654022440923,
+        "si_sdri": 3.6005849963868464
+      },
+      {
+        "id": "extra_development_mixtures_00062_condition00",
+        "noisy_si_sdr": -7.582498329990001,
+        "si_sdr": 8.121107414540381,
+        "si_sdri": 15.703605744530382
+      },
+      {
+        "id": "extra_development_mixtures_00062_condition01",
+        "noisy_si_sdr": -2.5375792175452228,
+        "si_sdr": 10.319789414334222,
+        "si_sdri": 12.857368631879446
+      },
+      {
+        "id": "extra_development_mixtures_00062_condition02",
+        "noisy_si_sdr": 2.4875786286240507,
+        "si_sdr": 12.856108322942209,
+        "si_sdri": 10.368529694318159
+      },
+      {
+        "id": "extra_development_mixtures_00062_condition03",
+        "noisy_si_sdr": 7.501694030118918,
+        "si_sdr": 15.662071511160603,
+        "si_sdri": 8.160377481041685
+      },
+      {
+        "id": "extra_development_mixtures_00062_condition04",
+        "noisy_si_sdr": 17.5140766081033,
+        "si_sdr": 21.53125987786367,
+        "si_sdri": 4.01718326976037
+      },
+      {
+        "id": "extra_development_mixtures_00063_condition00",
+        "noisy_si_sdr": -5.95341232917829,
+        "si_sdr": 1.2374811018034773,
+        "si_sdri": 7.190893430981768
+      },
+      {
+        "id": "extra_development_mixtures_00063_condition01",
+        "noisy_si_sdr": -0.8941858308199324,
+        "si_sdr": 5.135505426275955,
+        "si_sdri": 6.029691257095887
+      },
+      {
+        "id": "extra_development_mixtures_00063_condition02",
+        "noisy_si_sdr": 4.138943428171197,
+        "si_sdr": 8.182931094425111,
+        "si_sdri": 4.043987666253914
+      },
+      {
+        "id": "extra_development_mixtures_00063_condition03",
+        "noisy_si_sdr": 9.157517209425318,
+        "si_sdr": 11.383968534942596,
+        "si_sdri": 2.226451325517278
+      },
+      {
+        "id": "extra_development_mixtures_00063_condition04",
+        "noisy_si_sdr": 19.173803885343613,
+        "si_sdr": 16.359357271280267,
+        "si_sdri": -2.814446614063346
+      },
+      {
+        "id": "extra_development_mixtures_00064_condition00",
+        "noisy_si_sdr": -5.2538409713637755,
+        "si_sdr": 6.068014638734639,
+        "si_sdri": 11.321855610098414
+      },
+      {
+        "id": "extra_development_mixtures_00064_condition01",
+        "noisy_si_sdr": -0.3474676272845973,
+        "si_sdr": 9.38105170634641,
+        "si_sdri": 9.728519333631008
+      },
+      {
+        "id": "extra_development_mixtures_00064_condition02",
+        "noisy_si_sdr": 4.599435561294885,
+        "si_sdr": 12.33576090890482,
+        "si_sdri": 7.736325347609935
+      },
+      {
+        "id": "extra_development_mixtures_00064_condition03",
+        "noisy_si_sdr": 9.569433805563637,
+        "si_sdr": 14.627064390946865,
+        "si_sdri": 5.057630585383228
+      },
+      {
+        "id": "extra_development_mixtures_00064_condition04",
+        "noisy_si_sdr": 19.54298920964996,
+        "si_sdr": 18.66607147068942,
+        "si_sdri": -0.8769177389605396
+      },
+      {
+        "id": "extra_development_mixtures_00065_condition00",
+        "noisy_si_sdr": -6.2261879221722785,
+        "si_sdr": -0.7370056049241446,
+        "si_sdri": 5.489182317248134
+      },
+      {
+        "id": "extra_development_mixtures_00065_condition01",
+        "noisy_si_sdr": -1.2634028295598743,
+        "si_sdr": 5.065317824323049,
+        "si_sdri": 6.3287206538829235
+      },
+      {
+        "id": "extra_development_mixtures_00065_condition02",
+        "noisy_si_sdr": 3.7155999891176132,
+        "si_sdr": 9.204829827687957,
+        "si_sdri": 5.489229838570344
+      },
+      {
+        "id": "extra_development_mixtures_00065_condition03",
+        "noisy_si_sdr": 8.703770298012529,
+        "si_sdr": 12.701994745735561,
+        "si_sdri": 3.9982244477230324
+      },
+      {
+        "id": "extra_development_mixtures_00065_condition04",
+        "noisy_si_sdr": 18.693363906327566,
+        "si_sdr": 21.023448437945355,
+        "si_sdri": 2.330084531617789
+      },
+      {
+        "id": "extra_development_mixtures_00066_condition00",
+        "noisy_si_sdr": -7.28156578734922,
+        "si_sdr": 1.9758280766289802,
+        "si_sdri": 9.2573938639782
+      },
+      {
+        "id": "extra_development_mixtures_00066_condition01",
+        "noisy_si_sdr": -2.4700427121183277,
+        "si_sdr": 6.14191265869354,
+        "si_sdri": 8.611955370811868
+      },
+      {
+        "id": "extra_development_mixtures_00066_condition02",
+        "noisy_si_sdr": 2.4221442743050217,
+        "si_sdr": 10.349061060137243,
+        "si_sdri": 7.926916785832222
+      },
+      {
+        "id": "extra_development_mixtures_00066_condition03",
+        "noisy_si_sdr": 7.36092348349418,
+        "si_sdr": 13.569484686730448,
+        "si_sdri": 6.208561203236267
+      },
+      {
+        "id": "extra_development_mixtures_00066_condition04",
+        "noisy_si_sdr": 17.306778192138072,
+        "si_sdr": 19.487342584274977,
+        "si_sdri": 2.1805643921369047
+      },
+      {
+        "id": "extra_development_mixtures_00067_condition00",
+        "noisy_si_sdr": -6.203698424447061,
+        "si_sdr": 4.940877166005749,
+        "si_sdri": 11.14457559045281
+      },
+      {
+        "id": "extra_development_mixtures_00067_condition01",
+        "noisy_si_sdr": -1.2106317587129776,
+        "si_sdr": 7.428157641360283,
+        "si_sdri": 8.63878940007326
+      },
+      {
+        "id": "extra_development_mixtures_00067_condition02",
+        "noisy_si_sdr": 3.785467118481754,
+        "si_sdr": 11.10143891040708,
+        "si_sdri": 7.3159717919253255
+      },
+      {
+        "id": "extra_development_mixtures_00067_condition03",
+        "noisy_si_sdr": 8.783272368072083,
+        "si_sdr": 14.08805901521567,
+        "si_sdri": 5.304786647143587
+      },
+      {
+        "id": "extra_development_mixtures_00067_condition04",
+        "noisy_si_sdr": 18.781343807688245,
+        "si_sdr": 20.674610201149683,
+        "si_sdri": 1.8932663934614382
+      },
+      {
+        "id": "extra_development_mixtures_00068_condition00",
+        "noisy_si_sdr": -7.8987273962421325,
+        "si_sdr": 8.986538212033716,
+        "si_sdri": 16.885265608275848
+      },
+      {
+        "id": "extra_development_mixtures_00068_condition01",
+        "noisy_si_sdr": -2.8734173627727078,
+        "si_sdr": 12.91365115171766,
+        "si_sdri": 15.787068514490368
+      },
+      {
+        "id": "extra_development_mixtures_00068_condition02",
+        "noisy_si_sdr": 2.140782782719452,
+        "si_sdr": 16.186278378697015,
+        "si_sdri": 14.045495595977563
+      },
+      {
+        "id": "extra_development_mixtures_00068_condition03",
+        "noisy_si_sdr": 7.148758430274265,
+        "si_sdr": 18.61250462022214,
+        "si_sdri": 11.463746189947875
+      },
+      {
+        "id": "extra_development_mixtures_00068_condition04",
+        "noisy_si_sdr": 17.155759026251086,
+        "si_sdr": 22.085196710961345,
+        "si_sdri": 4.929437684710258
+      },
+      {
+        "id": "extra_development_mixtures_00069_condition00",
+        "noisy_si_sdr": -6.805506977184363,
+        "si_sdr": 2.4353728622889594,
+        "si_sdri": 9.240879839473322
+      },
+      {
+        "id": "extra_development_mixtures_00069_condition01",
+        "noisy_si_sdr": -1.6396720883530942,
+        "si_sdr": 6.110318028104161,
+        "si_sdri": 7.749990116457255
+      },
+      {
+        "id": "extra_development_mixtures_00069_condition02",
+        "noisy_si_sdr": 3.4522119049368776,
+        "si_sdr": 10.400408302759818,
+        "si_sdri": 6.94819639782294
+      },
+      {
+        "id": "extra_development_mixtures_00069_condition03",
+        "noisy_si_sdr": 8.50345734955377,
+        "si_sdr": 14.74273405262477,
+        "si_sdri": 6.239276703071001
+      },
+      {
+        "id": "extra_development_mixtures_00069_condition04",
+        "noisy_si_sdr": 18.548232790165866,
+        "si_sdr": 20.805430661766945,
+        "si_sdri": 2.257197871601079
+      },
+      {
+        "id": "extra_development_mixtures_00070_condition00",
+        "noisy_si_sdr": -11.49229314939846,
+        "si_sdr": -5.5449102678179765,
+        "si_sdri": 5.9473828815804834
+      },
+      {
+        "id": "extra_development_mixtures_00070_condition01",
+        "noisy_si_sdr": -6.474719282714992,
+        "si_sdr": 2.3536852653836764,
+        "si_sdri": 8.828404548098668
+      },
+      {
+        "id": "extra_development_mixtures_00070_condition02",
+        "noisy_si_sdr": -1.4648528675527885,
+        "si_sdr": 11.548893071772252,
+        "si_sdri": 13.013745939325041
+      },
+      {
+        "id": "extra_development_mixtures_00070_condition03",
+        "noisy_si_sdr": 3.540690884725986,
+        "si_sdr": 17.318916321271644,
+        "si_sdri": 13.778225436545657
+      },
+      {
+        "id": "extra_development_mixtures_00070_condition04",
+        "noisy_si_sdr": 13.545558352639285,
+        "si_sdr": 21.74988201100602,
+        "si_sdri": 8.204323658366734
+      },
+      {
+        "id": "extra_development_mixtures_00071_condition00",
+        "noisy_si_sdr": -8.50914411524613,
+        "si_sdr": 5.2470156931540926,
+        "si_sdri": 13.756159808400223
+      },
+      {
+        "id": "extra_development_mixtures_00071_condition01",
+        "noisy_si_sdr": -3.508018494760034,
+        "si_sdr": 7.829539707779677,
+        "si_sdri": 11.33755820253971
+      },
+      {
+        "id": "extra_development_mixtures_00071_condition02",
+        "noisy_si_sdr": 1.492614882280857,
+        "si_sdr": 10.853647006489439,
+        "si_sdri": 9.361032124208581
+      },
+      {
+        "id": "extra_development_mixtures_00071_condition03",
+        "noisy_si_sdr": 6.492970610031658,
+        "si_sdr": 14.664906023295481,
+        "si_sdri": 8.171935413263824
+      },
+      {
+        "id": "extra_development_mixtures_00071_condition04",
+        "noisy_si_sdr": 16.493283617256587,
+        "si_sdr": 20.84810265990617,
+        "si_sdri": 4.354819042649584
+      },
+      {
+        "id": "extra_development_mixtures_00072_condition00",
+        "noisy_si_sdr": -6.544038044223909,
+        "si_sdr": 1.824376143068075,
+        "si_sdri": 8.368414187291984
+      },
+      {
+        "id": "extra_development_mixtures_00072_condition01",
+        "noisy_si_sdr": -1.5164266401604012,
+        "si_sdr": 6.2774574460275865,
+        "si_sdri": 7.793884086187988
+      },
+      {
+        "id": "extra_development_mixtures_00072_condition02",
+        "noisy_si_sdr": 3.4990623589650136,
+        "si_sdr": 10.244868356140879,
+        "si_sdri": 6.745805997175865
+      },
+      {
+        "id": "extra_development_mixtures_00072_condition03",
+        "noisy_si_sdr": 8.507760708594624,
+        "si_sdr": 13.339771205051886,
+        "si_sdri": 4.832010496457261
+      },
+      {
+        "id": "extra_development_mixtures_00072_condition04",
+        "noisy_si_sdr": 18.515395023714984,
+        "si_sdr": 20.017359405881614,
+        "si_sdri": 1.50196438216663
+      },
+      {
+        "id": "extra_development_mixtures_00073_condition00",
+        "noisy_si_sdr": -7.2041800706771575,
+        "si_sdr": -2.4032394966237858,
+        "si_sdri": 4.800940574053372
+      },
+      {
+        "id": "extra_development_mixtures_00073_condition01",
+        "noisy_si_sdr": -2.346492240195145,
+        "si_sdr": 2.6597057301785014,
+        "si_sdri": 5.0061979703736466
+      },
+      {
+        "id": "extra_development_mixtures_00073_condition02",
+        "noisy_si_sdr": 2.572443174985688,
+        "si_sdr": 7.847767322502781,
+        "si_sdri": 5.275324147517093
+      },
+      {
+        "id": "extra_development_mixtures_00073_condition03",
+        "noisy_si_sdr": 7.526522592400639,
+        "si_sdr": 12.067007793236717,
+        "si_sdri": 4.540485200836079
+      },
+      {
+        "id": "extra_development_mixtures_00073_condition04",
+        "noisy_si_sdr": 17.48597697131101,
+        "si_sdr": 18.830496056210706,
+        "si_sdri": 1.3445190848996944
+      },
+      {
+        "id": "extra_development_mixtures_00074_condition00",
+        "noisy_si_sdr": -11.091868560594104,
+        "si_sdr": 6.8565850368560755,
+        "si_sdri": 17.94845359745018
+      },
+      {
+        "id": "extra_development_mixtures_00074_condition01",
+        "noisy_si_sdr": -6.07234713421649,
+        "si_sdr": 11.23745293513085,
+        "si_sdri": 17.30980006934734
+      },
+      {
+        "id": "extra_development_mixtures_00074_condition02",
+        "noisy_si_sdr": -1.0613880891953476,
+        "si_sdr": 14.608083065869863,
+        "si_sdri": 15.66947115506521
+      },
+      {
+        "id": "extra_development_mixtures_00074_condition03",
+        "noisy_si_sdr": 3.9447682391224257,
+        "si_sdr": 17.017847112913028,
+        "si_sdri": 13.073078873790603
+      },
+      {
+        "id": "extra_development_mixtures_00074_condition04",
+        "noisy_si_sdr": 13.950173282559781,
+        "si_sdr": 21.726948358201557,
+        "si_sdri": 7.776775075641776
+      },
+      {
+        "id": "extra_development_mixtures_00075_condition00",
+        "noisy_si_sdr": -7.9506327863281,
+        "si_sdr": 7.406758495140318,
+        "si_sdri": 15.357391281468418
+      },
+      {
+        "id": "extra_development_mixtures_00075_condition01",
+        "noisy_si_sdr": -2.9570744139976446,
+        "si_sdr": 9.42724017553899,
+        "si_sdri": 12.384314589536636
+      },
+      {
+        "id": "extra_development_mixtures_00075_condition02",
+        "noisy_si_sdr": 2.0393014743692457,
+        "si_sdr": 12.938763958293723,
+        "si_sdri": 10.899462483924477
+      },
+      {
+        "id": "extra_development_mixtures_00075_condition03",
+        "noisy_si_sdr": 7.037262464577141,
+        "si_sdr": 16.106988074894552,
+        "si_sdri": 9.06972561031741
+      },
+      {
+        "id": "extra_development_mixtures_00075_condition04",
+        "noisy_si_sdr": 17.03547124495764,
+        "si_sdr": 22.191168619297773,
+        "si_sdri": 5.155697374340132
+      },
+      {
+        "id": "extra_development_mixtures_00076_condition00",
+        "noisy_si_sdr": -6.484079171737966,
+        "si_sdr": 8.345265941638653,
+        "si_sdri": 14.829345113376618
+      },
+      {
+        "id": "extra_development_mixtures_00076_condition01",
+        "noisy_si_sdr": -1.4885877779277588,
+        "si_sdr": 14.519564260881914,
+        "si_sdri": 16.008152038809673
+      },
+      {
+        "id": "extra_development_mixtures_00076_condition02",
+        "noisy_si_sdr": 3.508876149248335,
+        "si_sdr": 17.865394566346573,
+        "si_sdri": 14.356518417098238
+      },
+      {
+        "id": "extra_development_mixtures_00076_condition03",
+        "noisy_si_sdr": 8.507449624224082,
+        "si_sdr": 20.68848398343944,
+        "si_sdri": 12.181034359215358
+      },
+      {
+        "id": "extra_development_mixtures_00076_condition04",
+        "noisy_si_sdr": 18.506196128968163,
+        "si_sdr": 24.605406438069615,
+        "si_sdri": 6.099210309101451
+      },
+      {
+        "id": "extra_development_mixtures_00077_condition00",
+        "noisy_si_sdr": -7.696236816369597,
+        "si_sdr": 6.279073927320171,
+        "si_sdri": 13.975310743689768
+      },
+      {
+        "id": "extra_development_mixtures_00077_condition01",
+        "noisy_si_sdr": -2.5574529630121274,
+        "si_sdr": 8.921607556110715,
+        "si_sdri": 11.479060519122843
+      },
+      {
+        "id": "extra_development_mixtures_00077_condition02",
+        "noisy_si_sdr": 2.519627686678958,
+        "si_sdr": 11.530449657623787,
+        "si_sdri": 9.010821970944829
+      },
+      {
+        "id": "extra_development_mixtures_00077_condition03",
+        "noisy_si_sdr": 7.562674887336083,
+        "si_sdr": 14.495756853064005,
+        "si_sdri": 6.933081965727922
+      },
+      {
+        "id": "extra_development_mixtures_00077_condition04",
+        "noisy_si_sdr": 17.600319539917308,
+        "si_sdr": 20.915788668023296,
+        "si_sdri": 3.3154691281059883
+      },
+      {
+        "id": "extra_development_mixtures_00078_condition00",
+        "noisy_si_sdr": -7.7481164576144135,
+        "si_sdr": 5.688488044622785,
+        "si_sdri": 13.436604502237198
+      },
+      {
+        "id": "extra_development_mixtures_00078_condition01",
+        "noisy_si_sdr": -2.696448550577708,
+        "si_sdr": 9.259976869996255,
+        "si_sdri": 11.956425420573963
+      },
+      {
+        "id": "extra_development_mixtures_00078_condition02",
+        "noisy_si_sdr": 2.332472084789604,
+        "si_sdr": 13.242759535521147,
+        "si_sdri": 10.910287450731543
+      },
+      {
+        "id": "extra_development_mixtures_00078_condition03",
+        "noisy_si_sdr": 7.34869333666984,
+        "si_sdr": 17.12662080311602,
+        "si_sdri": 9.77792746644618
+      },
+      {
+        "id": "extra_development_mixtures_00078_condition04",
+        "noisy_si_sdr": 17.36291976433632,
+        "si_sdr": 24.322626458635412,
+        "si_sdri": 6.9597066942990935
+      },
+      {
+        "id": "extra_development_mixtures_00079_condition00",
+        "noisy_si_sdr": -10.21195075829803,
+        "si_sdr": 7.130474063020157,
+        "si_sdri": 17.342424821318186
+      },
+      {
+        "id": "extra_development_mixtures_00079_condition01",
+        "noisy_si_sdr": -5.208239400318735,
+        "si_sdr": 10.233070651441672,
+        "si_sdri": 15.441310051760407
+      },
+      {
+        "id": "extra_development_mixtures_00079_condition02",
+        "noisy_si_sdr": -0.20615314144160793,
+        "si_sdr": 12.471381640413457,
+        "si_sdri": 12.677534781855064
+      },
+      {
+        "id": "extra_development_mixtures_00079_condition03",
+        "noisy_si_sdr": 4.795019307710856,
+        "si_sdr": 14.218710130247427,
+        "si_sdri": 9.423690822536571
+      },
+      {
+        "id": "extra_development_mixtures_00079_condition04",
+        "noisy_si_sdr": 14.796050396378917,
+        "si_sdr": 15.861638032890514,
+        "si_sdri": 1.065587636511598
+      },
+      {
+        "id": "extra_development_mixtures_00080_condition00",
+        "noisy_si_sdr": -9.350485140214891,
+        "si_sdr": 10.21895770676462,
+        "si_sdri": 19.569442846979513
+      },
+      {
+        "id": "extra_development_mixtures_00080_condition01",
+        "noisy_si_sdr": -4.3245748931075365,
+        "si_sdr": 13.924283346599914,
+        "si_sdri": 18.248858239707452
+      },
+      {
+        "id": "extra_development_mixtures_00080_condition02",
+        "noisy_si_sdr": 0.6899614053710218,
+        "si_sdr": 16.41186636098974,
+        "si_sdri": 15.721904955618719
+      },
+      {
+        "id": "extra_development_mixtures_00080_condition03",
+        "noisy_si_sdr": 5.698125305367636,
+        "si_sdr": 19.118606549677445,
+        "si_sdri": 13.420481244309808
+      },
+      {
+        "id": "extra_development_mixtures_00080_condition04",
+        "noisy_si_sdr": 15.705290956227376,
+        "si_sdr": 23.65281993352331,
+        "si_sdri": 7.947528977295935
+      },
+      {
+        "id": "extra_development_mixtures_00081_condition00",
+        "noisy_si_sdr": -5.713595758824939,
+        "si_sdr": 15.284611514812994,
+        "si_sdri": 20.99820727363793
+      },
+      {
+        "id": "extra_development_mixtures_00081_condition01",
+        "noisy_si_sdr": -0.7009495676667366,
+        "si_sdr": 17.2622946250015,
+        "si_sdri": 17.963244192668235
+      },
+      {
+        "id": "extra_development_mixtures_00081_condition02",
+        "noisy_si_sdr": 4.306153884653157,
+        "si_sdr": 18.04977535588554,
+        "si_sdri": 13.743621471232384
+      },
+      {
+        "id": "extra_development_mixtures_00081_condition03",
+        "noisy_si_sdr": 9.310145259711158,
+        "si_sdr": 18.579617924974478,
+        "si_sdri": 9.26947266526332
+      },
+      {
+        "id": "extra_development_mixtures_00081_condition04",
+        "noisy_si_sdr": 19.31365124066018,
+        "si_sdr": 19.510445201818683,
+        "si_sdri": 0.19679396115850167
+      },
+      {
+        "id": "extra_development_mixtures_00082_condition00",
+        "noisy_si_sdr": -7.097436991924967,
+        "si_sdr": -1.3691243800998163,
+        "si_sdri": 5.728312611825151
+      },
+      {
+        "id": "extra_development_mixtures_00082_condition01",
+        "noisy_si_sdr": -2.234933245376362,
+        "si_sdr": 3.509243983028761,
+        "si_sdri": 5.744177228405123
+      },
+      {
+        "id": "extra_development_mixtures_00082_condition02",
+        "noisy_si_sdr": 2.6867802148139526,
+        "si_sdr": 7.775461578482491,
+        "si_sdri": 5.088681363668538
+      },
+      {
+        "id": "extra_development_mixtures_00082_condition03",
+        "noisy_si_sdr": 7.642444589167803,
+        "si_sdr": 10.837787635091406,
+        "si_sdri": 3.195343045923603
+      },
+      {
+        "id": "extra_development_mixtures_00082_condition04",
+        "noisy_si_sdr": 17.603305074222952,
+        "si_sdr": 14.935218851427754,
+        "si_sdri": -2.668086222795198
+      },
+      {
+        "id": "extra_development_mixtures_00083_condition00",
+        "noisy_si_sdr": -5.982242562363016,
+        "si_sdr": 5.232846022012554,
+        "si_sdri": 11.21508858437557
+      },
+      {
+        "id": "extra_development_mixtures_00083_condition01",
+        "noisy_si_sdr": -0.9706065497009477,
+        "si_sdr": 8.947078131667617,
+        "si_sdri": 9.917684681368565
+      },
+      {
+        "id": "extra_development_mixtures_00083_condition02",
+        "noisy_si_sdr": 4.035929539037394,
+        "si_sdr": 11.656239141414634,
+        "si_sdri": 7.62030960237724
+      },
+      {
+        "id": "extra_development_mixtures_00083_condition03",
+        "noisy_si_sdr": 9.039603123404875,
+        "si_sdr": 13.735962667445614,
+        "si_sdri": 4.696359544040739
+      },
+      {
+        "id": "extra_development_mixtures_00083_condition04",
+        "noisy_si_sdr": 19.04282988650335,
+        "si_sdr": 16.316885069510967,
+        "si_sdri": -2.7259448169923814
+      },
+      {
+        "id": "extra_development_mixtures_00084_condition00",
+        "noisy_si_sdr": -6.36858945379884,
+        "si_sdr": 6.734567288405284,
+        "si_sdri": 13.103156742204124
+      },
+      {
+        "id": "extra_development_mixtures_00084_condition01",
+        "noisy_si_sdr": -1.3709864940647485,
+        "si_sdr": 9.360262615007946,
+        "si_sdri": 10.731249109072694
+      },
+      {
+        "id": "extra_development_mixtures_00084_condition02",
+        "noisy_si_sdr": 3.6276651281726546,
+        "si_sdr": 10.6597701575496,
+        "si_sdri": 7.032105029376945
+      },
+      {
+        "id": "extra_development_mixtures_00084_condition03",
+        "noisy_si_sdr": 8.626906796723935,
+        "si_sdr": 11.8201838856329,
+        "si_sdri": 3.1932770889089657
+      },
+      {
+        "id": "extra_development_mixtures_00084_condition04",
+        "noisy_si_sdr": 18.626240740437645,
+        "si_sdr": 15.838301306084073,
+        "si_sdri": -2.7879394343535715
+      },
+      {
+        "id": "extra_development_mixtures_00085_condition00",
+        "noisy_si_sdr": -6.953863984134239,
+        "si_sdr": -3.5822896081122635,
+        "si_sdri": 3.3715743760219756
+      },
+      {
+        "id": "extra_development_mixtures_00085_condition01",
+        "noisy_si_sdr": -1.9784427299544192,
+        "si_sdr": 1.5942632610353746,
+        "si_sdri": 3.572705990989794
+      },
+      {
+        "id": "extra_development_mixtures_00085_condition02",
+        "noisy_si_sdr": 3.007705250271164,
+        "si_sdr": 5.554047674682611,
+        "si_sdri": 2.546342424411447
+      },
+      {
+        "id": "extra_development_mixtures_00085_condition03",
+        "noisy_si_sdr": 7.999906072705726,
+        "si_sdr": 8.74924384359378,
+        "si_sdri": 0.7493377708880535
+      },
+      {
+        "id": "extra_development_mixtures_00085_condition04",
+        "noisy_si_sdr": 17.993048299407974,
+        "si_sdr": 12.59453579733054,
+        "si_sdri": -5.398512502077434
+      },
+      {
+        "id": "extra_development_mixtures_00086_condition00",
+        "noisy_si_sdr": -7.42563610449379,
+        "si_sdr": 10.479536620929837,
+        "si_sdri": 17.905172725423625
+      },
+      {
+        "id": "extra_development_mixtures_00086_condition01",
+        "noisy_si_sdr": -2.442356177605213,
+        "si_sdr": 11.067463177155725,
+        "si_sdri": 13.509819354760937
+      },
+      {
+        "id": "extra_development_mixtures_00086_condition02",
+        "noisy_si_sdr": 2.5482277495284675,
+        "si_sdr": 13.702310204530594,
+        "si_sdri": 11.154082455002126
+      },
+      {
+        "id": "extra_development_mixtures_00086_condition03",
+        "noisy_si_sdr": 7.542927724069978,
+        "si_sdr": 16.79582294899374,
+        "si_sdri": 9.252895224923764
+      },
+      {
+        "id": "extra_development_mixtures_00086_condition04",
+        "noisy_si_sdr": 17.53826938100784,
+        "si_sdr": 23.287170876376333,
+        "si_sdri": 5.748901495368493
+      },
+      {
+        "id": "extra_development_mixtures_00087_condition00",
+        "noisy_si_sdr": -6.818399377672245,
+        "si_sdr": 0.8605564790473923,
+        "si_sdri": 7.678955856719638
+      },
+      {
+        "id": "extra_development_mixtures_00087_condition01",
+        "noisy_si_sdr": -1.8870218780391044,
+        "si_sdr": 4.391425114748651,
+        "si_sdri": 6.278446992787756
+      },
+      {
+        "id": "extra_development_mixtures_00087_condition02",
+        "noisy_si_sdr": 3.074149066331906,
+        "si_sdr": 8.406913361607284,
+        "si_sdri": 5.332764295275378
+      },
+      {
+        "id": "extra_development_mixtures_00087_condition03",
+        "noisy_si_sdr": 8.0522375972147,
+        "si_sdr": 11.720223053823354,
+        "si_sdri": 3.667985456608653
+      },
+      {
+        "id": "extra_development_mixtures_00087_condition04",
+        "noisy_si_sdr": 18.032941364682213,
+        "si_sdr": 19.373715981189584,
+        "si_sdri": 1.340774616507371
+      },
+      {
+        "id": "extra_development_mixtures_00088_condition00",
+        "noisy_si_sdr": -5.6172268259922395,
+        "si_sdr": 21.454609156855756,
+        "si_sdri": 27.071835982847997
+      },
+      {
+        "id": "extra_development_mixtures_00088_condition01",
+        "noisy_si_sdr": -0.6253521116722791,
+        "si_sdr": 23.609099475320875,
+        "si_sdri": 24.234451586993153
+      },
+      {
+        "id": "extra_development_mixtures_00088_condition02",
+        "noisy_si_sdr": 4.370075499887845,
+        "si_sdr": 24.06797834000974,
+        "si_sdri": 19.6979028401219
+      },
+      {
+        "id": "extra_development_mixtures_00088_condition03",
+        "noisy_si_sdr": 9.367503193276155,
+        "si_sdr": 24.40960105901236,
+        "si_sdri": 15.042097865736205
+      },
+      {
+        "id": "extra_development_mixtures_00088_condition04",
+        "noisy_si_sdr": 19.36524246457109,
+        "si_sdr": 26.706436682834834,
+        "si_sdri": 7.341194218263745
+      },
+      {
+        "id": "extra_development_mixtures_00089_condition00",
+        "noisy_si_sdr": -6.914417759922305,
+        "si_sdr": 2.9636086823956607,
+        "si_sdri": 9.878026442317966
+      },
+      {
+        "id": "extra_development_mixtures_00089_condition01",
+        "noisy_si_sdr": -1.8376350454105261,
+        "si_sdr": 6.5198952302531765,
+        "si_sdri": 8.357530275663702
+      },
+      {
+        "id": "extra_development_mixtures_00089_condition02",
+        "noisy_si_sdr": 3.2052469812064106,
+        "si_sdr": 10.212114936649222,
+        "si_sdri": 7.006867955442811
+      },
+      {
+        "id": "extra_development_mixtures_00089_condition03",
+        "noisy_si_sdr": 8.229268295489673,
+        "si_sdr": 13.96512579913656,
+        "si_sdri": 5.735857503646887
+      },
+      {
+        "id": "extra_development_mixtures_00089_condition04",
+        "noisy_si_sdr": 18.250318119976406,
+        "si_sdr": 21.825550340262243,
+        "si_sdri": 3.5752322202858373
+      },
+      {
+        "id": "extra_development_mixtures_00090_condition00",
+        "noisy_si_sdr": -5.554437110572449,
+        "si_sdr": 12.555651460276106,
+        "si_sdri": 18.110088570848554
+      },
+      {
+        "id": "extra_development_mixtures_00090_condition01",
+        "noisy_si_sdr": -0.5018353804090258,
+        "si_sdr": 15.579874090077091,
+        "si_sdri": 16.081709470486118
+      },
+      {
+        "id": "extra_development_mixtures_00090_condition02",
+        "noisy_si_sdr": 4.527605061817096,
+        "si_sdr": 17.622452738631527,
+        "si_sdri": 13.094847676814432
+      },
+      {
+        "id": "extra_development_mixtures_00090_condition03",
+        "noisy_si_sdr": 9.54411718507717,
+        "si_sdr": 19.00552641529345,
+        "si_sdri": 9.46140923021628
+      },
+      {
+        "id": "extra_development_mixtures_00090_condition04",
+        "noisy_si_sdr": 19.558598541551888,
+        "si_sdr": 21.17250817820794,
+        "si_sdri": 1.6139096366560537
+      },
+      {
+        "id": "extra_development_mixtures_00091_condition00",
+        "noisy_si_sdr": -6.663342147262327,
+        "si_sdr": 9.067870809885365,
+        "si_sdri": 15.731212957147692
+      },
+      {
+        "id": "extra_development_mixtures_00091_condition01",
+        "noisy_si_sdr": -1.605656874540344,
+        "si_sdr": 11.784087315054162,
+        "si_sdri": 13.389744189594506
+      },
+      {
+        "id": "extra_development_mixtures_00091_condition02",
+        "noisy_si_sdr": 3.4266140343963563,
+        "si_sdr": 14.681488521342414,
+        "si_sdri": 11.254874486946058
+      },
+      {
+        "id": "extra_development_mixtures_00091_condition03",
+        "noisy_si_sdr": 8.444708253674921,
+        "si_sdr": 18.36260057419237,
+        "si_sdri": 9.91789232051745
+      },
+      {
+        "id": "extra_development_mixtures_00091_condition04",
+        "noisy_si_sdr": 18.460575140334356,
+        "si_sdr": 25.62562414573695,
+        "si_sdri": 7.165049005402594
+      },
+      {
+        "id": "extra_development_mixtures_00092_condition00",
+        "noisy_si_sdr": -8.793135938886362,
+        "si_sdr": 1.0111225821805867,
+        "si_sdri": 9.804258521066949
+      },
+      {
+        "id": "extra_development_mixtures_00092_condition01",
+        "noisy_si_sdr": -3.795347290750816,
+        "si_sdr": 4.349748087243441,
+        "si_sdri": 8.145095377994256
+      },
+      {
+        "id": "extra_development_mixtures_00092_condition02",
+        "noisy_si_sdr": 1.2034089795298117,
+        "si_sdr": 6.041776071287056,
+        "si_sdri": 4.838367091757244
+      },
+      {
+        "id": "extra_development_mixtures_00092_condition03",
+        "noisy_si_sdr": 6.202709467624454,
+        "si_sdr": 9.092542445498,
+        "si_sdri": 2.889832977873545
+      },
+      {
+        "id": "extra_development_mixtures_00092_condition04",
+        "noisy_si_sdr": 16.20209538931065,
+        "si_sdr": 17.944283027243216,
+        "si_sdri": 1.7421876379325667
+      },
+      {
+        "id": "extra_development_mixtures_00093_condition00",
+        "noisy_si_sdr": -7.914092933472679,
+        "si_sdr": 8.507588037617197,
+        "si_sdri": 16.421680971089877
+      },
+      {
+        "id": "extra_development_mixtures_00093_condition01",
+        "noisy_si_sdr": -2.9131166673258937,
+        "si_sdr": 14.998626345020583,
+        "si_sdri": 17.911743012346477
+      },
+      {
+        "id": "extra_development_mixtures_00093_condition02",
+        "noisy_si_sdr": 2.0874319241590475,
+        "si_sdr": 16.82405010341634,
+        "si_sdri": 14.736618179257292
+      },
+      {
+        "id": "extra_development_mixtures_00093_condition03",
+        "noisy_si_sdr": 7.087740079908404,
+        "si_sdr": 18.95928922514691,
+        "si_sdri": 11.871549145238507
+      },
+      {
+        "id": "extra_development_mixtures_00093_condition04",
+        "noisy_si_sdr": 17.088011302829134,
+        "si_sdr": 23.62322578791973,
+        "si_sdri": 6.535214485090595
+      },
+      {
+        "id": "extra_development_mixtures_00094_condition00",
+        "noisy_si_sdr": -7.777380982510932,
+        "si_sdr": -6.58636510565585,
+        "si_sdri": 1.191015876855082
+      },
+      {
+        "id": "extra_development_mixtures_00094_condition01",
+        "noisy_si_sdr": -2.6212428548117694,
+        "si_sdr": 0.7629412144972808,
+        "si_sdri": 3.3841840693090504
+      },
+      {
+        "id": "extra_development_mixtures_00094_condition02",
+        "noisy_si_sdr": 2.4653430493635002,
+        "si_sdr": 6.667029539140442,
+        "si_sdri": 4.201686489776941
+      },
+      {
+        "id": "extra_development_mixtures_00094_condition03",
+        "noisy_si_sdr": 7.513656613337663,
+        "si_sdr": 10.649358870239196,
+        "si_sdri": 3.1357022569015323
+      },
+      {
+        "id": "extra_development_mixtures_00094_condition04",
+        "noisy_si_sdr": 17.555883282159293,
+        "si_sdr": 18.537511720195504,
+        "si_sdri": 0.9816284380362106
+      },
+      {
+        "id": "extra_development_mixtures_00095_condition00",
+        "noisy_si_sdr": -8.014778207369552,
+        "si_sdr": -2.1872596852358743,
+        "si_sdri": 5.827518522133678
+      },
+      {
+        "id": "extra_development_mixtures_00095_condition01",
+        "noisy_si_sdr": -3.0833458947543435,
+        "si_sdr": 0.0045132016442086245,
+        "si_sdri": 3.087859096398552
+      },
+      {
+        "id": "extra_development_mixtures_00095_condition02",
+        "noisy_si_sdr": 1.8778565884438128,
+        "si_sdr": 4.374145367632917,
+        "si_sdri": 2.4962887791891046
+      },
+      {
+        "id": "extra_development_mixtures_00095_condition03",
+        "noisy_si_sdr": 6.855962679933164,
+        "si_sdr": 8.899597213862233,
+        "si_sdri": 2.043634533929069
+      },
+      {
+        "id": "extra_development_mixtures_00095_condition04",
+        "noisy_si_sdr": 16.836681308687933,
+        "si_sdr": 18.10992867974005,
+        "si_sdri": 1.2732473710521184
+      },
+      {
+        "id": "extra_development_mixtures_00096_condition00",
+        "noisy_si_sdr": -6.846582534546341,
+        "si_sdr": 12.971175071700765,
+        "si_sdri": 19.817757606247106
+      },
+      {
+        "id": "extra_development_mixtures_00096_condition01",
+        "noisy_si_sdr": -1.8249515580870455,
+        "si_sdr": 15.083693186640751,
+        "si_sdri": 16.908644744727795
+      },
+      {
+        "id": "extra_development_mixtures_00096_condition02",
+        "noisy_si_sdr": 3.1871883574377713,
+        "si_sdr": 16.1317249318856,
+        "si_sdri": 12.94453657444783
+      },
+      {
+        "id": "extra_development_mixtures_00096_condition03",
+        "noisy_si_sdr": 8.194007494953862,
+        "si_sdr": 17.120446748463646,
+        "si_sdri": 8.926439253509784
+      },
+      {
+        "id": "extra_development_mixtures_00096_condition04",
+        "noisy_si_sdr": 18.199994277962507,
+        "si_sdr": 18.660709894696794,
+        "si_sdri": 0.4607156167342872
+      },
+      {
+        "id": "extra_development_mixtures_00097_condition00",
+        "noisy_si_sdr": -10.061703171303268,
+        "si_sdr": 6.216199109356423,
+        "si_sdri": 16.277902280659692
+      },
+      {
+        "id": "extra_development_mixtures_00097_condition01",
+        "noisy_si_sdr": -5.071153439424246,
+        "si_sdr": 9.265302395605644,
+        "si_sdri": 14.336455835029891
+      },
+      {
+        "id": "extra_development_mixtures_00097_condition02",
+        "noisy_si_sdr": -0.0764727792854231,
+        "si_sdr": 12.012235317537499,
+        "si_sdri": 12.088708096822922
+      },
+      {
+        "id": "extra_development_mixtures_00097_condition03",
+        "noisy_si_sdr": 4.9205344615572235,
+        "si_sdr": 14.225369436638534,
+        "si_sdri": 9.30483497508131
+      },
+      {
+        "id": "extra_development_mixtures_00097_condition04",
+        "noisy_si_sdr": 14.917904495508974,
+        "si_sdr": 20.09926227681174,
+        "si_sdri": 5.181357781302765
+      },
+      {
+        "id": "extra_development_mixtures_00098_condition00",
+        "noisy_si_sdr": -10.51305238398805,
+        "si_sdr": 11.634666104011584,
+        "si_sdri": 22.147718487999633
+      },
+      {
+        "id": "extra_development_mixtures_00098_condition01",
+        "noisy_si_sdr": -5.503908512693732,
+        "si_sdr": 16.601648753867586,
+        "si_sdri": 22.10555726656132
+      },
+      {
+        "id": "extra_development_mixtures_00098_condition02",
+        "noisy_si_sdr": -0.4987714669343563,
+        "si_sdr": 19.927489820508917,
+        "si_sdri": 20.426261287443275
+      },
+      {
+        "id": "extra_development_mixtures_00098_condition03",
+        "noisy_si_sdr": 4.504116169129322,
+        "si_sdr": 22.48728906049199,
+        "si_sdri": 17.983172891362667
+      },
+      {
+        "id": "extra_development_mixtures_00098_condition04",
+        "noisy_si_sdr": 14.506652754248979,
+        "si_sdr": 27.64064001390119,
+        "si_sdri": 13.133987259652212
+      },
+      {
+        "id": "extra_development_mixtures_00099_condition00",
+        "noisy_si_sdr": -5.5545704567577046,
+        "si_sdr": 10.203415077301582,
+        "si_sdri": 15.757985534059287
+      },
+      {
+        "id": "extra_development_mixtures_00099_condition01",
+        "noisy_si_sdr": -0.5582190231439433,
+        "si_sdr": 12.013627327040421,
+        "si_sdri": 12.571846350184364
+      },
+      {
+        "id": "extra_development_mixtures_00099_condition02",
+        "noisy_si_sdr": 4.439728632946805,
+        "si_sdr": 14.295029771131615,
+        "si_sdri": 9.85530113818481
+      },
+      {
+        "id": "extra_development_mixtures_00099_condition03",
+        "noisy_si_sdr": 9.43857448184517,
+        "si_sdr": 16.78380908220256,
+        "si_sdri": 7.34523460035739
+      },
+      {
+        "id": "extra_development_mixtures_00099_condition04",
+        "noisy_si_sdr": 19.437560429680147,
+        "si_sdr": 22.54478676511788,
+        "si_sdri": 3.1072263354377334
+      }
+    ]
+  },
+  "selected_checkpoint": "/content/esp32_runs/float_gtcrn_broad/external_development/selected_a9ee8b173d0618b3c43c2c1d529c2e36a3e3d09d4acbcabdcdb030fc718e6a0f.pt"
+}

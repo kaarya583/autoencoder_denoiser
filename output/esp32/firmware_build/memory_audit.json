@@ -1,0 +1,62 @@
+{
+  "status": "SOURCE_AND_LINKER_ACCOUNTING_NO_BOARD_EXECUTION",
+  "board_tested": false,
+  "actual_heap_minimum_bytes": null,
+  "actual_main_stack_peak_bytes": null,
+  "ml_budget_bytes": 204800,
+  "builds": {
+    "trained_global_backup01": {
+      "model_bytes_in_application_flash": 94480,
+      "neural_workspace_required_bytes": 8280,
+      "neural_workspace_reserved_bytes": 16384,
+      "audio_state_bytes_32bit": 13616,
+      "model_handle_bytes_32bit": 32,
+      "pcm_arrays_bytes": 1024,
+      "fft_heap_request_bytes": 960,
+      "main_stack_configured_bytes": 8192,
+      "ml_reserved_subtotal_flash_model_bytes": 40208,
+      "ml_reserved_subtotal_sram_copy_bytes": 134688,
+      "application_bin_bytes": 324352,
+      "static_writable_ram_bytes": 48268,
+      "diram_code_bytes": 38455,
+      "separate_iram_bytes": 16383,
+      "factory_slot_headroom_bytes": 724224
+    },
+    "frequency_untrained_identity": {
+      "model_bytes_in_application_flash": 94300,
+      "neural_workspace_required_bytes": 34844,
+      "neural_workspace_reserved_bytes": 49152,
+      "audio_state_bytes_32bit": 10528,
+      "model_handle_bytes_32bit": 40,
+      "pcm_arrays_bytes": 1024,
+      "fft_heap_request_bytes": 960,
+      "main_stack_configured_bytes": 8192,
+      "ml_reserved_subtotal_flash_model_bytes": 69896,
+      "ml_reserved_subtotal_sram_copy_bytes": 164196,
+      "application_bin_bytes": 327776,
+      "static_writable_ram_bytes": 77956,
+      "diram_code_bytes": 38455,
+      "separate_iram_bytes": 16383,
+      "factory_slot_headroom_bytes": 720800
+    }
+  },
+  "partition_table": [
+    {
+      "name": "nvs",
+      "offset": 36864,
+      "bytes": 24576
+    },
+    {
+      "name": "phy_init",
+      "offset": 61440,
+      "bytes": 4096
+    },
+    {
+      "name": "factory",
+      "offset": 65536,
+      "bytes": 1048576
+    }
+  ],
+  "flash_capacity_bytes": 2097152,
+  "ota_slots": 0
+}

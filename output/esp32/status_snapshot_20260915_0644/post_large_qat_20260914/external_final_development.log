@@ -1,0 +1,12 @@
+{"event": "evaluation", "completed": 1, "total": 500}
+{"event": "evaluation", "completed": 51, "total": 500}
+{"event": "evaluation", "completed": 101, "total": 500}
+{"event": "evaluation", "completed": 151, "total": 500}
+{"event": "evaluation", "completed": 201, "total": 500}
+{"event": "evaluation", "completed": 251, "total": 500}
+{"event": "evaluation", "completed": 301, "total": 500}
+{"event": "evaluation", "completed": 351, "total": 500}
+{"event": "evaluation", "completed": 401, "total": 500}
+{"event": "evaluation", "completed": 451, "total": 500}
+{"event": "evaluation", "completed": 500, "total": 500}
+{"output": "/content/esp32_runs/post_large_qat_20260914/external_final_development.json", "summary": {"utterances": 500, "valid_utterances": 500, "invalid_utterances": 0, "si_sdr_noisy": 3.51303470544888, "si_sdr_enhanced": 12.94249507357861, "si_sdri": 9.42946036812973, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB"}}

@@ -1,0 +1,44 @@
+{
+  "status": "TRAINED_GLOBAL_BASELINE_SIMD_WITH_SHARED_KERNELS_COMPILED",
+  "board_tested": false,
+  "model_source": "output/esp32/development_backup_01/deploy_baseline/denoiser_int8.bin",
+  "model_sha256": "bfd31b653e5924e8ee10fec0721f8e61ba49943817e5c74d58e59279aa798182",
+  "model_bytes": 94480,
+  "application_bytes": 324352,
+  "static_writable_ram_bytes": 48268,
+  "configuration": {
+    "CONFIG_EDN_S3_SIMD_DOT": true,
+    "CONFIG_EDN_FREQUENCY_MODEL": false,
+    "CONFIG_EDN_MODEL_IN_INTERNAL_SRAM": false
+  },
+  "idf_version": "v5.4.2",
+  "esp_dsp_version": "1.8.2",
+  "compiler": "Xtensa GCC14.2.0 esp-14.2.0_20241119",
+  "flags": [
+    "-O2",
+    "-std=gnu17",
+    "-mlongcalls"
+  ],
+  "source_snapshot_sha256": {
+    "firmware/esp32_denoiser/frequency.h": "4fd836adf43e87077e796e27ab236171c2012cce22fe1b51a556fb2cbd21bb97",
+    "firmware/esp32_denoiser/CMakeLists.txt": "e983e7ad606841ced95f8e8250078c7735181fa3c44b8699fd58e3a79ddf608f",
+    "firmware/esp32_denoiser/frequency_audio.h": "a500fcb8df5e4328d002fd7668d4d7508a1615355c247600cf1f2759e2cacdf9",
+    "firmware/esp32_denoiser/idf_component.yml": "df4321672bdaa4964ccde81d521715ab83ed53ce8fbef628cb7f6a7338fbea01",
+    "firmware/esp32_denoiser/denoiser.h": "f10ebb30e9d661f594c6c70766bc0a7fd6f42c6071c6de7359749a92fa92854a",
+    "firmware/esp32_denoiser/Kconfig": "e2e3974268d163374658634fbb4dadef19ed588aef617dcb9582cdf54c1f9138",
+    "firmware/esp32_denoiser/audio_dsp.h": "799b41a8ccbd8d9bb1b053fb2c9452119d2570fd310e87ae8421c16ff763f9fe",
+    "firmware/esp32_denoiser/audio.h": "dcc9a191e5484da1ed37da9e337ca9bf6ab77d590da351fba53c5d4d7eb17296",
+    "firmware/esp32_denoiser/frequency.c": "a14bc14154e9aae5cc69927e0d72e7b213a2829f96fefe10ad804998ee3b3295",
+    "firmware/esp32_denoiser/integer_kernels.h": "424b723050edb0931912cb44e4af837fbd708cf4d97d22bc51a2c015c1e14ddb",
+    "firmware/esp32_denoiser/frequency_audio.c": "e4076109b842ef917bd6ed4ef004e9e5347c4c8145ee39e08f0ebc815bd0d04d",
+    "firmware/esp32_denoiser/denoiser.c": "378480916ca33d091a61f5082f3e0f247ce7b291ade6a6606ada3e5add4d8b92",
+    "firmware/esp32_denoiser/ESP_NN_LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "firmware/esp32_denoiser/esp_nn_dot_s8_esp32s3.S": "d3bb271b59e0a44b42f7af64c023941c21dad5acd8ba13ca63ed2f3842e7c6a1",
+    "firmware/esp32_denoiser/audio.c": "807efbb71b32a7087c5c6db0807a6dfe967f1b1ae1109fcc892bfb894fff8b6e",
+    "firmware/esp32_benchmark/main/CMakeLists.txt": "3ad6b913337a9cdde69969d5e4945a3167dca6317224f8006386b906e626b35c",
+    "firmware/esp32_benchmark/main/main.c": "e65d194595b36e90ff71719206803e8b2edd45737914c9c3c52607ef9fb32374",
+    "firmware/esp32_benchmark/main/Kconfig.projbuild": "988a677c97ff874ae290d4f3762771d5cc181f5788ec42309c7a37413d119e1e"
+  },
+  "latency": "unmeasured",
+  "actual_xtensa_self_test_executed": false
+}

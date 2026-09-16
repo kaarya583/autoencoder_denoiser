@@ -1,0 +1,86 @@
+{
+  "status": "TRAINED_DEVELOPMENT_BASELINE_COMPILED_AND_LINKED_FOR_ESP32_S3",
+  "board_tested": false,
+  "actual_xtensa_self_test_executed": false,
+  "latency": "unmeasured",
+  "model_source": "output/esp32/development_backup_01/deploy_baseline/denoiser_int8.bin",
+  "model_bytes": 94480,
+  "model_sha256": "bfd31b653e5924e8ee10fec0721f8e61ba49943817e5c74d58e59279aa798182",
+  "idf_version": "v5.4.2",
+  "idf_commit": "f5c3654a1c2d2a01f7f67def7a0dc48e691f63c0",
+  "esp_dsp_version": "1.8.2",
+  "compiler": "Xtensa GCC 14.2.0 esp-14.2.0_20241119",
+  "compiler_flags": [
+    "-O2",
+    "-std=gnu17",
+    "-mlongcalls"
+  ],
+  "sdk_path": "/private/tmp/esp32-denoiser-idf-v5.4.2",
+  "tools_path": "/private/tmp/esp32-denoiser-idf-tools-v5.4.2",
+  "esp_nn_raw_dot_commit": "2c222c5e02225177b44ebf21169bc66df3c8b573",
+  "configurations": {
+    "scalar_flash": {
+      "CONFIG_EDN_S3_SIMD_DOT": false,
+      "model_storage": "flash_mapped",
+      "application_bin_bytes": 323072,
+      "static_writable_ram_bytes": 48268,
+      "required_neural_workspace_bytes": 8280,
+      "allocated_neural_workspace_bytes": 16384,
+      "audio_state_bytes": 13616,
+      "runtime_model_copy_bytes": 0,
+      "simd_dense_input_stack_bytes": 0,
+      "artifacts": {
+        "partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        "application.bin": {
+          "bytes": 323072,
+          "sha256": "065d2b06a9ac594c068d04346357479e5fad33ed1784a061a121c83056dc99f5"
+        },
+        "bootloader.bin": {
+          "bytes": 21104,
+          "sha256": "945b0c45dee48c5aad255e290b4e0a4550a138dc364f173652992e8ab0679a04"
+        }
+      }
+    },
+    "simd_flash": {
+      "CONFIG_EDN_S3_SIMD_DOT": true,
+      "model_storage": "flash_mapped",
+      "application_bin_bytes": 324064,
+      "static_writable_ram_bytes": 48268,
+      "required_neural_workspace_bytes": 8280,
+      "allocated_neural_workspace_bytes": 16384,
+      "audio_state_bytes": 13616,
+      "runtime_model_copy_bytes": 0,
+      "simd_dense_input_stack_bytes": 544,
+      "artifacts": {
+        "partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        "application.bin": {
+          "bytes": 324064,
+          "sha256": "3cd26bad2c925a307082ce212abbe68ca34d06448de56bb1d2df4d7a6fde7bb3"
+        },
+        "bootloader.bin": {
+          "bytes": 21104,
+          "sha256": "945b0c45dee48c5aad255e290b4e0a4550a138dc364f173652992e8ab0679a04"
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "firmware/esp32_denoiser/CMakeLists.txt": "1633905bead1fd1641425b651b6fb340587d62a07b91b14b83fe99baf7c2a35f",
+    "firmware/esp32_denoiser/idf_component.yml": "df4321672bdaa4964ccde81d521715ab83ed53ce8fbef628cb7f6a7338fbea01",
+    "firmware/esp32_denoiser/denoiser.h": "f10ebb30e9d661f594c6c70766bc0a7fd6f42c6071c6de7359749a92fa92854a",
+    "firmware/esp32_denoiser/Kconfig": "e2e3974268d163374658634fbb4dadef19ed588aef617dcb9582cdf54c1f9138",
+    "firmware/esp32_denoiser/audio.h": "dcc9a191e5484da1ed37da9e337ca9bf6ab77d590da351fba53c5d4d7eb17296",
+    "firmware/esp32_denoiser/README.md": "9efe046bb53b28d3dd6da52bc98e0908399279dfc673dc512f7a399063fa7704",
+    "firmware/esp32_denoiser/denoiser.c": "ff50863d30cf6bcaf15d1c61b29c67952b2308fbf21f72083dca8eb4a76605f5",
+    "firmware/esp32_denoiser/ESP_NN_LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "firmware/esp32_denoiser/esp_nn_dot_s8_esp32s3.S": "d3bb271b59e0a44b42f7af64c023941c21dad5acd8ba13ca63ed2f3842e7c6a1",
+    "firmware/esp32_denoiser/audio.c": "6ef81b43401559865c6551a2911f391ce6ed54398b3797cf812edbd7a6e192de",
+    "firmware/esp32_benchmark/main/main.c": "bf3bc4baaac8cacd59b495e5f5fbc929e6f2324288fdfae423cee17040e7cbfc"
+  }
+}

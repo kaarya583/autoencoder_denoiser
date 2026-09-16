@@ -1,0 +1,7 @@
+{
+  "event": "replace_unstarted_narrow_KD_arms",
+  "stopped_queue_pid": 48100,
+  "preserved_spectral_child_pid": 61608,
+  "reason": "Fresh paired teacher external SIi 0.1906; broader teacher and gain correction are stronger candidates",
+  "time": 1789284904.220379
+}

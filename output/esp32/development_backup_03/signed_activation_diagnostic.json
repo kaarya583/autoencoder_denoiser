@@ -1,0 +1,78 @@
+{
+  "input_activation": {
+    "absmax": 1.5849,
+    "dead_channels": 0
+  },
+  "blocks.0.depth_activation": {
+    "absmax": 1.0893,
+    "dead_channels": 21
+  },
+  "blocks.0.pointwise": {
+    "absmax": 0.9079,
+    "dead_channels": 0
+  },
+  "blocks.0.output_activation": {
+    "absmax": 1.1123,
+    "dead_channels": 0
+  },
+  "blocks.1.depth_activation": {
+    "absmax": 1.0207,
+    "dead_channels": 19
+  },
+  "blocks.1.pointwise": {
+    "absmax": 0.7533,
+    "dead_channels": 0
+  },
+  "blocks.1.output_activation": {
+    "absmax": 1.2468,
+    "dead_channels": 0
+  },
+  "blocks.2.depth_activation": {
+    "absmax": 1.2702,
+    "dead_channels": 13
+  },
+  "blocks.2.pointwise": {
+    "absmax": 0.8872,
+    "dead_channels": 0
+  },
+  "blocks.2.output_activation": {
+    "absmax": 1.4336,
+    "dead_channels": 0
+  },
+  "blocks.3.depth_activation": {
+    "absmax": 1.7657,
+    "dead_channels": 12
+  },
+  "blocks.3.pointwise": {
+    "absmax": 1.3873,
+    "dead_channels": 0
+  },
+  "blocks.3.output_activation": {
+    "absmax": 1.6626,
+    "dead_channels": 0
+  },
+  "blocks.4.depth_activation": {
+    "absmax": 1.7366,
+    "dead_channels": 9
+  },
+  "blocks.4.pointwise": {
+    "absmax": 1.5248,
+    "dead_channels": 0
+  },
+  "blocks.4.output_activation": {
+    "absmax": 2.5656,
+    "dead_channels": 0
+  },
+  "blocks.5.depth_activation": {
+    "absmax": 1.8747,
+    "dead_channels": 6
+  },
+  "blocks.5.pointwise": {
+    "absmax": 2.5102,
+    "dead_channels": 0
+  },
+  "blocks.5.output_activation": {
+    "absmax": 3.2348,
+    "dead_channels": 0
+  }
+}

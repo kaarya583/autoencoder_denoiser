@@ -1,0 +1,2 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/qat_zero_bias_broad", "epoch": 0, "si_sdri": 6.488156078937061}
+{"event": "secondary_development", "run": "/content/esp32_runs/qat_zero_bias_broad", "epoch": 5, "si_sdri": 6.543722038170175}

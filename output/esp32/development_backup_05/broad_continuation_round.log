@@ -1,0 +1,5 @@
+PRUNED {'status': 'pruned_uncompetitive', 'epoch': 40, 'best_si_sdri': 7.303456978565915, 'reason': 'Matched encoder-BN shared-GRU branch is persistently stronger; this is manual pruning, not convergence.'}
+FROZEN_STUDENT 19 5.941089237634397 78ea4b8013145f6f692e88f06ef35c246a2b58d206a95db259b417b331bf2c2b
+START continue c064fb1d868058aeb1b3255f2c305218b927d740f6fedfb98605dc64196dc094
+FINISHED continue 0
+START level 542d0b014252642db7ee929feb706682aad44f0c8fe8ccf02880fbf25b7a5d46

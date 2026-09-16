@@ -1,0 +1,20 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_zero_bias_distillation_control",
+  "resume": "/content/esp32_runs/float_zero_bias/best.pt",
+  "resume_optimizer": false,
+  "epochs": 40,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.0001,
+  "min_learning_rate": 0.000005,
+  "max_hours": 2.0,
+  "patience": 10,
+  "workers": 2,
+  "phase": "float",
+  "zero_depthwise_bias": true,
+  "teacher_checkpoint": null,
+  "distillation_weight": 0.0,
+  "distillation_gate_minimum_improvement_db": null
+}

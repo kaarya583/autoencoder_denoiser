@@ -1,0 +1,26 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_frequency_small",
+  "epochs": 120,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.001,
+  "max_hours": 6,
+  "patience": 20,
+  "workers": 2,
+  "phase": "float",
+  "model_kind": "frequency_unet",
+  "model_options": {
+    "encoder_channels": [
+      12,
+      16,
+      24
+    ],
+    "global_width": 24,
+    "local_dilations": [
+      1,
+      2
+    ]
+  }
+}

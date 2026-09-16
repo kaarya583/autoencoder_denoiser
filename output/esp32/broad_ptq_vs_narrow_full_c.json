@@ -1,0 +1,58 @@
+{
+  "direction": "candidate minus reference; positive favors candidate",
+  "paired_utterances": 500,
+  "weighting": "equal per common finite utterance",
+  "metrics": {
+    "si_sdri": {
+      "common_finite_utterances": 500,
+      "excluded_utterances": 0,
+      "bootstrap_units": 100,
+      "candidate_mean": 6.109401564719618,
+      "reference_mean": 0.8104054559944422,
+      "mean_difference": 5.298996108725176,
+      "confidence_interval_95": [
+        4.704311366187153,
+        5.923496888555816
+      ],
+      "wins": 479,
+      "losses": 21,
+      "ties": 0,
+      "win_fraction": 0.958
+    }
+  },
+  "bootstrap": {
+    "method": "paired percentile",
+    "samples": 10000,
+    "seed": 2026,
+    "unit": "(suite, base_crop)",
+    "scope": "Conditional on the evaluated speakers and recordings; not an independent-speaker population confidence interval. Crop clustering accounts for repeated SNR conditions, not dependence between distinct crops sharing a speaker or recording.",
+    "speakers": [
+      "1040",
+      "1246",
+      "1355",
+      "1502",
+      "1743",
+      "1841",
+      "19",
+      "1963",
+      "201",
+      "211",
+      "2416",
+      "2817",
+      "3112",
+      "4406",
+      "5463",
+      "5514",
+      "5703",
+      "6019",
+      "6454",
+      "669",
+      "6818",
+      "7517",
+      "7794",
+      "83",
+      "8838"
+    ]
+  },
+  "baseline_tolerance": 1e-06
+}

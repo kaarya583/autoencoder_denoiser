@@ -1,0 +1,34 @@
+{
+  "scope": "Host scalar C integration safety; initialized fixture only, no trained quality or ESP32 timing claim",
+  "created_utc": "2026-09-13T09:04:22.587207+00:00",
+  "source_unchanged_during_build_and_execution": true,
+  "flags": [
+    "-std=c99",
+    "-O1",
+    "-g",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer"
+  ],
+  "compiler": "Apple clang version 16.0.0 (clang-1600.0.26.6)",
+  "model_bytes": 38864,
+  "model_sha256": "0de3012bdb8dde6af461e016d29458eeb1024bc2fcb4e24f6e80bc27b3f6763b",
+  "source_sha256": {
+    "experimental_gtcrn/graph.c": "c3b79f17699e773d42b863230ac97a5fc43b68dd0cf9c4720fc64ddf5c0b137d",
+    "experimental_gtcrn/graph.h": "4ac4d64db9accb70dfed0c2974b52eba08ceba7478e71e7b66faffc01976e528",
+    "experimental_gtcrn/internal.h": "7c2c3084339cd50f13d65c7533bf802e252ae46b2c349d9ee7bc0340b6b0fc55",
+    "experimental_gtcrn/layout.h": "cbbaf229885e06ad900fe4918af94949aaecf72845375bdd1342f94e383d66d5",
+    "experimental_gtcrn/packed.c": "fca270b80f8311fc8e63a25c8d017ffe7eb2457a6e2aaab162aa728c342887bd",
+    "experimental_gtcrn/packed_tables.h": "2123e88a5ce2e48e035b80873e127a8a6fd9f8e158e982c019fc4e0d07ab88ff",
+    "experimental_int8/operators.c": "24df1397124ba2d25ffb3e15503d702af88ad247f56c16836c4f184f07d556eb",
+    "experimental_int8/operators.h": "c45c45417e48a33ade2901ecea535adcfe6ea013be870c8f13a00f6b81293edf",
+    "experimental_int8/primitives.c": "2ce321c00f249e6dce4d531667fbc1e1f49fa9a5c4151ce69571153e54294297",
+    "experimental_int8/primitives.h": "be246969a1f05c653c6fa75d726ada9eccbb8cdbbce2df47eac0af5483f99242"
+  },
+  "driver_sha256": "1425a6c79901feed903bb74e31ac1bb60f171b97fbebd1520f14e81b5e3c6fe2",
+  "stdout": "96 frames, guard bytes, reset and corruption rejection passed\n",
+  "stderr": "",
+  "exit_code": 0
+}

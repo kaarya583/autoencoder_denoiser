@@ -1,0 +1,1 @@
+{"epoch": 1, "loss": -14.342662366439997, "si_sdri": 9.202213762239209, "best_si_sdri": 9.202213762239209, "learning_rate": 3e-05, "seconds": 7385.772035237, "optimizer_steps": 250, "selection_runtime": "full C PCM16", "phase": "qat"}

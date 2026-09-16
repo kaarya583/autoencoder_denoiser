@@ -1,0 +1,65 @@
+{
+  "status": "BOTH_CONFIGURATIONS_COMPILED_AND_LINKED",
+  "model_status": "UNTRAINED_IDENTITY_PROTOTYPE_ONLY",
+  "model_bytes": 94480,
+  "model_sha256": "b711a58e376822ab1e84c28d68d16a1f6ae376ce9d40e9bbb5cc2429c16976f7",
+  "idf_version": "v5.4.2",
+  "esp_dsp_version": "1.8.2",
+  "compiler": "Xtensa GCC 14.2.0",
+  "board_tested": false,
+  "latency_comparison": "unmeasured",
+  "configurations": {
+    "flash": {
+      "CONFIG_EDN_MODEL_IN_INTERNAL_SRAM": false,
+      "build_directory": "/private/tmp/esp32-denoiser-build-v5.4.2",
+      "application_bin_bytes": 322816,
+      "static_writable_ram_bytes": 48268,
+      "runtime_model_copy_bytes_requested": 0,
+      "runtime_copy_allocation_verified_on_board": false,
+      "artifacts": {
+        "partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        "bootloader.bin": {
+          "bytes": 21104,
+          "sha256": "945b0c45dee48c5aad255e290b4e0a4550a138dc364f173652992e8ab0679a04"
+        },
+        "esp32_denoiser_flash_IDENTITY_ONLY.bin": {
+          "bytes": 322816,
+          "sha256": "ad71a5feeeae4faecfd5800604c1164895fb9a5797205872135413b46580c933"
+        }
+      }
+    },
+    "sram": {
+      "CONFIG_EDN_MODEL_IN_INTERNAL_SRAM": true,
+      "build_directory": "/private/tmp/esp32-denoiser-build-sram-v5.4.2",
+      "application_bin_bytes": 323104,
+      "static_writable_ram_bytes": 48268,
+      "runtime_model_copy_bytes_requested": 94480,
+      "runtime_copy_allocation_verified_on_board": false,
+      "artifacts": {
+        "partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        "bootloader.bin": {
+          "bytes": 21104,
+          "sha256": "e0c97f68e4cf929ef2b2eb3210e6807cc30e2b9ae8b8e68a5b5df50fcbbf9405"
+        },
+        "esp32_denoiser_sram_IDENTITY_ONLY.bin": {
+          "bytes": 323104,
+          "sha256": "efb050651cc01a8a674d98b889f2ec1a48711f577d52d4584b2078f6512b379f"
+        }
+      }
+    }
+  },
+  "firmware_source_sha256": {
+    "firmware/esp32_benchmark/main/main.c": "906368a1c70c471121366d2d439c3201db76b4570c089c4f4c63476347b4c3d3",
+    "firmware/esp32_benchmark/main/Kconfig.projbuild": "c720b83fd4990c8c0c6384375fde9449530d9db1b66a734188a8cbf2985026d2",
+    "firmware/esp32_benchmark/sdkconfig.defaults": "bfe183fa6f4085ee96febc6466501bc711058e02f1727977c9388c6f06844721",
+    "firmware/esp32_benchmark/dependencies.lock": "fbdd845340dbce2b7f6091e32791866d7560231761053353844b555240a82771",
+    "firmware/esp32_denoiser/audio.c": "6ef81b43401559865c6551a2911f391ce6ed54398b3797cf812edbd7a6e192de",
+    "firmware/esp32_denoiser/denoiser.c": "3cd2cf995183571fe3956e2ebdc96e00342d756adf7c9223459341ac7a307531"
+  }
+}

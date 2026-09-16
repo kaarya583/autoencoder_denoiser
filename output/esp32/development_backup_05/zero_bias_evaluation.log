@@ -1,0 +1,19 @@
+{"format": "EDNSI8-v2", "model_bytes": 94480, "state_bytes": 8280, "weight_bytes": 83392, "bias_bytes": 5384, "input_channels": 387, "hidden_channels": 64, "output_channels": 514, "blocks": 6, "input_exponent": -7, "hidden_exponent": -4, "activation_mode": "signed", "output_exponent": -7, "dsp_offset": 90492, "dsp_bytes": 3988, "mask_scale": 2.0, "macs_per_frame": 83392, "teacher_parameter_bytes": 11854856, "parameter_payload_reduction": 125.47476714648603, "precision": "INT8 weights, activations and state; INT32 bias and accumulation", "audio_quality": "unmeasured", "esp32_runtime": "unmeasured"}
+{"event": "evaluation", "completed": 1, "total": 770}
+{"event": "evaluation", "completed": 51, "total": 770}
+{"event": "evaluation", "completed": 101, "total": 770}
+{"event": "evaluation", "completed": 151, "total": 770}
+{"event": "evaluation", "completed": 201, "total": 770}
+{"event": "evaluation", "completed": 251, "total": 770}
+{"event": "evaluation", "completed": 301, "total": 770}
+{"event": "evaluation", "completed": 351, "total": 770}
+{"event": "evaluation", "completed": 401, "total": 770}
+{"event": "evaluation", "completed": 451, "total": 770}
+{"event": "evaluation", "completed": 501, "total": 770}
+{"event": "evaluation", "completed": 551, "total": 770}
+{"event": "evaluation", "completed": 601, "total": 770}
+{"event": "evaluation", "completed": 651, "total": 770}
+{"event": "evaluation", "completed": 701, "total": 770}
+{"event": "evaluation", "completed": 751, "total": 770}
+{"event": "evaluation", "completed": 770, "total": 770}
+{"event": "embedded_evaluation_complete", "utterances": 770, "valid_utterances": 770, "invalid_utterances": 0, "si_sdr_noisy": 6.016738904979768, "si_sdr_enhanced": 13.792990664096259, "si_sdri": 7.776251759116493, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB", "output": "/content/esp32_runs/zero_bias_embedded_validation.json"}

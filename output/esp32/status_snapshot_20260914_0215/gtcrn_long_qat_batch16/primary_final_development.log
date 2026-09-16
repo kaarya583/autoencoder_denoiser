@@ -1,0 +1,18 @@
+{"event": "evaluation", "completed": 1, "total": 770}
+{"event": "evaluation", "completed": 51, "total": 770}
+{"event": "evaluation", "completed": 101, "total": 770}
+{"event": "evaluation", "completed": 151, "total": 770}
+{"event": "evaluation", "completed": 201, "total": 770}
+{"event": "evaluation", "completed": 251, "total": 770}
+{"event": "evaluation", "completed": 301, "total": 770}
+{"event": "evaluation", "completed": 351, "total": 770}
+{"event": "evaluation", "completed": 401, "total": 770}
+{"event": "evaluation", "completed": 451, "total": 770}
+{"event": "evaluation", "completed": 501, "total": 770}
+{"event": "evaluation", "completed": 551, "total": 770}
+{"event": "evaluation", "completed": 601, "total": 770}
+{"event": "evaluation", "completed": 651, "total": 770}
+{"event": "evaluation", "completed": 701, "total": 770}
+{"event": "evaluation", "completed": 751, "total": 770}
+{"event": "evaluation", "completed": 770, "total": 770}
+{"output": "/content/esp32_runs/gtcrn_long_qat_batch16/primary_final_development.json", "summary": {"utterances": 770, "valid_utterances": 770, "invalid_utterances": 0, "si_sdr_noisy": 6.016738904979768, "si_sdr_enhanced": 13.500379185544842, "si_sdri": 7.483640280565076, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB"}}

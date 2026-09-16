@@ -1,0 +1,3 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 0, "si_sdri": -12.571598985864117}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 5, "si_sdri": 6.294310364737346}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_gtcrn_broad", "epoch": 10, "si_sdri": 7.904706033782846}

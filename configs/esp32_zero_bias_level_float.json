@@ -1,0 +1,18 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_zero_bias_level",
+  "epochs": 60,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.0002,
+  "max_hours": 4,
+  "patience": 15,
+  "workers": 2,
+  "phase": "float",
+  "zero_depthwise_bias": true,
+  "min_learning_rate": 1e-05,
+  "resume": "/content/esp32_runs/float_zero_bias/best.pt",
+  "resume_optimizer": false,
+  "waveform_loss_weight": 1.0
+}

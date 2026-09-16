@@ -1,0 +1,5 @@
+{"event": "evaluation", "completed": 1, "total": 16}
+{"event": "evaluation", "completed": 16, "total": 16}
+{"event": "evaluation", "completed": 1, "total": 16}
+{"event": "evaluation", "completed": 16, "total": 16}
+{"event": "recurrent_probe_complete", "output": "/content/esp32_runs/gtcrn_probe_inputs/gru_probe.json", "valid_utterances": 16, "invalid_utterances": 0, "float_si_sdri": 7.092292791330393, "recurrent_int8_si_sdri": 7.131901891381862, "probe_minus_float_db": 0.03960910005146903, "weighting": "equal common valid utterances"}

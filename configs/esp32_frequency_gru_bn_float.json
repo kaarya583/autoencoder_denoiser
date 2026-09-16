@@ -1,0 +1,17 @@
+{
+  "train_manifest": "/content/voicebank/manifests/train.jsonl",
+  "val_manifest": "/content/voicebank/manifests/val.jsonl",
+  "output_dir": "/content/esp32_runs/float_frequency_gru_bn",
+  "epochs": 120,
+  "batch_size": 32,
+  "crop_seconds": 3.0,
+  "learning_rate": 0.001,
+  "max_hours": 6,
+  "patience": 20,
+  "workers": 2,
+  "phase": "float",
+  "model_kind": "frequency_gru",
+  "model_options": {
+    "encoder_batch_norm": true
+  }
+}

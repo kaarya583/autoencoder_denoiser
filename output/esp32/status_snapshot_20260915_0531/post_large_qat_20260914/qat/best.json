@@ -1,0 +1,7 @@
+{
+  "epoch": 7,
+  "directory": "/content/esp32_runs/post_large_qat_20260914/qat/candidates/epoch0007-6ln623u5",
+  "checkpoint_sha256": "4fda20509fa06dee28a59e680085b96bbe88022f9152d34bb6b39d9650c2d84f",
+  "packed_sha256": "3239dde377b30a9fc59a9a436f8dfa70e93b1a0b71f67a846869470c2a8fbc10",
+  "si_sdri": 9.42946036812973
+}

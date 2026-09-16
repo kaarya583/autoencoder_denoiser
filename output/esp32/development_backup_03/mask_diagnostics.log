@@ -1,0 +1,8 @@
+{"completed": 100, "total": 770}
+{"completed": 200, "total": 770}
+{"completed": 300, "total": 770}
+{"completed": 400, "total": 770}
+{"completed": 500, "total": 770}
+{"completed": 600, "total": 770}
+{"completed": 700, "total": 770}
+{"positive_attenuation": {"utterances": 770, "valid_utterances": 770, "invalid_utterances": 0, "si_sdr_noisy": 6.016738904979768, "si_sdr_enhanced": 18.0592918363398, "si_sdri": 12.042552931360031, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB"}, "bounded_complex_float": {"utterances": 770, "valid_utterances": 770, "invalid_utterances": 0, "si_sdr_noisy": 6.016738904979768, "si_sdr_enhanced": 37.57666825196081, "si_sdri": 31.559929346981043, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB"}, "bounded_complex_int8_grid": {"utterances": 770, "valid_utterances": 770, "invalid_utterances": 0, "si_sdr_noisy": 6.016738904979768, "si_sdr_enhanced": 36.75971046895713, "si_sdri": 30.742971563977367, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB"}}

@@ -1,0 +1,3 @@
+{"event": "secondary_development", "run": "/content/esp32_runs/float_spectral_teacher_broad", "epoch": 11, "si_sdri": 7.952932982792586}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_spectral_teacher_broad", "epoch": 16, "si_sdri": 8.694235158774559}
+{"event": "secondary_development", "run": "/content/esp32_runs/float_spectral_teacher_broad", "epoch": 21, "si_sdri": 8.912198780232083}

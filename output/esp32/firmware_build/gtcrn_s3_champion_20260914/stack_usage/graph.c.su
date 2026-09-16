@@ -1,0 +1,9 @@
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:103:12:gru_cell	48	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:66:12:affine	80	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:80:12:activation	64	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:114:12:temporal_block	176	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:49:8:edng_state_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:50:8:edng_workspace_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:52:5:edng_input_exponent	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:58:5:edng_reset	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/output/esp32/firmware_build/gtcrn_s3_champion_20260914/source_snapshot/firmware/experimental_gtcrn/graph.c:221:5:edng_process_frame	288	static

@@ -1,0 +1,8 @@
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:142:15:gru_logit.isra	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:91:8:ednx_gru_handle_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:93:5:ednx_gru_init	112	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:131:8:ednx_gru_scratch_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:146:5:ednx_gru_step	144	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:178:8:ednx_layer_norm_handle_bytes	32	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:180:5:ednx_layer_norm_init	80	static
+/Users/sidchat/Documents/GitHub/autoencoder_denoiser/firmware/experimental_int8/primitives.c:218:5:ednx_layer_norm_frame	80	static

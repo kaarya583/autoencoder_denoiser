@@ -1,0 +1,76 @@
+{
+  "status": "compiled_and_linked_for_esp32s3",
+  "model_status": "UNTRAINED_IDENTITY_PROTOTYPE_BUILD_VERIFICATION_ONLY",
+  "board_tested": false,
+  "real_time_performance": "unmeasured",
+  "idf_version": "v5.4.2",
+  "idf_commit": "f5c3654a1c2d2a01f7f67def7a0dc48e691f63c0",
+  "esp_dsp_version": "1.8.2",
+  "esp_dsp_component_hash": "ed9ac175b14e0414399a2b33c525579414b5bad19a2a67b12ea212def96f9a98",
+  "compiler": "xtensa-esp-elf GCC 14.2.0 (esp-14.2.0_20241119)",
+  "cmake_version": "3.30.2",
+  "ninja_version": "1.12.1",
+  "python_version": "3.12.10",
+  "target": "esp32s3",
+  "host": "macOS ARM64",
+  "neural_and_frontend_flags": [
+    "-O2",
+    "-std=gnu17",
+    "-mlongcalls"
+  ],
+  "esp_dsp_fft_implementation_linked": "dsps_fft2r_fc32_aes3_",
+  "cpu_frequency_mhz": 240,
+  "freertos_tick_hz": 1000,
+  "psram_enabled": false,
+  "flash_config": {
+    "size": "2MB",
+    "mode": "dio",
+    "frequency_mhz": 80,
+    "application_offset": "0x10000"
+  },
+  "application_bin_bytes": 322432,
+  "bootloader_bin_bytes": 21104,
+  "partition_table_bin_bytes": 3072,
+  "model_bytes": 94480,
+  "model_sha256": "b711a58e376822ab1e84c28d68d16a1f6ae376ce9d40e9bbb5cc2429c16976f7",
+  "static_writable_ram_bytes": 48268,
+  "diram_linker_used_bytes": 86723,
+  "diram_linker_remaining_bytes": 255037,
+  "dedicated_iram_used_bytes": 16383,
+  "required_neural_workspace_bytes": 8280,
+  "allocated_neural_workspace_bytes": 16384,
+  "audio_state_bytes_from_elf": 13616,
+  "model_handle_bytes_from_elf": 32,
+  "memory_note": "Static RAM excludes runtime heap, task stacks, vendor initialization allocation and peripherals. DIRAM usage includes instruction code. No runtime memory watermark measured.",
+  "sdk_path": "/private/tmp/esp32-denoiser-idf-v5.4.2",
+  "tools_path": "/private/tmp/esp32-denoiser-idf-tools-v5.4.2",
+  "build_path": "/private/tmp/esp32-denoiser-build-v5.4.2",
+  "firmware_source_sha256": {
+    "firmware/esp32_denoiser/CMakeLists.txt": "2eabf40fdd76161f60c0cbfd40294a0625e8654016ef934d67d3374f369c293b",
+    "firmware/esp32_denoiser/idf_component.yml": "df4321672bdaa4964ccde81d521715ab83ed53ce8fbef628cb7f6a7338fbea01",
+    "firmware/esp32_denoiser/denoiser.h": "7d2d4100b69508e64f48ce157ccc601d15dae13acc2f206c49262218eb84590d",
+    "firmware/esp32_denoiser/audio.h": "dcc9a191e5484da1ed37da9e337ca9bf6ab77d590da351fba53c5d4d7eb17296",
+    "firmware/esp32_denoiser/README.md": "bed6582d33a4858b0bcbc3823cf3242fcdd3f1031ff2160e5f999955f125c1a7",
+    "firmware/esp32_denoiser/denoiser.c": "3cd2cf995183571fe3956e2ebdc96e00342d756adf7c9223459341ac7a307531",
+    "firmware/esp32_denoiser/audio.c": "6ef81b43401559865c6551a2911f391ce6ed54398b3797cf812edbd7a6e192de",
+    "firmware/esp32_benchmark/main/main.c": "a4724361e1fa4d7c9394f141f670074ea4cd485435ff6512bef58c7deb8209e4",
+    "firmware/esp32_benchmark/main/CMakeLists.txt": "3ad6b913337a9cdde69969d5e4945a3167dca6317224f8006386b906e626b35c",
+    "firmware/esp32_benchmark/CMakeLists.txt": "662d469807eb699d14cae83144c161e71b558c3e72f9f1e622d52cb769103e6d",
+    "firmware/esp32_benchmark/sdkconfig.defaults": "bfe183fa6f4085ee96febc6466501bc711058e02f1727977c9388c6f06844721",
+    "firmware/esp32_benchmark/dependencies.lock": "fbdd845340dbce2b7f6091e32791866d7560231761053353844b555240a82771"
+  },
+  "artifacts": {
+    "partition-table.bin": {
+      "bytes": 3072,
+      "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+    },
+    "esp32_denoiser_benchmark_IDENTITY_ONLY.bin": {
+      "bytes": 322432,
+      "sha256": "fb959b9b313fbb7ebd5fd1c854aceca535b298677b6eb9b1b43389522d557c5b"
+    },
+    "bootloader.bin": {
+      "bytes": 21104,
+      "sha256": "945b0c45dee48c5aad255e290b4e0a4550a138dc364f173652992e8ab0679a04"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+output/esp32/firmware_build/gtcrn_s3_graph/../../../../firmware/experimental_gtcrn/audio.c:32:12:io_valid	80	static
+output/esp32/firmware_build/gtcrn_s3_graph/../../../../firmware/experimental_gtcrn/../esp32_denoiser/audio_dsp.h:19:19:edn_dsp_fft_forward.isra	64	static
+output/esp32/firmware_build/gtcrn_s3_graph/../../../../firmware/experimental_gtcrn/audio.c:25:8:edng_audio_bytes	32	static
+output/esp32/firmware_build/gtcrn_s3_graph/../../../../firmware/experimental_gtcrn/audio.c:41:5:edng_audio_reset	32	static
+output/esp32/firmware_build/gtcrn_s3_graph/../../../../firmware/experimental_gtcrn/audio.c:49:5:edng_audio_init	112	static
+output/esp32/firmware_build/gtcrn_s3_graph/../../../../firmware/experimental_gtcrn/audio.c:80:5:edng_audio_process	96	static
+output/esp32/firmware_build/gtcrn_s3_graph/../../../../firmware/experimental_gtcrn/audio.c:126:5:edng_audio_process_pcm16	2080	static

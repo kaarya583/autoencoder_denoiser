@@ -1,0 +1,322 @@
+{
+  "manifest_utterances": 500,
+  "evaluated_utterances": 500,
+  "missing_utterances": 0,
+  "excluded_by_common_cohort": 0,
+  "common_cohort_used": false,
+  "summary": {
+    "utterances": 500,
+    "valid_utterances": 500,
+    "invalid_utterances": 0,
+    "si_sdr_noisy": 3.51303470544888,
+    "si_sdr_enhanced": 4.3234401614433215,
+    "si_sdri": 0.8104054559944424,
+    "weighting": "equal per utterance",
+    "metric": "zero-mean SI-SDR, capped +/-80 dB"
+  },
+  "by_snr_db": {
+    "-5.0": {
+      "utterances": 100,
+      "valid_utterances": 100,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": -7.50199288887557,
+      "si_sdr_enhanced": -6.687530098022545,
+      "si_sdri": 0.8144627908530263,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "0.0": {
+      "utterances": 100,
+      "valid_utterances": 100,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": -2.4903554901001796,
+      "si_sdr_enhanced": -1.2040618700748436,
+      "si_sdri": 1.286293620025336,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "10.0": {
+      "utterances": 100,
+      "valid_utterances": 100,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 7.519330432815572,
+      "si_sdr_enhanced": 8.525572629084385,
+      "si_sdri": 1.0062421962688135,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "20.0": {
+      "utterances": 100,
+      "valid_utterances": 100,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 17.522289839889567,
+      "si_sdr_enhanced": 17.186628267169677,
+      "si_sdri": -0.33566157271989305,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "5.0": {
+      "utterances": 100,
+      "valid_utterances": 100,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 2.515901633515009,
+      "si_sdr_enhanced": 3.796591879059938,
+      "si_sdri": 1.280690245544929,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    }
+  },
+  "by_speaker": {
+    "1040": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 0.741570194065851,
+      "si_sdr_enhanced": 2.736474301808746,
+      "si_sdri": 1.9949041077428948,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "1246": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.798693666865249,
+      "si_sdr_enhanced": 5.990276620179082,
+      "si_sdri": 1.1915829533138316,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "1355": {
+      "utterances": 20,
+      "valid_utterances": 20,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 3.920283682343733,
+      "si_sdr_enhanced": 4.649150182072441,
+      "si_sdri": 0.7288664997287083,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "1502": {
+      "utterances": 25,
+      "valid_utterances": 25,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 3.956590458236361,
+      "si_sdr_enhanced": 6.978775276316493,
+      "si_sdri": 3.022184818080132,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "1743": {
+      "utterances": 20,
+      "valid_utterances": 20,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.494839462468545,
+      "si_sdr_enhanced": 4.680988123158737,
+      "si_sdri": 0.18614866069019154,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "1841": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": -0.42308936913883693,
+      "si_sdr_enhanced": 0.9628125515225147,
+      "si_sdri": 1.3859019206613516,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "19": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.790383158729113,
+      "si_sdr_enhanced": 4.912975650153028,
+      "si_sdri": 0.12259249142391507,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "1963": {
+      "utterances": 5,
+      "valid_utterances": 5,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 5.514809659492935,
+      "si_sdr_enhanced": 5.557907134177724,
+      "si_sdri": 0.04309747468478914,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "201": {
+      "utterances": 25,
+      "valid_utterances": 25,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.275827768545821,
+      "si_sdr_enhanced": 5.302421547455175,
+      "si_sdri": 1.0265937789093535,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "211": {
+      "utterances": 20,
+      "valid_utterances": 20,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.874255332589383,
+      "si_sdr_enhanced": 4.347692228657753,
+      "si_sdri": -0.5265631039316313,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "2416": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.79700867130046,
+      "si_sdr_enhanced": 6.767989031965626,
+      "si_sdri": 1.970980360665166,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "2817": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.58463088082842,
+      "si_sdr_enhanced": 3.880352124199839,
+      "si_sdri": -0.7042787566285807,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "3112": {
+      "utterances": 25,
+      "valid_utterances": 25,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.8126970582020725,
+      "si_sdr_enhanced": 5.566971532653944,
+      "si_sdri": 0.7542744744518715,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "4406": {
+      "utterances": 35,
+      "valid_utterances": 35,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 2.601335286181197,
+      "si_sdr_enhanced": 2.526481759321536,
+      "si_sdri": -0.07485352685966128,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "5463": {
+      "utterances": 35,
+      "valid_utterances": 35,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.176599310925918,
+      "si_sdr_enhanced": 3.7975358844506557,
+      "si_sdri": -0.37906342647526237,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "5514": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 3.053156786864523,
+      "si_sdr_enhanced": 4.914886042683234,
+      "si_sdri": 1.8617292558187104,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "5703": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.230003305717078,
+      "si_sdr_enhanced": 6.516160786113448,
+      "si_sdri": 2.28615748039637,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "6019": {
+      "utterances": 30,
+      "valid_utterances": 30,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 3.2464032312921844,
+      "si_sdr_enhanced": 5.523997295023987,
+      "si_sdri": 2.277594063731803,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "6454": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 2.085953618112492,
+      "si_sdr_enhanced": 3.4081807543051665,
+      "si_sdri": 1.322227136192675,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "669": {
+      "utterances": 30,
+      "valid_utterances": 30,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 3.3311954401305286,
+      "si_sdr_enhanced": 4.324820906284002,
+      "si_sdri": 0.993625466153474,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "6818": {
+      "utterances": 35,
+      "valid_utterances": 35,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 3.6336010686212807,
+      "si_sdr_enhanced": 4.3365911252229425,
+      "si_sdri": 0.7029900566016618,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "7517": {
+      "utterances": 5,
+      "valid_utterances": 5,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 2.4879223965364736,
+      "si_sdr_enhanced": 0.7127225339920569,
+      "si_sdri": -1.7751998625444165,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "7794": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.178671726050487,
+      "si_sdr_enhanced": 4.076302068787875,
+      "si_sdri": -0.10236965726261256,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "83": {
+      "utterances": 25,
+      "valid_utterances": 25,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": 4.049244868152955,
+      "si_sdr_enhanced": 4.950038153722107,
+      "si_sdri": 0.9007932855691514,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    },
+    "8838": {
+      "utterances": 15,
+      "valid_utterances": 15,
+      "invalid_utterances": 0,
+      "si_sdr_noisy": -2.061955264417899,
+      "si_sdr_enhanced": -2.9484561987004807,
+      "si_sdri": -0.8865009342825818,
+      "weighting": "equal per utterance",
+      "metric": "zero-mean SI-SDR, capped +/-80 dB"
+    }
+  },
+  "clean_suite_note": "Clean-input SI-SDR is capped at 80 dB; use enhanced SI-SDR to assess preservation"
+}

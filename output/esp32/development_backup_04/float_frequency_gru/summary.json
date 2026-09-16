@@ -1,0 +1,6 @@
+{
+  "status": "pruned_uncompetitive",
+  "epoch": 40,
+  "best_si_sdri": 7.303456978565915,
+  "reason": "Matched encoder-BN shared-GRU branch is persistently stronger; this is manual pruning, not convergence."
+}

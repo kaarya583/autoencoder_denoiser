@@ -1,0 +1,4 @@
+{"event": "evaluation", "completed": 1, "total": 100}
+{"event": "evaluation", "completed": 51, "total": 100}
+{"event": "evaluation", "completed": 100, "total": 100}
+{"output": "/content/esp32_runs/post_large_qat_20260914/clean_final_development.json", "summary": {"utterances": 100, "valid_utterances": 100, "invalid_utterances": 0, "si_sdr_noisy": 80.0, "si_sdr_enhanced": 43.10013445408839, "si_sdri": -36.89986554591161, "weighting": "equal per utterance", "metric": "zero-mean SI-SDR, capped +/-80 dB"}}
