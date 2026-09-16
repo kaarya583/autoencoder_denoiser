@@ -8,15 +8,18 @@ open and run:  MoE_Denoiser_Baseline.ipynb
 Same LibriSpeech file subsets as Adaptive_Autoencoders_Project.ipynb (cell 12).
 
 Usage:
-  python run_moe_baseline.py
-  python run_moe_baseline.py --epochs 10 --router-only-epochs 3
-  python run_moe_baseline.py --routers-only   # latent + waveform + speech RF only
+  python scripts/run_moe_baseline.py
+  python scripts/run_moe_baseline.py --epochs 10 --router-only-epochs 3
+  python scripts/run_moe_baseline.py --routers-only   # latent + waveform + speech RF only
 """
 
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import torch
 

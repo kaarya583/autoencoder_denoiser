@@ -23,12 +23,14 @@ paths = sorted([*package_paths,
                 *ROOT.glob("tests/test_*.py"),
                 *ROOT.glob("configs/esp32*.json"),
                 *firmware_paths,
-                ROOT / "requirements-esp32.txt"])
+                ROOT / "requirements" / "esp32.txt"])
 paths = [p for p in paths if p.is_file()]
 # Hash and archive the same byte snapshots even if another experiment edits a
 # source file during packaging. Stable ZIP metadata makes identical inputs
 # produce identical bundle hashes.
-sources = {str(p.relative_to(ROOT)): p.read_bytes() for p in paths}
+# Keep the deployed Colab bundle layout stable after organizing the repository.
+sources = {("requirements-esp32.txt" if p == ROOT / "requirements" / "esp32.txt"
+            else str(p.relative_to(ROOT))): p.read_bytes() for p in paths}
 manifest = {name: sha256(data).hexdigest() for name, data in sources.items()}
 with zipfile.ZipFile(OUTPUT / "esp32_training_source.zip", "w", zipfile.ZIP_DEFLATED) as bundle:
     for name, data in {**sources, "SOURCE_MANIFEST.json": json.dumps(manifest, indent=2).encode()}.items():

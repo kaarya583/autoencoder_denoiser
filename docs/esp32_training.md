@@ -79,7 +79,7 @@ The [frontier experiment plan](research/esp32_frontier_experiment_plan.md) defin
 
 ## Reproduction and final freeze
 
-`notebooks/ESP32_S3_Training.ipynb` is a self-contained Colab entry point with a hash-checked source archive. Configuration files select architecture, manifests, phase, checkpoint and output directory. Paths beginning `/content` require adjustment locally. The notebook is rebuilt with `python scripts/build_esp32_notebook.py`; `python scripts/package_esp32_colab.py` packages current source while excluding datasets, checkpoints and personal files. Install `requirements-esp32.txt` without replacing a working Colab GPU Torch installation.
+`notebooks/ESP32_S3_Training.ipynb` is a self-contained Colab entry point with a hash-checked source archive. Configuration files select architecture, manifests, phase, checkpoint and output directory. Paths beginning `/content` require adjustment locally. The notebook is rebuilt with `python scripts/build_esp32_notebook.py`; `python scripts/package_esp32_colab.py` packages current source while excluding datasets, checkpoints and personal files. Install `requirements/esp32.txt` without replacing a working Colab GPU Torch installation.
 
 ```bash
 python -m esp32_denoiser.extra_data --root /content/extra_audio --download
